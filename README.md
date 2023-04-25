@@ -1,4 +1,4 @@
-# Yarn
+# Yarn (for make better MC 1.16.1 mappings)
 
 Yarn is a set of open, unencumbered Minecraft mappings, free for everyone to use under the Creative Commons Zero license. The intention is to let 
 everyone mod Minecraft freely and openly, while also being able to innovate and process the mappings as they see fit.
@@ -10,7 +10,25 @@ To use yarn-deobfuscated Minecraft for Minecraft modding or as a dependency in a
 
 To obtain a deobfuscated Minecraft jar, [`./gradlew mapNamedJar`](#mapNamedJar) will generate a jar named like `<minecraft version>-named.jar`, which can be sent to a decompiler for deobfuscated code.
 
-Please note to run the yarn build script **Java 16** or higher is required!
+Please note to run the yarn build script **Java 17** or higher is required!
+
+And this fork is not official one, so you need to edit some grable dependencies.
+
+```gradle
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	//...
+	// mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	mappings "com.github.RedLime:yarn:${project.yarn_mappings}:v2"
+	//...
+}
+```
+You can check the latest mapping version on [here](https://github.com/RedLime/yarn/tags).
+
+Another note thing, currently Jitpack doesn't support version names with a `+` character, so the version format for this fork uses `1.16.1.build.x` instead of `1.16.1+build.x`.
 
 ## Contributing
 

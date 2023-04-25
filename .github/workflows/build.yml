@@ -19,15 +19,17 @@ jobs:
           name: Artifacts
           path: build/libs/
       - name: Generate build number
+        if: ${{ matrix.java == '18-jdk' }}
         id: buildnumber
         uses: einaregilsson/build-number@v3
         with:
           token: ${{ secrets.github_token }}
           prefix: ${{ github.ref }}
       - name: Publish release
+        if: ${{ matrix.java == '18-jdk' }}
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          automatic_release_tag: '${{ github.ref }}-build.${{ github.run_number }}'
+          automatic_release_tag: '${{ github.ref_name }}-build.${{ github.run_number }}'
           repo_token: '${{ secrets.GITHUB_TOKEN }}'
           files: build/libs/*.jar
 

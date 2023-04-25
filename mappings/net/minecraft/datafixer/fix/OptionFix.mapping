@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_5404 net/minecraft/datafixer/fix/OptionFix
+	FIELD field_25665 name Ljava/lang/String;
+	FIELD field_25666 oldName Ljava/lang/String;
+	FIELD field_25667 newName Ljava/lang/String;

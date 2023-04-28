@@ -41,6 +41,7 @@ CLASS net/minecraft/class_1959 net/minecraft/world/biome/Biome
 		ARG 1 type
 		ARG 2 maxMass
 		ARG 4 mass
+	METHOD method_28413 getStructureFeatures ()Ljava/lang/Iterable;
 	METHOD method_8684 hasStructureFeature (Lnet/minecraft/class_3195;)Z
 		ARG 1 structureFeature
 	METHOD method_8685 canSetIce (Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;Z)Z

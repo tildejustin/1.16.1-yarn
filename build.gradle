@@ -548,45 +548,6 @@ javadocLint {
 
 check.dependsOn javadocLint
 
-publishing {
-	publications {
-		maven(MavenPublication) {
-			groupId 'net.fabricmc'
-			artifactId "yarn"
-			version yarnVersion
-
-			artifact(compressTiny.output) {
-				classifier "tiny"
-				builtBy compressTiny
-			}
-			artifact(tinyJar)
-			artifact(v2UnmergedYarnJar) {
-				classifier "v2"
-			}
-			artifact(v2MergedYarnJar) {
-				classifier "mergedv2"
-			}
-			artifact(constantsJar) {
-				classifier "constants"
-			}
-			artifact sourcesJar
-			artifact javadocJar
-		}
-
-	}
-	repositories {
-		if (ENV.MAVEN_URL) {
-			maven {
-				url ENV.MAVEN_URL
-				credentials {
-					username ENV.MAVEN_USERNAME
-					password ENV.MAVEN_PASSWORD
-				}
-			}
-		}
-	}
-}
-
 // A task to ensure that the version being released has not already been released.
 tasks.register('checkVersion') {
 	doFirst {

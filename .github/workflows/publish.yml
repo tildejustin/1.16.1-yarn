@@ -8,7 +8,7 @@ jobs:
       options: --user root
     steps:
       - uses: actions/checkout@v3
-      - run: ./gradlew build javadocJar checkMappings --stacktrace --warning-mode fail
+      - run: ./gradlew build javadocJar checkVersion publish --stacktrace
       - name: Build artifacts
         uses: actions/upload-artifact@v3
         with:

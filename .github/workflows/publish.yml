@@ -2,14 +2,18 @@ name: Publish
 on: [workflow_dispatch]
 jobs:
   build:
+    strategy:
+      matrix:
+        java: [17-jdk, 18-jdk]
     runs-on: ubuntu-22.04
     container:
-      image: eclipse-temurin:20-jdk
+      image: eclipse-temurin:${{ matrix.java }}
       options: --user root
     steps:
       - uses: actions/checkout@v3
-      - run: ./gradlew build javadocJar checkVersion publish --stacktrace
+      - run: ./gradlew build javadocJar checkMappings --stacktrace --warning-mode fail
       - name: Build artifacts
+        if: ${{ matrix.java == '18-jdk' }}
         uses: actions/upload-artifact@v3
         with:
           name: Artifacts
@@ -17,7 +21,18 @@ jobs:
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.1
+        if: ${{ matrix.java == '18-jdk' }}
         with:
           tag_prefix: ''
           custom_tag: '${{ github.ref_name }}.build.${{ github.run_number }}'
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  test-build-logic:
+    runs-on: ubuntu-22.04
+    container:
+      image: eclipse-temurin:18-jdk
+      options: --user root
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gradle/wrapper-validation-action@v1
+      - run: ./gradlew :filament:build

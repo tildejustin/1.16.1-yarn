@@ -1,7 +1,15 @@
 CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldScreen
+	FIELD field_24286 difficultyButton Lnet/minecraft/class_4185;
 	FIELD field_24287 gameRulesButton Lnet/minecraft/class_4185;
 	FIELD field_24288 gameRules Lnet/minecraft/class_1928;
+	FIELD field_24289 difficulty Lnet/minecraft/class_1267;
+	FIELD field_24290 safeDifficulty Lnet/minecraft/class_1267;
+		COMMENT ususally mirrors difficulty except in the case of {@link this.mode} being {@link CreateWorldScreen.Mode.HARDCORE}, in which case it stays at {@link Difficulty.HARD}. This is the difficulty that is used for button rendering and during {@link LevelInfo} creation.
 	FIELD field_24588 moreOptionsDialog Lnet/minecraft/class_5292;
+	FIELD field_25477 dataPackTempDir Ljava/nio/file/Path;
+	FIELD field_25478 dataPacksButton Lnet/minecraft/class_4185;
+	FIELD field_25479 dataPackSettings Lnet/minecraft/class_5359;
+	FIELD field_25480 logger Lorg/apache/logging/log4j/Logger;
 	FIELD field_3178 hardcore Z
 	FIELD field_3179 tweakedCheats Z
 	FIELD field_3182 enableCheatsButton Lnet/minecraft/class_4185;
@@ -20,6 +28,15 @@ CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldS
 	FIELD field_3205 createLevelButton Lnet/minecraft/class_4185;
 	METHOD <init> (Lnet/minecraft/class_437;)V
 		ARG 1 parent
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_1940;Lnet/minecraft/class_5285;Ljava/nio/file/Path;Lnet/minecraft/class_5318$class_5319;)V
+		ARG 1 parent
+		ARG 2 levelInfo
+		ARG 3 options
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_5292;)V
+		ARG 1 parent
+		ARG 2 moreOptionsDialog
+	METHOD method_19416 (Ljava/lang/String;)V
+		ARG 1 newName
 	METHOD method_22365 tweakDefaultsTo (Lnet/minecraft/class_525$class_4539;)V
 	METHOD method_2710 setMoreOptionsOpen (Z)V
 		ARG 1 moreOptionsOpen

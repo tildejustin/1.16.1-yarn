@@ -96,6 +96,7 @@ CLASS net/minecraft/class_2784 net/minecraft/world/border/WorldBorder
 		FIELD field_17653 shape Lnet/minecraft/class_265;
 		METHOD <init> (Lnet/minecraft/class_2784;D)V
 			ARG 1 size
+			ARG 2 newSize
 		METHOD method_11996 recalculateBounds ()V
 	CLASS class_5200 Properties
 		FIELD field_24123 centerX D
@@ -123,6 +124,8 @@ CLASS net/minecraft/class_2784 net/minecraft/world/border/WorldBorder
 		METHOD method_27357 toTag (Lnet/minecraft/class_2487;)V
 			ARG 1 tag
 		METHOD method_27358 fromDynamic (Lcom/mojang/serialization/DynamicLike;Lnet/minecraft/class_2784$class_5200;)Lnet/minecraft/class_2784$class_5200;
+			ARG 0 dynamicLike
+			ARG 1 properties
 		METHOD method_27359 getCenterZ ()D
 		METHOD method_27360 getDamagePerBlock ()D
 		METHOD method_27361 getBuffer ()D

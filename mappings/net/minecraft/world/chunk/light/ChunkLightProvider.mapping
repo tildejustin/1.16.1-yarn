@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_3558 net/minecraft/world/chunk/light/ChunkLightProvider
 	FIELD field_15792 type Lnet/minecraft/class_1944;
 	FIELD field_15793 lightStorage Lnet/minecraft/class_3560;
+	FIELD field_15794 runningLightUpdates Z
 	FIELD field_15795 chunkProvider Lnet/minecraft/class_2823;
 	FIELD field_16513 DIRECTIONS [Lnet/minecraft/class_2350;
 	FIELD field_17397 cachedChunkPositions [J
@@ -50,3 +51,4 @@ CLASS net/minecraft/class_3558 net/minecraft/world/chunk/light/ChunkLightProvide
 		ARG 1 world
 		ARG 2 pos
 		ARG 4 facing
+	METHOD method_22875 displaySectionLevel (J)Ljava/lang/String;

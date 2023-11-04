@@ -8,4 +8,5 @@ CLASS net/minecraft/class_3797 net/minecraft/MinecraftVersion
 	FIELD field_16739 buildTime Ljava/util/Date;
 	FIELD field_16740 releaseTarget Ljava/lang/String;
 	FIELD field_16741 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_25319 gameVersion Lcom/mojang/bridge/game/GameVersion;
 	METHOD method_16672 create ()Lcom/mojang/bridge/game/GameVersion;

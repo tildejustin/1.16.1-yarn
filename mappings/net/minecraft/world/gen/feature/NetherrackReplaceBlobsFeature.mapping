@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_5155 net/minecraft/world/gen/feature/NetherrackReplaceBlobsFeature
+	METHOD method_27107 moveDownToTarget (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338$class_2339;Lnet/minecraft/class_2248;)Lnet/minecraft/class_2338;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 block
+	METHOD method_27108 calculateReach (Ljava/util/Random;Lnet/minecraft/class_5160;)Lnet/minecraft/class_2382;
+		ARG 0 random
+		ARG 1 config

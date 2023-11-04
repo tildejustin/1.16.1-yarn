@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_1995 net/minecraft/world/biome/FrozenOceanBiome
+	FIELD field_9487 biomeNoise Lnet/minecraft/class_3543;

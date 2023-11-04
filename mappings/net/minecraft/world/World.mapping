@@ -29,7 +29,14 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 	FIELD field_9253 rainGradientPrev F
 	FIELD field_9256 lcgBlockSeed I
 	METHOD <init> (Lnet/minecraft/class_5269;Lnet/minecraft/class_5321;Lnet/minecraft/class_5321;Lnet/minecraft/class_2874;Ljava/util/function/Supplier;ZZJ)V
+		ARG 1 properties
+		ARG 2 registryKey
+		ARG 3 dimensionRegistryKey
+		ARG 4 dimension
 		ARG 5 profiler
+		ARG 6 isClient
+		ARG 7 debugWorld
+		ARG 8 seed
 	METHOD method_16107 getProfiler ()Lnet/minecraft/class_3695;
 	METHOD method_16109 scheduleBlockRerenderIfNeeded (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;)V
 		ARG 1 pos
@@ -67,6 +74,14 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 pos
 		ARG 2 entity
 		ARG 3 direction
+	METHOD method_24794 isInBuildLimit (Lnet/minecraft/class_2338;)Z
+		ARG 0 pos
+	METHOD method_25952 isInvalidVertically (I)Z
+		ARG 0 y
+	METHOD method_25953 isValid (Lnet/minecraft/class_2338;)Z
+		ARG 0 pos
+	METHOD method_26096 getRelativeCeilingHeight (Lnet/minecraft/class_2338;D)D
+		ARG 1 pos
 	METHOD method_26097 getCollisionHeightAt (Lnet/minecraft/class_2338;Ljava/util/function/Predicate;)D
 		ARG 1 pos
 	METHOD method_26372 getCollisionHeightAt (Lnet/minecraft/class_2338;)D
@@ -124,6 +139,13 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 	METHOD method_8454 createExplosion (Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;Lnet/minecraft/class_5362;DDDFZLnet/minecraft/class_1927$class_4179;)Lnet/minecraft/class_1927;
 		ARG 1 entity
 		ARG 2 damageSource
+		ARG 3 behavior
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 power
+		ARG 11 createFire
+		ARG 12 destructionType
 	METHOD method_8455 updateComparators (Lnet/minecraft/class_2338;Lnet/minecraft/class_2248;)V
 		ARG 1 pos
 		ARG 2 block
@@ -176,6 +198,7 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 8 category
 		ARG 9 volume
 		ARG 10 pitch
+		ARG 11 delay
 	METHOD method_8488 getReceivedStrongRedstonePower (Lnet/minecraft/class_2338;)I
 		ARG 1 pos
 	METHOD method_8492 updateNeighbor (Lnet/minecraft/class_2338;Lnet/minecraft/class_2248;Lnet/minecraft/class_2338;)V
@@ -241,6 +264,7 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 bound
 	METHOD method_8537 createExplosion (Lnet/minecraft/class_1297;DDDFZLnet/minecraft/class_1927$class_4179;)Lnet/minecraft/class_1927;
 		ARG 1 entity
 		ARG 2 x
@@ -263,5 +287,5 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 9 velocityY
 		ARG 11 velocityZ
 		ARG 13 tag
-	METHOD method_8558 isValid (Lnet/minecraft/class_2338;)Z
+	METHOD method_8558 isValidHorizontally (Lnet/minecraft/class_2338;)Z
 		ARG 0 pos

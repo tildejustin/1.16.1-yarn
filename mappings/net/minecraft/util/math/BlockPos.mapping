@@ -17,6 +17,7 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 	FIELD field_10981 BIT_SHIFT_X I
 	FIELD field_10983 BIT_SHIFT_Z I
 	FIELD field_18789 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_25064 CODEC Lcom/mojang/serialization/Codec;
 	METHOD <init> (Lnet/minecraft/class_2374;)V
 		ARG 1 pos
 	METHOD <init> (Lnet/minecraft/class_2382;)V
@@ -141,6 +142,8 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 		ARG 1 maxX
 		ARG 2 maxY
 		ARG 3 maxZ
+	METHOD method_27156 iterateRandomly (Ljava/util/Random;IIIIIII)Ljava/lang/Iterable;
+	METHOD method_29715 stream (Lnet/minecraft/class_238;)Ljava/util/stream/Stream;
 	CLASS 2
 		FIELD field_23094 maxDistance I
 		FIELD field_23095 xRange I
@@ -203,3 +206,4 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 			COMMENT pos by the given direction.
 			ARG 1 pos
 			ARG 2 direction
+		METHOD method_27158 clamp (Lnet/minecraft/class_2350$class_2351;II)Lnet/minecraft/class_2338$class_2339;

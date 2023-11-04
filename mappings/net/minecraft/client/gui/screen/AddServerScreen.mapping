@@ -15,3 +15,6 @@ CLASS net/minecraft/class_422 net/minecraft/client/gui/screen/AddServerScreen
 		ARG 1 text
 	METHOD method_2172 addAndClose ()V
 	METHOD method_24183 updateButtonActiveState ()V
+	METHOD method_25410 (Lnet/minecraft/class_310;II)V
+	METHOD method_27570 (Lnet/minecraft/class_642$class_643;)Lnet/minecraft/class_2561;
+		ARG 0 state

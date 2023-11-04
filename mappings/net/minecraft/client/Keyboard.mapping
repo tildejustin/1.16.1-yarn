@@ -10,9 +10,13 @@ CLASS net/minecraft/class_309 net/minecraft/client/Keyboard
 		ARG 1 client
 	METHOD method_1455 setClipboard (Ljava/lang/String;)V
 	METHOD method_1456 debugError (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 args
 	METHOD method_1457 onChar (JII)V
 		ARG 1 window
 	METHOD method_1459 debugWarn (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 args
 	METHOD method_1460 getClipboard ()Ljava/lang/String;
 	METHOD method_1462 enableRepeatEvents (Z)V
 		ARG 1 repeatEvents

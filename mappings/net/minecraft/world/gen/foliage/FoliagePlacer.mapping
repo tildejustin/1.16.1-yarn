@@ -3,7 +3,7 @@ CLASS net/minecraft/class_4647 net/minecraft/world/gen/foliage/FoliagePlacer
 	FIELD field_21297 randomRadius I
 	FIELD field_23753 offset I
 	FIELD field_23754 randomOffset I
-	FIELD field_24931 CODEC Lcom/mojang/serialization/Codec;
+	FIELD field_24931 TYPE_CODEC Lcom/mojang/serialization/Codec;
 	METHOD <init> (IIII)V
 		ARG 1 radius
 		ARG 2 randomRadius
@@ -18,13 +18,18 @@ CLASS net/minecraft/class_4647 net/minecraft/world/gen/foliage/FoliagePlacer
 		ARG 6 foliageHeight
 		ARG 7 radius
 		ARG 8 leaves
+		ARG 10 boundingBox
 	METHOD method_23449 generate (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_4643;Lnet/minecraft/class_2338;ILjava/util/Set;IZLnet/minecraft/class_3341;)V
 		ARG 1 world
 		ARG 2 random
 		ARG 3 config
+		ARG 4 pos
 		ARG 5 baseHeight
+		ARG 7 y
 		ARG 8 giantTrunk
+		ARG 9 boundingBox
 	METHOD method_23451 isInvalidForLeaves (Ljava/util/Random;IIIIZ)Z
+		ARG 1 random
 		ARG 2 baseHeight
 		ARG 3 dx
 		ARG 4 dy
@@ -38,12 +43,19 @@ CLASS net/minecraft/class_4647 net/minecraft/world/gen/foliage/FoliagePlacer
 		ARG 3 config
 	METHOD method_27385 generate (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_4643;ILnet/minecraft/class_4647$class_5208;IILjava/util/Set;Lnet/minecraft/class_3341;)V
 		ARG 1 world
+		ARG 2 random
 		ARG 3 config
 		ARG 4 trunkHeight
 		ARG 6 foliageHeight
 		ARG 7 radius
 		ARG 8 leaves
+		ARG 9 boundingBox
+	METHOD method_27386 getRandomOffset (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD method_27387 isPositionInvalid (Ljava/util/Random;IIIIZ)Z
+		ARG 1 random
 	METHOD method_28843 getType ()Lnet/minecraft/class_4648;
+	METHOD method_28846 foliagePlacerParts (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P4;
 	CLASS class_5208 TreeNode
 		COMMENT A point on a tree to generate foliage around
 		FIELD field_24158 center Lnet/minecraft/class_2338;

@@ -1,15 +1,20 @@
 CLASS net/minecraft/class_3560 net/minecraft/world/chunk/light/LightStorage
 	FIELD field_15796 lightArrays Lnet/minecraft/class_3556;
+	FIELD field_15797 markedNotReadySections Lit/unimi/dsi/fastutil/longs/LongSet;
 	FIELD field_15798 lightArraysToRemove Lit/unimi/dsi/fastutil/longs/LongSet;
 	FIELD field_15799 DIRECTIONS [Lnet/minecraft/class_2350;
 	FIELD field_15800 hasLightUpdates Z
 	FIELD field_15801 EMPTY Lnet/minecraft/class_2804;
+	FIELD field_15802 dirtySections Lit/unimi/dsi/fastutil/longs/LongSet;
 	FIELD field_15803 chunkProvider Lnet/minecraft/class_2823;
+	FIELD field_15804 markedReadySections Lit/unimi/dsi/fastutil/longs/LongSet;
 	FIELD field_15805 lightType Lnet/minecraft/class_1944;
 	FIELD field_15806 uncachedLightArrays Lnet/minecraft/class_3556;
 	FIELD field_15807 lightArraysToAdd Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
 	FIELD field_15808 nonEmptySections Lit/unimi/dsi/fastutil/longs/LongSet;
-	FIELD field_16448 dirtySections Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD field_16448 notifySections Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD field_19342 columnsToRetain Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD field_25621 queuedEdgeSections Lit/unimi/dsi/fastutil/longs/LongSet;
 	METHOD <init> (Lnet/minecraft/class_1944;Lnet/minecraft/class_2823;Lnet/minecraft/class_3556;)V
 		ARG 1 lightType
 		ARG 2 chunkProvider
@@ -28,6 +33,7 @@ CLASS net/minecraft/class_3560 net/minecraft/world/chunk/light/LightStorage
 		ARG 1 pos
 		ARG 3 empty
 	METHOD method_15527 updateLightArrays (Lnet/minecraft/class_3558;ZZ)V
+		ARG 1 storage
 		ARG 2 doSkylight
 		ARG 3 skipEdgeLightPropagation
 	METHOD method_15528 hasLightUpdates ()Z
@@ -53,3 +59,6 @@ CLASS net/minecraft/class_3560 net/minecraft/world/chunk/light/LightStorage
 	METHOD method_20533 getLightArray (J)Lnet/minecraft/class_2804;
 		ARG 1 sectionPos
 	METHOD method_20600 setRetainData (JZ)V
+	METHOD method_29967 updateSection (Lnet/minecraft/class_3558;J)V
+		ARG 1 storage
+		ARG 2 sectionPos

@@ -2,20 +2,62 @@ CLASS net/minecraft/class_3195 net/minecraft/world/gen/feature/StructureFeature
 	FIELD field_13879 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_24842 STRUCTURES Lcom/google/common/collect/BiMap;
 	FIELD field_24851 SWAMP_HUT Lnet/minecraft/class_3197;
+	FIELD field_24861 JIGSAW_STRUCTURES Ljava/util/List;
 	FIELD field_24862 STRUCTURE_TO_GENERATION_STEP Ljava/util/Map;
+	FIELD field_24863 codec Lcom/mojang/serialization/Codec;
+	METHOD <init> (Lcom/mojang/serialization/Codec;)V
+		ARG 1 codec
 	METHOD method_13149 getMonsterSpawns ()Ljava/util/List;
 	METHOD method_14015 locateStructure (Lnet/minecraft/class_4538;Lnet/minecraft/class_5138;Lnet/minecraft/class_2338;IZJLnet/minecraft/class_5314;)Lnet/minecraft/class_2338;
+		ARG 1 world
+		ARG 2 structureAccessor
+		ARG 3 center
+		ARG 4 radius
 		ARG 5 skipExistingChunks
+		ARG 6 seed
+		ARG 8 config
 	METHOD method_14016 getStructureStartFactory ()Lnet/minecraft/class_3195$class_3774;
 	METHOD method_14019 getName ()Ljava/lang/String;
 	METHOD method_14026 shouldStartAt (Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;JLnet/minecraft/class_2919;IILnet/minecraft/class_1959;Lnet/minecraft/class_1923;Lnet/minecraft/class_3037;)Z
+		ARG 1 generator
+		ARG 2 biomeSource
+		ARG 3 seed
+		ARG 5 chunkRandom
+		ARG 6 chunkX
+		ARG 7 chunkY
+		ARG 8 biome
+		ARG 9 pos
+		ARG 10 config
 	METHOD method_16140 getCreatureSpawns ()Ljava/util/List;
+	METHOD method_27218 getStartChunk (Lnet/minecraft/class_5314;JLnet/minecraft/class_2919;II)Lnet/minecraft/class_1923;
+		ARG 1 config
+		ARG 2 seed
+		ARG 4 chunkRandom
+	METHOD method_27219 isUniformDistribution ()Z
+	METHOD method_28656 createStart (IILnet/minecraft/class_3341;IJ)Lnet/minecraft/class_3449;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 boundingBox
+	METHOD method_28657 tryPlaceStart (Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;Lnet/minecraft/class_3485;JLnet/minecraft/class_1923;Lnet/minecraft/class_1959;ILnet/minecraft/class_2919;Lnet/minecraft/class_5314;Lnet/minecraft/class_3037;)Lnet/minecraft/class_3449;
+		ARG 1 generator
+		ARG 2 biomeSource
+		ARG 3 structureManager
+		ARG 4 seed
+		ARG 6 pos
+		ARG 7 biome
+		ARG 9 chunkRandom
+		ARG 10 config
 	METHOD method_28659 configure (Lnet/minecraft/class_3037;)Lnet/minecraft/class_5312;
 		ARG 1 config
+	METHOD method_28660 readStructureStart (Lnet/minecraft/class_3485;Lnet/minecraft/class_2487;J)Lnet/minecraft/class_3449;
+		ARG 1 tag
 	METHOD method_28661 register (Ljava/lang/String;Lnet/minecraft/class_3195;Lnet/minecraft/class_2893$class_2895;)Lnet/minecraft/class_3195;
 		ARG 0 name
 		ARG 1 structureFeature
 		ARG 2 step
+	METHOD method_28663 getGenerationStep ()Lnet/minecraft/class_2893$class_2895;
+	METHOD method_28664 init ()V
+	METHOD method_28665 getCodec ()Lcom/mojang/serialization/Codec;
 	CLASS class_3774 StructureStartFactory
 		METHOD create (Lnet/minecraft/class_3195;IILnet/minecraft/class_3341;IJ)Lnet/minecraft/class_3449;
 			ARG 1 feature

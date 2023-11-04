@@ -15,3 +15,8 @@ CLASS net/minecraft/class_3641 net/minecraft/world/biome/layer/EaseBiomeEdgeLaye
 	FIELD field_16099 PLAINS_ID I
 	FIELD field_16100 WOODED_BADLANDS_PLATEAU_ID I
 	FIELD field_16101 BADLANDS_PLATEAU_ID I
+	METHOD method_15839 isValidTemperatureEdge (II)Z
+		ARG 1 id1
+		ARG 2 id2
+	METHOD method_15840 areEdgesSimilar ([IIIIIIII)Z
+	METHOD method_15841 isMountainBiome ([IIIIIIII)Z

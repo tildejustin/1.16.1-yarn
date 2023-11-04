@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_4650 net/minecraft/world/gen/foliage/SpruceFoliagePlacer
 	FIELD field_23757 trunkHeight I
 	FIELD field_23758 randomTrunkHeight I
+	FIELD field_24936 CODEC Lcom/mojang/serialization/Codec;

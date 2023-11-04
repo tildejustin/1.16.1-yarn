@@ -1,1 +1,25 @@
 CLASS net/minecraft/class_5153 net/minecraft/world/gen/feature/BasaltColumnsFeature
+	FIELD field_24132 BLOCKS Lcom/google/common/collect/ImmutableList;
+	METHOD method_27094 moveDownToGround (Lnet/minecraft/class_1936;ILnet/minecraft/class_2338$class_2339;I)Lnet/minecraft/class_2338;
+		ARG 0 world
+		ARG 1 seaLevel
+		ARG 2 pos
+		ARG 3 width
+	METHOD method_27095 isAirOrLavaOcean (Lnet/minecraft/class_1936;ILnet/minecraft/class_2338;)Z
+		ARG 0 world
+		ARG 1 seaLevel
+		ARG 2 pos
+	METHOD method_27096 placeBasaltColumn (Lnet/minecraft/class_1936;ILnet/minecraft/class_2338;II)Z
+		ARG 1 world
+		ARG 2 seaLevel
+		ARG 3 pos
+		ARG 5 width
+	METHOD method_27098 moveUpToAir (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338$class_2339;I)Lnet/minecraft/class_2338;
+		ARG 0 world
+		ARG 1 pos
+	METHOD method_27099 calculateHeight (Ljava/util/Random;Lnet/minecraft/class_5156;)I
+		ARG 0 random
+		ARG 1 config
+	METHOD method_27100 calculateReach (Ljava/util/Random;Lnet/minecraft/class_5156;)I
+		ARG 0 random
+		ARG 1 config

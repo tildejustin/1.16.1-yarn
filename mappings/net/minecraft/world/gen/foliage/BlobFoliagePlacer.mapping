@@ -1,3 +1,6 @@
 CLASS net/minecraft/class_4646 net/minecraft/world/gen/foliage/BlobFoliagePlacer
 	FIELD field_23752 height I
 	FIELD field_24927 CODEC Lcom/mojang/serialization/Codec;
+	METHOD <init> (IIIIILnet/minecraft/class_4648;)V
+		ARG 5 height
+	METHOD method_28838 createCodec (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P5;

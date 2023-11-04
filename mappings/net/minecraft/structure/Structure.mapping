@@ -88,6 +88,7 @@ CLASS net/minecraft/class_3499 net/minecraft/structure/Structure
 		ARG 3 startX
 		ARG 4 startY
 		ARG 5 startZ
+	METHOD method_27267 calculateBoundingBox (Lnet/minecraft/class_2338;Lnet/minecraft/class_2470;Lnet/minecraft/class_2338;Lnet/minecraft/class_2415;)Lnet/minecraft/class_3341;
 	CLASS class_3500 Palette
 		FIELD field_15590 AIR Lnet/minecraft/class_2680;
 		FIELD field_15591 ids Lnet/minecraft/class_2361;

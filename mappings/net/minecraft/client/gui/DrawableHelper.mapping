@@ -200,3 +200,4 @@ CLASS net/minecraft/class_332 net/minecraft/client/gui/DrawableHelper
 		ARG 4 x
 		ARG 5 y
 		ARG 6 color
+	METHOD method_29343 drawWithOutline (IILjava/util/function/BiConsumer;)V

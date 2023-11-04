@@ -28,3 +28,7 @@ CLASS net/minecraft/class_3922 net/minecraft/block/CampfireBlock
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
+	METHOD method_30034 (Lnet/minecraft/class_4970$class_4971;)Z
+		ARG 0 blockState
+	METHOD method_30035 canBeLit (Lnet/minecraft/class_2680;)Z
+		ARG 0 state

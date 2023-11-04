@@ -2,14 +2,26 @@
 buildscript {
 	repositories {
 		maven {
+			name 'Quilt Releases'
+			url 'https://maven.quiltmc.org/repository/release/'
+		}
+		maven {
+			name 'Quilt Snapshot Repository'
+			url 'https://maven.quiltmc.org/repository/snapshot/'
+		}
+		maven {
 			name "Fabric Repository"
 			url 'https://maven.fabricmc.net'
+		}
+		maven {
+			// Vineflower snapshots
+			url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
 		}
 		mavenCentral()
 		mavenLocal()
 	}
 	dependencies {
-		classpath "cuchaz:enigma-cli:${project.enigma_version}"
+		classpath "org.quiltmc:enigma-cli:${project.enigma_version}"
 		classpath "net.fabricmc:stitch:${project.stitch_version}"
 		classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
 	}
@@ -45,12 +57,24 @@ if (ENV.BRANCH_NAME) {
 repositories {
 	mavenCentral()
 	maven {
+		name "Quilt Repository"
+		url "https://maven.quiltmc.org/repository/release"
+	}
+	maven {
 		name "Fabric Repository"
 		url 'https://maven.fabricmc.net'
 	}
 	maven {
 		name "Mojang"
 		url 'https://libraries.minecraft.net/'
+	}
+	maven {
+		name "Quilt Snapshot Repository"
+		url "https://maven.quiltmc.org/repository/snapshot"
+	}
+	maven {
+		// Vineflower snapshots
+		url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
 	}
 	mavenLocal()
 }
@@ -75,7 +99,7 @@ configurations {
 def unpickMetaFile = file("unpick-definitions/unpick.json")
 
 dependencies {
-	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
+	enigmaRuntime "org.quiltmc:enigma-swing:${project.enigma_version}"
 	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
 	javadocClasspath "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"
@@ -723,7 +747,7 @@ abstract class EnigmaTask extends JavaExec {
 		args mappings.get().absolutePath
 		args '-profile'
 		args 'enigma_profile.json'
-		jvmArgs "-Xmx2048m"
+//		jvmArgs "-Xmx2048m"
 		super.exec()
 	}
 }

@@ -1,3 +1,7 @@
 CLASS net/minecraft/class_3656 net/minecraft/world/biome/layer/ScaleLayer
 	METHOD method_15853 sample (Lnet/minecraft/class_3628;IIII)I
 		ARG 1 context
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 d

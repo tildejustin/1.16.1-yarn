@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_5312 net/minecraft/world/gen/feature/ConfiguredStructureFeature
+	FIELD field_24834 CODEC Lcom/mojang/serialization/Codec;
 	FIELD field_24835 structureFeature Lnet/minecraft/class_3195;
 	FIELD field_24836 featureConfig Lnet/minecraft/class_3037;
 	METHOD <init> (Lnet/minecraft/class_3195;Lnet/minecraft/class_3037;)V
@@ -8,5 +9,7 @@ CLASS net/minecraft/class_5312 net/minecraft/world/gen/feature/ConfiguredStructu
 		ARG 1 chunkGenerator
 		ARG 2 biomeSource
 		ARG 3 structureManager
+		ARG 4 seed
 		ARG 6 chunkPos
 		ARG 7 biome
+		ARG 9 config

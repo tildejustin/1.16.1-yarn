@@ -40,6 +40,7 @@ CLASS net/minecraft/class_2841 net/minecraft/world/chunk/PalettedContainer
 		ARG 1 paletteTag
 		ARG 2 data
 	METHOD method_12330 write (Lnet/minecraft/class_2487;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 tag
 	METHOD method_12331 get (I)Ljava/lang/Object;
 		ARG 1 index
 	METHOD method_12332 (Ljava/lang/Thread;)Ljava/lang/String;
@@ -57,6 +58,7 @@ CLASS net/minecraft/class_2841 net/minecraft/world/chunk/PalettedContainer
 		ARG 2 y
 		ARG 3 z
 		ARG 4 value
+	METHOD method_19526 hasAny (Ljava/util/function/Predicate;)Z
 	METHOD method_21732 count (Lnet/minecraft/class_2841$class_4464;)V
 		ARG 1 consumer
 	CLASS class_4464 CountConsumer

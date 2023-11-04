@@ -40,6 +40,7 @@ CLASS net/minecraft/class_4763 net/minecraft/world/biome/BiomeEffects
 		COMMENT
 		COMMENT <p>An additions sound is played at 1.1% chance every tick as an ambient
 		COMMENT sound whenever the player is in the biome with this effect.
+	METHOD method_27345 getMusic ()Ljava/util/Optional;
 	CLASS class_4764 Builder
 		FIELD field_22071 fogColor Ljava/util/OptionalInt;
 		FIELD field_22072 waterColor Ljava/util/OptionalInt;

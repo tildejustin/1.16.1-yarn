@@ -4,6 +4,7 @@ CLASS net/minecraft/class_3799 net/minecraft/client/MinecraftClientGame
 	FIELD field_16757 client Lnet/minecraft/class_310;
 	METHOD <init> (Lnet/minecraft/class_310;)V
 		ARG 1 client
+	METHOD getCurrentSession ()Lcom/mojang/bridge/game/GameSession;
 	METHOD method_16687 onStartGameSession ()V
 	METHOD method_16688 onLeaveGameSession ()V
 	METHOD setSessionEventListener (Lcom/mojang/bridge/launcher/SessionEventListener;)V

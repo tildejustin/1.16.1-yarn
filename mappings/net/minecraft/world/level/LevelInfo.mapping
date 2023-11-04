@@ -5,11 +5,11 @@ CLASS net/minecraft/class_1940 net/minecraft/world/level/LevelInfo
 	FIELD field_25403 datapackSettings Lnet/minecraft/class_5359;
 	FIELD field_9257 gameMode Lnet/minecraft/class_1934;
 	FIELD field_9261 allowedCommands Z
-	FIELD field_9262 structures Z
+	FIELD field_9262 hardcore Z
 	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_1934;ZLnet/minecraft/class_1267;ZLnet/minecraft/class_1928;Lnet/minecraft/class_5359;)V
 		ARG 1 name
 		ARG 2 gameMode
-		ARG 3 structures
+		ARG 3 hardcore
 		ARG 4 difficulty
 		ARG 5 allowedCommands
 		ARG 6 gameRules
@@ -22,6 +22,7 @@ CLASS net/minecraft/class_1940 net/minecraft/world/level/LevelInfo
 	METHOD method_28382 withGameMode (Lnet/minecraft/class_1934;)Lnet/minecraft/class_1940;
 		ARG 1 gameMode
 	METHOD method_28383 fromDynamic (Lcom/mojang/serialization/Dynamic;Lnet/minecraft/class_5359;)Lnet/minecraft/class_1940;
+		ARG 0 dynamic
 		ARG 1 datapackSettings
 	METHOD method_28385 withCopiedGameRules ()Lnet/minecraft/class_1940;
 	METHOD method_29557 withDataPackSettings (Lnet/minecraft/class_5359;)Lnet/minecraft/class_1940;
@@ -29,4 +30,4 @@ CLASS net/minecraft/class_1940 net/minecraft/world/level/LevelInfo
 	METHOD method_29558 getDatapackSettings ()Lnet/minecraft/class_5359;
 	METHOD method_8574 getGameMode ()Lnet/minecraft/class_1934;
 	METHOD method_8582 areCommandsAllowed ()Z
-	METHOD method_8583 hasStructures ()Z
+	METHOD method_8583 isHardcore ()Z

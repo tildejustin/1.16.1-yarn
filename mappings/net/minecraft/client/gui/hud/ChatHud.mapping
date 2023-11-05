@@ -40,3 +40,4 @@ CLASS net/minecraft/class_338 net/minecraft/client/gui/hud/ChatHud
 	METHOD method_1820 resetScroll ()V
 	METHOD method_19348 getMessageOpacityMultiplier (I)D
 		ARG 0 age
+	METHOD method_27146 mouseClicked (DD)Z

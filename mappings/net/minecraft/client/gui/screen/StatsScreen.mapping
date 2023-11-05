@@ -15,10 +15,23 @@ CLASS net/minecraft/class_447 net/minecraft/client/gui/screen/StatsScreen
 	METHOD method_2267 createButtons ()V
 	METHOD method_2270 createLists ()V
 	METHOD method_2282 renderIcon (Lnet/minecraft/class_4587;IIII)V
+		ARG 1 matrices
+		ARG 2 x
+		ARG 3 y
+		ARG 4 u
+		ARG 5 v
 	METHOD method_2285 getColumnX (I)I
 		ARG 1 index
 	METHOD method_2289 renderStatItem (Lnet/minecraft/class_4587;IILnet/minecraft/class_1792;)V
+		ARG 1 matrices
+		ARG 2 x
+		ARG 3 y
+		ARG 4 item
+	METHOD method_27027 getStatTranslationKey (Lnet/minecraft/class_3445;)Ljava/lang/String;
+		ARG 0 stat
 	CLASS class_4198 GeneralStatsListWidget
+		METHOD <init> (Lnet/minecraft/class_447;Lnet/minecraft/class_310;)V
+			ARG 2 client
 		CLASS class_4197 Entry
 			FIELD field_18749 stat Lnet/minecraft/class_3445;
 			METHOD <init> (Lnet/minecraft/class_447$class_4198;Lnet/minecraft/class_3445;)V
@@ -31,23 +44,37 @@ CLASS net/minecraft/class_447 net/minecraft/client/gui/screen/StatsScreen
 		FIELD field_18757 items Ljava/util/List;
 		FIELD field_18758 comparator Ljava/util/Comparator;
 		FIELD field_18759 selectedStatType Lnet/minecraft/class_3448;
+		FIELD field_18760 listOrder I
 		METHOD <init> (Lnet/minecraft/class_447;Lnet/minecraft/class_310;)V
 			ARG 2 client
 		METHOD method_19406 getText (Lnet/minecraft/class_1792;)Lnet/minecraft/class_2561;
 			ARG 1 item
 		METHOD method_19407 render (Lnet/minecraft/class_4587;Lnet/minecraft/class_2561;II)V
+			ARG 1 matrices
+			ARG 2 text
 		METHOD method_19408 selectStatType (Lnet/minecraft/class_3448;)V
 			ARG 1 statType
 		METHOD method_19409 getHeaderIndex (Lnet/minecraft/class_3448;)I
 			ARG 1 statType
 		METHOD method_19410 getStatType (I)Lnet/minecraft/class_3448;
 			ARG 1 headerColumn
-		CLASS class_450 ItemComparator
 		CLASS class_4199 Entry
 			METHOD method_19405 render (Lnet/minecraft/class_4587;Lnet/minecraft/class_3445;IIZ)V
+				ARG 1 matrices
+				ARG 2 stat
+				ARG 3 x
+				ARG 4 y
+		CLASS class_450 ItemComparator
+			METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+				ARG 1 item1
+				ARG 2 item2
 	CLASS class_4202 EntityStatsListWidget
+		METHOD <init> (Lnet/minecraft/class_447;Lnet/minecraft/class_310;)V
+			ARG 2 client
 		CLASS class_4201 Entry
 			FIELD field_18762 entityType Lnet/minecraft/class_1299;
+			METHOD <init> (Lnet/minecraft/class_447$class_4202;Lnet/minecraft/class_1299;)V
+				ARG 2 entityType
 			METHOD method_19411 getKilledString (Ljava/lang/String;I)Ljava/lang/String;
 				ARG 1 entityName
 				ARG 2 killCount

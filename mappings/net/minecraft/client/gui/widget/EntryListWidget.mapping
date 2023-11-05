@@ -43,6 +43,7 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 1 matrices
 		ARG 2 x
 		ARG 3 y
+		ARG 4 tessellator
 	METHOD method_25313 setSelected (Lnet/minecraft/class_350$class_351;)V
 		ARG 1 entry
 	METHOD method_25314 replaceEntries (Ljava/util/Collection;)V
@@ -59,6 +60,7 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 	METHOD method_25319 getRowBottom (I)I
 		ARG 1 index
 	METHOD method_25320 renderDecorations (Lnet/minecraft/class_4587;II)V
+		ARG 1 matrices
 	METHOD method_25321 addEntry (Lnet/minecraft/class_350$class_351;)I
 		ARG 1 entry
 	METHOD method_25322 getRowWidth ()I

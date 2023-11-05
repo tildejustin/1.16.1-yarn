@@ -4,7 +4,7 @@ CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldS
 	FIELD field_24288 gameRules Lnet/minecraft/class_1928;
 	FIELD field_24289 difficulty Lnet/minecraft/class_1267;
 	FIELD field_24290 safeDifficulty Lnet/minecraft/class_1267;
-		COMMENT ususally mirrors difficulty except in the case of {@link this.mode} being {@link CreateWorldScreen.Mode.HARDCORE}, in which case it stays at {@link Difficulty.HARD}. This is the difficulty that is used for button rendering and during {@link LevelInfo} creation.
+		COMMENT Normally mirrors {@link CreateWorldScreen#difficulty} except in the case of {@link CreateWorldScreen#currentMode} being {@link CreateWorldScreen.Mode#HARDCORE}, in which case it stays at {@link Difficulty#HARD}. This is the difficulty that is used for button rendering and during {@link LevelInfo} creation.
 	FIELD field_24588 moreOptionsDialog Lnet/minecraft/class_5292;
 	FIELD field_25477 dataPackTempDir Ljava/nio/file/Path;
 	FIELD field_25478 dataPacksButton Lnet/minecraft/class_4185;
@@ -32,12 +32,15 @@ CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldS
 		ARG 1 parent
 		ARG 2 levelInfo
 		ARG 3 options
+		ARG 4 dataPackTempDir
+		ARG 5 registryManager
 	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_5292;)V
 		ARG 1 parent
 		ARG 2 moreOptionsDialog
 	METHOD method_19416 (Ljava/lang/String;)V
 		ARG 1 newName
 	METHOD method_22365 tweakDefaultsTo (Lnet/minecraft/class_525$class_4539;)V
+		ARG 1 mode
 	METHOD method_2710 setMoreOptionsOpen (Z)V
 		ARG 1 moreOptionsOpen
 	METHOD method_2721 toggleMoreOptions ()V
@@ -45,6 +48,16 @@ CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldS
 	METHOD method_2727 updateSaveFolderName ()V
 	METHOD method_2736 createLevel ()V
 	METHOD method_28084 setMoreOptionsOpen ()V
+	METHOD method_29682 applyDataPacks (Lnet/minecraft/class_3283;)V
+		ARG 1 resourceContainer
+	METHOD method_29685 copyDataPack (Ljava/nio/file/Path;Lnet/minecraft/class_310;)Ljava/nio/file/Path;
+		ARG 0 packPath
+		ARG 1 client
+	METHOD method_29687 copyDataPack (Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+	METHOD method_29693 getDataPackTempDir ()Ljava/nio/file/Path;
+	METHOD method_29694 openPackScreen ()V
+	METHOD method_29695 clearDataPackTempDir ()V
+	METHOD method_29696 copyTempDirDataPacks ()Z
 	CLASS class_4539 Mode
 		FIELD field_20628 translationSuffix Ljava/lang/String;
 		FIELD field_20629 defaultGameMode Lnet/minecraft/class_1934;
@@ -52,3 +65,5 @@ CLASS net/minecraft/class_525 net/minecraft/client/gui/screen/world/CreateWorldS
 			ARG 3 translationSuffix
 			ARG 4 defaultGameMode
 	CLASS class_5376 WorldCreationException
+		METHOD <init> (Ljava/lang/Throwable;)V
+			ARG 1 throwable

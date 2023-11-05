@@ -53,6 +53,8 @@ CLASS net/minecraft/class_4668 net/minecraft/client/render/RenderPhase
 		ARG 1 name
 		ARG 2 beginAction
 		ARG 3 endAction
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
 	METHOD method_23516 startDrawing ()V
 	METHOD method_23517 setupGlintTexturing (F)V
 		ARG 0 scale
@@ -63,6 +65,11 @@ CLASS net/minecraft/class_4668 net/minecraft/client/render/RenderPhase
 			ARG 1 alpha
 	CLASS class_4670 Toggleable
 		FIELD field_21390 enabled Z
+		METHOD <init> (Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;Z)V
+			ARG 1 name
+			ARG 2 beginAction
+			ARG 3 endAction
+			ARG 4 enabled
 	CLASS class_4671 Cull
 		METHOD <init> (Z)V
 			ARG 1 culling
@@ -71,6 +78,9 @@ CLASS net/minecraft/class_4668 net/minecraft/client/render/RenderPhase
 		FIELD field_22242 depthFunction Ljava/lang/String;
 			COMMENT A string representation of the comparison function used by this {@code DepthTest} phase.
 			COMMENT @see org.lwjgl.opengl.GL11#glDepthFunc(int)
+		METHOD <init> (Ljava/lang/String;I)V
+			ARG 1 depthFunction
+			ARG 2 func
 	CLASS class_4673 DiffuseLighting
 		METHOD <init> (Z)V
 			ARG 1 guiLighting
@@ -81,6 +91,8 @@ CLASS net/minecraft/class_4668 net/minecraft/client/render/RenderPhase
 			ARG 1 lightmap
 	CLASS class_4677 LineWidth
 		FIELD field_21392 width Ljava/util/OptionalDouble;
+		METHOD <init> (Ljava/util/OptionalDouble;)V
+			ARG 1 width
 	CLASS class_4678 Target
 	CLASS class_4679 Overlay
 		METHOD <init> (Z)V

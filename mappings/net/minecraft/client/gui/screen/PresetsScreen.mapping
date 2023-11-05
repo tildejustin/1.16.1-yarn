@@ -1,4 +1,6 @@
 CLASS net/minecraft/class_430 net/minecraft/client/gui/screen/PresetsScreen
+	FIELD field_25043 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_25044 config Lnet/minecraft/class_3232;
 	FIELD field_2518 presets Ljava/util/List;
 	FIELD field_2519 parent Lnet/minecraft/class_413;
 	FIELD field_2520 shareText Lnet/minecraft/class_2561;
@@ -11,14 +13,42 @@ CLASS net/minecraft/class_430 net/minecraft/client/gui/screen/PresetsScreen
 	METHOD method_20102 updateSelectButton (Z)V
 		ARG 1 hasSelected
 	METHOD method_2195 addPreset (Lnet/minecraft/class_2561;Lnet/minecraft/class_1935;Lnet/minecraft/class_1959;Ljava/util/List;ZZZ[Lnet/minecraft/class_3229;)V
+		ARG 0 name
 		ARG 1 icon
 		ARG 2 biome
 		ARG 3 structures
+		ARG 4 strongholds
+		ARG 5 features
+		ARG 6 lakes
+		ARG 7 layers
+	METHOD method_29058 parsePresetLayerString (Ljava/lang/String;)Ljava/util/List;
+		ARG 0 layerString
+	METHOD method_29059 parseLayerString (Ljava/lang/String;I)Lnet/minecraft/class_3229;
+		ARG 0 layerString
+		ARG 1 startY
+	METHOD method_29060 parsePresetString (Ljava/lang/String;Lnet/minecraft/class_3232;)Lnet/minecraft/class_3232;
+		ARG 0 layerString
+		ARG 1 config
+	METHOD method_29062 getGeneratorConfigString (Lnet/minecraft/class_3232;)Ljava/lang/String;
+		ARG 0 config
+	CLASS class_4196 SuperflatPresetsListWidget
+		CLASS class_432 SuperflatPresetEntry
+			METHOD method_19389 setPreset ()V
+			METHOD method_2198 drawIconBackground (Lnet/minecraft/class_4587;II)V
+				ARG 1 matrices
+				ARG 2 x
+				ARG 3 y
+			METHOD method_2200 renderIcon (Lnet/minecraft/class_4587;IILnet/minecraft/class_1792;)V
+				ARG 1 matrices
+				ARG 2 x
+				ARG 3 y
+				ARG 4 item
 	CLASS class_431 SuperflatPreset
+		FIELD field_25045 generatorConfigProvider Lnet/minecraft/class_3232;
 		FIELD field_2527 icon Lnet/minecraft/class_1792;
 		FIELD field_2528 name Lnet/minecraft/class_2561;
 		METHOD <init> (Lnet/minecraft/class_1792;Lnet/minecraft/class_2561;Lnet/minecraft/class_3232;)V
 			ARG 1 icon
-	CLASS class_4196 SuperflatPresetsListWidget
-		CLASS class_432 SuperflatPresetEntry
-			METHOD method_19389 setPreset ()V
+			ARG 2 name
+			ARG 3 generatorConfigProvider
+		METHOD method_27571 getName ()Lnet/minecraft/class_2561;

@@ -1,6 +1,9 @@
 CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 	FIELD field_20791 vertexFormat Lnet/minecraft/class_293;
 	FIELD field_20792 frame I
+	FIELD field_20793 rainSoundCounter I
+	FIELD field_20794 NORMAL_LINE_DX [F
+	FIELD field_20795 NORMAL_LINE_DZ [F
 	FIELD field_20797 RAIN Lnet/minecraft/class_2960;
 	FIELD field_20798 SNOW Lnet/minecraft/class_2960;
 	FIELD field_20950 blockBreakingProgressions Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
@@ -332,6 +335,7 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	CLASS class_5347 ShaderException
 	CLASS class_762 ChunkInfo
 		FIELD field_4122 propagationLevel I
 		FIELD field_4124 chunk Lnet/minecraft/class_846$class_851;
@@ -347,4 +351,3 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		METHOD method_3299 updateCullingState (BLnet/minecraft/class_2350;)V
 			ARG 1 parentCullingState
 			ARG 2 from
-	CLASS class_5347 ShaderException

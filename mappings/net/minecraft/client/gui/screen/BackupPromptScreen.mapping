@@ -12,3 +12,4 @@ CLASS net/minecraft/class_405 net/minecraft/client/gui/screen/BackupPromptScreen
 		ARG 4 subtitle
 		ARG 5 showEraseCacheCheckBox
 	CLASS class_406 Callback
+		METHOD proceed proceed (ZZ)V

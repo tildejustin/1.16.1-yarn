@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_859 net/minecraft/client/render/debug/CaveDebugRenderer
+	FIELD field_4506 startPoses Ljava/util/List;
+	FIELD field_4507 tunnelsList Ljava/util/Map;
+	FIELD field_4508 thicknessMap Ljava/util/Map;
+	METHOD method_3704 addTunnel (Lnet/minecraft/class_2338;Ljava/util/List;Ljava/util/List;)V
+		ARG 1 start
+		ARG 2 positions
+		ARG 3 thicknesses

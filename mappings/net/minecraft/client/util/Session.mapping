@@ -19,3 +19,4 @@ CLASS net/minecraft/class_320 net/minecraft/client/util/Session
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 			ARG 3 name
 		METHOD method_1679 byName (Ljava/lang/String;)Lnet/minecraft/class_320$class_321;
+			ARG 0 name

@@ -10,5 +10,6 @@ CLASS net/minecraft/class_3509 net/minecraft/util/collection/TypeFilterableList
 		ARG 1 o
 	METHOD method_15216 getAllOfType (Ljava/lang/Class;)Ljava/util/Collection;
 		ARG 1 type
+	METHOD method_29903 getAllElements ()Ljava/util/List;
 	METHOD remove (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -11,3 +11,9 @@ CLASS net/minecraft/class_5324 net/minecraft/util/dynamic/NumberCodecs
 	METHOD method_29232 createRangedDataResultFactory (II)Ljava/util/function/Function;
 		ARG 0 min
 		ARG 1 max
+	METHOD method_29904 mapResult (Lcom/mojang/serialization/MapCodec;Lnet/minecraft/class_5324$class_5395;)Lcom/mojang/serialization/MapCodec;
+	METHOD method_29906 withName (Lnet/minecraft/class_5321;Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;
+	METHOD method_30018 setPartial (Lcom/mojang/serialization/MapCodec;Ljava/util/function/Supplier;)Lcom/mojang/serialization/MapCodec;
+	CLASS class_5395 ResultFunction
+		METHOD method_29907 apply (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
+		METHOD method_29908 coApply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;

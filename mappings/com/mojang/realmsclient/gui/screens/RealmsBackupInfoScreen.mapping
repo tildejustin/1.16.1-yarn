@@ -13,3 +13,11 @@ CLASS net/minecraft/class_4379 com/mojang/realmsclient/gui/screens/RealmsBackupI
 	METHOD method_21143 gameModeMetadata (Ljava/lang/String;)Lnet/minecraft/class_2561;
 		ARG 1 value
 	CLASS class_4380 BackupInfoList
+		METHOD <init> (Lnet/minecraft/class_4379;Lnet/minecraft/class_310;)V
+			ARG 2 client
+	CLASS class_5344 BackupInfoListEntry
+		FIELD field_25258 key Ljava/lang/String;
+		FIELD field_25259 value Ljava/lang/String;
+		METHOD <init> (Lnet/minecraft/class_4379;Ljava/lang/String;Ljava/lang/String;)V
+			ARG 2 key
+			ARG 3 value

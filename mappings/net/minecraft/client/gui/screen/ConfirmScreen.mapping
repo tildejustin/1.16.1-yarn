@@ -17,5 +17,3 @@ CLASS net/minecraft/class_410 net/minecraft/client/gui/screen/ConfirmScreen
 		ARG 5 noText
 	METHOD method_2125 disableButtons (I)V
 		ARG 1 delay
-	METHOD method_25393 ()V
-	METHOD method_25394 (Lnet/minecraft/class_4587;IIF)V

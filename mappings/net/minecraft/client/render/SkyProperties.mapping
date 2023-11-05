@@ -20,6 +20,7 @@ CLASS net/minecraft/class_5294 net/minecraft/client/render/SkyProperties
 		ARG 1 camX
 		ARG 2 camY
 	METHOD method_28111 byDimensionType (Ljava/util/Optional;)Lnet/minecraft/class_5294;
+		ARG 0 dimension
 	METHOD method_28112 adjustSkyColor (Lnet/minecraft/class_243;F)Lnet/minecraft/class_243;
 		ARG 1 color
 		ARG 2 sunHeight

@@ -177,6 +177,8 @@ CLASS net/minecraft/class_1921 net/minecraft/client/render/RenderLayer
 			ARG 14 writeMaskState
 			ARG 15 lineWidth
 			ARG 16 outlineMode
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 1 object
 		METHOD method_23598 builder ()Lnet/minecraft/class_1921$class_4688$class_4689;
 		CLASS class_4689 Builder
 			FIELD field_21423 texture Lnet/minecraft/class_4668$class_4683;

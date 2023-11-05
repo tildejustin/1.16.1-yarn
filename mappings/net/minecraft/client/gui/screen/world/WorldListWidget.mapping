@@ -15,6 +15,7 @@ CLASS net/minecraft/class_528 net/minecraft/client/gui/screen/world/WorldListWid
 		ARG 7 itemHeight
 		ARG 8 searchFilter
 		ARG 9 list
+	METHOD method_20159 getSelectedAsOptional ()Ljava/util/Optional;
 	METHOD method_2750 filter (Ljava/util/function/Supplier;Z)V
 		ARG 2 load
 	METHOD method_2752 getParent ()Lnet/minecraft/class_526;
@@ -36,3 +37,4 @@ CLASS net/minecraft/class_528 net/minecraft/client/gui/screen/world/WorldListWid
 		METHOD method_20173 recreate ()V
 		METHOD method_20174 start ()V
 		METHOD method_20175 getIconTexture ()Lnet/minecraft/class_1043;
+		METHOD method_29990 openReadingWorldScreen ()V

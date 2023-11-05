@@ -20,7 +20,7 @@ CLASS net/minecraft/class_5292 net/minecraft/client/gui/screen/world/MoreOptions
 	METHOD method_28085 isDebugWorld ()Z
 	METHOD method_28086 setGeneratorOptions (Lnet/minecraft/class_5285;)V
 		ARG 1 options
-	METHOD method_28092 (Lnet/minecraft/class_525;Lnet/minecraft/class_310;Lnet/minecraft/class_327;)V
+	METHOD method_28092 init (Lnet/minecraft/class_525;Lnet/minecraft/class_310;Lnet/minecraft/class_327;)V
 		ARG 1 parent
 		ARG 2 client
 		ARG 3 textRenderer
@@ -32,6 +32,7 @@ CLASS net/minecraft/class_5292 net/minecraft/client/gui/screen/world/MoreOptions
 		ARG 1 seed
 	METHOD method_28101 setVisible (Z)V
 		ARG 1 visible
-	METHOD method_29071 (Lnet/minecraft/class_525;Lnet/minecraft/class_310;Lnet/minecraft/class_4185;)V
-	METHOD method_29073 (Lnet/minecraft/class_5318$class_5319;Lnet/minecraft/class_5285;)V
+	METHOD method_29073 importOptions (Lnet/minecraft/class_5318$class_5319;Lnet/minecraft/class_5285;)V
+		ARG 1 registryManager
 		ARG 2 options
+	METHOD method_29700 getRegistryManager ()Lnet/minecraft/class_5318$class_5319;

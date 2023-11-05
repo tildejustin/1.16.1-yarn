@@ -60,6 +60,7 @@ CLASS net/minecraft/class_4717 net/minecraft/client/gui/screen/CommandSuggestor
 		ARG 0 original
 		ARG 1 suggestion
 	METHOD method_23937 show ()V
+	METHOD method_23958 getNarration ()Ljava/lang/String;
 	CLASS class_464 SuggestionWindow
 		FIELD field_21630 lastNarrationIndex I
 		FIELD field_2765 completed Z

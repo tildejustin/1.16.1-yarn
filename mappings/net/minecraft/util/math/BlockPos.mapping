@@ -53,7 +53,6 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 		ARG 0 y
 	METHOD method_10072 south ()Lnet/minecraft/class_2338;
 	METHOD method_10075 crossProduct (Lnet/minecraft/class_2382;)Lnet/minecraft/class_2338;
-		ARG 1 pos
 	METHOD method_10076 north (I)Lnet/minecraft/class_2338;
 		ARG 1 distance
 	METHOD method_10077 south (I)Lnet/minecraft/class_2338;

@@ -1,8 +1,8 @@
-CLASS bot net/minecraft/block/InfestedBlock
-	FIELD a regularBlock Lbma;
-	FIELD b INFESTED_TO_REGULAR Ljava/util/Map;
-	METHOD d getRegularBlock ()Lbma;
-	METHOD e getRegularBlock (Lbma;)Lbuy;
+CLASS net/minecraft/class_2384 net/minecraft/block/InfestedBlock
+	FIELD field_11178 regularBlock Lnet/minecraft/class_2248;
+	FIELD field_11179 INFESTED_TO_REGULAR Ljava/util/Map;
+	METHOD method_10271 getRegularBlock ()Lnet/minecraft/class_2248;
+	METHOD method_10270 getRegularBlock (Lnet/minecraft/class_2248;)Lnet/minecraft/class_2680;
 		ARG 0 infestedBlockState
-	METHOD j hasRegularBlock (Lbuy;)Z
+	METHOD method_10269 hasRegularBlock (Lnet/minecraft/class_2680;)Z
 		ARG 0 infestedBlockState

@@ -1,7 +1,7 @@
-CLASS jx net/minecraft/text/ComponentTranslationException
-	METHOD <init> (Ljw;I)V
+CLASS net/minecraft/class_2590 net/minecraft/text/ComponentTranslationException
+	METHOD <init> (Lnet/minecraft/class_2588;I)V
 		ARG 1 component
-	METHOD <init> (Ljw;Ljava/lang/String;)V
+	METHOD <init> (Lnet/minecraft/class_2588;Ljava/lang/String;)V
 		ARG 1 component
-	METHOD <init> (Ljw;Ljava/lang/Throwable;)V
+	METHOD <init> (Lnet/minecraft/class_2588;Ljava/lang/Throwable;)V
 		ARG 1 component

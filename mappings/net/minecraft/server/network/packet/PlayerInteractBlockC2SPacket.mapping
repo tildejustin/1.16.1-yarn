@@ -1,4 +1,4 @@
-CLASS pg net/minecraft/server/network/packet/PlayerInteractBlockC2SPacket
-	FIELD b hand Lagt;
-	METHOD b getHand ()Lagt;
-	METHOD c getHitY ()Lcrg;
+CLASS net/minecraft/class_2885 net/minecraft/server/network/packet/PlayerInteractBlockC2SPacket
+	FIELD field_13134 hand Lnet/minecraft/class_1268;
+	METHOD method_12546 getHand ()Lnet/minecraft/class_1268;
+	METHOD method_12543 getHitY ()Lnet/minecraft/class_3965;

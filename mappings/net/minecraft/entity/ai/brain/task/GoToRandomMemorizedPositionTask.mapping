@@ -1,2 +1,2 @@
-CLASS akz net/minecraft/entity/ai/brain/task/GoToRandomMemorizedPositionTask
-	FIELD f nextRunTime J
+CLASS net/minecraft/class_4220 net/minecraft/entity/ai/brain/task/GoToRandomMemorizedPositionTask
+	FIELD field_18871 nextRunTime J

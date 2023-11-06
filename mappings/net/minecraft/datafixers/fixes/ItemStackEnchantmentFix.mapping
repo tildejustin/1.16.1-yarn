@@ -1,2 +1,2 @@
-CLASS aco net/minecraft/datafixers/fixes/ItemStackEnchantmentFix
-	FIELD a ID_TO_ENCHANTMENTS_MAP Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+CLASS net/minecraft/class_1187 net/minecraft/datafixers/fixes/ItemStackEnchantmentFix
+	FIELD field_5681 ID_TO_ENCHANTMENTS_MAP Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

@@ -1,4 +1,4 @@
-CLASS auq net/minecraft/entity/mob/WitchEntity
-	FIELD bA DRINKING Lqg;
-	METHOD l isDrinking ()Z
-	METHOD s setDrinking (Z)V
+CLASS net/minecraft/class_1640 net/minecraft/entity/mob/WitchEntity
+	FIELD field_7419 DRINKING Lnet/minecraft/class_2940;
+	METHOD method_7193 isDrinking ()Z
+	METHOD method_7192 setDrinking (Z)V

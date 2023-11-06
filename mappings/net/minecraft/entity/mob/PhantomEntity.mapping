@@ -1,10 +1,10 @@
-CLASS aub net/minecraft/entity/mob/PhantomEntity
-	CLASS aub$a PhantomMovementType
-	CLASS aub$d PhantomBodyControl
-	CLASS aub$f PhantomLookControl
-	CLASS aub$g PhantomMoveControl
-	FIELD b SIZE Lqg;
-	FIELD bz movementType Laub$a;
-	METHOD a setPhantomSize (I)V
-	METHOD dO onSizeChanged ()V
-	METHOD l getPhantomSize ()I
+CLASS net/minecraft/class_1593 net/minecraft/entity/mob/PhantomEntity
+	CLASS net/minecraft/class_1593$class_1594 PhantomMovementType
+	CLASS net/minecraft/class_1593$class_1597 PhantomBodyControl
+	CLASS net/minecraft/class_1593$class_1599 PhantomLookControl
+	CLASS net/minecraft/class_1593$class_1600 PhantomMoveControl
+	FIELD field_7313 SIZE Lnet/minecraft/class_2940;
+	FIELD field_7315 movementType Lnet/minecraft/class_1593$class_1594;
+	METHOD method_7091 setPhantomSize (I)V
+	METHOD method_7097 onSizeChanged ()V
+	METHOD method_7084 getPhantomSize ()I

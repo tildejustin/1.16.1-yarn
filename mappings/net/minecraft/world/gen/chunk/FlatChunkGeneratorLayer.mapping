@@ -1,12 +1,12 @@
-CLASS cez net/minecraft/world/gen/chunk/FlatChunkGeneratorLayer
-	FIELD a blockState Lbuy;
-	FIELD b thickness I
-	FIELD c startY I
-	METHOD <init> (ILbma;)V
+CLASS net/minecraft/class_3229 net/minecraft/world/gen/chunk/FlatChunkGeneratorLayer
+	FIELD field_14026 blockState Lnet/minecraft/class_2680;
+	FIELD field_14028 thickness I
+	FIELD field_14027 startY I
+	METHOD <init> (ILnet/minecraft/class_2248;)V
 		ARG 1 thickness
 		ARG 2 block
-	METHOD a getThickness ()I
-	METHOD a setStartY (I)V
+	METHOD method_14289 getThickness ()I
+	METHOD method_14287 setStartY (I)V
 		ARG 1 startY
-	METHOD b getBlockState ()Lbuy;
-	METHOD c getStartY ()I
+	METHOD method_14286 getBlockState ()Lnet/minecraft/class_2680;
+	METHOD method_14288 getStartY ()I

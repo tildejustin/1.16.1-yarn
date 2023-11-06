@@ -1,21 +1,21 @@
-CLASS csj net/minecraft/scoreboard/ScoreboardPlayerScore
-	FIELD a COMPARATOR Ljava/util/Comparator;
-	FIELD b scoreboard Lcsk;
-	FIELD c objective Lcsh;
-	FIELD d playerName Ljava/lang/String;
-	FIELD e score I
-	FIELD f locked Z
-	FIELD g forceUpdate Z
-	METHOD <init> (Lcsk;Lcsh;Ljava/lang/String;)V
+CLASS net/minecraft/class_267 net/minecraft/scoreboard/ScoreboardPlayerScore
+	FIELD field_1413 COMPARATOR Ljava/util/Comparator;
+	FIELD field_1407 scoreboard Lnet/minecraft/class_269;
+	FIELD field_1412 objective Lnet/minecraft/class_266;
+	FIELD field_1409 playerName Ljava/lang/String;
+	FIELD field_1410 score I
+	FIELD field_1411 locked Z
+	FIELD field_1408 forceUpdate Z
+	METHOD <init> (Lnet/minecraft/class_269;Lnet/minecraft/class_266;Ljava/lang/String;)V
 		ARG 1 scoreboard
 		ARG 2 objective
-	METHOD a incrementScore ()V
-	METHOD a incrementScore (I)V
-	METHOD a setLocked (Z)V
-	METHOD b getScore ()I
-	METHOD c clearScore ()V
-	METHOD c setScore (I)V
-	METHOD d getObjective ()Lcsh;
-	METHOD e getPlayerName ()Ljava/lang/String;
-	METHOD f getScoreboard ()Lcsk;
-	METHOD g isLocked ()Z
+	METHOD method_1130 incrementScore ()V
+	METHOD method_1124 incrementScore (I)V
+	METHOD method_1125 setLocked (Z)V
+	METHOD method_1126 getScore ()I
+	METHOD method_1132 clearScore ()V
+	METHOD method_1128 setScore (I)V
+	METHOD method_1127 getObjective ()Lnet/minecraft/class_266;
+	METHOD method_1129 getPlayerName ()Ljava/lang/String;
+	METHOD method_1122 getScoreboard ()Lnet/minecraft/class_269;
+	METHOD method_1131 isLocked ()Z

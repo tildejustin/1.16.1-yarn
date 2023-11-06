@@ -1,3 +1,3 @@
-CLASS dig net/minecraft/client/particle/EmotionParticle
-	CLASS dig$a AngryVillagerFactory
-	CLASS dig$b HeartFactory
+CLASS net/minecraft/class_684 net/minecraft/client/particle/EmotionParticle
+	CLASS net/minecraft/class_684$class_685 AngryVillagerFactory
+	CLASS net/minecraft/class_684$class_686 HeartFactory

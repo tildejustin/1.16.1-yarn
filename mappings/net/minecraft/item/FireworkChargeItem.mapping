@@ -1,6 +1,6 @@
-CLASS bbc net/minecraft/item/FireworkChargeItem
-	METHOD a getColorTextComponent (I)Ljm;
+CLASS net/minecraft/class_1780 net/minecraft/item/FireworkChargeItem
+	METHOD method_7810 getColorTextComponent (I)Lnet/minecraft/class_2561;
 		ARG 0 colorRGB
-	METHOD a buildTooltip (Lib;Ljava/util/List;)V
-	METHOD a appendColorNames (Ljm;[I)Ljm;
+	METHOD method_7809 buildTooltip (Lnet/minecraft/class_2487;Ljava/util/List;)V
+	METHOD method_7811 appendColorNames (Lnet/minecraft/class_2561;[I)Lnet/minecraft/class_2561;
 		ARG 1 colors

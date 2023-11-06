@@ -1,4 +1,4 @@
-CLASS rl net/minecraft/server/dedicated/command/BanIpCommand
-	FIELD b INVALID_IP_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD c ALREADY_BANNED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3012 net/minecraft/server/dedicated/command/BanIpCommand
+	FIELD field_13468 INVALID_IP_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13467 ALREADY_BANNED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13008 register (Lcom/mojang/brigadier/CommandDispatcher;)V

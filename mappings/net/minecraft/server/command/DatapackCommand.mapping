@@ -1,10 +1,10 @@
-CLASS rr net/minecraft/server/command/DatapackCommand
-	FIELD a UNKNOWN_DATAPACK_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD b ALREADY_ENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD c ALREADY_DISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD e NAME_SUGGESTION Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-	METHOD a executeList (Lcd;)I
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-	METHOD a getPackContainer (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Z)Lwu;
-	METHOD b executeAvailable (Lcd;)I
-	METHOD c executeEnabled (Lcd;)I
+CLASS net/minecraft/class_3027 net/minecraft/server/command/DatapackCommand
+	FIELD field_13503 UNKNOWN_DATAPACK_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13504 ALREADY_ENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13505 ALREADY_DISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13502 NAME_SUGGESTION Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD method_13121 executeList (Lnet/minecraft/class_2168;)I
+	METHOD method_13125 register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD method_13127 getPackContainer (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Z)Lnet/minecraft/class_3288;
+	METHOD method_13128 executeAvailable (Lnet/minecraft/class_2168;)I
+	METHOD method_13126 executeEnabled (Lnet/minecraft/class_2168;)I

@@ -1,4 +1,4 @@
-CLASS xe net/minecraft/resource/SupplyingResourceReloadListener
-	METHOD a apply (Ljava/lang/Object;Lxc;Lafy;)V
+CLASS net/minecraft/class_4080 net/minecraft/resource/SupplyingResourceReloadListener
+	METHOD method_18788 apply (Ljava/lang/Object;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V
 		ARG 1 result
-	METHOD a load (Lxc;Lafy;)Ljava/lang/Object;
+	METHOD method_18789 load (Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)Ljava/lang/Object;

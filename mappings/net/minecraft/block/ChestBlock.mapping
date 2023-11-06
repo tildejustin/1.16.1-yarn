@@ -1,29 +1,29 @@
-CLASS bmp net/minecraft/block/ChestBlock
+CLASS net/minecraft/class_2281 net/minecraft/block/ChestBlock
 	CLASS bmp$2
 		CLASS bmp$2$1
 			METHOD createMenu (ILavl;Lavm;)Laxq;
 				ARG 1 syncId
-	CLASS bmp$a PropertyRetriever
-		METHOD b getFromSingleChest (Lbtf;)Ljava/lang/Object;
-		METHOD b getFromDoubleChest (Lbtf;Lbtf;)Ljava/lang/Object;
-	FIELD a FACING Lbvt;
-	FIELD b CHEST_TYPE Lbvw;
-	FIELD c WATERLOGGED Lbvq;
-	FIELD d DOUBLE_NORTH_SHAPE Lcse;
-	FIELD e DOUBLE_SOUTH_SHAPE Lcse;
-	FIELD f DOUBLE_WEST_SHAPE Lcse;
-	FIELD g DOUBLE_EAST_SHAPE Lcse;
-	FIELD h SINGLE_SHAPE Lcse;
-	FIELD i INVENTORY_RETRIEVER Lbmp$a;
-	FIELD j NAME_RETRIEVER Lbmp$a;
-	METHOD <init> (Lbma$c;)V
+	CLASS net/minecraft/class_2281$class_3923 PropertyRetriever
+		METHOD method_17464 getFromSingleChest (Lnet/minecraft/class_2595;)Ljava/lang/Object;
+		METHOD method_17465 getFromDoubleChest (Lnet/minecraft/class_2595;Lnet/minecraft/class_2595;)Ljava/lang/Object;
+	FIELD field_10768 FACING Lnet/minecraft/class_2753;
+	FIELD field_10770 CHEST_TYPE Lnet/minecraft/class_2754;
+	FIELD field_10772 WATERLOGGED Lnet/minecraft/class_2746;
+	FIELD field_10767 DOUBLE_NORTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_10771 DOUBLE_SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_10773 DOUBLE_WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_10769 DOUBLE_EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_10774 SINGLE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17356 INVENTORY_RETRIEVER Lnet/minecraft/class_2281$class_3923;
+	FIELD field_17357 NAME_RETRIEVER Lnet/minecraft/class_2281$class_3923;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a getNeighborChestDirection (Lazt;Lfa;)Lfa;
-	METHOD a hasBlockOnTop (Lbgi;Lev;)Z
-	METHOD a isChestBlocked (Lbgy;Lev;)Z
-	METHOD a getInventory (Lbuy;Lbgx;Lev;Z)Lagn;
-	METHOD a retrieve (Lbuy;Lbgy;Lev;ZLbmp$a;)Ljava/lang/Object;
-	METHOD b hasOcelotOnTop (Lbgy;Lev;)Z
-	METHOD d getOpenStat ()Lyo;
-	METHOD j getFacing (Lbuy;)Lfa;
+	METHOD method_9753 getNeighborChestDirection (Lnet/minecraft/class_1750;Lnet/minecraft/class_2350;)Lnet/minecraft/class_2350;
+	METHOD method_9757 hasBlockOnTop (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z
+	METHOD method_9756 isChestBlocked (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)Z
+	METHOD method_17458 getInventory (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Z)Lnet/minecraft/class_1263;
+	METHOD method_17459 retrieve (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;ZLnet/minecraft/class_2281$class_3923;)Ljava/lang/Object;
+	METHOD method_9754 hasOcelotOnTop (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)Z
+	METHOD method_9755 getOpenStat ()Lnet/minecraft/class_3445;
+	METHOD method_9758 getFacing (Lnet/minecraft/class_2680;)Lnet/minecraft/class_2350;
 		ARG 0 state

@@ -1,26 +1,26 @@
-CLASS dpd net/minecraft/client/render/entity/EntityRenderer
-	FIELD a SHADOW_TEX Lqr;
-	FIELD b renderManager Ldpc;
-	FIELD e renderOutlines Z
-	METHOD a hasSecondPass ()Z
-	METHOD a getTexture (Lahz;)Lqr;
-	METHOD a renderEntityOnFire (Lahz;DDDF)V
+CLASS net/minecraft/class_897 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_4675 SHADOW_TEX Lnet/minecraft/class_2960;
+	FIELD field_4676 renderManager Lnet/minecraft/class_898;
+	FIELD field_4674 renderOutlines Z
+	METHOD method_16894 hasSecondPass ()Z
+	METHOD method_3931 getTexture (Lnet/minecraft/class_1297;)Lnet/minecraft/class_2960;
+	METHOD method_3938 renderEntityOnFire (Lnet/minecraft/class_1297;DDDF)V
 		ARG 2 x
 		ARG 4 y
-	METHOD a render (Lahz;DDDFF)V
-	METHOD a isVisible (Lahz;Ldnh;DDD)Z
-	METHOD a renderEntityLabel (Lahz;Ljava/lang/String;DDDI)V
+	METHOD method_3936 render (Lnet/minecraft/class_1297;DDDFF)V
+	METHOD method_3933 isVisible (Lnet/minecraft/class_1297;Lnet/minecraft/class_856;DDD)Z
+	METHOD method_3923 renderEntityLabel (Lnet/minecraft/class_1297;Ljava/lang/String;DDDI)V
 		ARG 1 entity
 		ARG 2 text
-	METHOD a projectShadow (Lbuy;Lbha;Lev;DDDLev;FFDDD)V
-	METHOD a renderBox (Lcrf;DDD)V
-	METHOD a bindTexture (Lqr;)V
-	METHOD a setRenderOutlines (Z)V
-	METHOD b getFontRenderer ()Lcvp;
-	METHOD b renderSecondPass (Lahz;DDDFF)V
-	METHOD c getRenderManager ()Ldpc;
-	METHOD c getOutlineColor (Lahz;)I
-	METHOD c postRender (Lahz;DDDFF)V
-	METHOD d bindEntityTexture (Lahz;)Z
-	METHOD d renderShadow (Lahz;DDDFF)V
-	METHOD e applyLightmapCoordinates (Lahz;)V
+	METHOD method_3928 projectShadow (Lnet/minecraft/class_2680;Lnet/minecraft/class_1941;Lnet/minecraft/class_2338;DDDLnet/minecraft/class_2338;FFDDD)V
+	METHOD method_3922 renderBox (Lnet/minecraft/class_238;DDD)V
+	METHOD method_3924 bindTexture (Lnet/minecraft/class_2960;)V
+	METHOD method_3927 setRenderOutlines (Z)V
+	METHOD method_3932 getFontRenderer ()Lnet/minecraft/class_327;
+	METHOD method_3937 renderSecondPass (Lnet/minecraft/class_1297;DDDFF)V
+	METHOD method_3940 getRenderManager ()Lnet/minecraft/class_898;
+	METHOD method_3929 getOutlineColor (Lnet/minecraft/class_1297;)I
+	METHOD method_3939 postRender (Lnet/minecraft/class_1297;DDDFF)V
+	METHOD method_3925 bindEntityTexture (Lnet/minecraft/class_1297;)Z
+	METHOD method_3934 renderShadow (Lnet/minecraft/class_1297;DDDFF)V
+	METHOD method_17146 applyLightmapCoordinates (Lnet/minecraft/class_1297;)V

@@ -1,15 +1,15 @@
-CLASS bea net/minecraft/recipe/RecipeManager
-	FIELD a PREFIX_LENGTH I
-	FIELD b SUFFIX_LENGTH I
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d recipeMap Ljava/util/Map;
-	FIELD e hadErrors Z
-	METHOD a add (Lbdz;)V
-	METHOD a get (Lbec;Lagn;Lbgx;)Ljava/util/Optional;
-	METHOD a get (Lqr;)Ljava/util/Optional;
-	METHOD a deserialize (Lqr;Lcom/google/gson/JsonObject;)Lbdz;
+CLASS net/minecraft/class_1863 net/minecraft/recipe/RecipeManager
+	FIELD field_9026 PREFIX_LENGTH I
+	FIELD field_9025 SUFFIX_LENGTH I
+	FIELD field_9027 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_9023 recipeMap Ljava/util/Map;
+	FIELD field_9024 hadErrors Z
+	METHOD method_8125 add (Lnet/minecraft/class_1860;)V
+	METHOD method_8132 get (Lnet/minecraft/class_3956;Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Ljava/util/Optional;
+	METHOD method_8130 get (Lnet/minecraft/class_2960;)Ljava/util/Optional;
+	METHOD method_17720 deserialize (Lnet/minecraft/class_2960;Lcom/google/gson/JsonObject;)Lnet/minecraft/class_1860;
 		ARG 0 id
 		ARG 1 json
-	METHOD b values ()Ljava/util/Collection;
-	METHOD c keys ()Ljava/util/stream/Stream;
-	METHOD d clear ()V
+	METHOD method_8126 values ()Ljava/util/Collection;
+	METHOD method_8127 keys ()Ljava/util/stream/Stream;
+	METHOD method_8133 clear ()V

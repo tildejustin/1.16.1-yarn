@@ -1,11 +1,11 @@
-CLASS aic net/minecraft/predicate/entity/EntityPredicates
-	CLASS aic$a CanPickup
-		FIELD a itemstack Lbbp;
-	FIELD a VALID_ENTITY Ljava/util/function/Predicate;
-	FIELD b VALID_ENTITY_LIVING Ljava/util/function/Predicate;
-	FIELD c NOT_MOUNTED Ljava/util/function/Predicate;
-	FIELD d VALID_INVENTORIES Ljava/util/function/Predicate;
-	FIELD e EXCEPT_CREATIVE_OR_SPECTATOR Ljava/util/function/Predicate;
-	FIELD f EXCEPT_SPECTATOR Ljava/util/function/Predicate;
-	METHOD a maximumDistance (DDDD)Ljava/util/function/Predicate;
+CLASS net/minecraft/class_1301 net/minecraft/predicate/entity/EntityPredicates
+	CLASS net/minecraft/class_1301$class_1302 CanPickup
+		FIELD field_6158 itemstack Lnet/minecraft/class_1799;
+	FIELD field_6154 VALID_ENTITY Ljava/util/function/Predicate;
+	FIELD field_6157 VALID_ENTITY_LIVING Ljava/util/function/Predicate;
+	FIELD field_6153 NOT_MOUNTED Ljava/util/function/Predicate;
+	FIELD field_6152 VALID_INVENTORIES Ljava/util/function/Predicate;
+	FIELD field_6156 EXCEPT_CREATIVE_OR_SPECTATOR Ljava/util/function/Predicate;
+	FIELD field_6155 EXCEPT_SPECTATOR Ljava/util/function/Predicate;
+	METHOD method_5909 maximumDistance (DDDD)Ljava/util/function/Predicate;
 		ARG 0 x

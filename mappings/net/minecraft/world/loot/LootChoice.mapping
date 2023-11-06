@@ -1,4 +1,4 @@
-CLASS cor net/minecraft/world/loot/LootChoice
-	METHOD a getWeight (F)I
-	METHOD a drop (Ljava/util/function/Consumer;Lcnz;)V
+CLASS net/minecraft/class_82 net/minecraft/world/loot/LootChoice
+	METHOD method_427 getWeight (F)I
+	METHOD method_426 drop (Ljava/util/function/Consumer;Lnet/minecraft/class_47;)V
 		ARG 1 consumer

@@ -1,8 +1,8 @@
-CLASS cyi net/minecraft/client/gui/menu/ServerConnectingScreen
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c connection Lja;
-	FIELD e parent Lczn;
-	FIELD f status Ljm;
-	METHOD <init> (Lczn;Lcux;Ldhk;)V
+CLASS net/minecraft/class_412 net/minecraft/client/gui/menu/ServerConnectingScreen
+	FIELD field_2410 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_2411 connection Lnet/minecraft/class_2535;
+	FIELD field_2412 parent Lnet/minecraft/class_437;
+	FIELD field_2413 status Lnet/minecraft/class_2561;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_310;Lnet/minecraft/class_642;)V
 		ARG 1 parent
-	METHOD a setStatus (Ljm;)V
+	METHOD method_2131 setStatus (Lnet/minecraft/class_2561;)V

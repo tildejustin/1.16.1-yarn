@@ -1,18 +1,18 @@
-CLASS qr net/minecraft/util/Identifier
-	CLASS qr$a DeSerializer
-	FIELD a namespace Ljava/lang/String;
-	FIELD b path Ljava/lang/String;
-	FIELD c EXCEPTION_INVALID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a getPath ()Ljava/lang/String;
-	METHOD a isValidChar (C)Z
+CLASS net/minecraft/class_2960 net/minecraft/util/Identifier
+	CLASS net/minecraft/class_2960$class_2961 DeSerializer
+	FIELD field_13353 namespace Ljava/lang/String;
+	FIELD field_13355 path Ljava/lang/String;
+	FIELD field_13354 EXCEPTION_INVALID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_12832 getPath ()Ljava/lang/String;
+	METHOD method_12831 isValidChar (C)Z
 		ARG 0 chr
-	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lqr;
-	METHOD a create (Ljava/lang/String;)Lqr;
+	METHOD method_12835 parse (Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/class_2960;
+	METHOD method_12829 create (Ljava/lang/String;)Lnet/minecraft/class_2960;
 		ARG 0 s
-	METHOD a createSplit (Ljava/lang/String;C)Lqr;
+	METHOD method_12838 createSplit (Ljava/lang/String;C)Lnet/minecraft/class_2960;
 		ARG 0 str
 		ARG 1 chr
-	METHOD b getNamespace ()Ljava/lang/String;
-	METHOD b split (Ljava/lang/String;C)[Ljava/lang/String;
+	METHOD method_12836 getNamespace ()Ljava/lang/String;
+	METHOD method_12830 split (Ljava/lang/String;C)LLjava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

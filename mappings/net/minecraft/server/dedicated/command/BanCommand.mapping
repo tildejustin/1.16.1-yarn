@@ -1,3 +1,3 @@
-CLASS rn net/minecraft/server/dedicated/command/BanCommand
-	FIELD a ALREADY_BANNED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3016 net/minecraft/server/dedicated/command/BanCommand
+	FIELD field_13473 ALREADY_BANNED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13021 register (Lcom/mojang/brigadier/CommandDispatcher;)V

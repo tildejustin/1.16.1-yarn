@@ -1,16 +1,16 @@
-CLASS aom net/minecraft/entity/ai/goal/TrackTargetGoal
-	FIELD a checkCanNavigate Z
-	FIELD b canNavigateFlag I
-	FIELD c checkCanNavigateCooldown I
-	FIELD d timeWithoutVisibility I
-	FIELD e entity Laij;
-	FIELD f checkVisibility Z
-	FIELD g target Laii;
-	FIELD h maxTimeWithoutVisibility I
-	METHOD <init> (Laij;ZZ)V
+CLASS net/minecraft/class_1405 net/minecraft/entity/ai/goal/TrackTargetGoal
+	FIELD field_6663 checkCanNavigate Z
+	FIELD field_6662 canNavigateFlag I
+	FIELD field_6661 checkCanNavigateCooldown I
+	FIELD field_6659 timeWithoutVisibility I
+	FIELD field_6660 entity Lnet/minecraft/class_1308;
+	FIELD field_6658 checkVisibility Z
+	FIELD field_6664 target Lnet/minecraft/class_1309;
+	FIELD field_6657 maxTimeWithoutVisibility I
+	METHOD <init> (Lnet/minecraft/class_1308;ZZ)V
 		ARG 2 checkVisibility
-	METHOD a setMaxTimeWithoutVisibility (I)Laom;
-	METHOD a canNavigateToEntity (Laii;)Z
-	METHOD a canTrack (Laii;Lapp;)Z
+	METHOD method_6330 setMaxTimeWithoutVisibility (I)Lnet/minecraft/class_1405;
+	METHOD method_6329 canNavigateToEntity (Lnet/minecraft/class_1309;)Z
+	METHOD method_6328 canTrack (Lnet/minecraft/class_1309;Lnet/minecraft/class_4051;)Z
 		ARG 1 target
-	METHOD k getFollowRange ()D
+	METHOD method_6326 getFollowRange ()D

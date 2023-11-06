@@ -1,9 +1,9 @@
-CLASS dvx net/minecraft/client/util/ModelIdentifier
-	FIELD c variant Ljava/lang/String;
-	METHOD <init> (Lqr;Ljava/lang/String;)V
+CLASS net/minecraft/class_1091 net/minecraft/client/util/ModelIdentifier
+	FIELD field_5406 variant Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_2960;Ljava/lang/String;)V
 		ARG 1 id
-	METHOD c getVariant ()Ljava/lang/String;
-	METHOD c splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_4740 getVariant ()Ljava/lang/String;
+	METHOD method_4741 splitWithVariant (Ljava/lang/String;)LLjava/lang/String;
 		ARG 0 str
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

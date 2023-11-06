@@ -1,19 +1,19 @@
-CLASS aqi net/minecraft/entity/passive/CatEntity
-	CLASS aqi$a CatFleeGoal
-		FIELD i entity Laqi;
-	CLASS aqi$b SleepWithOwnerGoal
-		FIELD a entity Laqi;
-		FIELD b owner Lavm;
-	CLASS aqi$c CatTemptGoal
-	FIELD bD TEXTURES Ljava/util/Map;
-	FIELD bE TAMING_INGREDIENT Lbdw;
-	FIELD bF CAT_TYPE Lqg;
-	FIELD bG SHOULD_PURR Lqg;
-	FIELD bI COLLAR_COLOR Lqg;
-	FIELD bJ fleeGoal Laqi$a;
-	METHOD a setCollarColor (Lbam;)V
-	METHOD dZ getOcelotType ()I
-	METHOD ea shouldPurr ()Z
-	METHOD ec getCollarColor ()Lbam;
-	METHOD r getOcelotType (I)V
-	METHOD u setShouldPurr (Z)V
+CLASS net/minecraft/class_1451 net/minecraft/entity/passive/CatEntity
+	CLASS net/minecraft/class_1451$class_3698 CatFleeGoal
+		FIELD field_16293 entity Lnet/minecraft/class_1451;
+	CLASS net/minecraft/class_1451$class_3699 SleepWithOwnerGoal
+		FIELD field_16297 entity Lnet/minecraft/class_1451;
+		FIELD field_16295 owner Lnet/minecraft/class_1657;
+	CLASS net/minecraft/class_1451$class_3700 CatTemptGoal
+	FIELD field_16283 TEXTURES Ljava/util/Map;
+	FIELD field_6809 TAMING_INGREDIENT Lnet/minecraft/class_1856;
+	FIELD field_6811 CAT_TYPE Lnet/minecraft/class_2940;
+	FIELD field_16284 SHOULD_PURR Lnet/minecraft/class_2940;
+	FIELD field_16285 COLLAR_COLOR Lnet/minecraft/class_2940;
+	FIELD field_6808 fleeGoal Lnet/minecraft/class_1451$class_3698;
+	METHOD method_16094 setCollarColor (Lnet/minecraft/class_1767;)V
+	METHOD method_6571 getOcelotType ()I
+	METHOD method_16086 shouldPurr ()Z
+	METHOD method_16096 getCollarColor ()Lnet/minecraft/class_1767;
+	METHOD method_6572 getOcelotType (I)V
+	METHOD method_16088 setShouldPurr (Z)V

@@ -1,7 +1,7 @@
-CLASS atm net/minecraft/entity/CrossbowUser
-	METHOD a shoot (Laii;Lbbp;Lawb;F)V
+CLASS net/minecraft/class_3745 net/minecraft/entity/CrossbowUser
+	METHOD method_18811 shoot (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1676;F)V
 		ARG 1 target
 		ARG 3 projectile
-	METHOD a setCharging (Z)V
+	METHOD method_7110 setCharging (Z)V
 		ARG 1 charging
-	METHOD w getTarget ()Laii;
+	METHOD method_5968 getTarget ()Lnet/minecraft/class_1309;

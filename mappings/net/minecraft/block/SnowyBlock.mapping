@@ -1,4 +1,4 @@
-CLASS brb net/minecraft/block/SnowyBlock
-	FIELD a SNOWY Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2493 net/minecraft/block/SnowyBlock
+	FIELD field_11522 SNOWY Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

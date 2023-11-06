@@ -1,18 +1,18 @@
-CLASS be net/minecraft/advancement/criterion/OnKilledCriterion
-	CLASS be$a Handler
-		FIELD a manager Lra;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a handle (Lvf;Lahz;Lahi;)V
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS be$b Conditions
-		FIELD a entity Lav;
-		FIELD b killingBlow Lam;
-		METHOD a createKill (Lav$a;)Lbe$b;
-		METHOD a test (Lvf;Lahz;Lahi;)Z
-	FIELD a handlers Ljava/util/Map;
-	FIELD b id Lqr;
-	METHOD a handle (Lvf;Lahz;Lahi;)V
+CLASS net/minecraft/class_2080 net/minecraft/advancement/criterion/OnKilledCriterion
+	CLASS net/minecraft/class_2080$class_2082 Handler
+		FIELD field_9666 manager Lnet/minecraft/class_2985;
+		FIELD field_9665 conditions Ljava/util/Set;
+		METHOD method_8995 isEmpty ()Z
+		METHOD method_8994 handle (Lnet/minecraft/class_3222;Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;)V
+		METHOD method_8993 addCondition (Lnet/minecraft/class_179$class_180;)V
+		METHOD method_8996 removeCondition (Lnet/minecraft/class_179$class_180;)V
+	CLASS net/minecraft/class_2080$class_2083 Conditions
+		FIELD field_9668 entity Lnet/minecraft/class_2048;
+		FIELD field_9667 killingBlow Lnet/minecraft/class_2022;
+		METHOD method_8997 createKill (Lnet/minecraft/class_2048$class_2049;)Lnet/minecraft/class_2080$class_2083;
+		METHOD method_9000 test (Lnet/minecraft/class_3222;Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;)Z
+	FIELD field_9662 handlers Ljava/util/Map;
+	FIELD field_9661 id Lnet/minecraft/class_2960;
+	METHOD method_8990 handle (Lnet/minecraft/class_3222;Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;)V
 		ARG 1 player
 		ARG 2 entity

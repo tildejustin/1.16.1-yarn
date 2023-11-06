@@ -1,9 +1,9 @@
-CLASS ays net/minecraft/village/TraderInventory
-	FIELD a trader Lbga;
-	FIELD b inventory Lfj;
-	FIELD c traderRecipe Lbgb;
-	FIELD d recipeIndex I
-	METHOD c setRecipeIndex (I)V
-	METHOD d needRecipeUpdate (I)Z
-	METHOD f updateRecipes ()V
-	METHOD g getVillagerRecipe ()Lbgb;
+CLASS net/minecraft/class_1725 net/minecraft/village/TraderInventory
+	FIELD field_7844 trader Lnet/minecraft/class_1915;
+	FIELD field_7845 inventory Lnet/minecraft/class_2371;
+	FIELD field_7843 traderRecipe Lnet/minecraft/class_1914;
+	FIELD field_7842 recipeIndex I
+	METHOD method_7643 setRecipeIndex (I)V
+	METHOD method_7644 needRecipeUpdate (I)Z
+	METHOD method_7645 updateRecipes ()V
+	METHOD method_7642 getVillagerRecipe ()Lnet/minecraft/class_1914;

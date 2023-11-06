@@ -1,2 +1,2 @@
-CLASS aoa net/minecraft/entity/ai/goal/WanderAroundFarGoal
-	FIELD h farWanderProbability F
+CLASS net/minecraft/class_1394 net/minecraft/entity/ai/goal/WanderAroundFarGoal
+	FIELD field_6626 farWanderProbability F

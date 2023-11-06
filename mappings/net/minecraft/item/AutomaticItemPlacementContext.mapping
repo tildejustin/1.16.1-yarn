@@ -1,2 +1,2 @@
-CLASS bak net/minecraft/item/AutomaticItemPlacementContext
-	FIELD f direction Lfa;
+CLASS net/minecraft/class_2968 net/minecraft/item/AutomaticItemPlacementContext
+	FIELD field_13362 direction Lnet/minecraft/class_2350;

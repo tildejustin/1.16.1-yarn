@@ -1,46 +1,46 @@
-CLASS byf net/minecraft/world/gen/Heightmap
-	CLASS byf$a Type
-		FIELD a WORLD_SURFACE_WG Lbyf$a;
-		FIELD b WORLD_SURFACE Lbyf$a;
-		FIELD c OCEAN_FLOOR_WG Lbyf$a;
-		FIELD d OCEAN_FLOOR Lbyf$a;
-		FIELD e MOTION_BLOCKING Lbyf$a;
-		FIELD f MOTION_BLOCKING_NO_LEAVES Lbyf$a;
-		FIELD g name Ljava/lang/String;
-		FIELD i blockPredicate Ljava/util/function/Predicate;
-		FIELD j BY_NAME Ljava/util/Map;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lbyf$b;Ljava/util/function/Predicate;)V
+CLASS net/minecraft/class_2902 net/minecraft/world/gen/Heightmap
+	CLASS net/minecraft/class_2902$class_2903 Type
+		FIELD field_13194 WORLD_SURFACE_WG Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13202 WORLD_SURFACE Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13195 OCEAN_FLOOR_WG Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13200 OCEAN_FLOOR Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13197 MOTION_BLOCKING Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13203 MOTION_BLOCKING_NO_LEAVES Lnet/minecraft/class_2902$class_2903;
+		FIELD field_13204 name Ljava/lang/String;
+		FIELD field_16568 blockPredicate Ljava/util/function/Predicate;
+		FIELD field_13205 BY_NAME Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lnet/minecraft/class_2902$class_2904;Ljava/util/function/Predicate;)V
 			ARG 3 name
-		METHOD a getName ()Ljava/lang/String;
-		METHOD a byName (Ljava/lang/String;)Lbyf$a;
+		METHOD method_12605 getName ()Ljava/lang/String;
+		METHOD method_12609 byName (Ljava/lang/String;)Lnet/minecraft/class_2902$class_2903;
 			ARG 0 name
-		METHOD c getBlockPredicate ()Ljava/util/function/Predicate;
-	FIELD a ALWAYS_TRUE Ljava/util/function/Predicate;
-	FIELD b SUFFOCATES Ljava/util/function/Predicate;
-	FIELD c storage Lzd;
-	FIELD d blockPredicate Ljava/util/function/Predicate;
-	FIELD e chunk Lbwm;
-	METHOD <init> (Lbwm;Lbyf$a;)V
+		METHOD method_16402 getBlockPredicate ()Ljava/util/function/Predicate;
+	FIELD field_16744 ALWAYS_TRUE Ljava/util/function/Predicate;
+	FIELD field_16745 SUFFOCATES Ljava/util/function/Predicate;
+	FIELD field_13192 storage Lnet/minecraft/class_3508;
+	FIELD field_13193 blockPredicate Ljava/util/function/Predicate;
+	FIELD field_13191 chunk Lnet/minecraft/class_2791;
+	METHOD <init> (Lnet/minecraft/class_2791;Lnet/minecraft/class_2902$class_2903;)V
 		ARG 2 type
-	METHOD a asLongArray ()[J
-	METHOD a get (I)I
+	METHOD method_12598 asLongArray ()[J
+	METHOD method_12601 get (I)I
 		ARG 1 index
-	METHOD a get (II)I
+	METHOD method_12603 get (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a set (III)V
+	METHOD method_12602 set (III)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 height
-	METHOD a trackUpdate (IIILbuy;)Z
+	METHOD method_12597 trackUpdate (IIILnet/minecraft/class_2680;)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 state
-	METHOD a populateHeightmaps (Lbwm;Ljava/util/Set;)V
+	METHOD method_16684 populateHeightmaps (Lnet/minecraft/class_2791;Ljava/util/Set;)V
 		ARG 1 types
-	METHOD a setTo ([J)V
+	METHOD method_12600 setTo ([J)V
 		ARG 1 heightmap
-	METHOD c toIndex (II)I
+	METHOD method_12595 toIndex (II)I
 		ARG 0 x
 		ARG 1 z

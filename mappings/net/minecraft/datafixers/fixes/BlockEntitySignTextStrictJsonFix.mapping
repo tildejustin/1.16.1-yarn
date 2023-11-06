@@ -1,2 +1,2 @@
-CLASS aao net/minecraft/datafixers/fixes/BlockEntitySignTextStrictJsonFix
-	FIELD a GSON Lcom/google/gson/Gson;
+CLASS net/minecraft/class_3577 net/minecraft/datafixers/fixes/BlockEntitySignTextStrictJsonFix
+	FIELD field_15827 GSON Lcom/google/gson/Gson;

@@ -1,36 +1,36 @@
-CLASS czr net/minecraft/client/gui/MainMenuScreen
-	FIELD A doBackgroundFade Z
-	FIELD B backgroundFadeStart J
-	FIELD a panoramaCubeMap Ldjz;
-	FIELD b OUTDATED_GL_TEXT Ljava/lang/String;
-	FIELD c panoramaOverlay Lqr;
-	FIELD f splashText Ljava/lang/String;
-	FIELD g buttonOptions Lcwc;
-	FIELD h buttonResetDemo Lcwc;
-	FIELD j mutex Ljava/lang/Object;
-	FIELD k warningTextWidth I
-	FIELD l warningTitleWidth I
-	FIELD m warningAlignLeft I
-	FIELD n warningAlignTop I
-	FIELD o warningAlignRight I
-	FIELD p warningAlignBottom I
-	FIELD q warningTitle Ljava/lang/String;
-	FIELD r warningText Ljava/lang/String;
-	FIELD s warningLink Ljava/lang/String;
-	FIELD t MINECRAFT_TITLE_TEXTURE Lqr;
-	FIELD u EDITION_TITLE_TEXTURE Lqr;
-	FIELD v realmsNotificationsInitialized Z
-	FIELD w realmsNotificationGui Lczn;
-	FIELD x copyrightTextWidth I
-	FIELD y copyrightTextX I
-	FIELD z backgroundRenderer Ldkm;
+CLASS net/minecraft/class_442 net/minecraft/client/gui/MainMenuScreen
+	FIELD field_18222 doBackgroundFade Z
+	FIELD field_17772 backgroundFadeStart J
+	FIELD field_17774 panoramaCubeMap Lnet/minecraft/class_751;
+	FIELD field_2587 OUTDATED_GL_TEXT Ljava/lang/String;
+	FIELD field_17775 panoramaOverlay Lnet/minecraft/class_2960;
+	FIELD field_2586 splashText Ljava/lang/String;
+	FIELD field_2602 buttonOptions Lnet/minecraft/class_4185;
+	FIELD field_2590 buttonResetDemo Lnet/minecraft/class_4185;
+	FIELD field_2603 mutex Ljava/lang/Object;
+	FIELD field_2600 warningTextWidth I
+	FIELD field_2598 warningTitleWidth I
+	FIELD field_2597 warningAlignLeft I
+	FIELD field_2596 warningAlignTop I
+	FIELD field_2595 warningAlignRight I
+	FIELD field_2593 warningAlignBottom I
+	FIELD field_2601 warningTitle Ljava/lang/String;
+	FIELD field_2589 warningText Ljava/lang/String;
+	FIELD field_2604 warningLink Ljava/lang/String;
+	FIELD field_2583 MINECRAFT_TITLE_TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_2594 EDITION_TITLE_TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_2599 realmsNotificationsInitialized Z
+	FIELD field_2592 realmsNotificationGui Lnet/minecraft/class_437;
+	FIELD field_2584 copyrightTextWidth I
+	FIELD field_2606 copyrightTextX I
+	FIELD field_2585 backgroundRenderer Lnet/minecraft/class_766;
 	METHOD <init> (Z)V
 		ARG 1 doBackgroundFade
-	METHOD a areRealmsNotificationsEnabled ()Z
-	METHOD a initWidgetsNormal (II)V
+	METHOD method_2253 areRealmsNotificationsEnabled ()Z
+	METHOD method_2249 initWidgetsNormal (II)V
 		ARG 1 y
 		ARG 2 spacingY
-	METHOD b switchToRealms ()V
-	METHOD b initWidgetsDemo (II)V
+	METHOD method_2252 switchToRealms ()V
+	METHOD method_2251 initWidgetsDemo (II)V
 	METHOD confirmResult (ZI)V
 		ARG 1 result

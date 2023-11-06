@@ -1,9 +1,9 @@
-CLASS chk net/minecraft/structure/generator/JungleTempleGenerator
+CLASS net/minecraft/class_3348 net/minecraft/structure/generator/JungleTempleGenerator
 	CLASS chk$a
 		METHOD a (Ljava/util/Random;IIIZ)V
 			ARG 1 random
 			ARG 2 x
-	FIELD e placedMainChest Z
-	FIELD f placedHiddenChest Z
-	FIELD g placedTrap1 Z
-	FIELD h placedTrap2 Z
+	FIELD field_14402 placedMainChest Z
+	FIELD field_14401 placedHiddenChest Z
+	FIELD field_14400 placedTrap1 Z
+	FIELD field_14399 placedTrap2 Z

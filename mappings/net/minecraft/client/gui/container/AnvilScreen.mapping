@@ -1,4 +1,4 @@
-CLASS daj net/minecraft/client/gui/container/AnvilScreen
-	FIELD k BG_TEX Lqr;
-	FIELD l nameField Lcwh;
-	METHOD a onRenamed (Ljava/lang/String;)V
+CLASS net/minecraft/class_471 net/minecraft/client/gui/container/AnvilScreen
+	FIELD field_2819 BG_TEX Lnet/minecraft/class_2960;
+	FIELD field_2821 nameField Lnet/minecraft/class_342;
+	METHOD method_2403 onRenamed (Ljava/lang/String;)V

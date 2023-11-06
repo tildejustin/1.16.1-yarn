@@ -1,6 +1,6 @@
-CLASS coq net/minecraft/world/loot/entry/LootEntries
-	CLASS coq$a Serializer
-		METHOD a getSerializer (Ljava/lang/Class;)Lcos$b;
-	FIELD a idSerializers Ljava/util/Map;
-	FIELD b classSerializers Ljava/util/Map;
-	METHOD a register (Lcos$b;)V
+CLASS net/minecraft/class_75 net/minecraft/world/loot/entry/LootEntries
+	CLASS net/minecraft/class_75$class_76 Serializer
+		METHOD method_406 getSerializer (Ljava/lang/Class;)Lnet/minecraft/class_79$class_81;
+	FIELD field_985 idSerializers Ljava/util/Map;
+	FIELD field_986 classSerializers Ljava/util/Map;
+	METHOD method_403 register (Lnet/minecraft/class_79$class_81;)V

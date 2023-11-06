@@ -1,6 +1,6 @@
-CLASS dio net/minecraft/client/particle/NoteParticle
-	CLASS dio$a Factory
-	METHOD <init> (Lbgx;DDDD)V
+CLASS net/minecraft/class_698 net/minecraft/client/particle/NoteParticle
+	CLASS net/minecraft/class_698$class_699 Factory
+	METHOD <init> (Lnet/minecraft/class_1937;DDDD)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y

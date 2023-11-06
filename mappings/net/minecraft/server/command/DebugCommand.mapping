@@ -1,4 +1,4 @@
-CLASS rt net/minecraft/server/command/DebugCommand
-	FIELD a NORUNNING_EXCPETION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD b ALREADYRUNNING_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3032 net/minecraft/server/command/DebugCommand
+	FIELD field_13597 NORUNNING_EXCPETION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13596 ALREADYRUNNING_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13156 register (Lcom/mojang/brigadier/CommandDispatcher;)V

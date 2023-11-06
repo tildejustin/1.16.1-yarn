@@ -1,8 +1,8 @@
-CLASS ccc net/minecraft/world/gen/feature/DungeonFeature
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD aS MOB_SPAWNER_ENTITIES [Laid;
-	FIELD aT AIR Lbuy;
+CLASS net/minecraft/class_3103 net/minecraft/world/gen/feature/DungeonFeature
+	FIELD field_13700 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_13699 MOB_SPAWNER_ENTITIES LLaid;
+	FIELD field_13698 AIR Lnet/minecraft/class_2680;
 	METHOD <init> (Ljava/util/function/Function;)V
 		ARG 1 configFactory
-	METHOD a getMobSpawnerEntity (Ljava/util/Random;)Laid;
+	METHOD method_13547 getMobSpawnerEntity (Ljava/util/Random;)Lnet/minecraft/class_1299;
 		ARG 1 random

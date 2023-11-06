@@ -1,18 +1,18 @@
-CLASS cos net/minecraft/world/loot/entry/LootEntry
-	CLASS cos$a Builder
-		FIELD a children Ljava/util/List;
-		METHOD a withChild (Lcos$a;)Lcoi$a;
-		METHOD b build ()Lcos;
-		METHOD d getThisBuilder ()Lcos$a;
-		METHOD f getConditions ()[Lcqn;
-	CLASS cos$b Serializer
-		FIELD a id Lqr;
-		FIELD b type Ljava/lang/Class;
-		METHOD a getIdentifier ()Lqr;
-		METHOD a toJson (Lcom/google/gson/JsonObject;Lcos;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD b getType ()Ljava/lang/Class;
-		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqn;)Lcos;
-	FIELD c conditionPredicate Ljava/util/function/Predicate;
-	FIELD d conditions [Lcqn;
-	METHOD a test (Lcnz;)Z
-	METHOD a check (Lcod;Ljava/util/function/Function;Ljava/util/Set;Lcqa;)V
+CLASS net/minecraft/class_79 net/minecraft/world/loot/entry/LootEntry
+	CLASS net/minecraft/class_79$class_80 Builder
+		FIELD field_990 children Ljava/util/List;
+		METHOD method_417 withChild (Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_65$class_66;
+		METHOD method_419 build ()Lnet/minecraft/class_79;
+		METHOD method_418 getThisBuilder ()Lnet/minecraft/class_79$class_80;
+		METHOD method_420 getConditions ()LLcqn;
+	CLASS net/minecraft/class_79$class_81 Serializer
+		FIELD field_991 id Lnet/minecraft/class_2960;
+		FIELD field_992 type Ljava/lang/Class;
+		METHOD method_423 getIdentifier ()Lnet/minecraft/class_2960;
+		METHOD method_422 toJson (Lcom/google/gson/JsonObject;Lnet/minecraft/class_79;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD method_425 getType ()Ljava/lang/Class;
+		METHOD method_424 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lnet/minecraft/class_209;)Lnet/minecraft/class_79;
+	FIELD field_989 conditionPredicate Ljava/util/function/Predicate;
+	FIELD field_988 conditions LLcqn;
+	METHOD method_414 test (Lnet/minecraft/class_47;)Z
+	METHOD method_415 check (Lnet/minecraft/class_58;Ljava/util/function/Function;Ljava/util/Set;Lnet/minecraft/class_176;)V

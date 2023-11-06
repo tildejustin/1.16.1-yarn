@@ -1,2 +1,2 @@
-CLASS sj net/minecraft/server/command/KillCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3075 net/minecraft/server/command/KillCommand
+	METHOD method_13429 register (Lcom/mojang/brigadier/CommandDispatcher;)V

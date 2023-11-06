@@ -1,27 +1,27 @@
-CLASS ac net/minecraft/advancement/AdvancementPosition
-	FIELD a advancement Lq;
-	FIELD b parent Lac;
-	FIELD c previousSibling Lac;
-	FIELD d childrenSize I
-	FIELD e children Ljava/util/List;
-	FIELD f optionalLast Lac;
-	FIELD g substituteChild Lac;
-	FIELD h depth I
-	FIELD i row F
-	FIELD j relativeRowInSiblings F
-	METHOD a initRecursively ()V
-	METHOD a increaseRow (F)V
+CLASS net/minecraft/class_194 net/minecraft/advancement/AdvancementPosition
+	FIELD field_1263 advancement Lnet/minecraft/class_161;
+	FIELD field_1258 parent Lnet/minecraft/class_194;
+	FIELD field_1260 previousSibling Lnet/minecraft/class_194;
+	FIELD field_1261 childrenSize I
+	FIELD field_1267 children Ljava/util/List;
+	FIELD field_1262 optionalLast Lnet/minecraft/class_194;
+	FIELD field_1264 substituteChild Lnet/minecraft/class_194;
+	FIELD field_1259 depth I
+	FIELD field_1269 row F
+	FIELD field_1268 relativeRowInSiblings F
+	METHOD method_847 initRecursively ()V
+	METHOD method_843 increaseRow (F)V
 		ARG 1 deltaRow
-	METHOD a positMinRow (FIF)F
+	METHOD method_842 positMinRow (FIF)F
 		ARG 1 deltaRow
 		ARG 2 depth
 		ARG 3 minRow
-	METHOD a postInit (Lac;)Lac;
+	METHOD method_841 postInit (Lnet/minecraft/class_194;)Lnet/minecraft/class_194;
 		ARG 1 last
-	METHOD a getLast (Lac;Lac;)Lac;
-	METHOD a arrangeForRoot (Lq;)V
-	METHOD a adjust (Lq;Lac;)Lac;
+	METHOD method_845 getLast (Lnet/minecraft/class_194;Lnet/minecraft/class_194;)Lnet/minecraft/class_194;
+	METHOD method_852 arrangeForRoot (Lnet/minecraft/class_161;)V
+	METHOD method_846 adjust (Lnet/minecraft/class_161;Lnet/minecraft/class_194;)Lnet/minecraft/class_194;
 		ARG 2 childPosition
-	METHOD c getFirstChild ()Lac;
-	METHOD d getLastChild ()Lac;
-	METHOD e apply ()V
+	METHOD method_849 getFirstChild ()Lnet/minecraft/class_194;
+	METHOD method_844 getLastChild ()Lnet/minecraft/class_194;
+	METHOD method_851 apply ()V

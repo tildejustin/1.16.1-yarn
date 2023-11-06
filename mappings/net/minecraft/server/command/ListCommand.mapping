@@ -1,2 +1,2 @@
-CLASS sk net/minecraft/server/command/ListCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3078 net/minecraft/server/command/ListCommand
+	METHOD method_13435 register (Lcom/mojang/brigadier/CommandDispatcher;)V

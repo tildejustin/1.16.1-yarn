@@ -1,14 +1,14 @@
-CLASS cpj net/minecraft/world/loot/function/ConditionalLootFunction
-	CLASS cpj$a Builder
-		FIELD a conditionList Ljava/util/List;
-		METHOD d build ()Lcpj$a;
-		METHOD g getConditions ()[Lcqn;
-	CLASS cpj$b Joiner
-		FIELD a joiner Ljava/util/function/Function;
-	CLASS cpj$c Factory
-		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqn;)Lcpj;
-	FIELD a predicate Ljava/util/function/Predicate;
-	FIELD b conditions [Lcqn;
-	METHOD a process (Lbbp;Lcnz;)Lbbp;
+CLASS net/minecraft/class_120 net/minecraft/world/loot/function/ConditionalLootFunction
+	CLASS net/minecraft/class_120$class_121 Builder
+		FIELD field_1049 conditionList Ljava/util/List;
+		METHOD method_523 build ()Lnet/minecraft/class_120$class_121;
+		METHOD method_526 getConditions ()LLcqn;
+	CLASS net/minecraft/class_120$class_122 Joiner
+		FIELD field_1050 joiner Ljava/util/function/Function;
+	CLASS net/minecraft/class_120$class_123 Factory
+		METHOD method_530 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lnet/minecraft/class_209;)Lnet/minecraft/class_120;
+	FIELD field_1048 predicate Ljava/util/function/Predicate;
+	FIELD field_1047 conditions LLcqn;
+	METHOD method_522 process (Lnet/minecraft/class_1799;Lnet/minecraft/class_47;)Lnet/minecraft/class_1799;
 		ARG 1 stack
-	METHOD a create (Ljava/util/function/Function;)Lcpj$a;
+	METHOD method_520 create (Ljava/util/function/Function;)Lnet/minecraft/class_120$class_121;

@@ -1,2 +1,2 @@
-CLASS avz net/minecraft/entity/projectile/FireballEntity
-	FIELD f explosionPower I
+CLASS net/minecraft/class_1674 net/minecraft/entity/projectile/FireballEntity
+	FIELD field_7624 explosionPower I

@@ -1,6 +1,6 @@
-CLASS amg net/minecraft/entity/ai/goal/ChaseBoatGoal
-	FIELD b owner Laip;
-	FIELD c passenger Laii;
-	FIELD d state Lalv;
-	METHOD <init> (Laip;)V
+CLASS net/minecraft/class_1346 net/minecraft/entity/ai/goal/ChaseBoatGoal
+	FIELD field_6426 owner Lnet/minecraft/class_1314;
+	FIELD field_6427 passenger Lnet/minecraft/class_1309;
+	FIELD field_6425 state Lnet/minecraft/class_1340;
+	METHOD <init> (Lnet/minecraft/class_1314;)V
 		ARG 1 owner

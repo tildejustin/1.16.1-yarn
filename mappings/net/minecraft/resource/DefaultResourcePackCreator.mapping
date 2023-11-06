@@ -1,2 +1,2 @@
-CLASS wt net/minecraft/resource/DefaultResourcePackCreator
-	FIELD a pack Lwi;
+CLASS net/minecraft/class_3286 net/minecraft/resource/DefaultResourcePackCreator
+	FIELD field_14269 pack Lnet/minecraft/class_3268;

@@ -1,2 +1,2 @@
-CLASS cwq net/minecraft/client/gui/widget/GameOptionSliderWidget
-	FIELD a option Lcvd;
+CLASS net/minecraft/class_4040 net/minecraft/client/gui/widget/GameOptionSliderWidget
+	FIELD field_18012 option Lnet/minecraft/class_4067;

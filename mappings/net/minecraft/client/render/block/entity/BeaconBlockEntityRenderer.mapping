@@ -1,6 +1,6 @@
-CLASS dmd net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer
-	FIELD c BEAM_TEX Lqr;
-	METHOD a renderBeaconLightBeam (DDDDDJII[F)V
+CLASS net/minecraft/class_822 net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer
+	FIELD field_4338 BEAM_TEX Lnet/minecraft/class_2960;
+	METHOD method_3544 renderBeaconLightBeam (DDDDDJII[F)V
 		ARG 0 x
 		ARG 2 y
 		ARG 4 z
@@ -10,7 +10,7 @@ CLASS dmd net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer
 		ARG 12 startHeight
 		ARG 13 height
 		ARG 14 beamColor
-	METHOD a renderLightBeam (DDDDDJII[FDD)V
+	METHOD method_3545 renderLightBeam (DDDDDJII[FDD)V
 		ARG 0 x
 		ARG 2 y
 		ARG 4 z
@@ -22,7 +22,7 @@ CLASS dmd net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer
 		ARG 14 beamColor
 		ARG 15 innerRadius
 		ARG 17 outerRadius
-	METHOD a render (DDDDDLjava/util/List;J)V
+	METHOD method_3543 render (DDDDDLjava/util/List;J)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z

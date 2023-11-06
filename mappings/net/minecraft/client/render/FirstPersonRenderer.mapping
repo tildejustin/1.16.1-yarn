@@ -1,35 +1,35 @@
-CLASS dkg net/minecraft/client/render/FirstPersonRenderer
-	FIELD a MAP_BACKGROUND_TEX Lqr;
-	FIELD b UNDERWATER_TEX Lqr;
-	FIELD c client Lcux;
-	FIELD d mainHand Lbbp;
-	FIELD e offHand Lbbp;
-	FIELD f equipProgressMainHand F
-	FIELD g prevEquipProgressMainHand F
-	FIELD h equipProgressOffHand F
-	FIELD i prevEquipProgressOffHand F
-	FIELD j renderManager Ldpc;
-	FIELD k itemRenderer Ldpx;
-	METHOD a updateHeldItems ()V
-	METHOD a renderFirstPersonItem (F)V
-	METHOD a rotate (FF)V
+CLASS net/minecraft/class_759 net/minecraft/client/render/FirstPersonRenderer
+	FIELD field_4049 MAP_BACKGROUND_TEX Lnet/minecraft/class_2960;
+	FIELD field_4045 UNDERWATER_TEX Lnet/minecraft/class_2960;
+	FIELD field_4050 client Lnet/minecraft/class_310;
+	FIELD field_4047 mainHand Lnet/minecraft/class_1799;
+	FIELD field_4048 offHand Lnet/minecraft/class_1799;
+	FIELD field_4043 equipProgressMainHand F
+	FIELD field_4053 prevEquipProgressMainHand F
+	FIELD field_4052 equipProgressOffHand F
+	FIELD field_4051 prevEquipProgressOffHand F
+	FIELD field_4046 renderManager Lnet/minecraft/class_898;
+	FIELD field_4044 itemRenderer Lnet/minecraft/class_918;
+	METHOD method_3220 updateHeldItems ()V
+	METHOD method_3225 renderFirstPersonItem (F)V
+	METHOD method_3229 rotate (FF)V
 		ARG 1 degreeX
-	METHOD a renderFirstPersonMap (FFF)V
-	METHOD a resetEquipProgress (Lagt;)V
-	METHOD a renderArm (Laih;)V
-	METHOD a renderItem (Laii;Lbbp;Ldlo$b;)V
+	METHOD method_3231 renderFirstPersonMap (FFF)V
+	METHOD method_3215 resetEquipProgress (Lnet/minecraft/class_1268;)V
+	METHOD method_3216 renderArm (Lnet/minecraft/class_1306;)V
+	METHOD method_3233 renderItem (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_809$class_811;)V
 		ARG 1 holder
 		ARG 2 stack
-	METHOD a renderItemFromSide (Laii;Lbbp;Ldlo$b;Z)V
+	METHOD method_3234 renderItemFromSide (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_809$class_811;Z)V
 		ARG 1 holder
 		ARG 2 stack
 		ARG 3 transformation
-	METHOD a renderFirstPersonMap (Lbbp;)V
-	METHOD a renderFirstPersonItem (Ldjo;FFLagt;FLbbp;F)V
+	METHOD method_3223 renderFirstPersonMap (Lnet/minecraft/class_1799;)V
+	METHOD method_3228 renderFirstPersonItem (Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;F)V
 		ARG 1 player
 		ARG 4 hand
 		ARG 6 item
-	METHOD a renderBlock (Ldue;)V
-	METHOD b renderOverlays (F)V
-	METHOD c renderArms ()V
-	METHOD e renderWaterOverlay (F)V
+	METHOD method_3226 renderBlock (Lnet/minecraft/class_1058;)V
+	METHOD method_3232 renderOverlays (F)V
+	METHOD method_3221 renderArms ()V
+	METHOD method_3230 renderWaterOverlay (F)V

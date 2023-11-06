@@ -1,7 +1,7 @@
-CLASS crp net/minecraft/entity/VerticalEntityPosition
-	METHOD a minValue ()Lcrp;
-	METHOD a fromEntity (Lahz;)Lcrp;
+CLASS net/minecraft/class_3726 net/minecraft/entity/VerticalEntityPosition
+	METHOD method_16194 minValue ()Lnet/minecraft/class_3726;
+	METHOD method_16195 fromEntity (Lnet/minecraft/class_1297;)Lnet/minecraft/class_3726;
 		ARG 0 entity
-	METHOD a isAboveBlock (Lcse;Lev;Z)Z
+	METHOD method_16192 isAboveBlock (Lnet/minecraft/class_265;Lnet/minecraft/class_2338;Z)Z
 		ARG 1 shape
-	METHOD b isSneaking ()Z
+	METHOD method_16193 isSneaking ()Z

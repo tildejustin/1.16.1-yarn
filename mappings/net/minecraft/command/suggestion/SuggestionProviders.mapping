@@ -1,21 +1,21 @@
-CLASS em net/minecraft/command/suggestion/SuggestionProviders
-	CLASS em$a LocalProvider
-		FIELD a provider Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-		FIELD b name Lqr;
-		METHOD <init> (Lqr;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)V
+CLASS net/minecraft/class_2321 net/minecraft/command/suggestion/SuggestionProviders
+	CLASS net/minecraft/class_2321$class_2322 LocalProvider
+		FIELD field_10937 provider Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+		FIELD field_10936 name Lnet/minecraft/class_2960;
+		METHOD <init> (Lnet/minecraft/class_2960;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)V
 			ARG 1 name
-	FIELD a ASK_SERVER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-	FIELD b ALL_RECIPES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-	FIELD c AVAILABLE_SOUNDS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-	FIELD d SUMMONABLE_ENTITIES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
-	FIELD e REGISTRY Ljava/util/Map;
-	FIELD f ASK_SERVER_NAME Lqr;
-	METHOD a computeName (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lqr;
+	FIELD field_10933 ASK_SERVER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD field_10932 ALL_RECIPES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD field_10934 AVAILABLE_SOUNDS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD field_10935 SUMMONABLE_ENTITIES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD field_10931 REGISTRY Ljava/util/Map;
+	FIELD field_10930 ASK_SERVER_NAME Lnet/minecraft/class_2960;
+	METHOD method_10027 computeName (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lnet/minecraft/class_2960;
 		ARG 0 provider
-	METHOD a byId (Lqr;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD method_10024 byId (Lnet/minecraft/class_2960;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
 		ARG 0 name
-	METHOD a register (Lqr;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD method_10022 register (Lnet/minecraft/class_2960;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
 		ARG 0 name
 		ARG 1 provider
-	METHOD b getLocalProvider (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD method_10026 getLocalProvider (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
 		ARG 0 provider

@@ -1,20 +1,20 @@
-CLASS btw net/minecraft/block/entity/ShulkerBoxBlockEntity
-	CLASS btw$a AnimationStage
-		FIELD a CLOSED Lbtw$a;
-		FIELD c OPENED Lbtw$a;
-	FIELD a AVAILABLE_SLOTS [I
-	FIELD b inventory Lfj;
-	FIELD c viewerCount I
-	FIELD i animationStage Lbtw$a;
-	FIELD j animationProgress F
-	FIELD k prevAnimationProgress F
-	FIELD l cachedColor Lbam;
-	FIELD m cachedColorUpdateNeeded Z
-	METHOD a getAnimationProgress (F)F
-	METHOD a getBoundingBox (Lbuy;)Lcrf;
+CLASS net/minecraft/class_2627 net/minecraft/block/entity/ShulkerBoxBlockEntity
+	CLASS net/minecraft/class_2627$class_2628 AnimationStage
+		FIELD field_12065 CLOSED Lnet/minecraft/class_2627$class_2628;
+		FIELD field_12063 OPENED Lnet/minecraft/class_2627$class_2628;
+	FIELD field_12059 AVAILABLE_SLOTS [I
+	FIELD field_12054 inventory Lnet/minecraft/class_2371;
+	FIELD field_12053 viewerCount I
+	FIELD field_12057 animationStage Lnet/minecraft/class_2627$class_2628;
+	FIELD field_12056 animationProgress F
+	FIELD field_12055 prevAnimationProgress F
+	FIELD field_12060 cachedColor Lnet/minecraft/class_1767;
+	FIELD field_12058 cachedColorUpdateNeeded Z
+	METHOD method_11312 getAnimationProgress (F)F
+	METHOD method_11314 getBoundingBox (Lnet/minecraft/class_2680;)Lnet/minecraft/class_238;
 		ARG 1 state
-	METHOD b getBoundingBox (Lfa;)Lcrf;
+	METHOD method_11311 getBoundingBox (Lnet/minecraft/class_2350;)Lnet/minecraft/class_238;
 		ARG 1 openDirection
-	METHOD i updateAnimation ()V
-	METHOD t getAnimationStage ()Lbtw$a;
-	METHOD u getColor ()Lbam;
+	METHOD method_11318 updateAnimation ()V
+	METHOD method_11313 getAnimationStage ()Lnet/minecraft/class_2627$class_2628;
+	METHOD method_11320 getColor ()Lnet/minecraft/class_1767;

@@ -1,10 +1,10 @@
-CLASS wi net/minecraft/resource/DefaultResourcePack
-	FIELD a RESOURCE_PATH Ljava/nio/file/Path;
-	FIELD b RESOURCE_CLASS Ljava/lang/Class;
-	FIELD c namespaces Ljava/util/Set;
-	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a getInputStream (Ljava/lang/String;)Ljava/io/InputStream;
+CLASS net/minecraft/class_3268 net/minecraft/resource/DefaultResourcePack
+	FIELD field_14196 RESOURCE_PATH Ljava/nio/file/Path;
+	FIELD field_14194 RESOURCE_CLASS Ljava/lang/Class;
+	FIELD field_14193 namespaces Ljava/util/Set;
+	FIELD field_14195 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_14417 getInputStream (Ljava/lang/String;)Ljava/io/InputStream;
 		ARG 1 path
-	METHOD c findInputStream (Lwg;Lqr;)Ljava/io/InputStream;
+	METHOD method_14416 findInputStream (Lnet/minecraft/class_3264;Lnet/minecraft/class_2960;)Ljava/io/InputStream;
 		ARG 1 type
 		ARG 2 id

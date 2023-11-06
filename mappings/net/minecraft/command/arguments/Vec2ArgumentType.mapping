@@ -1,8 +1,8 @@
-CLASS dq net/minecraft/command/arguments/Vec2ArgumentType
-	FIELD a INCOMPLETE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD b EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Ldq;
-	METHOD a getVec2Argument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcrj;
+CLASS net/minecraft/class_2274 net/minecraft/command/arguments/Vec2ArgumentType
+	FIELD field_10743 INCOMPLETE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_10742 EXAMPLES Ljava/util/Collection;
+	METHOD method_9723 create ()Lnet/minecraft/class_2274;
+	METHOD method_9724 getVec2Argument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_241;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

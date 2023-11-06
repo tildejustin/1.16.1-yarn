@@ -1,5 +1,5 @@
-CLASS cnx net/minecraft/world/loot/ConstantLootTableRange
-	CLASS cnx$a Serializer
-	FIELD d value I
-	METHOD a create (I)Lcnx;
+CLASS net/minecraft/class_44 net/minecraft/world/loot/ConstantLootTableRange
+	CLASS net/minecraft/class_44$class_45 Serializer
+	FIELD field_922 value I
+	METHOD method_289 create (I)Lnet/minecraft/class_44;
 		ARG 0 value

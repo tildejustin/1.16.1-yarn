@@ -1,16 +1,16 @@
-CLASS aqx net/minecraft/entity/passive/RabbitEntity
-	CLASS aqx$b RabbitFleeGoal
-	CLASS aqx$d RabbitJumpControl
-		FIELD c rabbit Laqx;
-		METHOD c isActive ()Z
-	CLASS aqx$e RabbitMoveControl
-		FIELD i rabbit Laqx;
+CLASS net/minecraft/class_1463 net/minecraft/entity/passive/RabbitEntity
+	CLASS net/minecraft/class_1463$class_1465 RabbitFleeGoal
+	CLASS net/minecraft/class_1463$class_1467 RabbitJumpControl
+		FIELD field_6855 rabbit Lnet/minecraft/class_1463;
+		METHOD method_6624 isActive ()Z
+	CLASS net/minecraft/class_1463$class_1468 RabbitMoveControl
+		FIELD field_6859 rabbit Lnet/minecraft/class_1463;
 	CLASS aqx$f
-		FIELD f owner Laqx;
-	FIELD bA KILLER_BUNNY Lqr;
-	FIELD bz RABBIT_TYPE Lqg;
-	METHOD b isBreedingItem (Lbbk;)Z
-	METHOD d setSpeed (D)V
+		FIELD field_6860 owner Lnet/minecraft/class_1463;
+	FIELD field_6846 KILLER_BUNNY Lnet/minecraft/class_2960;
+	FIELD field_6852 RABBIT_TYPE Lnet/minecraft/class_2940;
+	METHOD method_6614 isBreedingItem (Lnet/minecraft/class_1792;)Z
+	METHOD method_6606 setSpeed (D)V
 		ARG 1 speed
-	METHOD dR getRabbitType ()I
-	METHOD r setRabbitType (I)V
+	METHOD method_6610 getRabbitType ()I
+	METHOD method_6617 setRabbitType (I)V

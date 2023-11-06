@@ -1,12 +1,12 @@
-CLASS dtv net/minecraft/client/texture/PlayerSkinTexture
-	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD h DOWNLOAD_THREAD_COUNTER Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD i cacheFile Ljava/io/File;
-	FIELD j url Ljava/lang/String;
-	FIELD k filter Ldkf;
-	FIELD l downloadThread Ljava/lang/Thread;
-	METHOD <init> (Ljava/io/File;Ljava/lang/String;Lqr;Ldkf;)V
+CLASS net/minecraft/class_1046 net/minecraft/client/texture/PlayerSkinTexture
+	FIELD field_5212 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5216 DOWNLOAD_THREAD_COUNTER Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD field_5210 cacheFile Ljava/io/File;
+	FIELD field_5214 url Ljava/lang/String;
+	FIELD field_5211 filter Lnet/minecraft/class_760;
+	FIELD field_5213 downloadThread Ljava/lang/Thread;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Lnet/minecraft/class_2960;Lnet/minecraft/class_760;)V
 		ARG 1 cacheFile
 		ARG 2 url
 		ARG 3 fallbackSkin
-	METHOD a startTextureDownload ()V
+	METHOD method_4532 startTextureDownload ()V

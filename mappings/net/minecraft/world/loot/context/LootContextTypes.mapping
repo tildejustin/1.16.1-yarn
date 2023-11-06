@@ -1,13 +1,13 @@
-CLASS cqb net/minecraft/world/loot/context/LootContextTypes
-	FIELD a EMPTY Lcqa;
-	FIELD b CHEST Lcqa;
-	FIELD c FISHING Lcqa;
-	FIELD d ENTITY Lcqa;
-	FIELD e GIFT Lcqa;
-	FIELD f ADVANCEMENT_REWARD Lcqa;
-	FIELD g GENERIC Lcqa;
-	FIELD h BLOCK Lcqa;
-	FIELD i MAP Lcom/google/common/collect/BiMap;
-	METHOD a getId (Lcqa;)Lqr;
-	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcqa;
-	METHOD a get (Lqr;)Lcqa;
+CLASS net/minecraft/class_173 net/minecraft/world/loot/context/LootContextTypes
+	FIELD field_1175 EMPTY Lnet/minecraft/class_176;
+	FIELD field_1179 CHEST Lnet/minecraft/class_176;
+	FIELD field_1176 FISHING Lnet/minecraft/class_176;
+	FIELD field_1173 ENTITY Lnet/minecraft/class_176;
+	FIELD field_16235 GIFT Lnet/minecraft/class_176;
+	FIELD field_1174 ADVANCEMENT_REWARD Lnet/minecraft/class_176;
+	FIELD field_1177 GENERIC Lnet/minecraft/class_176;
+	FIELD field_1172 BLOCK Lnet/minecraft/class_176;
+	FIELD field_1178 MAP Lcom/google/common/collect/BiMap;
+	METHOD method_762 getId (Lnet/minecraft/class_176;)Lnet/minecraft/class_2960;
+	METHOD method_759 register (Ljava/lang/String;Ljava/util/function/Consumer;)Lnet/minecraft/class_176;
+	METHOD method_757 get (Lnet/minecraft/class_2960;)Lnet/minecraft/class_176;

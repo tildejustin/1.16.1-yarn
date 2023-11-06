@@ -1,2 +1,2 @@
-CLASS dpj net/minecraft/client/render/entity/FishHookEntityRenderer
-	FIELD a TEX Lqr;
+CLASS net/minecraft/class_906 net/minecraft/client/render/entity/FishHookEntityRenderer
+	FIELD field_4707 TEX Lnet/minecraft/class_2960;

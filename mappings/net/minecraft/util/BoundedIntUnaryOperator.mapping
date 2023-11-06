@@ -1,8 +1,8 @@
-CLASS cny net/minecraft/util/BoundedIntUnaryOperator
-	CLASS cny$a Serializer
-	FIELD a min Ljava/lang/Integer;
-	FIELD b max Ljava/lang/Integer;
-	FIELD c operator Ljava/util/function/IntUnaryOperator;
-	METHOD a createMin (I)Lcny;
-	METHOD a create (II)Lcny;
-	METHOD b createMax (I)Lcny;
+CLASS net/minecraft/class_42 net/minecraft/util/BoundedIntUnaryOperator
+	CLASS net/minecraft/class_42$class_43 Serializer
+	FIELD field_921 min Ljava/lang/Integer;
+	FIELD field_920 max Ljava/lang/Integer;
+	FIELD field_919 operator Ljava/util/function/IntUnaryOperator;
+	METHOD method_280 createMin (I)Lnet/minecraft/class_42;
+	METHOD method_282 create (II)Lnet/minecraft/class_42;
+	METHOD method_277 createMax (I)Lnet/minecraft/class_42;

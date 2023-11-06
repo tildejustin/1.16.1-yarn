@@ -1,7 +1,7 @@
-CLASS dbk net/minecraft/client/gui/widget/BookPageButtonWidget
-	FIELD a isNextPageButton Z
-	FIELD b playPageTurnSound Z
-	METHOD <init> (IIZLcwc$a;Z)V
+CLASS net/minecraft/class_474 net/minecraft/client/gui/widget/BookPageButtonWidget
+	FIELD field_2851 isNextPageButton Z
+	FIELD field_18977 playPageTurnSound Z
+	METHOD <init> (IIZLnet/minecraft/class_4185$class_4241;Z)V
 		ARG 1 x
 		ARG 2 y
 		ARG 5 playPageTurnSound

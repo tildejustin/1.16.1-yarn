@@ -1,2 +1,2 @@
-CLASS aam net/minecraft/datafixers/fixes/BlockEntityKeepPacked
-	METHOD a keepPacked (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+CLASS net/minecraft/class_3574 net/minecraft/datafixers/fixes/BlockEntityKeepPacked
+	METHOD method_15579 keepPacked (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;

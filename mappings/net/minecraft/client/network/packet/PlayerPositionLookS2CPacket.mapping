@@ -1,26 +1,26 @@
-CLASS mc net/minecraft/client/network/packet/PlayerPositionLookS2CPacket
-	CLASS mc$a Flag
-		FIELD a X Lmc$a;
-		FIELD b Y Lmc$a;
-		FIELD c Z Lmc$a;
-		FIELD d Y_ROT Lmc$a;
-		FIELD e X_ROT Lmc$a;
-		FIELD f shift I
-		METHOD a getMask ()I
-		METHOD a getFlags (I)Ljava/util/Set;
-		METHOD a getBitfield (Ljava/util/Set;)I
-		METHOD b isSet (I)Z
-	FIELD a x D
-	FIELD b y D
-	FIELD c z D
-	FIELD d yaw F
-	FIELD e pitch F
-	FIELD f flags Ljava/util/Set;
-	FIELD g teleportId I
-	METHOD b getX ()D
-	METHOD c getY ()D
-	METHOD d getZ ()D
-	METHOD e getYaw ()F
-	METHOD f getPitch ()F
-	METHOD g getTeleportId ()I
-	METHOD h getFlags ()Ljava/util/Set;
+CLASS net/minecraft/class_2708 net/minecraft/client/network/packet/PlayerPositionLookS2CPacket
+	CLASS net/minecraft/class_2708$class_2709 Flag
+		FIELD field_12400 X Lnet/minecraft/class_2708$class_2709;
+		FIELD field_12398 Y Lnet/minecraft/class_2708$class_2709;
+		FIELD field_12403 Z Lnet/minecraft/class_2708$class_2709;
+		FIELD field_12401 Y_ROT Lnet/minecraft/class_2708$class_2709;
+		FIELD field_12397 X_ROT Lnet/minecraft/class_2708$class_2709;
+		FIELD field_12399 shift I
+		METHOD method_11742 getMask ()I
+		METHOD method_11744 getFlags (I)Ljava/util/Set;
+		METHOD method_11741 getBitfield (Ljava/util/Set;)I
+		METHOD method_11743 isSet (I)Z
+	FIELD field_12395 x D
+	FIELD field_12392 y D
+	FIELD field_12390 z D
+	FIELD field_12393 yaw F
+	FIELD field_12391 pitch F
+	FIELD field_12396 flags Ljava/util/Set;
+	FIELD field_12394 teleportId I
+	METHOD method_11734 getX ()D
+	METHOD method_11735 getY ()D
+	METHOD method_11738 getZ ()D
+	METHOD method_11736 getYaw ()F
+	METHOD method_11739 getPitch ()F
+	METHOD method_11737 getTeleportId ()I
+	METHOD method_11733 getFlags ()Ljava/util/Set;

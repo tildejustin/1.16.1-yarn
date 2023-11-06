@@ -1,8 +1,8 @@
-CLASS yd net/minecraft/server/rcon/QueryResponseHandler
-	FIELD i queryPort I
-	FIELD n socket Ljava/net/DatagramSocket;
-	FIELD o packetBuffer [B
-	FIELD p currentPacket Ljava/net/DatagramPacket;
-	FIELD s hostname Ljava/lang/String;
-	METHOD a reply ([BLjava/net/DatagramPacket;)V
+CLASS net/minecraft/class_3364 net/minecraft/server/rcon/QueryResponseHandler
+	FIELD field_14442 queryPort I
+	FIELD field_14449 socket Ljava/net/DatagramSocket;
+	FIELD field_14452 packetBuffer [B
+	FIELD field_14455 currentPacket Ljava/net/DatagramPacket;
+	FIELD field_14454 hostname Ljava/lang/String;
+	METHOD method_14751 reply ([BLjava/net/DatagramPacket;)V
 		ARG 1 buf

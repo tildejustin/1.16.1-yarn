@@ -1,20 +1,20 @@
-CLASS cwk net/minecraft/client/gui/widget/LockButtonWidget
-	CLASS cwk$a IconLocation
-		FIELD a LOCKED Lcwk$a;
-		FIELD b LOCKED_HOVERED Lcwk$a;
-		FIELD c LOCKED_DISABLED Lcwk$a;
-		FIELD d UNLOCKED Lcwk$a;
-		FIELD e UNLOCKED_HOVERED Lcwk$a;
-		FIELD f UNLOCKED_DISABLED Lcwk$a;
-		FIELD g u I
-		FIELD h v I
+CLASS net/minecraft/class_347 net/minecraft/client/gui/widget/LockButtonWidget
+	CLASS net/minecraft/class_347$class_348 IconLocation
+		FIELD field_2137 LOCKED Lnet/minecraft/class_347$class_348;
+		FIELD field_2138 LOCKED_HOVERED Lnet/minecraft/class_347$class_348;
+		FIELD field_2139 LOCKED_DISABLED Lnet/minecraft/class_347$class_348;
+		FIELD field_2132 UNLOCKED Lnet/minecraft/class_347$class_348;
+		FIELD field_2133 UNLOCKED_HOVERED Lnet/minecraft/class_347$class_348;
+		FIELD field_2140 UNLOCKED_DISABLED Lnet/minecraft/class_347$class_348;
+		FIELD field_2135 u I
+		FIELD field_2134 v I
 		METHOD <init> (Ljava/lang/String;III)V
 			ARG 1 v
-		METHOD a getU ()I
-		METHOD b getV ()I
-	FIELD a locked Z
-	METHOD <init> (IILcwc$a;)V
+		METHOD method_1897 getU ()I
+		METHOD method_1898 getV ()I
+	FIELD field_2131 locked Z
+	METHOD <init> (IILnet/minecraft/class_4185$class_4241;)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a isLocked ()Z
-	METHOD a setLocked (Z)V
+	METHOD method_1896 isLocked ()Z
+	METHOD method_1895 setLocked (Z)V

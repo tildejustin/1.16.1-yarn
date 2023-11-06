@@ -1,3 +1,3 @@
-CLASS com net/minecraft/world/loot/entry/EmptyEntry
-	CLASS com$a Serializer
-	METHOD a Serializer ()Lcot$a;
+CLASS net/minecraft/class_73 net/minecraft/world/loot/entry/EmptyEntry
+	CLASS net/minecraft/class_73$class_74 Serializer
+	METHOD method_401 Serializer ()Lnet/minecraft/class_85$class_86;

@@ -1,38 +1,38 @@
-CLASS dbz net/minecraft/client/gui/recipebook/RecipeAlternatesWidget
-	CLASS dbz$a AlternateButtonWidget
-		CLASS dbz$a$a InputSlot
-		FIELD a slots Ljava/util/List;
-		FIELD c recipe Lbdz;
-		FIELD d isCraftable Z
-		METHOD <init> (Ldbz;IILbdz;Z)V
+CLASS net/minecraft/class_508 net/minecraft/client/gui/recipebook/RecipeAlternatesWidget
+	CLASS net/minecraft/class_508$class_509 AlternateButtonWidget
+		CLASS net/minecraft/class_508$class_509$class_510 InputSlot
+		FIELD field_3116 slots Ljava/util/List;
+		FIELD field_3114 recipe Lnet/minecraft/class_1860;
+		FIELD field_3115 isCraftable Z
+		METHOD <init> (Lnet/minecraft/class_508;IILnet/minecraft/class_1860;Z)V
 			ARG 2 x
 			ARG 3 y
 			ARG 4 recipe
 			ARG 5 isCraftable
-		METHOD a alignRecipe (Lbdz;)V
+		METHOD method_2619 alignRecipe (Lnet/minecraft/class_1860;)V
 	CLASS dbz$b
-		METHOD <init> (Ldbz;IILbdz;Z)V
+		METHOD <init> (Lnet/minecraft/class_508;IILnet/minecraft/class_1860;Z)V
 			ARG 2 x
 			ARG 3 y
 			ARG 4 recipe
 			ARG 5 isCraftable
-	FIELD a BG_TEX Lqr;
-	FIELD b alternateButtons Ljava/util/List;
-	FIELD c visible Z
-	FIELD d buttonX I
-	FIELD e buttonY I
-	FIELD f client Lcux;
-	FIELD g resultCollection Ldce;
-	FIELD h lastClickedRecipe Lbdz;
-	FIELD i time F
-	FIELD j furnace Z
-	METHOD a getResults ()Ldce;
-	METHOD a showAlternatesForResult (Lcux;Ldce;IIIIF)V
+	FIELD field_3109 BG_TEX Lnet/minecraft/class_2960;
+	FIELD field_3106 alternateButtons Ljava/util/List;
+	FIELD field_3107 visible Z
+	FIELD field_3105 buttonX I
+	FIELD field_3103 buttonY I
+	FIELD field_3108 client Lnet/minecraft/class_310;
+	FIELD field_3111 resultCollection Lnet/minecraft/class_516;
+	FIELD field_3104 lastClickedRecipe Lnet/minecraft/class_1860;
+	FIELD field_3110 time F
+	FIELD field_3112 furnace Z
+	METHOD method_2614 getResults ()Lnet/minecraft/class_516;
+	METHOD method_2617 showAlternatesForResult (Lnet/minecraft/class_310;Lnet/minecraft/class_516;IIIIF)V
 		ARG 3 buttonX
 		ARG 4 buttonY
 		ARG 5 areaCenterX
 		ARG 6 areaCenterY
 		ARG 7 delta
-	METHOD a setVisible (Z)V
-	METHOD b getLastClickedRecipe ()Lbdz;
-	METHOD c isVisible ()Z
+	METHOD method_2613 setVisible (Z)V
+	METHOD method_2615 getLastClickedRecipe ()Lnet/minecraft/class_1860;
+	METHOD method_2616 isVisible ()Z

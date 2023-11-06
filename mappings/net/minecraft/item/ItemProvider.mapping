@@ -1,2 +1,2 @@
-CLASS bgw net/minecraft/item/ItemProvider
-	METHOD g getItem ()Lbbk;
+CLASS net/minecraft/class_1935 net/minecraft/item/ItemProvider
+	METHOD method_8389 getItem ()Lnet/minecraft/class_1792;

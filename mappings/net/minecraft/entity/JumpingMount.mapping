@@ -1,5 +1,5 @@
-CLASS air net/minecraft/entity/JumpingMount
-	METHOD F_ canJump ()Z
-	METHOD a_ setJumpStrength (I)V
-	METHOD b startJumping (I)V
-	METHOD c stopJumping ()V
+CLASS net/minecraft/class_1316 net/minecraft/entity/JumpingMount
+	METHOD method_6153 canJump ()Z
+	METHOD method_6154 setJumpStrength (I)V
+	METHOD method_6155 startJumping (I)V
+	METHOD method_6156 stopJumping ()V

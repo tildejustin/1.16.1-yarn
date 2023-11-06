@@ -1,7 +1,7 @@
-CLASS chj net/minecraft/structure/generator/IglooGenerator
-	CLASS chj$a Piece
-		FIELD d template Lqr;
-		FIELD e rotation Lbql;
-	FIELD a TOP_TEMPLATE Lqr;
-	FIELD b MIDDLE_TEMPLATE Lqr;
-	FIELD c BOTTOM_TEMPLATE Lqr;
+CLASS net/minecraft/class_3351 net/minecraft/structure/generator/IglooGenerator
+	CLASS net/minecraft/class_3351$class_3352 Piece
+		FIELD field_14411 template Lnet/minecraft/class_2960;
+		FIELD field_14412 rotation Lnet/minecraft/class_2470;
+	FIELD field_14409 TOP_TEMPLATE Lnet/minecraft/class_2960;
+	FIELD field_14407 MIDDLE_TEMPLATE Lnet/minecraft/class_2960;
+	FIELD field_14410 BOTTOM_TEMPLATE Lnet/minecraft/class_2960;

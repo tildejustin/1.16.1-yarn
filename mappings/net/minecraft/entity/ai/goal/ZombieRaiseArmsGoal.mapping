@@ -1,2 +1,2 @@
-CLASS aoc net/minecraft/entity/ai/goal/ZombieRaiseArmsGoal
-	FIELD d zombie Laus;
+CLASS net/minecraft/class_1396 net/minecraft/entity/ai/goal/ZombieRaiseArmsGoal
+	FIELD field_6628 zombie Lnet/minecraft/class_1642;

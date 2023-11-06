@@ -1,35 +1,35 @@
-CLASS dhe net/minecraft/client/network/ClientPlayNetworkHandler
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b connection Lja;
-	FIELD c profile Lcom/mojang/authlib/GameProfile;
-	FIELD d loginScreen Lczn;
-	FIELD e client Lcux;
-	FIELD f world Ldhh;
-	FIELD h scoreboardEntries Ljava/util/Map;
-	FIELD i advancementHandler Ldhb;
-	FIELD j commandSource Ldhf;
-	FIELD k tagManager Lzb;
-	FIELD l queryHandler Lcur;
-	FIELD m chunkLoadDistance I
-	FIELD n random Ljava/util/Random;
-	FIELD o commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
-	FIELD p recipeManager Lbea;
-	FIELD q sessionId Ljava/util/UUID;
-	METHOD <init> (Lcux;Lczn;Lja;Lcom/mojang/authlib/GameProfile;)V
+CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHandler
+	FIELD field_3695 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_3689 connection Lnet/minecraft/class_2535;
+	FIELD field_3697 profile Lcom/mojang/authlib/GameProfile;
+	FIELD field_3701 loginScreen Lnet/minecraft/class_437;
+	FIELD field_3690 client Lnet/minecraft/class_310;
+	FIELD field_3699 world Lnet/minecraft/class_638;
+	FIELD field_3693 scoreboardEntries Ljava/util/Map;
+	FIELD field_3700 advancementHandler Lnet/minecraft/class_632;
+	FIELD field_3691 commandSource Lnet/minecraft/class_637;
+	FIELD field_3694 tagManager Lnet/minecraft/class_3505;
+	FIELD field_3692 queryHandler Lnet/minecraft/class_300;
+	FIELD field_19144 chunkLoadDistance I
+	FIELD field_3687 random Ljava/util/Random;
+	FIELD field_3696 commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	FIELD field_3688 recipeManager Lnet/minecraft/class_1863;
+	FIELD field_16771 sessionId Ljava/util/UUID;
+	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_437;Lnet/minecraft/class_2535;Lcom/mojang/authlib/GameProfile;)V
 		ARG 1 client
-	METHOD a getClientConnection ()Lja;
-	METHOD a getScoreboardEntry (Ljava/lang/String;)Ldhi;
+	METHOD method_2872 getClientConnection ()Lnet/minecraft/class_2535;
+	METHOD method_2874 getScoreboardEntry (Ljava/lang/String;)Lnet/minecraft/class_640;
 		ARG 1 profileName
-	METHOD a sendPacket (Lka;)V
-	METHOD a sendResourcePackStatus (Lot$a;)V
-	METHOD b getCommandSource ()Ldhf;
-	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
-	METHOD d getRecipeManager ()Lbea;
-	METHOD e getScoreboardEntries ()Ljava/util/Collection;
-	METHOD f getProfile ()Lcom/mojang/authlib/GameProfile;
-	METHOD g getAdvancementHandler ()Ldhb;
-	METHOD h getCommandDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
-	METHOD i getWorld ()Ldhh;
-	METHOD j getTagManager ()Lzb;
-	METHOD k getQueryHandler ()Lcur;
-	METHOD l getSessionId ()Ljava/util/UUID;
+	METHOD method_2883 sendPacket (Lnet/minecraft/class_2596;)V
+	METHOD method_2873 sendResourcePackStatus (Lnet/minecraft/class_2856$class_2857;)V
+	METHOD method_2875 getCommandSource ()Lnet/minecraft/class_637;
+	METHOD method_2888 validateResourcePackUrl (Ljava/lang/String;)Z
+	METHOD method_2877 getRecipeManager ()Lnet/minecraft/class_1863;
+	METHOD method_2880 getScoreboardEntries ()Ljava/util/Collection;
+	METHOD method_2879 getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD method_2869 getAdvancementHandler ()Lnet/minecraft/class_632;
+	METHOD method_2886 getCommandDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD method_2890 getWorld ()Lnet/minecraft/class_638;
+	METHOD method_2867 getTagManager ()Lnet/minecraft/class_3505;
+	METHOD method_2876 getQueryHandler ()Lnet/minecraft/class_300;
+	METHOD method_16690 getSessionId ()Ljava/util/UUID;

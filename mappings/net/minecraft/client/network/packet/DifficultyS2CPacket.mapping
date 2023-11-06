@@ -1,5 +1,5 @@
-CLASS kr net/minecraft/client/network/packet/DifficultyS2CPacket
-	FIELD a difficulty Lagr;
-	METHOD <init> (Lagr;Z)V
+CLASS net/minecraft/class_2632 net/minecraft/client/network/packet/DifficultyS2CPacket
+	FIELD field_12090 difficulty Lnet/minecraft/class_1267;
+	METHOD <init> (Lnet/minecraft/class_1267;Z)V
 		ARG 1 difficulty
-	METHOD c getDifficulty ()Lagr;
+	METHOD method_11342 getDifficulty ()Lnet/minecraft/class_1267;

@@ -1,6 +1,6 @@
-CLASS bvq net/minecraft/state/property/BooleanProperty
-	FIELD a values Lcom/google/common/collect/ImmutableSet;
-	METHOD a create (Ljava/lang/String;)Lbvq;
+CLASS net/minecraft/class_2746 net/minecraft/state/property/BooleanProperty
+	FIELD field_12575 values Lcom/google/common/collect/ImmutableSet;
+	METHOD method_11825 create (Ljava/lang/String;)Lnet/minecraft/class_2746;
 		ARG 0 name
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

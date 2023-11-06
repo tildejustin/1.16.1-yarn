@@ -1,5 +1,5 @@
-CLASS atj net/minecraft/entity/mob/BlazeEntity
-	CLASS atj$a ShootFireballGoal
-	FIELD d BLAZE_FLAGS Lqg;
-	METHOD l isFireActive ()Z
-	METHOD r setFireActive (Z)V
+CLASS net/minecraft/class_1545 net/minecraft/entity/mob/BlazeEntity
+	CLASS net/minecraft/class_1545$class_1546 ShootFireballGoal
+	FIELD field_7216 BLAZE_FLAGS Lnet/minecraft/class_2940;
+	METHOD method_6994 isFireActive ()Z
+	METHOD method_6993 setFireActive (Z)V

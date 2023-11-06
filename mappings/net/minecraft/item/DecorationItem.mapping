@@ -1,2 +1,2 @@
-CLASS bbh net/minecraft/item/DecorationItem
-	FIELD a entityType Laid;
+CLASS net/minecraft/class_1790 net/minecraft/item/DecorationItem
+	FIELD field_7999 entityType Lnet/minecraft/class_1299;

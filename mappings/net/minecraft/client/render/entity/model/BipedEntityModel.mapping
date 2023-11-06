@@ -1,19 +1,19 @@
-CLASS der net/minecraft/client/render/entity/model/BipedEntityModel
-	CLASS der$a ArmPose
-	FIELD f head Ldgx;
-	FIELD g headwear Ldgx;
-	FIELD h body Ldgx;
-	FIELD i armRight Ldgx;
-	FIELD j armLeft Ldgx;
-	FIELD k legRight Ldgx;
-	FIELD l legLeft Ldgx;
-	FIELD m armPoseLeft Lder$a;
-	FIELD n armPoseRight Lder$a;
-	FIELD o isSneaking Z
+CLASS net/minecraft/class_572 net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS net/minecraft/class_572$class_573 ArmPose
+	FIELD field_3398 head Lnet/minecraft/class_630;
+	FIELD field_3394 headwear Lnet/minecraft/class_630;
+	FIELD field_3391 body Lnet/minecraft/class_630;
+	FIELD field_3401 armRight Lnet/minecraft/class_630;
+	FIELD field_3390 armLeft Lnet/minecraft/class_630;
+	FIELD field_3392 legRight Lnet/minecraft/class_630;
+	FIELD field_3397 legLeft Lnet/minecraft/class_630;
+	FIELD field_3399 armPoseLeft Lnet/minecraft/class_572$class_573;
+	FIELD field_3395 armPoseRight Lnet/minecraft/class_572$class_573;
+	FIELD field_3400 isSneaking Z
 	METHOD <init> (FFII)V
 		ARG 1 scale
 		ARG 3 textureWidth
-	METHOD a getArm (Laih;)Ldgx;
-	METHOD a getPreferedHand (Laii;)Laih;
-	METHOD a setAttributes (Lder;)V
-	METHOD c_ setVisible (Z)V
+	METHOD method_2808 getArm (Lnet/minecraft/class_1306;)Lnet/minecraft/class_630;
+	METHOD method_2806 getPreferedHand (Lnet/minecraft/class_1309;)Lnet/minecraft/class_1306;
+	METHOD method_2818 setAttributes (Lnet/minecraft/class_572;)V
+	METHOD method_2805 setVisible (Z)V

@@ -1,41 +1,41 @@
-CLASS dxo net/minecraft/client/audio/SoundSystem
-	FIELD a MARKER Lorg/apache/logging/log4j/Marker;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c unknownSounds Ljava/util/Set;
-	FIELD d loader Ldxr;
-	FIELD e settings Lcvb;
-	FIELD f initialized Z
-	FIELD g soundEngine Lcst;
-	FIELD h listener Lcsu;
-	FIELD i soundLoader Ldxn;
-	FIELD j taskQueue Ldxp;
-	FIELD k channel Ldxl;
-	FIELD l ticks I
-	FIELD n lastPlayedSounds Lcom/google/common/collect/Multimap;
-	FIELD o tickingSounds Ljava/util/List;
-	FIELD r listeners Ljava/util/List;
-	FIELD s streamedSounds Ljava/util/List;
-	METHOD <init> (Ldxr;Lcvb;Lxc;)V
+CLASS net/minecraft/class_1140 net/minecraft/client/audio/SoundSystem
+	FIELD field_5553 MARKER Lorg/apache/logging/log4j/Marker;
+	FIELD field_5559 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5561 unknownSounds Ljava/util/Set;
+	FIELD field_5552 loader Lnet/minecraft/class_1144;
+	FIELD field_5555 settings Lnet/minecraft/class_315;
+	FIELD field_5563 initialized Z
+	FIELD field_18945 soundEngine Lnet/minecraft/class_4225;
+	FIELD field_18946 listener Lnet/minecraft/class_4227;
+	FIELD field_18947 soundLoader Lnet/minecraft/class_4237;
+	FIELD field_18948 taskQueue Lnet/minecraft/class_4238;
+	FIELD field_18949 channel Lnet/minecraft/class_4235;
+	FIELD field_5550 ticks I
+	FIELD field_18951 lastPlayedSounds Lcom/google/common/collect/Multimap;
+	FIELD field_5557 tickingSounds Ljava/util/List;
+	FIELD field_5558 listeners Ljava/util/List;
+	FIELD field_5551 streamedSounds Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_1144;Lnet/minecraft/class_315;Lnet/minecraft/class_3300;)V
 		ARG 1 loader
-	METHOD a reloadSounds ()V
-	METHOD a updateListenerPosition (Lcun;)V
-	METHOD a addStreamedSound (Ldwo;)V
-	METHOD a stop (Ldwr;)V
-	METHOD a play (Ldwr;I)V
+	METHOD method_4837 reloadSounds ()V
+	METHOD method_4840 updateListenerPosition (Lnet/minecraft/class_4184;)V
+	METHOD method_4851 addStreamedSound (Lnet/minecraft/class_1111;)V
+	METHOD method_19753 stop (Lnet/minecraft/class_1113;)V
+	METHOD method_4852 play (Lnet/minecraft/class_1113;I)V
 		ARG 1 sound
 		ARG 2 volume
-	METHOD a registerListener (Ldxq;)V
-	METHOD a stopSounds (Lqr;Lyj;)V
-	METHOD a getSoundVolume (Lyj;)F
-	METHOD a updateSoundVolume (Lyj;F)V
-	METHOD b close ()V
-	METHOD b isPlaying (Ldwr;)Z
-	METHOD b unregisterListener (Ldxq;)V
-	METHOD c stopAll ()V
-	METHOD c play (Ldwr;)V
-	METHOD d pauseAll ()V
-	METHOD d getAdjustedPitch (Ldwr;)F
-	METHOD e playAll ()V
-	METHOD e getAdjustedVolume (Ldwr;)F
-	METHOD f initializeSystem ()V
-	METHOD g tick ()V
+	METHOD method_4855 registerListener (Lnet/minecraft/class_1145;)V
+	METHOD method_4838 stopSounds (Lnet/minecraft/class_2960;Lnet/minecraft/class_3419;)V
+	METHOD method_4850 getSoundVolume (Lnet/minecraft/class_3419;)F
+	METHOD method_4844 updateSoundVolume (Lnet/minecraft/class_3419;F)V
+	METHOD method_4856 close ()V
+	METHOD method_4835 isPlaying (Lnet/minecraft/class_1113;)Z
+	METHOD method_4847 unregisterListener (Lnet/minecraft/class_1145;)V
+	METHOD method_4843 stopAll ()V
+	METHOD method_4854 play (Lnet/minecraft/class_1113;)V
+	METHOD method_19761 pauseAll ()V
+	METHOD method_4849 getAdjustedPitch (Lnet/minecraft/class_1113;)F
+	METHOD method_19762 playAll ()V
+	METHOD method_4853 getAdjustedVolume (Lnet/minecraft/class_1113;)F
+	METHOD method_4846 initializeSystem ()V
+	METHOD method_4857 tick ()V

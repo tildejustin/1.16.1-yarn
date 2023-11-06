@@ -1,8 +1,8 @@
-CLASS xc net/minecraft/resource/ResourceManager
-	METHOD a getAllNamespaces ()Ljava/util/Set;
-	METHOD a findResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+CLASS net/minecraft/class_3300 net/minecraft/resource/ResourceManager
+	METHOD method_14487 getAllNamespaces ()Ljava/util/Set;
+	METHOD method_14488 findResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
 		ARG 1 namespace
-	METHOD a getResource (Lqr;)Lxb;
-	METHOD a addPack (Lwf;)V
-	METHOD b containsResource (Lqr;)Z
-	METHOD c getAllResources (Lqr;)Ljava/util/List;
+	METHOD method_14486 getResource (Lnet/minecraft/class_2960;)Lnet/minecraft/class_3298;
+	METHOD method_14475 addPack (Lnet/minecraft/class_3262;)V
+	METHOD method_18234 containsResource (Lnet/minecraft/class_2960;)Z
+	METHOD method_14489 getAllResources (Lnet/minecraft/class_2960;)Ljava/util/List;

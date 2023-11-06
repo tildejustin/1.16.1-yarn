@@ -1,12 +1,12 @@
-CLASS bxd net/minecraft/util/palette/Palette
-	METHOD a getPacketSize ()I
-	METHOD a getByIndex (I)Ljava/lang/Object;
+CLASS net/minecraft/class_2837 net/minecraft/util/palette/Palette
+	METHOD method_12290 getPacketSize ()I
+	METHOD method_12288 getByIndex (I)Ljava/lang/Object;
 		ARG 1 index
-	METHOD a fromTag (Lii;)V
+	METHOD method_12286 fromTag (Lnet/minecraft/class_2499;)V
 		ARG 1 tag
-	METHOD a getIndex (Ljava/lang/Object;)I
+	METHOD method_12291 getIndex (Ljava/lang/Object;)I
 		ARG 1 object
-	METHOD a fromPacket (Ljc;)V
+	METHOD method_12289 fromPacket (Lnet/minecraft/class_2540;)V
 		ARG 1 buf
-	METHOD b toPacket (Ljc;)V
+	METHOD method_12287 toPacket (Lnet/minecraft/class_2540;)V
 		ARG 1 buf

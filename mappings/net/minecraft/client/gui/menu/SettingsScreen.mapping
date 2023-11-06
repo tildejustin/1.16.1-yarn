@@ -1,9 +1,9 @@
-CLASS czg net/minecraft/client/gui/menu/SettingsScreen
-	FIELD b parent Lczn;
-	FIELD c settings Lcvb;
-	FIELD d difficultyButton Lcwc;
-	FIELD e lockDifficultyButton Lcwk;
-	METHOD <init> (Lczn;Lcvb;)V
+CLASS net/minecraft/class_429 net/minecraft/client/gui/menu/SettingsScreen
+	FIELD field_2501 parent Lnet/minecraft/class_437;
+	FIELD field_2502 settings Lnet/minecraft/class_315;
+	FIELD field_2500 difficultyButton Lnet/minecraft/class_4185;
+	FIELD field_2503 lockDifficultyButton Lnet/minecraft/class_347;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_315;)V
 		ARG 1 parent
 	METHOD confirmResult (ZI)V
 		ARG 1 result

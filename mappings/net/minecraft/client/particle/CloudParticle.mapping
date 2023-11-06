@@ -1,3 +1,3 @@
-CLASS diu net/minecraft/client/particle/CloudParticle
-	CLASS diu$a CloudFactory
-	CLASS diu$b SneezeFactory
+CLASS net/minecraft/class_704 net/minecraft/client/particle/CloudParticle
+	CLASS net/minecraft/class_704$class_705 CloudFactory
+	CLASS net/minecraft/class_704$class_706 SneezeFactory

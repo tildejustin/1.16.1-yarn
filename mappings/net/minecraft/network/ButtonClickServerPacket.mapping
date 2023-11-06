@@ -1,5 +1,5 @@
-CLASS nz net/minecraft/network/ButtonClickServerPacket
-	FIELD a syncId I
+CLASS net/minecraft/class_2811 net/minecraft/network/ButtonClickServerPacket
+	FIELD field_12813 syncId I
 	METHOD <init> (II)V
 		ARG 1 syncId
-	METHOD b getSyncId ()I
+	METHOD method_12187 getSyncId ()I

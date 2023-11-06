@@ -1,17 +1,17 @@
-CLASS czx net/minecraft/client/gui/widget/AdvancementTreeWidget
-	FIELD a client Lcux;
-	FIELD c tabType Lczy;
-	FIELD e rootAdvancement Lq;
-	FIELD j widgets Ljava/util/Map;
-	METHOD <init> (Lcux;Ldab;Lczy;ILq;Lz;)V
+CLASS net/minecraft/class_454 net/minecraft/client/gui/widget/AdvancementTreeWidget
+	FIELD field_2680 client Lnet/minecraft/class_310;
+	FIELD field_2684 tabType Lnet/minecraft/class_453;
+	FIELD field_2682 rootAdvancement Lnet/minecraft/class_161;
+	FIELD field_2685 widgets Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_457;Lnet/minecraft/class_453;ILnet/minecraft/class_161;Lnet/minecraft/class_185;)V
 		ARG 1 client
 		ARG 5 rootAdvancement
-	METHOD a drawIcon (IILdpx;)V
+	METHOD method_2315 drawIcon (IILnet/minecraft/class_918;)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a drawBackground (IIZ)V
+	METHOD method_2311 drawBackground (IIZ)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a create (Lcux;Ldab;ILq;)Lczx;
+	METHOD method_2317 create (Lnet/minecraft/class_310;Lnet/minecraft/class_457;ILnet/minecraft/class_161;)Lnet/minecraft/class_454;
 		ARG 0 minecraft
-	METHOD b getWidgetForAdvancement (Lq;)Lczz;
+	METHOD method_2308 getWidgetForAdvancement (Lnet/minecraft/class_161;)Lnet/minecraft/class_456;

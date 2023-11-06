@@ -1,21 +1,21 @@
-CLASS bxh net/minecraft/world/ChunkTickScheduler
-	FIELD a shouldExclude Ljava/util/function/Predicate;
-	FIELD b idToName Ljava/util/function/Function;
-	FIELD c nameToId Ljava/util/function/Function;
-	FIELD d pos Lbgk;
-	FIELD e scheduledPositions [Lit/unimi/dsi/fastutil/shorts/ShortList;
-	METHOD <init> (Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Function;Lbgk;)V
+CLASS net/minecraft/class_2850 net/minecraft/world/ChunkTickScheduler
+	FIELD field_12991 shouldExclude Ljava/util/function/Predicate;
+	FIELD field_12989 idToName Ljava/util/function/Function;
+	FIELD field_12992 nameToId Ljava/util/function/Function;
+	FIELD field_12993 pos Lnet/minecraft/class_1923;
+	FIELD field_12990 scheduledPositions LLit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD <init> (Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/class_1923;)V
 		ARG 1 shouldExclude
 		ARG 2 idToName
 		ARG 3 nameToId
 		ARG 4 pos
-	METHOD <init> (Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Function;Lbgk;Lii;)V
+	METHOD <init> (Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/class_1923;Lnet/minecraft/class_2499;)V
 		ARG 1 shouldExclude
 		ARG 2 idToName
 		ARG 3 nameToId
 		ARG 4 pos
 		ARG 5 data
-	METHOD a toNbt ()Lii;
-	METHOD a tick (Lbhm;Ljava/util/function/Function;)V
+	METHOD method_12367 toNbt ()Lnet/minecraft/class_2499;
+	METHOD method_12368 tick (Lnet/minecraft/class_1951;Ljava/util/function/Function;)V
 		ARG 1 scheduler
 		ARG 2 dataMapper

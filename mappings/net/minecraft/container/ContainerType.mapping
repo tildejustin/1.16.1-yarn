@@ -1,32 +1,32 @@
-CLASS ayr net/minecraft/container/ContainerType
-	CLASS ayr$a Factory
+CLASS net/minecraft/class_3917 net/minecraft/container/ContainerType
+	CLASS net/minecraft/class_3917$class_3918 Factory
 		METHOD create (ILavl;)Laxq;
 			ARG 1 syncId
 			ARG 2 playerInventory
-	FIELD c GENERIC_9X3 Layr;
-	FIELD f GENERIC_9X6 Layr;
-	FIELD g GENERIC_3X3 Layr;
-	FIELD h ANVIL Layr;
-	FIELD i BEACON Layr;
-	FIELD j BLAST_FURNACE Layr;
-	FIELD k BREWING_STAND Layr;
-	FIELD l CRAFTING Layr;
-	FIELD m ENCHANTMENT Layr;
-	FIELD n FURNACE Layr;
-	FIELD o GRINDSTONE Layr;
-	FIELD p HOPPER Layr;
-	FIELD q LECTERN Layr;
-	FIELD r LOOM Layr;
-	FIELD s MERCHANT Layr;
-	FIELD t SHULKER_BOX Layr;
-	FIELD u SMOKER Layr;
-	FIELD v CARTOGRAPHY Layr;
-	FIELD x factory Layr$a;
-	METHOD <init> (Layr$a;)V
+	FIELD field_17326 GENERIC_9X3 Lnet/minecraft/class_3917;
+	FIELD field_17327 GENERIC_9X6 Lnet/minecraft/class_3917;
+	FIELD field_17328 GENERIC_3X3 Lnet/minecraft/class_3917;
+	FIELD field_17329 ANVIL Lnet/minecraft/class_3917;
+	FIELD field_17330 BEACON Lnet/minecraft/class_3917;
+	FIELD field_17331 BLAST_FURNACE Lnet/minecraft/class_3917;
+	FIELD field_17332 BREWING_STAND Lnet/minecraft/class_3917;
+	FIELD field_17333 CRAFTING Lnet/minecraft/class_3917;
+	FIELD field_17334 ENCHANTMENT Lnet/minecraft/class_3917;
+	FIELD field_17335 FURNACE Lnet/minecraft/class_3917;
+	FIELD field_17336 GRINDSTONE Lnet/minecraft/class_3917;
+	FIELD field_17337 HOPPER Lnet/minecraft/class_3917;
+	FIELD field_17338 LECTERN Lnet/minecraft/class_3917;
+	FIELD field_17339 LOOM Lnet/minecraft/class_3917;
+	FIELD field_17340 MERCHANT Lnet/minecraft/class_3917;
+	FIELD field_17341 SHULKER_BOX Lnet/minecraft/class_3917;
+	FIELD field_17342 SMOKER Lnet/minecraft/class_3917;
+	FIELD field_17343 CARTOGRAPHY Lnet/minecraft/class_3917;
+	FIELD field_17344 factory Lnet/minecraft/class_3917$class_3918;
+	METHOD <init> (Lnet/minecraft/class_3917$class_3918;)V
 		ARG 1 factory
-	METHOD a create (ILavl;)Laxq;
+	METHOD method_17434 create (ILnet/minecraft/class_1661;)Lnet/minecraft/class_1703;
 		ARG 1 syncId
 		ARG 2 playerInventory
-	METHOD a register (Ljava/lang/String;Layr$a;)Layr;
+	METHOD method_17435 register (Ljava/lang/String;Lnet/minecraft/class_3917$class_3918;)Lnet/minecraft/class_3917;
 		ARG 0 id
 		ARG 1 factory

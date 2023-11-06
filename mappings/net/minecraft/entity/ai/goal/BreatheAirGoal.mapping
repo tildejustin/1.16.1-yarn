@@ -1,4 +1,4 @@
-CLASS alx net/minecraft/entity/ai/goal/BreatheAirGoal
-	FIELD a owner Laip;
-	METHOD a isAirPos (Lbha;Lev;)Z
-	METHOD g moveToAir ()V
+CLASS net/minecraft/class_1342 net/minecraft/entity/ai/goal/BreatheAirGoal
+	FIELD field_6408 owner Lnet/minecraft/class_1314;
+	METHOD method_6253 isAirPos (Lnet/minecraft/class_1941;Lnet/minecraft/class_2338;)Z
+	METHOD method_6252 moveToAir ()V

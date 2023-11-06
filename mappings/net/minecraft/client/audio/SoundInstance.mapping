@@ -1,16 +1,16 @@
-CLASS dwr net/minecraft/client/audio/SoundInstance
-	CLASS dwr$a AttenuationType
-		FIELD a NONE Ldwr$a;
-		FIELD b LINEAR Ldwr$a;
-	METHOD a getSoundSet (Ldxr;)Ldxs;
-	METHOD b getId ()Lqr;
-	METHOD c getSound ()Ldwo;
-	METHOD d getCategory ()Lyj;
-	METHOD e isRepeatable ()Z
-	METHOD f getRepeatDelay ()I
-	METHOD g getVolume ()F
-	METHOD h getPitch ()F
-	METHOD i getX ()F
-	METHOD j getY ()F
-	METHOD k getZ ()F
-	METHOD l getAttenuationType ()Ldwr$a;
+CLASS net/minecraft/class_1113 net/minecraft/client/audio/SoundInstance
+	CLASS net/minecraft/class_1113$class_1114 AttenuationType
+		FIELD field_5478 NONE Lnet/minecraft/class_1113$class_1114;
+		FIELD field_5476 LINEAR Lnet/minecraft/class_1113$class_1114;
+	METHOD method_4783 getSoundSet (Lnet/minecraft/class_1144;)Lnet/minecraft/class_1146;
+	METHOD method_4775 getId ()Lnet/minecraft/class_2960;
+	METHOD method_4776 getSound ()Lnet/minecraft/class_1111;
+	METHOD method_4774 getCategory ()Lnet/minecraft/class_3419;
+	METHOD method_4786 isRepeatable ()Z
+	METHOD method_4780 getRepeatDelay ()I
+	METHOD method_4781 getVolume ()F
+	METHOD method_4782 getPitch ()F
+	METHOD method_4784 getX ()F
+	METHOD method_4779 getY ()F
+	METHOD method_4778 getZ ()F
+	METHOD method_4777 getAttenuationType ()Lnet/minecraft/class_1113$class_1114;

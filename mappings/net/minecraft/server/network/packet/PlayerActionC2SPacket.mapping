@@ -1,8 +1,8 @@
-CLASS oo net/minecraft/server/network/packet/PlayerActionC2SPacket
-	CLASS oo$a Action
-	FIELD a pos Lev;
-	FIELD b direction Lfa;
-	FIELD c action Loo$a;
-	METHOD b getPos ()Lev;
-	METHOD c getDirection ()Lfa;
-	METHOD d getAction ()Loo$a;
+CLASS net/minecraft/class_2846 net/minecraft/server/network/packet/PlayerActionC2SPacket
+	CLASS net/minecraft/class_2846$class_2847 Action
+	FIELD field_12967 pos Lnet/minecraft/class_2338;
+	FIELD field_12965 direction Lnet/minecraft/class_2350;
+	FIELD field_12966 action Lnet/minecraft/class_2846$class_2847;
+	METHOD method_12362 getPos ()Lnet/minecraft/class_2338;
+	METHOD method_12360 getDirection ()Lnet/minecraft/class_2350;
+	METHOD method_12363 getAction ()Lnet/minecraft/class_2846$class_2847;

@@ -1,2 +1,2 @@
-CLASS zv net/minecraft/util/StringRepresentable
-	METHOD m asString ()Ljava/lang/String;
+CLASS net/minecraft/class_3542 net/minecraft/util/StringRepresentable
+	METHOD method_15434 asString ()Ljava/lang/String;

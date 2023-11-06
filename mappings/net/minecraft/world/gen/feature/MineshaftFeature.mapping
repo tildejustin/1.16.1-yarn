@@ -1,17 +1,17 @@
-CLASS ccb net/minecraft/world/gen/feature/MineshaftFeature
-	CLASS ccb$a Start
-		METHOD <init> (Lcdx;IILbhu;Lchf;IJ)V
+CLASS net/minecraft/class_3098 net/minecraft/world/gen/feature/MineshaftFeature
+	CLASS net/minecraft/class_3098$class_3099 Start
+		METHOD <init> (Lnet/minecraft/class_3195;IILnet/minecraft/class_1959;Lnet/minecraft/class_3341;IJ)V
 			ARG 2 chunkX
 			ARG 3 chunkZ
-	CLASS ccb$b Type
-		FIELD a NORMAL Lccb$b;
-		FIELD b MESA Lccb$b;
-		FIELD c nameMap Ljava/util/Map;
-		FIELD d name Ljava/lang/String;
-		METHOD a getName ()Ljava/lang/String;
-		METHOD a byIndex (I)Lccb$b;
+	CLASS net/minecraft/class_3098$class_3100 Type
+		FIELD field_13692 NORMAL Lnet/minecraft/class_3098$class_3100;
+		FIELD field_13691 MESA Lnet/minecraft/class_3098$class_3100;
+		FIELD field_13690 nameMap Ljava/util/Map;
+		FIELD field_13689 name Ljava/lang/String;
+		METHOD method_13534 getName ()Ljava/lang/String;
+		METHOD method_13535 byIndex (I)Lnet/minecraft/class_3098$class_3100;
 			ARG 0 index
-		METHOD a byName (Ljava/lang/String;)Lccb$b;
+		METHOD method_13532 byName (Ljava/lang/String;)Lnet/minecraft/class_3098$class_3100;
 			ARG 0 nam
 	METHOD <init> (Ljava/util/function/Function;)V
 		ARG 1 configFactory

@@ -1,2 +1,2 @@
-CLASS dok net/minecraft/client/render/entity/BoatEntityRenderer
-	FIELD f SKIN [Lqr;
+CLASS net/minecraft/class_881 net/minecraft/client/render/entity/BoatEntityRenderer
+	FIELD field_4648 SKIN LLqr;

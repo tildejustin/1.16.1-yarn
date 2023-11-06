@@ -1,9 +1,9 @@
-CLASS bct net/minecraft/item/SwordItem
-	FIELD a weaponDamage F
-	FIELD b weaponCooldownSpeed F
-	METHOD <init> (Lbcv;IFLbbk$a;)V
+CLASS net/minecraft/class_1829 net/minecraft/item/SwordItem
+	FIELD field_8920 weaponDamage F
+	FIELD field_8919 weaponCooldownSpeed F
+	METHOD <init> (Lnet/minecraft/class_1832;IFLnet/minecraft/class_1792$class_1793;)V
 		ARG 1 material
 		ARG 2 baseDamage
 		ARG 3 cooldownSpeed
 		ARG 4 settings
-	METHOD d getWeaponDamage ()F
+	METHOD method_8020 getWeaponDamage ()F

@@ -1,10 +1,10 @@
-CLASS djw net/minecraft/client/render/block/BiomeColors
-	CLASS djw$a Proxy
-	FIELD a GRASS_COLOR Ldjw$a;
-	FIELD b FOLIAGE_COLOR Ldjw$a;
-	FIELD c WATER_COLOR Ldjw$a;
-	FIELD d WATER_FOG_COLOR Ldjw$a;
-	METHOD a grassColorAt (Lbgg;Lev;)I
-	METHOD a colorAt (Lbgg;Lev;Ldjw$a;)I
-	METHOD b foliageColorAt (Lbgg;Lev;)I
-	METHOD c waterColorAt (Lbgg;Lev;)I
+CLASS net/minecraft/class_1163 net/minecraft/client/render/block/BiomeColors
+	CLASS net/minecraft/class_1163$class_1164 Proxy
+	FIELD field_5665 GRASS_COLOR Lnet/minecraft/class_1163$class_1164;
+	FIELD field_5664 FOLIAGE_COLOR Lnet/minecraft/class_1163$class_1164;
+	FIELD field_5666 WATER_COLOR Lnet/minecraft/class_1163$class_1164;
+	FIELD field_5667 WATER_FOG_COLOR Lnet/minecraft/class_1163$class_1164;
+	METHOD method_4962 grassColorAt (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I
+	METHOD method_4965 colorAt (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;Lnet/minecraft/class_1163$class_1164;)I
+	METHOD method_4966 foliageColorAt (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I
+	METHOD method_4961 waterColorAt (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I

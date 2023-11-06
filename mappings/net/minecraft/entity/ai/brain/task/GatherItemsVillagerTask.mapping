@@ -1,3 +1,3 @@
-CLASS alb net/minecraft/entity/ai/brain/task/GatherItemsVillagerTask
-	FIELD a items Ljava/util/Set;
-	METHOD a getGatherableItems (Lauz;Lauz;)Ljava/util/Set;
+CLASS net/minecraft/class_4126 net/minecraft/entity/ai/brain/task/GatherItemsVillagerTask
+	FIELD field_18389 items Ljava/util/Set;
+	METHOD method_19611 getGatherableItems (Lnet/minecraft/class_1646;Lnet/minecraft/class_1646;)Ljava/util/Set;

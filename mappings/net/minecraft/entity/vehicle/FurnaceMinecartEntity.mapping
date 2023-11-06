@@ -1,7 +1,7 @@
-CLASS axg net/minecraft/entity/vehicle/FurnaceMinecartEntity
-	FIELD b pushX D
-	FIELD c pushZ D
-	FIELD d LIT Lqg;
-	FIELD e fuel I
-	METHOD n setLit (Z)V
-	METHOD v isLit ()Z
+CLASS net/minecraft/class_1696 net/minecraft/entity/vehicle/FurnaceMinecartEntity
+	FIELD field_7737 pushX D
+	FIELD field_7736 pushZ D
+	FIELD field_7740 LIT Lnet/minecraft/class_2940;
+	FIELD field_7739 fuel I
+	METHOD method_7564 setLit (Z)V
+	METHOD method_7565 isLit ()Z

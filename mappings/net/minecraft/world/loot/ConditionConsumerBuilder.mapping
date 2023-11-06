@@ -1,3 +1,3 @@
-CLASS cqg net/minecraft/world/loot/ConditionConsumerBuilder
-	METHOD b withCondition (Lcqn$a;)Ljava/lang/Object;
-	METHOD c getThis ()Ljava/lang/Object;
+CLASS net/minecraft/class_192 net/minecraft/world/loot/ConditionConsumerBuilder
+	METHOD method_840 withCondition (Lnet/minecraft/class_209$class_210;)Ljava/lang/Object;
+	METHOD method_512 getThis ()Ljava/lang/Object;

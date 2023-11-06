@@ -1,2 +1,2 @@
-CLASS qz net/minecraft/util/PrintStreamLogger
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+CLASS net/minecraft/class_2983 net/minecraft/util/PrintStreamLogger
+	FIELD field_13384 LOGGER Lorg/apache/logging/log4j/Logger;

@@ -1,12 +1,12 @@
-CLASS bnk net/minecraft/block/DispenserBlock
-	FIELD a FACING Lbvt;
-	FIELD b TRIGGERED Lbvq;
-	FIELD c BEHAVIORS Ljava/util/Map;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2315 net/minecraft/block/DispenserBlock
+	FIELD field_10918 FACING Lnet/minecraft/class_2753;
+	FIELD field_10920 TRIGGERED Lnet/minecraft/class_2746;
+	FIELD field_10919 BEHAVIORS Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a getBehaviorForItem (Lbbp;)Lfv;
-	METHOD a registerBehavior (Lbgw;Lfv;)V
-	METHOD a dispense (Lbgx;Lev;)V
+	METHOD method_10011 getBehaviorForItem (Lnet/minecraft/class_1799;)Lnet/minecraft/class_2357;
+	METHOD method_10009 registerBehavior (Lnet/minecraft/class_1935;Lnet/minecraft/class_2357;)V
+	METHOD method_10012 dispense (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a getOutputLocation (Lew;)Lfk;
+	METHOD method_10010 getOutputLocation (Lnet/minecraft/class_2342;)Lnet/minecraft/class_2374;

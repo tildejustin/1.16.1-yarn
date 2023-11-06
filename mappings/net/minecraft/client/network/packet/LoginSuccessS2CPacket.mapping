@@ -1,2 +1,2 @@
-CLASS po net/minecraft/client/network/packet/LoginSuccessS2CPacket
-	METHOD b getPlayerProfile ()Lcom/mojang/authlib/GameProfile;
+CLASS net/minecraft/class_2901 net/minecraft/client/network/packet/LoginSuccessS2CPacket
+	METHOD method_12593 getPlayerProfile ()Lcom/mojang/authlib/GameProfile;

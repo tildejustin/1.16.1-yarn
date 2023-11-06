@@ -1,11 +1,11 @@
-CLASS lr net/minecraft/client/network/packet/SetVillagerRecipesPacket
-	FIELD a syncId I
-	FIELD b recipes Lbgc;
-	FIELD e canLevel Z
-	METHOD <init> (ILbgc;IIZ)V
+CLASS net/minecraft/class_3943 net/minecraft/client/network/packet/SetVillagerRecipesPacket
+	FIELD field_17434 syncId I
+	FIELD field_17435 recipes Lnet/minecraft/class_1916;
+	FIELD field_18803 canLevel Z
+	METHOD <init> (ILnet/minecraft/class_1916;IIZ)V
 		ARG 1 syncId
 		ARG 2 recipes
 		ARG 5 canLevel
-	METHOD b getSyncId ()I
-	METHOD c getRecipes ()Lbgc;
-	METHOD f canLevel ()Z
+	METHOD method_17589 getSyncId ()I
+	METHOD method_17590 getRecipes ()Lnet/minecraft/class_1916;
+	METHOD method_19460 canLevel ()Z

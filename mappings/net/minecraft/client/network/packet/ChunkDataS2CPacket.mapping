@@ -1,15 +1,15 @@
-CLASS ll net/minecraft/client/network/packet/ChunkDataS2CPacket
-	FIELD a chunkX I
-	FIELD b chunkZ I
-	FIELD c verticalStripBitmask I
-	FIELD e data [B
-	FIELD f blockEntityList Ljava/util/List;
-	FIELD g isFullChunk Z
-	METHOD <init> (Lbwy;I)V
+CLASS net/minecraft/class_2672 net/minecraft/client/network/packet/ChunkDataS2CPacket
+	FIELD field_12236 chunkX I
+	FIELD field_12235 chunkZ I
+	FIELD field_12234 verticalStripBitmask I
+	FIELD field_12237 data [B
+	FIELD field_12238 blockEntityList Ljava/util/List;
+	FIELD field_12233 isFullChunk Z
+	METHOD <init> (Lnet/minecraft/class_2818;I)V
 		ARG 2 includedSectionsMask
-	METHOD b getReadBuffer ()Ljc;
-	METHOD c getX ()I
-	METHOD d getZ ()I
-	METHOD e getVerticalStripBitmask ()I
-	METHOD f isFullChunk ()Z
-	METHOD h getBlockEntityTagList ()Ljava/util/List;
+	METHOD method_11521 getReadBuffer ()Lnet/minecraft/class_2540;
+	METHOD method_11523 getX ()I
+	METHOD method_11524 getZ ()I
+	METHOD method_11526 getVerticalStripBitmask ()I
+	METHOD method_11530 isFullChunk ()Z
+	METHOD method_11525 getBlockEntityTagList ()Ljava/util/List;

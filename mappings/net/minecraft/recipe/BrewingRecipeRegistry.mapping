@@ -1,37 +1,37 @@
-CLASS bdh net/minecraft/recipe/BrewingRecipeRegistry
-	CLASS bdh$a Recipe
-		FIELD a input Ljava/lang/Object;
-		FIELD b ingredient Lbdw;
-		FIELD c output Ljava/lang/Object;
-	FIELD a POTION_RECIPES Ljava/util/List;
-	FIELD b ITEM_RECIPES Ljava/util/List;
-	FIELD c POTION_TYPES Ljava/util/List;
-	FIELD d POTION_TYPE_PREDICATE Ljava/util/function/Predicate;
-	METHOD a registerDefaults ()V
-	METHOD a registerPotionType (Lbbk;)V
+CLASS net/minecraft/class_1845 net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS net/minecraft/class_1845$class_1846 Recipe
+		FIELD field_8962 input Ljava/lang/Object;
+		FIELD field_8960 ingredient Lnet/minecraft/class_1856;
+		FIELD field_8961 output Ljava/lang/Object;
+	FIELD field_8956 POTION_RECIPES Ljava/util/List;
+	FIELD field_8959 ITEM_RECIPES Ljava/util/List;
+	FIELD field_8957 POTION_TYPES Ljava/util/List;
+	FIELD field_8958 POTION_TYPE_PREDICATE Ljava/util/function/Predicate;
+	METHOD method_8076 registerDefaults ()V
+	METHOD method_8080 registerPotionType (Lnet/minecraft/class_1792;)V
 		ARG 0 item
-	METHOD a registerItemRecipe (Lbbk;Lbbk;Lbbk;)V
+	METHOD method_8071 registerItemRecipe (Lnet/minecraft/class_1792;Lnet/minecraft/class_1792;Lnet/minecraft/class_1792;)V
 		ARG 0 input
 		ARG 1 ingredient
 		ARG 2 output
-	METHOD a isValidIngredient (Lbbp;)Z
+	METHOD method_8077 isValidIngredient (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
-	METHOD a hasRecipe (Lbbp;Lbbp;)Z
+	METHOD method_8072 hasRecipe (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 input
 		ARG 1 ingredient
-	METHOD a registerPotionRecipe (Lbdg;Lbbk;Lbdg;)V
+	METHOD method_8074 registerPotionRecipe (Lnet/minecraft/class_1842;Lnet/minecraft/class_1792;Lnet/minecraft/class_1842;)V
 		ARG 0 input
 		ARG 2 output
-	METHOD b isItemRecipeIngredient (Lbbp;)Z
+	METHOD method_8079 isItemRecipeIngredient (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
-	METHOD b hasItemRecipe (Lbbp;Lbbp;)Z
+	METHOD method_8070 hasItemRecipe (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 input
 		ARG 1 ingredien
-	METHOD c isPotionRecipeIngredient (Lbbp;)Z
+	METHOD method_8069 isPotionRecipeIngredient (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
-	METHOD c hasPotionRecipe (Lbbp;Lbbp;)Z
+	METHOD method_8075 hasPotionRecipe (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 input
 		ARG 1 ingredient
-	METHOD d craft (Lbbp;Lbbp;)Lbbp;
+	METHOD method_8078 craft (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;
 		ARG 0 input
 		ARG 1 ingredient

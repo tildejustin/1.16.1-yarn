@@ -1,39 +1,39 @@
-CLASS ju net/minecraft/text/Style
-	CLASS ju$a Serializer
-	FIELD a parent Lju;
-	FIELD b color Lc;
-	FIELD c bold Ljava/lang/Boolean;
-	FIELD d italic Ljava/lang/Boolean;
-	FIELD e underline Ljava/lang/Boolean;
-	FIELD f strikethrough Ljava/lang/Boolean;
-	FIELD g obfuscated Ljava/lang/Boolean;
-	FIELD h clickEvent Ljl;
-	FIELD i hoverEvent Ljp;
-	FIELD j insertion Ljava/lang/String;
-	FIELD k ROOT Lju;
-	METHOD a getColor ()Lc;
-	METHOD a setColor (Lc;)Lju;
-	METHOD a setBold (Ljava/lang/Boolean;)Lju;
-	METHOD a setInsertion (Ljava/lang/String;)Lju;
-	METHOD a setClickEvent (Ljl;)Lju;
-	METHOD a setHoverEvent (Ljp;)Lju;
-	METHOD a setParent (Lju;)Lju;
-	METHOD b isBold ()Z
-	METHOD b setItalic (Ljava/lang/Boolean;)Lju;
-	METHOD c isItalic ()Z
-	METHOD c setStrikethrough (Ljava/lang/Boolean;)Lju;
-	METHOD d isStrikethrough ()Z
-	METHOD d setUnderline (Ljava/lang/Boolean;)Lju;
-	METHOD e isUnderlined ()Z
-	METHOD e setObfuscated (Ljava/lang/Boolean;)Lju;
+CLASS net/minecraft/class_2583 net/minecraft/text/Style
+	CLASS net/minecraft/class_2583$class_2584 Serializer
+	FIELD field_11860 parent Lnet/minecraft/class_2583;
+	FIELD field_11855 color Lnet/minecraft/class_124;
+	FIELD field_11856 bold Ljava/lang/Boolean;
+	FIELD field_11852 italic Ljava/lang/Boolean;
+	FIELD field_11851 underline Ljava/lang/Boolean;
+	FIELD field_11857 strikethrough Ljava/lang/Boolean;
+	FIELD field_11861 obfuscated Ljava/lang/Boolean;
+	FIELD field_11853 clickEvent Lnet/minecraft/class_2558;
+	FIELD field_11858 hoverEvent Lnet/minecraft/class_2568;
+	FIELD field_11859 insertion Ljava/lang/String;
+	FIELD field_11854 ROOT Lnet/minecraft/class_2583;
+	METHOD method_10973 getColor ()Lnet/minecraft/class_124;
+	METHOD method_10977 setColor (Lnet/minecraft/class_124;)Lnet/minecraft/class_2583;
+	METHOD method_10982 setBold (Ljava/lang/Boolean;)Lnet/minecraft/class_2583;
+	METHOD method_10975 setInsertion (Ljava/lang/String;)Lnet/minecraft/class_2583;
+	METHOD method_10958 setClickEvent (Lnet/minecraft/class_2558;)Lnet/minecraft/class_2583;
+	METHOD method_10949 setHoverEvent (Lnet/minecraft/class_2568;)Lnet/minecraft/class_2583;
+	METHOD method_10985 setParent (Lnet/minecraft/class_2583;)Lnet/minecraft/class_2583;
+	METHOD method_10984 isBold ()Z
+	METHOD method_10978 setItalic (Ljava/lang/Boolean;)Lnet/minecraft/class_2583;
+	METHOD method_10966 isItalic ()Z
+	METHOD method_10959 setStrikethrough (Ljava/lang/Boolean;)Lnet/minecraft/class_2583;
+	METHOD method_10986 isStrikethrough ()Z
+	METHOD method_10968 setUnderline (Ljava/lang/Boolean;)Lnet/minecraft/class_2583;
+	METHOD method_10965 isUnderlined ()Z
+	METHOD method_10948 setObfuscated (Ljava/lang/Boolean;)Lnet/minecraft/class_2583;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f isObfuscated ()Z
-	METHOD g isEmpty ()Z
-	METHOD h getClickEvent ()Ljl;
-	METHOD i getHoverEvent ()Ljp;
-	METHOD j getInsertion ()Ljava/lang/String;
-	METHOD k getFormatString ()Ljava/lang/String;
-	METHOD m clone ()Lju;
-	METHOD n copy ()Lju;
-	METHOD o getParent ()Lju;
+	METHOD method_10987 isObfuscated ()Z
+	METHOD method_10967 isEmpty ()Z
+	METHOD method_10970 getClickEvent ()Lnet/minecraft/class_2558;
+	METHOD method_10969 getHoverEvent ()Lnet/minecraft/class_2568;
+	METHOD method_10955 getInsertion ()Ljava/lang/String;
+	METHOD method_10953 getFormatString ()Ljava/lang/String;
+	METHOD method_10976 clone ()Lnet/minecraft/class_2583;
+	METHOD method_10960 copy ()Lnet/minecraft/class_2583;
+	METHOD method_10989 getParent ()Lnet/minecraft/class_2583;

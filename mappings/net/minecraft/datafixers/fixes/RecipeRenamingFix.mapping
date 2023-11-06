@@ -1,2 +1,2 @@
-CLASS adj net/minecraft/datafixers/fixes/RecipeRenamingFix
-	FIELD a recipes Ljava/util/Map;
+CLASS net/minecraft/class_1205 net/minecraft/datafixers/fixes/RecipeRenamingFix
+	FIELD field_5707 recipes Ljava/util/Map;

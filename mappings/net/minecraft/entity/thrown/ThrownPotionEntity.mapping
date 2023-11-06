@@ -1,14 +1,14 @@
-CLASS awm net/minecraft/entity/thrown/ThrownPotionEntity
-	FIELD f ITEM_STACK Lqg;
-	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Lbgx;DDD)V
+CLASS net/minecraft/class_1686 net/minecraft/entity/thrown/ThrownPotionEntity
+	FIELD field_7652 ITEM_STACK Lnet/minecraft/class_2940;
+	FIELD field_7651 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
-	METHOD <init> (Lbgx;Laii;)V
+	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)V
 		ARG 1 world
-	METHOD a doesWaterHurt (Laii;)Z
+	METHOD method_7496 doesWaterHurt (Lnet/minecraft/class_1309;)Z
 		ARG 0 entityHit
-	METHOD a extinguishFire (Lev;Lfa;)V
-	METHOD b setItemStack (Lbbp;)V
-	METHOD k isLingering ()Z
+	METHOD method_7499 extinguishFire (Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)V
+	METHOD method_7494 setItemStack (Lnet/minecraft/class_1799;)V
+	METHOD method_7501 isLingering ()Z

@@ -1,11 +1,11 @@
-CLASS coe net/minecraft/world/loot/LootManager
-	FIELD a lootTablesLength I
-	FIELD b jsonLength I
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d gson Lcom/google/gson/Gson;
-	FIELD e suppliers Ljava/util/Map;
-	FIELD f supplierNames Ljava/util/Set;
-	METHOD a getSupplierNames ()Ljava/util/Set;
-	METHOD a toJson (Lcoc;)Lcom/google/gson/JsonElement;
-	METHOD a check (Lcod;Lqr;Lcoc;Ljava/util/function/Function;)V
-	METHOD a getSupplier (Lqr;)Lcoc;
+CLASS net/minecraft/class_60 net/minecraft/world/loot/LootManager
+	FIELD field_973 lootTablesLength I
+	FIELD field_972 jsonLength I
+	FIELD field_975 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_974 gson Lcom/google/gson/Gson;
+	FIELD field_970 suppliers Ljava/util/Map;
+	FIELD field_971 supplierNames Ljava/util/Set;
+	METHOD method_370 getSupplierNames ()Ljava/util/Set;
+	METHOD method_372 toJson (Lnet/minecraft/class_52;)Lcom/google/gson/JsonElement;
+	METHOD method_369 check (Lnet/minecraft/class_58;Lnet/minecraft/class_2960;Lnet/minecraft/class_52;Ljava/util/function/Function;)V
+	METHOD method_367 getSupplier (Lnet/minecraft/class_2960;)Lnet/minecraft/class_52;

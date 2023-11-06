@@ -1,12 +1,12 @@
-CLASS clm net/minecraft/world/biome/layer/BiomeLayerSampler
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b sampler Lcky;
-	METHOD a getBiome (I)Lbhu;
+CLASS net/minecraft/class_3642 net/minecraft/world/biome/layer/BiomeLayerSampler
+	FIELD field_16592 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_16516 sampler Lnet/minecraft/class_3626;
+	METHOD method_16459 getBiome (I)Lnet/minecraft/class_1959;
 		ARG 1 id
-	METHOD a sample (II)Lbhu;
+	METHOD method_16341 sample (II)Lnet/minecraft/class_1959;
 		ARG 1 x
 		ARG 2 y
-	METHOD a sample (IIII)[Lbhu;
+	METHOD method_15842 sample (IIII)LLbhu;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 width

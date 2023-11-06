@@ -1,16 +1,16 @@
-CLASS jp net/minecraft/text/event/HoverEvent
-	CLASS jp$a Action
-		FIELD a SHOW_TEXT Ljp$a;
-		FIELD b SHOW_ITEM Ljp$a;
-		FIELD c SHOW_ENTITY Ljp$a;
-		FIELD f name Ljava/lang/String;
-		METHOD a get (Ljava/lang/String;)Ljp$a;
-		METHOD b getName ()Ljava/lang/String;
-	FIELD a action Ljp$a;
-	FIELD b value Ljm;
-	METHOD <init> (Ljp$a;Ljm;)V
+CLASS net/minecraft/class_2568 net/minecraft/text/event/HoverEvent
+	CLASS net/minecraft/class_2568$class_2569 Action
+		FIELD field_11762 SHOW_TEXT Lnet/minecraft/class_2568$class_2569;
+		FIELD field_11757 SHOW_ITEM Lnet/minecraft/class_2568$class_2569;
+		FIELD field_11761 SHOW_ENTITY Lnet/minecraft/class_2568$class_2569;
+		FIELD field_11763 name Ljava/lang/String;
+		METHOD method_10896 get (Ljava/lang/String;)Lnet/minecraft/class_2568$class_2569;
+		METHOD method_10893 getName ()Ljava/lang/String;
+	FIELD field_11756 action Lnet/minecraft/class_2568$class_2569;
+	FIELD field_11755 value Lnet/minecraft/class_2561;
+	METHOD <init> (Lnet/minecraft/class_2568$class_2569;Lnet/minecraft/class_2561;)V
 		ARG 1 action
-	METHOD a getAction ()Ljp$a;
-	METHOD b getValue ()Ljm;
+	METHOD method_10892 getAction ()Lnet/minecraft/class_2568$class_2569;
+	METHOD method_10891 getValue ()Lnet/minecraft/class_2561;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

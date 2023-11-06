@@ -1,6 +1,6 @@
-CLASS dpw net/minecraft/client/render/entity/ItemFrameEntityRenderer
-	FIELD a MAP_BACKGROUND_TEX Lqr;
-	FIELD h client Lcux;
-	FIELD i itemRenderer Ldpx;
-	METHOD <init> (Ldpc;Ldpx;)V
+CLASS net/minecraft/class_915 net/minecraft/client/render/entity/ItemFrameEntityRenderer
+	FIELD field_4722 MAP_BACKGROUND_TEX Lnet/minecraft/class_2960;
+	FIELD field_4724 client Lnet/minecraft/class_310;
+	FIELD field_4720 itemRenderer Lnet/minecraft/class_918;
+	METHOD <init> (Lnet/minecraft/class_898;Lnet/minecraft/class_918;)V
 		ARG 1 renderManager

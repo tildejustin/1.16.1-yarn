@@ -1,10 +1,10 @@
-CLASS cxh net/minecraft/client/toast/TutorialToast
-	CLASS cxh$a Type
-		FIELD f textureSlotX I
-		FIELD g textureSlotY I
-		METHOD a drawIcon (Lcvr;II)V
-	FIELD c type Lcxh$a;
-	FIELD d title Ljava/lang/String;
-	FIELD e description Ljava/lang/String;
-	FIELD f visibility Lcxf$a;
-	METHOD a hide ()V
+CLASS net/minecraft/class_372 net/minecraft/client/toast/TutorialToast
+	CLASS net/minecraft/class_372$class_373 Type
+		FIELD field_2232 textureSlotX I
+		FIELD field_2231 textureSlotY I
+		METHOD method_1994 drawIcon (Lnet/minecraft/class_332;II)V
+	FIELD field_2225 type Lnet/minecraft/class_372$class_373;
+	FIELD field_2224 title Ljava/lang/String;
+	FIELD field_2226 description Ljava/lang/String;
+	FIELD field_2227 visibility Lnet/minecraft/class_368$class_369;
+	METHOD method_1993 hide ()V

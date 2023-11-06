@@ -1,4 +1,4 @@
-CLASS cig net/minecraft/sortme/rule/BlockMatchRuleTest
-	FIELD a block Lbma;
-	METHOD <init> (Lbma;)V
+CLASS net/minecraft/class_3819 net/minecraft/sortme/rule/BlockMatchRuleTest
+	FIELD field_16869 block Lnet/minecraft/class_2248;
+	METHOD <init> (Lnet/minecraft/class_2248;)V
 		ARG 1 block

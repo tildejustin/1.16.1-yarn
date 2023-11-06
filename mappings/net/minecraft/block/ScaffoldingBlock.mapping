@@ -1,10 +1,10 @@
-CLASS bqo net/minecraft/block/ScaffoldingBlock
-	FIELD a DISTANCE Lbvy;
-	FIELD b WATERLOGGED Lbvq;
-	FIELD c BOTTOM Lbvq;
-	FIELD d NORMAL_OUTLINE_SHAPE Lcse;
-	FIELD e BOTTOM_OUTLINE_SHAPE Lcse;
-	FIELD f COLLISION_SHAPE Lcse;
-	FIELD g OUTLINE_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_3736 net/minecraft/block/ScaffoldingBlock
+	FIELD field_16495 DISTANCE Lnet/minecraft/class_2758;
+	FIELD field_16496 WATERLOGGED Lnet/minecraft/class_2746;
+	FIELD field_16547 BOTTOM Lnet/minecraft/class_2746;
+	FIELD field_16494 NORMAL_OUTLINE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16497 BOTTOM_OUTLINE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17577 COLLISION_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17578 OUTLINE_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

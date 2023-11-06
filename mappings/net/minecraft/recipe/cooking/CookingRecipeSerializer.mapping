@@ -1,7 +1,7 @@
-CLASS beh net/minecraft/recipe/cooking/CookingRecipeSerializer
-	CLASS beh$a RecipeFactory
-	FIELD t cookingTime I
-	FIELD u recipeFactory Lbeh$a;
-	METHOD <init> (Lbeh$a;I)V
+CLASS net/minecraft/class_3957 net/minecraft/recipe/cooking/CookingRecipeSerializer
+	CLASS net/minecraft/class_3957$class_3958 RecipeFactory
+	FIELD field_17551 cookingTime I
+	FIELD field_17552 recipeFactory Lnet/minecraft/class_3957$class_3958;
+	METHOD <init> (Lnet/minecraft/class_3957$class_3958;I)V
 		ARG 1 recipeFactory
 		ARG 2 cookingTime

@@ -1,17 +1,17 @@
-CLASS alg net/minecraft/entity/ai/brain/task/VillagerTaskListProvider
-	METHOD a getPlayTasks (F)Lcom/google/common/collect/ImmutableList;
-	METHOD a getCoreTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+CLASS net/minecraft/class_4129 net/minecraft/entity/ai/brain/task/VillagerTaskListProvider
+	METHOD method_19990 getPlayTasks (F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19020 getCoreTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD b getWorkTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19021 getWorkTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD c getRestTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19022 getRestTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD d getMeetTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19023 getMeetTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD e getIdleTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19024 getIdleTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD f getPanicTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19025 getPanicTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
 		ARG 0 profession
-	METHOD g getPreRaidTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
-	METHOD h getRaidTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
-	METHOD i getHideTasks (Lavc;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19991 getPreRaidTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19992 getRaidTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;
+	METHOD method_19993 getHideTasks (Lnet/minecraft/class_3852;F)Lcom/google/common/collect/ImmutableList;

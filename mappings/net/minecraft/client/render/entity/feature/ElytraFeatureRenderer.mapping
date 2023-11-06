@@ -1,4 +1,4 @@
-CLASS dsm net/minecraft/client/render/entity/feature/ElytraFeatureRenderer
-	FIELD a SKIN Lqr;
-	METHOD <init> (Ldqt;)V
+CLASS net/minecraft/class_979 net/minecraft/client/render/entity/feature/ElytraFeatureRenderer
+	FIELD field_4850 SKIN Lnet/minecraft/class_2960;
+	METHOD <init> (Lnet/minecraft/class_3883;)V
 		ARG 1 context

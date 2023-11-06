@@ -1,4 +1,4 @@
-CLASS xl net/minecraft/server/config/BannedIpList
-	METHOD a contains (Ljava/net/SocketAddress;)Z
-	METHOD b get (Ljava/net/SocketAddress;)Lxm;
-	METHOD c stringifyAddress (Ljava/net/SocketAddress;)Ljava/lang/String;
+CLASS net/minecraft/class_3317 net/minecraft/server/config/BannedIpList
+	METHOD method_14527 contains (Ljava/net/SocketAddress;)Z
+	METHOD method_14528 get (Ljava/net/SocketAddress;)Lnet/minecraft/class_3320;
+	METHOD method_14526 stringifyAddress (Ljava/net/SocketAddress;)Ljava/lang/String;

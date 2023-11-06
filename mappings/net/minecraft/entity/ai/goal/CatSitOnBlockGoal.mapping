@@ -1,2 +1,2 @@
-CLASS ama net/minecraft/entity/ai/goal/CatSitOnBlockGoal
-	FIELD g cat Laqi;
+CLASS net/minecraft/class_1373 net/minecraft/entity/ai/goal/CatSitOnBlockGoal
+	FIELD field_6545 cat Lnet/minecraft/class_1451;

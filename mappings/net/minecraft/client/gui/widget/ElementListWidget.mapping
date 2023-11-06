@@ -1,4 +1,4 @@
-CLASS cwf net/minecraft/client/gui/widget/ElementListWidget
-	CLASS cwf$a ElementItem
-		FIELD b focused Lcwx;
-		FIELD c dragging Z
+CLASS net/minecraft/class_4265 net/minecraft/client/gui/widget/ElementListWidget
+	CLASS net/minecraft/class_4265$class_4266 ElementItem
+		FIELD field_19077 focused Lnet/minecraft/class_364;
+		FIELD field_19078 dragging Z

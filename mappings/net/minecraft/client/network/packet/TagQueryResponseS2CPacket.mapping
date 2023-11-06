@@ -1,5 +1,5 @@
-CLASS ng net/minecraft/client/network/packet/TagQueryResponseS2CPacket
-	FIELD a transactionId I
-	FIELD b tag Lib;
-	METHOD b getTransactionId ()I
-	METHOD c getTag ()Lib;
+CLASS net/minecraft/class_2774 net/minecraft/client/network/packet/TagQueryResponseS2CPacket
+	FIELD field_12691 transactionId I
+	FIELD field_12690 tag Lnet/minecraft/class_2487;
+	METHOD method_11910 getTransactionId ()I
+	METHOD method_11911 getTag ()Lnet/minecraft/class_2487;

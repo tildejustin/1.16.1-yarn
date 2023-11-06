@@ -1,2 +1,2 @@
-CLASS ddf net/minecraft/client/gui/hud/spectator/TeleportSpectatorMenu
-	FIELD b elements Ljava/util/List;
+CLASS net/minecraft/class_538 net/minecraft/client/gui/hud/spectator/TeleportSpectatorMenu
+	FIELD field_3268 elements Ljava/util/List;

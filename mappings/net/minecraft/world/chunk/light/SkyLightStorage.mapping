@@ -1,13 +1,13 @@
-CLASS ckh net/minecraft/world/chunk/light/SkyLightStorage
-	CLASS ckh$a Data
-		FIELD b defaultHeight I
-		FIELD c heightMap Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
-	FIELD k DIRECTIONS_SKYLIGHT [Lfa;
-	FIELD p hasSkyLightUpdates Z
-	METHOD <init> (Lbxa;)V
+CLASS net/minecraft/class_3569 net/minecraft/world/chunk/light/SkyLightStorage
+	CLASS net/minecraft/class_3569$class_3570 Data
+		FIELD field_15822 defaultHeight I
+		FIELD field_15821 heightMap Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+	FIELD field_15818 DIRECTIONS_SKYLIGHT LLfa;
+	FIELD field_15819 hasSkyLightUpdates Z
+	METHOD <init> (Lnet/minecraft/class_2823;)V
 		ARG 1 chunkProvider
-	METHOD a isAboveMinimumHeight (I)Z
+	METHOD method_15567 isAboveMinimumHeight (I)Z
 		ARG 1 blockY
-	METHOD e checkForUpdates ()V
+	METHOD method_15569 checkForUpdates ()V
 	METHOD i (J)V
 		ARG 1 blockPos

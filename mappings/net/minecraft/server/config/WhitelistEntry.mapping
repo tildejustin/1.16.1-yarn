@@ -1,1 +1,1 @@
-CLASS xw net/minecraft/server/config/WhitelistEntry
+CLASS net/minecraft/class_3340 net/minecraft/server/config/WhitelistEntry

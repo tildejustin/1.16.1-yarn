@@ -1,2 +1,2 @@
-CLASS avw net/minecraft/entity/projectile/AbstractFireballEntity
-	FIELD f STACK Lqg;
+CLASS net/minecraft/class_3855 net/minecraft/entity/projectile/AbstractFireballEntity
+	FIELD field_17081 STACK Lnet/minecraft/class_2940;

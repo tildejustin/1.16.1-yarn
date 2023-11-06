@@ -1,2 +1,2 @@
-CLASS dqe net/minecraft/client/render/entity/MinecartEntityRenderer
-	FIELD f SKIN Lqr;
+CLASS net/minecraft/class_925 net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD field_4746 SKIN Lnet/minecraft/class_2960;

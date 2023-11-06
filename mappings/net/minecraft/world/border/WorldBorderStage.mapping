@@ -1,6 +1,6 @@
-CLASS bwj net/minecraft/world/border/WorldBorderStage
-	FIELD a GROWING Lbwj;
-	FIELD b SHRINKING Lbwj;
-	FIELD c STATIC Lbwj;
-	FIELD d color I
-	METHOD a getColor ()I
+CLASS net/minecraft/class_2789 net/minecraft/world/border/WorldBorderStage
+	FIELD field_12754 GROWING Lnet/minecraft/class_2789;
+	FIELD field_12756 SHRINKING Lnet/minecraft/class_2789;
+	FIELD field_12753 STATIC Lnet/minecraft/class_2789;
+	FIELD field_12755 color I
+	METHOD method_11999 getColor ()I

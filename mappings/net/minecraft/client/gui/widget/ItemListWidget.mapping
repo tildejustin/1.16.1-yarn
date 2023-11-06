@@ -1,9 +1,9 @@
-CLASS cwl net/minecraft/client/gui/widget/ItemListWidget
-	CLASS cwl$a Item
-		FIELD a parent Lcwl;
-		METHOD a render (F)V
+CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/ItemListWidget
+	CLASS net/minecraft/class_350$class_351 Item
+		FIELD field_2144 parent Lnet/minecraft/class_350;
+		METHOD method_1904 render (F)V
 			ARG 1 delta
-		METHOD a render (IIIIIIIZF)V
+		METHOD method_1903 render (IIIIIIIZF)V
 			ARG 1 index
 			ARG 4 width
 			ARG 5 height
@@ -11,8 +11,8 @@ CLASS cwl net/minecraft/client/gui/widget/ItemListWidget
 			ARG 7 mouseY
 			ARG 8 hovering
 			ARG 9 delta
-	CLASS cwl$b Items
-		FIELD b items Ljava/util/List;
+	CLASS net/minecraft/class_350$class_352 Items
+		FIELD field_2146 items Ljava/util/List;
 		METHOD add (ILjava/lang/Object;)V
 			ARG 1 value
 		METHOD get (I)Ljava/lang/Object;
@@ -21,76 +21,76 @@ CLASS cwl net/minecraft/client/gui/widget/ItemListWidget
 			ARG 1 index
 		METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
 			ARG 1 value
-	FIELD a client Lcux;
-	FIELD b itemHeight I
-	FIELD c width I
-	FIELD d height I
-	FIELD e top I
-	FIELD f bottom I
-	FIELD g right I
-	FIELD h left I
-	FIELD i verticallyCenter Z
-	FIELD j yDrag I
-	FIELD k visible Z
-	FIELD l renderSelection Z
-	FIELD m headerHeight I
-	FIELD n items Ljava/util/List;
-	FIELD o scroll D
-	FIELD p scrolling Z
-	FIELD q selectedItem Lcwl$a;
-	METHOD <init> (Lcux;IIIII)V
+	FIELD field_19081 client Lnet/minecraft/class_310;
+	FIELD field_19082 itemHeight I
+	FIELD field_19083 width I
+	FIELD field_19084 height I
+	FIELD field_19085 top I
+	FIELD field_19086 bottom I
+	FIELD field_19087 right I
+	FIELD field_19088 left I
+	FIELD field_19089 verticallyCenter Z
+	FIELD field_19090 yDrag I
+	FIELD field_19091 visible Z
+	FIELD field_19092 renderSelection Z
+	FIELD field_19093 headerHeight I
+	FIELD field_2142 items Ljava/util/List;
+	FIELD field_19094 scroll D
+	FIELD field_19095 scrolling Z
+	FIELD field_19096 selectedItem Lnet/minecraft/class_350$class_351;
+	METHOD <init> (Lnet/minecraft/class_310;IIIII)V
 		ARG 1 client
 		ARG 2 width
 		ARG 3 height
 		ARG 4 top
 		ARG 5 bottom
 		ARG 6 itemHeight
-	METHOD a getItemWidth ()I
-	METHOD a capYPosition (D)V
-	METHOD a getItemAtPosition (DD)Lcwl$a;
+	METHOD method_20053 getItemWidth ()I
+	METHOD method_20054 capYPosition (D)V
+	METHOD method_20055 getItemAtPosition (DD)Lnet/minecraft/class_350$class_351;
 		ARG 1 x
 		ARG 3 y
-	METHOD a updateScrollingState (DDI)V
-	METHOD a isSelected (I)Z
+	METHOD method_20056 updateScrollingState (DDI)V
+	METHOD method_20057 isSelected (I)Z
 		ARG 1 index
-	METHOD a clickedHeader (II)V
-	METHOD a updateSize (IIII)V
+	METHOD method_20058 clickedHeader (II)V
+	METHOD method_20059 updateSize (IIII)V
 		ARG 1 width
 		ARG 2 height
 		ARG 3 top
 		ARG 4 bottom
-	METHOD a renderList (IIIIF)V
+	METHOD method_20060 renderList (IIIIF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 mouseX
 		ARG 4 mouseY
 		ARG 5 delta
-	METHOD a renderHeader (IILcuc;)V
-	METHOD a selectItem (Lcwl$a;)V
+	METHOD method_20061 renderHeader (IILnet/minecraft/class_289;)V
+	METHOD method_20062 selectItem (Lnet/minecraft/class_350$class_351;)V
 		ARG 1 item
-	METHOD a setRenderHeader (ZI)V
+	METHOD method_20063 setRenderHeader (ZI)V
 		ARG 1 renderSelection
 		ARG 2 headerHeight
-	METHOD b getSelectedItem ()Lcwl$a;
-	METHOD b setLeftPos (I)V
+	METHOD method_20064 getSelectedItem ()Lnet/minecraft/class_350$class_351;
+	METHOD method_20065 setLeftPos (I)V
 		ARG 1 left
-	METHOD b renderDecorations (II)V
+	METHOD method_20066 renderDecorations (II)V
 		ARG 1 mouseX
 		ARG 2 mouseY
-	METHOD b renderHoleBackground (IIII)V
-	METHOD b addItem (Lcwl$a;)I
+	METHOD method_20067 renderHoleBackground (IIII)V
+	METHOD method_1901 addItem (Lnet/minecraft/class_350$class_351;)I
 		ARG 1 entry
-	METHOD d clearItems ()V
+	METHOD method_1902 clearItems ()V
 	METHOD d (I)I
 		ARG 1 index
-	METHOD e getItemCount ()I
-	METHOD e getItem (I)Lcwl$a;
+	METHOD method_20073 getItemCount ()I
+	METHOD method_1900 getItem (I)Lnet/minecraft/class_350$class_351;
 		ARG 1 index
-	METHOD f getMaxScrollPosition ()I
-	METHOD f scroll (I)V
+	METHOD method_20074 getMaxScrollPosition ()I
+	METHOD method_20075 scroll (I)V
 		ARG 1 amount
-	METHOD g drawBackground ()V
-	METHOD h getScroll ()D
-	METHOD j getScrollbarPosition ()I
-	METHOD l isFocused ()Z
-	METHOD m getMaxScroll ()I
+	METHOD method_20076 drawBackground ()V
+	METHOD method_20077 getScroll ()D
+	METHOD method_20078 getScrollbarPosition ()I
+	METHOD method_20080 isFocused ()Z
+	METHOD method_20081 getMaxScroll ()I

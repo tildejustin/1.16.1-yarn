@@ -1,20 +1,20 @@
-CLASS cl net/minecraft/command/arguments/EntityArgumentType
-	CLASS cl$a Serializer
-	FIELD a TOO_MANY_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD b TOO_MANY_PLAYERS_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD c PLAYER_SELECTOR_HAS_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD d ENTITY_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD e PLAYER_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD f NOT_ALLOWED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD g EXAMPLES Ljava/util/Collection;
-	FIELD h singleTarget Z
-	FIELD i playerOnly Z
-	METHOD a oneEntity ()Lcl;
-	METHOD a getEntityArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lahz;
-	METHOD b multipleEntities ()Lcl;
-	METHOD c onePlayer ()Lcl;
-	METHOD d multiplePlayer ()Lcl;
-	METHOD e getServerPlayerArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lvf;
+CLASS net/minecraft/class_2186 net/minecraft/command/arguments/EntityArgumentType
+	CLASS net/minecraft/class_2186$class_2187 Serializer
+	FIELD field_9860 TOO_MANY_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9864 TOO_MANY_PLAYERS_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9861 PLAYER_SELECTOR_HAS_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9863 ENTITY_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9856 PLAYER_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9862 NOT_ALLOWED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_9859 EXAMPLES Ljava/util/Collection;
+	FIELD field_9858 singleTarget Z
+	FIELD field_9857 playerOnly Z
+	METHOD method_9309 oneEntity ()Lnet/minecraft/class_2186;
+	METHOD method_9313 getEntityArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_1297;
+	METHOD method_9306 multipleEntities ()Lnet/minecraft/class_2186;
+	METHOD method_9305 onePlayer ()Lnet/minecraft/class_2186;
+	METHOD method_9308 multiplePlayer ()Lnet/minecraft/class_2186;
+	METHOD method_9315 getServerPlayerArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_3222;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

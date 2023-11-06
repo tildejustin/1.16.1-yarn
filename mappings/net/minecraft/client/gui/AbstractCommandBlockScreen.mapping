@@ -1,19 +1,19 @@
-CLASS dag net/minecraft/client/gui/AbstractCommandBlockScreen
-	FIELD a consoleCommandTextField Lcwh;
-	FIELD b previousOutputTextField Lcwh;
-	FIELD c doneButton Lcwc;
-	FIELD d cancelButton Lcwc;
-	FIELD e toggleTrackingOutputButton Lcwc;
-	FIELD f trackingOutput Z
-	FIELD j parsedCommand Lcom/mojang/brigadier/ParseResults;
-	FIELD m suggestionsDisabled Z
-	METHOD a getCommandExecutor ()Lbge;
-	METHOD a syncSettingsToServer (Lbge;)V
+CLASS net/minecraft/class_463 net/minecraft/client/gui/AbstractCommandBlockScreen
+	FIELD field_2751 consoleCommandTextField Lnet/minecraft/class_342;
+	FIELD field_2755 previousOutputTextField Lnet/minecraft/class_342;
+	FIELD field_2762 doneButton Lnet/minecraft/class_4185;
+	FIELD field_2753 cancelButton Lnet/minecraft/class_4185;
+	FIELD field_2760 toggleTrackingOutputButton Lnet/minecraft/class_4185;
+	FIELD field_2752 trackingOutput Z
+	FIELD field_2758 parsedCommand Lcom/mojang/brigadier/ParseResults;
+	FIELD field_2750 suggestionsDisabled Z
+	METHOD method_2351 getCommandExecutor ()Lnet/minecraft/class_1918;
+	METHOD method_2352 syncSettingsToServer (Lnet/minecraft/class_1918;)V
 		ARG 1 commandExecutor
-	METHOD a setCommand (Ljava/lang/String;)V
+	METHOD method_2346 setCommand (Ljava/lang/String;)V
 		ARG 1 command
-	METHOD b onCommandChanged (Ljava/lang/String;)V
-	METHOD c updateTrackedOutput ()V
-	METHOD d commitAndClose ()V
-	METHOD e cancelAndClose ()V
-	METHOD f updateCommand ()V
+	METHOD method_2360 onCommandChanged (Ljava/lang/String;)V
+	METHOD method_2368 updateTrackedOutput ()V
+	METHOD method_2359 commitAndClose ()V
+	METHOD method_2358 cancelAndClose ()V
+	METHOD method_2353 updateCommand ()V

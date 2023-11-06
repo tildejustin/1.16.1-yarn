@@ -1,7 +1,7 @@
-CLASS dw net/minecraft/command/arguments/ItemStackArgumentType
-	FIELD a EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Ldw;
-	METHOD a getStackArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ldx;
+CLASS net/minecraft/class_2287 net/minecraft/command/arguments/ItemStackArgumentType
+	FIELD field_10790 EXAMPLES Ljava/util/Collection;
+	METHOD method_9776 create ()Lnet/minecraft/class_2287;
+	METHOD method_9777 getStackArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2290;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

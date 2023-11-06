@@ -1,2 +1,2 @@
-CLASS axi net/minecraft/entity/vehicle/MobSpawnerMinecartEntity
-	FIELD b logic Lbgf;
+CLASS net/minecraft/class_1699 net/minecraft/entity/vehicle/MobSpawnerMinecartEntity
+	FIELD field_7746 logic Lnet/minecraft/class_1917;

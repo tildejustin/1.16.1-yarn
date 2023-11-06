@@ -1,13 +1,13 @@
-CLASS btf net/minecraft/block/entity/ChestBlockEntity
-	FIELD a animationAngle F
-	FIELD b lastAnimationAngle F
-	FIELD c viewerCount I
-	FIELD i inventory Lfj;
-	FIELD j ticksOpen I
-	METHOD a getPlayersLookingInChestCount (Lbgi;Lev;)I
+CLASS net/minecraft/class_2595 net/minecraft/block/entity/ChestBlockEntity
+	FIELD field_11929 animationAngle F
+	FIELD field_11926 lastAnimationAngle F
+	FIELD field_11928 viewerCount I
+	FIELD field_11927 inventory Lnet/minecraft/class_2371;
+	FIELD field_11930 ticksOpen I
+	METHOD method_11048 getPlayersLookingInChestCount (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)I
 		ARG 0 world
 		ARG 1 pos
-	METHOD a recalculateViewerCountIfNecessary (Lbgx;Lbsw;IIIII)I
+	METHOD method_17765 recalculateViewerCountIfNecessary (Lnet/minecraft/class_1937;Lnet/minecraft/class_2624;IIIII)I
 		ARG 0 world
 		ARG 1 container
 		ARG 2 ticksOpen
@@ -15,8 +15,8 @@ CLASS btf net/minecraft/block/entity/ChestBlockEntity
 		ARG 4 y
 		ARG 5 z
 		ARG 6 viewers
-	METHOD a copyInventory (Lbtf;Lbtf;)V
+	METHOD method_11047 copyInventory (Lnet/minecraft/class_2595;Lnet/minecraft/class_2595;)V
 		ARG 0 from
 		ARG 1 to
-	METHOD a playSound (Lyh;)V
-	METHOD i onInvOpenOrClose ()V
+	METHOD method_11050 playSound (Lnet/minecraft/class_3414;)V
+	METHOD method_11049 onInvOpenOrClose ()V

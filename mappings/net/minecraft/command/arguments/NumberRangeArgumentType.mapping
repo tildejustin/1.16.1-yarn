@@ -1,9 +1,9 @@
-CLASS cx net/minecraft/command/arguments/NumberRangeArgumentType
-	CLASS cx$a FloatRangeArgumentType
-		CLASS cx$a$a Serializer
-		FIELD a EXAMPLES Ljava/util/Collection;
-	CLASS cx$b IntRangeArgumentType
-		CLASS cx$b$a Serializer
-		FIELD a EXAMPLES Ljava/util/Collection;
-		METHOD a getRangeArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbi$d;
-	CLASS cx$c NumberSerializer
+CLASS net/minecraft/class_2224 net/minecraft/command/arguments/NumberRangeArgumentType
+	CLASS net/minecraft/class_2224$class_2225 FloatRangeArgumentType
+		CLASS net/minecraft/class_2224$class_2225$class_2226 Serializer
+		FIELD field_9937 EXAMPLES Ljava/util/Collection;
+	CLASS net/minecraft/class_2224$class_2227 IntRangeArgumentType
+		CLASS net/minecraft/class_2224$class_2227$class_2228 Serializer
+		FIELD field_9938 EXAMPLES Ljava/util/Collection;
+		METHOD method_9425 getRangeArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2096$class_2100;
+	CLASS net/minecraft/class_2224$class_2229 NumberSerializer

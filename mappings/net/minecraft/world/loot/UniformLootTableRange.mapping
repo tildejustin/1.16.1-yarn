@@ -1,11 +1,11 @@
-CLASS coh net/minecraft/world/loot/UniformLootTableRange
-	CLASS coh$a Serializer
-	FIELD d min F
-	FIELD e max F
+CLASS net/minecraft/class_61 net/minecraft/world/loot/UniformLootTableRange
+	CLASS net/minecraft/class_61$class_62 Serializer
+	FIELD field_977 min F
+	FIELD field_976 max F
 	METHOD <init> (FF)V
 		ARG 1 min
-	METHOD a between (FF)Lcoh;
-	METHOD a contains (I)Z
-	METHOD b getMinValue ()F
-	METHOD b nextFloat (Ljava/util/Random;)F
-	METHOD c getMaxValue ()F
+	METHOD method_377 between (FF)Lnet/minecraft/class_61;
+	METHOD method_376 contains (I)Z
+	METHOD method_378 getMinValue ()F
+	METHOD method_374 nextFloat (Ljava/util/Random;)F
+	METHOD method_380 getMaxValue ()F

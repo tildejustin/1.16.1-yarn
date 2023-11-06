@@ -1,2 +1,2 @@
-CLASS xp net/minecraft/server/config/OperatorList
-	METHOD b isOp (Lcom/mojang/authlib/GameProfile;)Z
+CLASS net/minecraft/class_3326 net/minecraft/server/config/OperatorList
+	METHOD method_14620 isOp (Lcom/mojang/authlib/GameProfile;)Z

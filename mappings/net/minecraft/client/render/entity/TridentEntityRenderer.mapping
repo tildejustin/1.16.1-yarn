@@ -1,2 +1,2 @@
-CLASS drh net/minecraft/client/render/entity/TridentEntityRenderer
-	FIELD f model Ldge;
+CLASS net/minecraft/class_955 net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD field_4797 model Lnet/minecraft/class_613;

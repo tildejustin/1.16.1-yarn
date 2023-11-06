@@ -1,7 +1,7 @@
-CLASS but net/minecraft/block/PistonHeadBlock
-	FIELD b TYPE Lbvw;
-	FIELD c SHORT Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2671 net/minecraft/block/PistonHeadBlock
+	FIELD field_12224 TYPE Lnet/minecraft/class_2754;
+	FIELD field_12227 SHORT Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
 	METHOD n (Lbuy;)Z
 		ARG 1 state

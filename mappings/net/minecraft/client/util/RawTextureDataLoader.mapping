@@ -1,2 +1,2 @@
-CLASS dut net/minecraft/client/util/RawTextureDataLoader
-	METHOD a loadRawTextureData (Lxc;Lqr;)[I
+CLASS net/minecraft/class_3685 net/minecraft/client/util/RawTextureDataLoader
+	METHOD method_16049 loadRawTextureData (Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)[I

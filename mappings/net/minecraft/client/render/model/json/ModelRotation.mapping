@@ -1,9 +1,9 @@
-CLASS dle net/minecraft/client/render/model/json/ModelRotation
-	FIELD a origin Lb;
-	FIELD b axis Lfa$a;
-	FIELD c angle F
-	FIELD d rescale Z
-	METHOD <init> (Lb;Lfa$a;FZ)V
+CLASS net/minecraft/class_789 net/minecraft/client/render/model/json/ModelRotation
+	FIELD field_4236 origin Lnet/minecraft/class_1160;
+	FIELD field_4239 axis Lnet/minecraft/class_2350$class_2351;
+	FIELD field_4237 angle F
+	FIELD field_4238 rescale Z
+	METHOD <init> (Lnet/minecraft/class_1160;Lnet/minecraft/class_2350$class_2351;FZ)V
 		ARG 1 origin
 		ARG 2 axis
 		ARG 3 angle

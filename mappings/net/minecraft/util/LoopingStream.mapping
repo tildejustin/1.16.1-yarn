@@ -1,5 +1,5 @@
-CLASS zs net/minecraft/util/LoopingStream
+CLASS net/minecraft/class_3538 net/minecraft/util/LoopingStream
 	CLASS zs$1
 		METHOD tryAdvance (Ljava/util/function/Consumer;)Z
 			ARG 1 consumer
-	METHOD a getStream ()Ljava/util/stream/Stream;
+	METHOD method_15418 getStream ()Ljava/util/stream/Stream;

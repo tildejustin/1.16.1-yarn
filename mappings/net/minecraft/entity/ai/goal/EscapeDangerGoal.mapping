@@ -1,12 +1,12 @@
-CLASS anf net/minecraft/entity/ai/goal/EscapeDangerGoal
-	FIELD a owner Laip;
-	FIELD b speed D
-	FIELD c targetX D
-	FIELD d targetY D
-	FIELD e targetZ D
-	METHOD <init> (Laip;D)V
+CLASS net/minecraft/class_1374 net/minecraft/entity/ai/goal/EscapeDangerGoal
+	FIELD field_6549 owner Lnet/minecraft/class_1314;
+	FIELD field_6548 speed D
+	FIELD field_6547 targetX D
+	FIELD field_6546 targetY D
+	FIELD field_6550 targetZ D
+	METHOD <init> (Lnet/minecraft/class_1314;D)V
 		ARG 1 owner
 		ARG 2 speed
-	METHOD a locateClosestWater (Lbgi;Lahz;II)Lev;
+	METHOD method_6300 locateClosestWater (Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;II)Lnet/minecraft/class_2338;
 		ARG 3 rangeX
 		ARG 4 rangeY

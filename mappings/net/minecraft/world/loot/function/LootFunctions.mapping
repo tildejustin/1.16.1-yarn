@@ -1,11 +1,11 @@
-CLASS cpl net/minecraft/world/loot/function/LootFunctions
-	CLASS cpl$a Factory
-	FIELD a NOOP Ljava/util/function/BiFunction;
-	FIELD b byId Ljava/util/Map;
-	FIELD c byClass Ljava/util/Map;
-	METHOD a register (Lcpk$b;)V
-	METHOD a getFactory (Lcpk;)Lcpk$b;
+CLASS net/minecraft/class_131 net/minecraft/world/loot/function/LootFunctions
+	CLASS net/minecraft/class_131$class_132 Factory
+	FIELD field_1102 NOOP Ljava/util/function/BiFunction;
+	FIELD field_1100 byId Ljava/util/Map;
+	FIELD field_1101 byClass Ljava/util/Map;
+	METHOD method_589 register (Lnet/minecraft/class_117$class_119;)V
+	METHOD method_590 getFactory (Lnet/minecraft/class_117;)Lnet/minecraft/class_117$class_119;
 		ARG 0 function
-	METHOD a get (Lqr;)Lcpk$b;
+	METHOD method_593 get (Lnet/minecraft/class_2960;)Lnet/minecraft/class_117$class_119;
 		ARG 0 id
-	METHOD a join ([Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;
+	METHOD method_594 join ([Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;

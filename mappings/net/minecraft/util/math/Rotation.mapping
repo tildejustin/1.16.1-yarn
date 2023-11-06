@@ -1,13 +1,13 @@
-CLASS fn net/minecraft/util/math/Rotation
-	FIELD a x F
-	FIELD b y F
-	FIELD c z F
+CLASS net/minecraft/class_2379 net/minecraft/util/math/Rotation
+	FIELD field_11165 x F
+	FIELD field_11164 y F
+	FIELD field_11163 z F
 	METHOD <init> (FFF)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a serialize ()Lii;
-	METHOD b getX ()F
-	METHOD c getY ()F
-	METHOD d getZ ()F
+	METHOD method_10255 serialize ()Lnet/minecraft/class_2499;
+	METHOD method_10256 getX ()F
+	METHOD method_10257 getY ()F
+	METHOD method_10258 getZ ()F
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

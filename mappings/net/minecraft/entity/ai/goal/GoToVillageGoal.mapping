@@ -1,5 +1,5 @@
-CLASS ans net/minecraft/entity/ai/goal/GoToVillageGoal
-	FIELD a owner Laip;
-	FIELD b searchRange I
-	FIELD c targetPosition Lev;
-	METHOD g findOtherWaypoint ()V
+CLASS net/minecraft/class_4018 net/minecraft/entity/ai/goal/GoToVillageGoal
+	FIELD field_17944 owner Lnet/minecraft/class_1314;
+	FIELD field_17945 searchRange I
+	FIELD field_17947 targetPosition Lnet/minecraft/class_2338;
+	METHOD method_18252 findOtherWaypoint ()V

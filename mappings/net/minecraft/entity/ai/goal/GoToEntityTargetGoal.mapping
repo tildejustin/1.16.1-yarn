@@ -1,4 +1,4 @@
-CLASS anb net/minecraft/entity/ai/goal/GoToEntityTargetGoal
-	FIELD a owner Laip;
-	FIELD b target Laii;
-	FIELD g maxDistance F
+CLASS net/minecraft/class_1369 net/minecraft/entity/ai/goal/GoToEntityTargetGoal
+	FIELD field_6528 owner Lnet/minecraft/class_1314;
+	FIELD field_6529 target Lnet/minecraft/class_1309;
+	FIELD field_6532 maxDistance F

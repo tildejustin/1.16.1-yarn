@@ -1,6 +1,6 @@
-CLASS cmw net/minecraft/entity/ai/pathing/PathNodeNavigator
-	FIELD a minHeap Lcmp;
-	METHOD a pathfind (Lbgi;Laij;DDDF)Lcmu;
+CLASS net/minecraft/class_13 net/minecraft/entity/ai/pathing/PathNodeNavigator
+	FIELD field_62 minHeap Lnet/minecraft/class_5;
+	METHOD method_52 pathfind (Lnet/minecraft/class_1922;Lnet/minecraft/class_1308;DDDF)Lnet/minecraft/class_11;
 		ARG 1 blockView
 		ARG 2 entity
 		ARG 3 x

@@ -1,2 +1,2 @@
-CLASS abs net/minecraft/datafixers/fixes/EntityRavagerRenameFix
-	FIELD a ITEMS Ljava/util/Map;
+CLASS net/minecraft/class_3983 net/minecraft/datafixers/fixes/EntityRavagerRenameFix
+	FIELD field_17712 ITEMS Ljava/util/Map;

@@ -1,2 +1,2 @@
-CLASS ced net/minecraft/structure/generator/village/TaigaVillageData
-	METHOD a initialize ()V
+CLASS net/minecraft/class_3870 net/minecraft/structure/generator/village/TaigaVillageData
+	METHOD method_17038 initialize ()V

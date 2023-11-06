@@ -1,12 +1,12 @@
-CLASS czk net/minecraft/client/gui/menu/NewLevelPresetsScreen
-	CLASS czk$a SuperflatPreset
-	CLASS czk$b SuperflatPresetsListWidget
-		CLASS czk$b$a SuperflatPresetItem
-	FIELD a presets Ljava/util/List;
-	FIELD b parent Lcyk;
-	FIELD c shareText Ljava/lang/String;
-	FIELD d listText Ljava/lang/String;
-	FIELD g customPresetField Lcwh;
-	METHOD <init> (Lcyk;)V
+CLASS net/minecraft/class_430 net/minecraft/client/gui/menu/NewLevelPresetsScreen
+	CLASS net/minecraft/class_430$class_431 SuperflatPreset
+	CLASS net/minecraft/class_430$class_4196 SuperflatPresetsListWidget
+		CLASS net/minecraft/class_430$class_4196$class_432 SuperflatPresetItem
+	FIELD field_2518 presets Ljava/util/List;
+	FIELD field_2519 parent Lnet/minecraft/class_413;
+	FIELD field_2520 shareText Ljava/lang/String;
+	FIELD field_2524 listText Ljava/lang/String;
+	FIELD field_2523 customPresetField Lnet/minecraft/class_342;
+	METHOD <init> (Lnet/minecraft/class_413;)V
 		ARG 1 parent
-	METHOD a addPreset (Ljava/lang/String;Lbgw;Lbhu;Ljava/util/List;[Lcez;)V
+	METHOD method_2195 addPreset (Ljava/lang/String;Lnet/minecraft/class_1935;Lnet/minecraft/class_1959;Ljava/util/List;[Lnet/minecraft/class_3229;)V

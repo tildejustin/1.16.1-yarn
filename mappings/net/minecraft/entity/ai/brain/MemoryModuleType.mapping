@@ -1,5 +1,5 @@
-CLASS aor net/minecraft/entity/ai/brain/MemoryModuleType
-	FIELD x factory Ljava/util/Optional;
-	METHOD a getId ()Lqr;
-	METHOD a register (Ljava/lang/String;Ljava/util/Optional;)Laor;
-	METHOD b getFactory ()Ljava/util/Optional;
+CLASS net/minecraft/class_4140 net/minecraft/entity/ai/brain/MemoryModuleType
+	FIELD field_18454 factory Ljava/util/Optional;
+	METHOD method_19091 getId ()Lnet/minecraft/class_2960;
+	METHOD method_19092 register (Ljava/lang/String;Ljava/util/Optional;)Lnet/minecraft/class_4140;
+	METHOD method_19093 getFactory ()Ljava/util/Optional;

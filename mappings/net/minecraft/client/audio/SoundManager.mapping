@@ -1,31 +1,31 @@
-CLASS dxr net/minecraft/client/audio/SoundManager
-	CLASS dxr$a Result
-		FIELD a loadedSounds Ljava/util/Map;
-		METHOD a addTo (Ljava/util/Map;Ldxo;)V
-	FIELD a SOUND_MISSING Ldwo;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c GSON Lcom/google/gson/Gson;
-	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
-	FIELD e sounds Ljava/util/Map;
-	FIELD f soundSystem Ldxo;
-	METHOD a getKeys ()Ljava/util/Collection;
-	METHOD a updateListenerPosition (Lcun;)V
-	METHOD a play (Ldwr;)V
-	METHOD a play (Ldwr;I)V
+CLASS net/minecraft/class_1144 net/minecraft/client/audio/SoundManager
+	CLASS net/minecraft/class_1144$class_4009 Result
+		FIELD field_17908 loadedSounds Ljava/util/Map;
+		METHOD method_18186 addTo (Ljava/util/Map;Lnet/minecraft/class_1140;)V
+	FIELD field_5592 SOUND_MISSING Lnet/minecraft/class_1111;
+	FIELD field_5593 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5594 GSON Lcom/google/gson/Gson;
+	FIELD field_5591 TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD field_5588 sounds Ljava/util/Map;
+	FIELD field_5590 soundSystem Lnet/minecraft/class_1140;
+	METHOD method_4864 getKeys ()Ljava/util/Collection;
+	METHOD method_4876 updateListenerPosition (Lnet/minecraft/class_4184;)V
+	METHOD method_4873 play (Lnet/minecraft/class_1113;)V
+	METHOD method_4872 play (Lnet/minecraft/class_1113;I)V
 		ARG 1 sound
 		ARG 2 volume
-	METHOD a registerListener (Ldxq;)V
-	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
-	METHOD a get (Lqr;)Ldxs;
-	METHOD a stopSounds (Lqr;Lyj;)V
-	METHOD a updateSoundVolume (Lyj;F)V
+	METHOD method_4878 registerListener (Lnet/minecraft/class_1145;)V
+	METHOD method_4867 readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+	METHOD method_4869 get (Lnet/minecraft/class_2960;)Lnet/minecraft/class_1146;
+	METHOD method_4875 stopSounds (Lnet/minecraft/class_2960;Lnet/minecraft/class_3419;)V
+	METHOD method_4865 updateSoundVolume (Lnet/minecraft/class_3419;F)V
 		ARG 1 category
-	METHOD a tick (Z)V
-	METHOD b pauseAll ()V
-	METHOD b isSoundResourcePresent (Ldwo;Lqr;Lxc;)Z
-	METHOD b stop (Ldwr;)V
-	METHOD b unregisterListener (Ldxq;)V
-	METHOD c stopAll ()V
-	METHOD c isPlaying (Ldwr;)Z
-	METHOD d close ()V
-	METHOD e playAll ()V
+	METHOD method_18670 tick (Z)V
+	METHOD method_4879 pauseAll ()V
+	METHOD method_4868 isSoundResourcePresent (Lnet/minecraft/class_1111;Lnet/minecraft/class_2960;Lnet/minecraft/class_3300;)Z
+	METHOD method_4870 stop (Lnet/minecraft/class_1113;)V
+	METHOD method_4866 unregisterListener (Lnet/minecraft/class_1145;)V
+	METHOD method_4881 stopAll ()V
+	METHOD method_4877 isPlaying (Lnet/minecraft/class_1113;)Z
+	METHOD method_4882 close ()V
+	METHOD method_4880 playAll ()V

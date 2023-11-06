@@ -1,8 +1,8 @@
-CLASS cwi net/minecraft/client/gui/widget/RecipeBookButtonWidget
-	FIELD a texture Lqr;
-	FIELD b u I
-	FIELD c v I
-	FIELD e hoverVOffset I
-	METHOD a setPos (II)V
+CLASS net/minecraft/class_344 net/minecraft/client/gui/widget/RecipeBookButtonWidget
+	FIELD field_2127 texture Lnet/minecraft/class_2960;
+	FIELD field_2126 u I
+	FIELD field_2125 v I
+	FIELD field_2124 hoverVOffset I
+	METHOD method_1893 setPos (II)V
 		ARG 1 x
 		ARG 2 y

@@ -1,17 +1,17 @@
-CLASS aqh net/minecraft/entity/passive/AnimalEntity
-	FIELD bA lovingPlayer Ljava/util/UUID;
-	FIELD bC spawningGround Lbma;
-	FIELD bz loveTicks I
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_1429 net/minecraft/entity/passive/AnimalEntity
+	FIELD field_6744 lovingPlayer Ljava/util/UUID;
+	FIELD field_6746 spawningGround Lnet/minecraft/class_2248;
+	FIELD field_6745 loveTicks I
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD a canBreedWith (Laqh;)Z
+	METHOD method_6474 canBreedWith (Lnet/minecraft/class_1429;)Z
 		ARG 1 other
-	METHOD a eat (Lavm;Lbbp;)V
+	METHOD method_6475 eat (Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V
 		ARG 1 player
 		ARG 2 stack
-	METHOD dV getLovingPlayer ()Lvf;
-	METHOD dW isInLove ()Z
-	METHOD dX resetLoveTicks ()V
-	METHOD j isBreedingItem (Lbbp;)Z
-	METHOD q setLoveTicks (I)V
+	METHOD method_6478 getLovingPlayer ()Lnet/minecraft/class_3222;
+	METHOD method_6479 isInLove ()Z
+	METHOD method_6477 resetLoveTicks ()V
+	METHOD method_6481 isBreedingItem (Lnet/minecraft/class_1799;)Z
+	METHOD method_6476 setLoveTicks (I)V
 		ARG 1 loveTicks

@@ -1,8 +1,8 @@
-CLASS cer net/minecraft/structure/pool/StructurePoolBasedGenerator
-	CLASS cer$a PieceFactory
-	FIELD a REGISTRY Lcex;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a addPieces (Lqr;ILcer$a;Lbwn;Lcis;Lev;Ljava/util/List;Ljava/util/Random;)V
+CLASS net/minecraft/class_3778 net/minecraft/structure/pool/StructurePoolBasedGenerator
+	CLASS net/minecraft/class_3778$class_3779 PieceFactory
+	FIELD field_16666 REGISTRY Lnet/minecraft/class_3787;
+	FIELD field_16665 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_16605 addPieces (Lnet/minecraft/class_2960;ILnet/minecraft/class_3778$class_3779;Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_2338;Ljava/util/List;Ljava/util/Random;)V
 		ARG 0 startPoolId
 		ARG 1 size
 		ARG 2 pieceFactory

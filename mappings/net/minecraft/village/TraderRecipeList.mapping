@@ -1,8 +1,8 @@
-CLASS bgc net/minecraft/village/TraderRecipeList
-	METHOD a toTag ()Lib;
-	METHOD a getValidRecipe (Lbbp;Lbbp;I)Lbgb;
+CLASS net/minecraft/class_1916 net/minecraft/village/TraderRecipeList
+	METHOD method_8268 toTag ()Lnet/minecraft/class_2487;
+	METHOD method_8267 getValidRecipe (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;I)Lnet/minecraft/class_1914;
 		ARG 1 firstBuyItem
 		ARG 2 secondBuyItem
-	METHOD a toPacket (Ljc;)V
-	METHOD b fromPacket (Ljc;)Lbgc;
+	METHOD method_8270 toPacket (Lnet/minecraft/class_2540;)V
+	METHOD method_8265 fromPacket (Lnet/minecraft/class_2540;)Lnet/minecraft/class_1916;
 		ARG 0 byteBuf

@@ -1,14 +1,14 @@
-CLASS cxo net/minecraft/client/font/GlyphRenderer
-	FIELD a id Lqr;
-	FIELD b uMin F
-	FIELD c uMax F
-	FIELD d vMin F
-	FIELD e vMax F
-	FIELD f xMin F
-	FIELD g xMax F
-	FIELD h yMin F
-	FIELD i yMax F
-	METHOD <init> (Lqr;FFFFFFFF)V
+CLASS net/minecraft/class_382 net/minecraft/client/font/GlyphRenderer
+	FIELD field_2277 id Lnet/minecraft/class_2960;
+	FIELD field_2276 uMin F
+	FIELD field_2275 uMax F
+	FIELD field_2274 vMin F
+	FIELD field_2273 vMax F
+	FIELD field_2272 xMin F
+	FIELD field_2280 xMax F
+	FIELD field_2279 yMin F
+	FIELD field_2278 yMax F
+	METHOD <init> (Lnet/minecraft/class_2960;FFFFFFFF)V
 		ARG 2 uMin
 		ARG 3 uMax
 		ARG 4 vMin
@@ -17,8 +17,8 @@ CLASS cxo net/minecraft/client/font/GlyphRenderer
 		ARG 7 xMax
 		ARG 8 yMin
 		ARG 9 yMax
-	METHOD a getId ()Lqr;
-	METHOD a draw (Lduf;ZFFLctz;FFFF)V
+	METHOD method_2026 getId ()Lnet/minecraft/class_2960;
+	METHOD method_2025 draw (Lnet/minecraft/class_1060;ZFFLnet/minecraft/class_287;FFFF)V
 		ARG 2 italic
 		ARG 3 x
 		ARG 4 y

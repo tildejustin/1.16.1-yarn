@@ -1,2 +1,2 @@
-CLASS dpy net/minecraft/client/render/entity/MagmaCubeEntityRenderer
-	FIELD a SKIN Lqr;
+CLASS net/minecraft/class_917 net/minecraft/client/render/entity/MagmaCubeEntityRenderer
+	FIELD field_4727 SKIN Lnet/minecraft/class_2960;

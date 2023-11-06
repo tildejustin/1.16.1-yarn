@@ -1,3 +1,3 @@
-CLASS daw net/minecraft/client/gui/ingame/AbstractPlayerInventoryScreen
-	FIELD k offsetGuiForEffects Z
-	METHOD c drawPotionEffects ()V
+CLASS net/minecraft/class_485 net/minecraft/client/gui/ingame/AbstractPlayerInventoryScreen
+	FIELD field_2900 offsetGuiForEffects Z
+	METHOD method_2477 drawPotionEffects ()V

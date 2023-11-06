@@ -1,15 +1,15 @@
-CLASS dz net/minecraft/command/arguments/ItemPredicateArgumentType
-	CLASS dz$a ItemPredicate
-		FIELD a item Lbbk;
-		FIELD b compound Lib;
-	CLASS dz$b ItemPredicateFactory
-	CLASS dz$c TagPredicate
-		FIELD a tag Lyz;
-		FIELD b compound Lib;
-	FIELD a EXAMPLES Ljava/util/Collection;
-	FIELD b UNKNOWN_TAG_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD a create ()Ldz;
-	METHOD a getPredicateArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/function/Predicate;
+CLASS net/minecraft/class_2293 net/minecraft/command/arguments/ItemPredicateArgumentType
+	CLASS net/minecraft/class_2293$class_2294 ItemPredicate
+		FIELD field_10813 item Lnet/minecraft/class_1792;
+		FIELD field_10814 compound Lnet/minecraft/class_2487;
+	CLASS net/minecraft/class_2293$class_2295 ItemPredicateFactory
+	CLASS net/minecraft/class_2293$class_2296 TagPredicate
+		FIELD field_10815 tag Lnet/minecraft/class_3494;
+		FIELD field_10816 compound Lnet/minecraft/class_2487;
+	FIELD field_10812 EXAMPLES Ljava/util/Collection;
+	FIELD field_10811 UNKNOWN_TAG_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD method_9801 create ()Lnet/minecraft/class_2293;
+	METHOD method_9804 getPredicateArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/function/Predicate;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

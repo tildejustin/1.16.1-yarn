@@ -1,16 +1,16 @@
-CLASS azs net/minecraft/item/block/BlockItem
-	FIELD a block Lbma;
-	METHOD a place (Lazt;)Lagu;
-	METHOD a setBlockState (Lazt;Lbuy;)Z
-	METHOD a copyItemTagToBlockEntity (Lbgx;Lavm;Lev;Lbbp;)Z
+CLASS net/minecraft/class_1747 net/minecraft/item/block/BlockItem
+	FIELD field_7901 block Lnet/minecraft/class_2248;
+	METHOD method_7712 place (Lnet/minecraft/class_1750;)Lnet/minecraft/class_1269;
+	METHOD method_7708 setBlockState (Lnet/minecraft/class_1750;Lnet/minecraft/class_2680;)Z
+	METHOD method_7714 copyItemTagToBlockEntity (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)Z
 		ARG 0 world
 		ARG 1 player
 		ARG 2 pos
 		ARG 3 stack
-	METHOD a afterBlockPlaced (Lev;Lbgx;Lavm;Lbbp;Lbuy;)Z
-	METHOD a registerBlockItemMap (Ljava/util/Map;Lbbk;)V
+	METHOD method_7710 afterBlockPlaced (Lnet/minecraft/class_2338;Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;Lnet/minecraft/class_2680;)Z
+	METHOD method_7713 registerBlockItemMap (Ljava/util/Map;Lnet/minecraft/class_1792;)V
 		ARG 1 map
-	METHOD b getPlacementContext (Lazt;)Lazt;
-	METHOD b canPlace (Lazt;Lbuy;)Z
-	METHOD c getBlockState (Lazt;)Lbuy;
-	METHOD d getBlock ()Lbma;
+	METHOD method_16356 getPlacementContext (Lnet/minecraft/class_1750;)Lnet/minecraft/class_1750;
+	METHOD method_7709 canPlace (Lnet/minecraft/class_1750;Lnet/minecraft/class_2680;)Z
+	METHOD method_7707 getBlockState (Lnet/minecraft/class_1750;)Lnet/minecraft/class_2680;
+	METHOD method_7711 getBlock ()Lnet/minecraft/class_2248;

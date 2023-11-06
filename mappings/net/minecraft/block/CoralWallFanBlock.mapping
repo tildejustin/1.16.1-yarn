@@ -1,2 +1,2 @@
-CLASS bnb net/minecraft/block/CoralWallFanBlock
-	FIELD c deadCoralBlock Lbma;
+CLASS net/minecraft/class_2299 net/minecraft/block/CoralWallFanBlock
+	FIELD field_10819 deadCoralBlock Lnet/minecraft/class_2248;

@@ -1,2 +1,2 @@
-CLASS dav net/minecraft/client/gui/container/ContainerScreen9
-	FIELD k TEXTURE Lqr;
+CLASS net/minecraft/class_480 net/minecraft/client/gui/container/ContainerScreen9
+	FIELD field_2885 TEXTURE Lnet/minecraft/class_2960;

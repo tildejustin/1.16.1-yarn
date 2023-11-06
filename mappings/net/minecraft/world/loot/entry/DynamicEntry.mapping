@@ -1,5 +1,5 @@
-CLASS col net/minecraft/world/loot/entry/DynamicEntry
-	CLASS col$a Serializer
-	FIELD c instance Lqr;
-	FIELD h name Lqr;
-	METHOD a create (Lqr;)Lcot$a;
+CLASS net/minecraft/class_67 net/minecraft/world/loot/entry/DynamicEntry
+	CLASS net/minecraft/class_67$class_68 Serializer
+	FIELD field_981 instance Lnet/minecraft/class_2960;
+	FIELD field_980 name Lnet/minecraft/class_2960;
+	METHOD method_390 create (Lnet/minecraft/class_2960;)Lnet/minecraft/class_85$class_86;

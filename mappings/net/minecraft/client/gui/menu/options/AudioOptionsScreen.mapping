@@ -1,6 +1,6 @@
-CLASS czq net/minecraft/client/gui/menu/options/AudioOptionsScreen
-	FIELD a parent Lczn;
-	FIELD b options Lcvb;
-	METHOD <init> (Lczn;Lcvb;)V
+CLASS net/minecraft/class_443 net/minecraft/client/gui/menu/options/AudioOptionsScreen
+	FIELD field_2617 parent Lnet/minecraft/class_437;
+	FIELD field_2618 options Lnet/minecraft/class_315;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_315;)V
 		ARG 1 parent
 		ARG 2 options

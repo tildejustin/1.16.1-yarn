@@ -1,59 +1,59 @@
-CLASS dca net/minecraft/client/gui/recipebook/RecipeBookGui
-	FIELD a TEXTURE Lqr;
-	FIELD b ghostSlots Ldby;
-	FIELD c toggleCraftableButton Lcwr;
-	FIELD d craftingContainer Layw;
-	FIELD e client Lcux;
-	FIELD f recipeBook Lcuo;
-	FIELD g recipesArea Ldcb;
-	FIELD h recipeFinder Lavo;
-	FIELD i leftOffset I
-	FIELD j parentWidth I
-	FIELD k parentHeight I
-	FIELD l tabButtons Ljava/util/List;
-	FIELD m currentTab Ldcc;
-	FIELD n searchField Lcwh;
-	FIELD o searchText Ljava/lang/String;
-	FIELD p cachedInvChangeCount I
-	METHOD a toggleFilteringCraftable ()Z
-	METHOD a isClickOutsideBounds (DDIIIII)Z
-	METHOD a drawTooltip (IIII)V
+CLASS net/minecraft/class_507 net/minecraft/client/gui/recipebook/RecipeBookGui
+	FIELD field_3097 TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_3092 ghostSlots Lnet/minecraft/class_505;
+	FIELD field_3088 toggleCraftableButton Lnet/minecraft/class_361;
+	FIELD field_3095 craftingContainer Lnet/minecraft/class_1729;
+	FIELD field_3091 client Lnet/minecraft/class_310;
+	FIELD field_3096 recipeBook Lnet/minecraft/class_299;
+	FIELD field_3086 recipesArea Lnet/minecraft/class_513;
+	FIELD field_3090 recipeFinder Lnet/minecraft/class_1662;
+	FIELD field_3102 leftOffset I
+	FIELD field_3101 parentWidth I
+	FIELD field_3100 parentHeight I
+	FIELD field_3094 tabButtons Ljava/util/List;
+	FIELD field_3098 currentTab Lnet/minecraft/class_512;
+	FIELD field_3089 searchField Lnet/minecraft/class_342;
+	FIELD field_3099 searchText Ljava/lang/String;
+	FIELD field_3093 cachedInvChangeCount I
+	METHOD method_2589 toggleFilteringCraftable ()Z
+	METHOD method_2598 isClickOutsideBounds (DDIIIII)Z
+	METHOD method_2601 drawTooltip (IIII)V
 		ARG 1 left
 		ARG 2 top
 		ARG 3 mouseX
 		ARG 4 mouseY
-	METHOD a initialize (IILcux;ZLayw;)V
+	METHOD method_2597 initialize (IILnet/minecraft/class_310;ZLnet/minecraft/class_1729;)V
 		ARG 1 parentWidth
 		ARG 2 parentHeight
 		ARG 3 client
 		ARG 4 isNarrow
 		ARG 5 craftingContainer
-	METHOD a drawGhostSlots (IIZF)V
+	METHOD method_2581 drawGhostSlots (IIZF)V
 		ARG 1 left
 		ARG 2 top
 		ARG 4 lastFrameDuration
-	METHOD a slotClicked (Lazd;)V
-	METHOD a showGhostRecipe (Lbdz;Ljava/util/List;)V
-	METHOD a triggerPirateSpeakEasterEgg (Ljava/lang/String;)V
-	METHOD a refreshResults (Z)V
+	METHOD method_2600 slotClicked (Lnet/minecraft/class_1735;)V
+	METHOD method_2596 showGhostRecipe (Lnet/minecraft/class_1860;Ljava/util/List;)V
+	METHOD method_2576 triggerPirateSpeakEasterEgg (Ljava/lang/String;)V
+	METHOD method_2603 refreshResults (Z)V
 		ARG 1 resetCurrentPage
-	METHOD a findLeftEdge (ZII)I
+	METHOD method_2595 findLeftEdge (ZII)I
 		ARG 1 narrow
 		ARG 2 width
 		ARG 3 containerWidth
-	METHOD b refreshTabButtons ()V
-	METHOD b drawGhostSlotTooltip (IIII)V
-	METHOD c isOpen ()Z
-	METHOD c setOpen (Z)V
-	METHOD d refreshInputs ()V
-	METHOD e setBookButtonTexture ()V
-	METHOD e reset (Z)V
+	METHOD method_2606 refreshTabButtons ()V
+	METHOD method_2602 drawGhostSlotTooltip (IIII)V
+	METHOD method_2605 isOpen ()Z
+	METHOD method_2593 setOpen (Z)V
+	METHOD method_2587 refreshInputs ()V
+	METHOD method_2585 setBookButtonTexture ()V
+	METHOD method_2579 reset (Z)V
 		ARG 1 isNarrow
-	METHOD f getCraftableButtonText ()Ljava/lang/String;
-	METHOD g refreshSearchResults ()V
-	METHOD h isWide ()Z
-	METHOD i close ()V
-	METHOD j toggleOpen ()V
-	METHOD k update ()V
-	METHOD l refresh ()V
-	METHOD m sendBookDataPacket ()V
+	METHOD method_2599 getCraftableButtonText ()Ljava/lang/String;
+	METHOD method_2586 refreshSearchResults ()V
+	METHOD method_2604 isWide ()Z
+	METHOD method_2607 close ()V
+	METHOD method_2591 toggleOpen ()V
+	METHOD method_2590 update ()V
+	METHOD method_2592 refresh ()V
+	METHOD method_2588 sendBookDataPacket ()V

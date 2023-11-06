@@ -1,3 +1,3 @@
-CLASS czv net/minecraft/client/gui/StatsListener
-	FIELD b PROGRESS_BAR_STAGES [Ljava/lang/String;
-	METHOD c onStatsReady ()V
+CLASS net/minecraft/class_452 net/minecraft/client/gui/StatsListener
+	FIELD field_2668 PROGRESS_BAR_STAGES LLjava/lang/String;
+	METHOD method_2300 onStatsReady ()V

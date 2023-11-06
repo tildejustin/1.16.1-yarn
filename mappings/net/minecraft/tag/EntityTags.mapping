@@ -1,5 +1,5 @@
-CLASS yv net/minecraft/tag/EntityTags
-	FIELD c container Lza;
-	METHOD a getContainer ()Lza;
-	METHOD a register (Ljava/lang/String;)Lyz;
-	METHOD a setContainer (Lza;)V
+CLASS net/minecraft/class_3483 net/minecraft/tag/EntityTags
+	FIELD field_15508 container Lnet/minecraft/class_3503;
+	METHOD method_15082 getContainer ()Lnet/minecraft/class_3503;
+	METHOD method_15077 register (Ljava/lang/String;)Lnet/minecraft/class_3494;
+	METHOD method_15078 setContainer (Lnet/minecraft/class_3503;)V

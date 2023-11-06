@@ -1,3 +1,3 @@
-CLASS aoh net/minecraft/entity/ai/goal/DisableableFollowTargetGoal
-	FIELD i enabled Z
-	METHOD a setEnabled (Z)V
+CLASS net/minecraft/class_3760 net/minecraft/entity/ai/goal/DisableableFollowTargetGoal
+	FIELD field_17281 enabled Z
+	METHOD method_17351 setEnabled (Z)V

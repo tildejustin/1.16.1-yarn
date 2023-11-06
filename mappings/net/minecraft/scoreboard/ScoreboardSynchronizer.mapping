@@ -1,2 +1,2 @@
-CLASS cnd net/minecraft/scoreboard/ScoreboardSynchronizer
-	FIELD a compound Lcne;
+CLASS net/minecraft/class_16 net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD field_66 compound Lnet/minecraft/class_18;

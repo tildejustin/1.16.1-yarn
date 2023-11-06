@@ -1,15 +1,15 @@
-CLASS lc net/minecraft/client/network/packet/CustomPayloadS2CPacket
-	FIELD a BRAND Lqr;
-	FIELD b DEBUG_PATH Lqr;
-	FIELD c DEBUG_NEIGHBORS_UPDATE Lqr;
-	FIELD d DEBUG_CAVES Lqr;
-	FIELD e DEBUG_STRUCTURES Lqr;
-	FIELD f DEBUG_WORLDGEN_ATTEMPT Lqr;
-	FIELD k DEBUG_GOAL_SELECTOR Lqr;
-	FIELD l DEBUG_BRAIN Lqr;
-	FIELD m channel Lqr;
-	FIELD n data Ljc;
-	METHOD <init> (Lqr;Ljc;)V
+CLASS net/minecraft/class_2658 net/minecraft/client/network/packet/CustomPayloadS2CPacket
+	FIELD field_12158 BRAND Lnet/minecraft/class_2960;
+	FIELD field_12161 DEBUG_PATH Lnet/minecraft/class_2960;
+	FIELD field_12157 DEBUG_NEIGHBORS_UPDATE Lnet/minecraft/class_2960;
+	FIELD field_12156 DEBUG_CAVES Lnet/minecraft/class_2960;
+	FIELD field_12163 DEBUG_STRUCTURES Lnet/minecraft/class_2960;
+	FIELD field_12164 DEBUG_WORLDGEN_ATTEMPT Lnet/minecraft/class_2960;
+	FIELD field_18799 DEBUG_GOAL_SELECTOR Lnet/minecraft/class_2960;
+	FIELD field_18800 DEBUG_BRAIN Lnet/minecraft/class_2960;
+	FIELD field_12165 channel Lnet/minecraft/class_2960;
+	FIELD field_12162 data Lnet/minecraft/class_2540;
+	METHOD <init> (Lnet/minecraft/class_2960;Lnet/minecraft/class_2540;)V
 		ARG 1 channel
-	METHOD b getChannel ()Lqr;
-	METHOD c getData ()Ljc;
+	METHOD method_11456 getChannel ()Lnet/minecraft/class_2960;
+	METHOD method_11458 getData ()Lnet/minecraft/class_2540;

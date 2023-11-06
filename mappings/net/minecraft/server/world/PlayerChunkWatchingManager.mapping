@@ -1,13 +1,13 @@
-CLASS uz net/minecraft/server/world/PlayerChunkWatchingManager
-	FIELD a watchingPlayers Ljava/util/Set;
-	FIELD b notWatchingPlayers Ljava/util/Set;
-	METHOD a getPlayersWatchingChunk (J)Ljava/util/stream/Stream;
-	METHOD a movePlayer (JJLvf;)V
+CLASS net/minecraft/class_3210 net/minecraft/server/world/PlayerChunkWatchingManager
+	FIELD field_13910 watchingPlayers Ljava/util/Set;
+	FIELD field_13909 notWatchingPlayers Ljava/util/Set;
+	METHOD method_14083 getPlayersWatchingChunk (J)Ljava/util/stream/Stream;
+	METHOD method_14081 movePlayer (JJLnet/minecraft/class_3222;)V
 		ARG 1 prevPos
 		ARG 3 currentPos
-	METHOD a remove (JLvf;)V
-	METHOD a add (JLvf;Z)V
+	METHOD method_14084 remove (JLnet/minecraft/class_3222;)V
+	METHOD method_14085 add (JLnet/minecraft/class_3222;Z)V
 		ARG 4 watchDisabled
-	METHOD a disableWatch (Lvf;)V
-	METHOD b enableWatch (Lvf;)V
-	METHOD c isWatchDisabled (Lvf;)Z
+	METHOD method_14086 disableWatch (Lnet/minecraft/class_3222;)V
+	METHOD method_14087 enableWatch (Lnet/minecraft/class_3222;)V
+	METHOD method_14082 isWatchDisabled (Lnet/minecraft/class_3222;)Z

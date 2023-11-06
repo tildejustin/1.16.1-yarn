@@ -1,22 +1,22 @@
-CLASS za net/minecraft/tag/TagContainer
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b GSON Lcom/google/gson/Gson;
-	FIELD c JSON_EXTENSION_LENGTH I
-	FIELD d idMap Ljava/util/Map;
-	FIELD e getter Ljava/util/function/Function;
-	FIELD f path Ljava/lang/String;
-	FIELD g ordered Z
-	FIELD h type Ljava/lang/String;
-	METHOD a getKeys ()Ljava/util/Collection;
-	METHOD a getTagsFor (Ljava/lang/Object;)Ljava/util/Collection;
+CLASS net/minecraft/class_3503 net/minecraft/tag/TagContainer
+	FIELD field_15607 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_15608 GSON Lcom/google/gson/Gson;
+	FIELD field_15603 JSON_EXTENSION_LENGTH I
+	FIELD field_15602 idMap Ljava/util/Map;
+	FIELD field_15609 getter Ljava/util/function/Function;
+	FIELD field_15605 path Ljava/lang/String;
+	FIELD field_15601 ordered Z
+	FIELD field_15606 type Ljava/lang/String;
+	METHOD method_15189 getKeys ()Ljava/util/Collection;
+	METHOD method_15191 getTagsFor (Ljava/lang/Object;)Ljava/util/Collection;
 		ARG 1 object
-	METHOD a applyReload (Ljava/util/Map;)V
-	METHOD a get (Lqr;)Lyz;
+	METHOD method_18242 applyReload (Ljava/util/Map;)V
+	METHOD method_15193 get (Lnet/minecraft/class_2960;)Lnet/minecraft/class_3494;
 		ARG 1 id
-	METHOD a prepareReload (Lxc;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
-	METHOD a add (Lyz;)V
+	METHOD method_15192 prepareReload (Lnet/minecraft/class_3300;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD method_15190 add (Lnet/minecraft/class_3494;)V
 		ARG 1 tag
-	METHOD b clear ()V
-	METHOD b getOrCreate (Lqr;)Lyz;
+	METHOD method_15195 clear ()V
+	METHOD method_15188 getOrCreate (Lnet/minecraft/class_2960;)Lnet/minecraft/class_3494;
 		ARG 1 id
-	METHOD c getEntries ()Ljava/util/Map;
+	METHOD method_15196 getEntries ()Ljava/util/Map;

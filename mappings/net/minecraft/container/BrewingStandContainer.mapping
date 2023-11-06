@@ -1,23 +1,23 @@
-CLASS axv net/minecraft/container/BrewingStandContainer
-	CLASS axv$a SlotFuel
-		METHOD <init> (Lagn;III)V
+CLASS net/minecraft/class_1708 net/minecraft/container/BrewingStandContainer
+	CLASS net/minecraft/class_1708$class_1709 SlotFuel
+		METHOD <init> (Lnet/minecraft/class_1263;III)V
 			ARG 1 invSlot
 			ARG 2 xPosition
 			ARG 3 <Position
-		METHOD a_ matches (Lbbp;)Z
-	CLASS axv$b SlotIngredient
-		METHOD <init> (Lagn;III)V
+		METHOD method_7630 matches (Lnet/minecraft/class_1799;)Z
+	CLASS net/minecraft/class_1708$class_1710 SlotIngredient
+		METHOD <init> (Lnet/minecraft/class_1263;III)V
 			ARG 1 invSlot
 			ARG 2 xPosition
 			ARG 3 <Position
-	CLASS axv$c SlotPotion
-		METHOD <init> (Lagn;III)V
+	CLASS net/minecraft/class_1708$class_1711 SlotPotion
+		METHOD <init> (Lnet/minecraft/class_1263;III)V
 			ARG 1 invSlot
 			ARG 2 xPosition
 			ARG 3 <Position
-		METHOD b_ matches (Lbbp;)Z
-	FIELD c inventory Lagn;
-	FIELD d propertyDelegate Laxz;
-	FIELD e slotIngredient Lazd;
-	METHOD <init> (ILavl;)V
+		METHOD method_7631 matches (Lnet/minecraft/class_1799;)Z
+	FIELD field_7788 inventory Lnet/minecraft/class_1263;
+	FIELD field_17292 propertyDelegate Lnet/minecraft/class_3913;
+	FIELD field_7787 slotIngredient Lnet/minecraft/class_1735;
+	METHOD <init> (ILnet/minecraft/class_1661;)V
 		ARG 1 syncId

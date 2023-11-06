@@ -1,5 +1,5 @@
-CLASS bwv net/minecraft/util/palette/IdListPalette
-	FIELD a idList Lfe;
-	METHOD <init> (Lfe;Ljava/lang/Object;)V
+CLASS net/minecraft/class_2816 net/minecraft/util/palette/IdListPalette
+	FIELD field_12828 idList Lnet/minecraft/class_2361;
+	METHOD <init> (Lnet/minecraft/class_2361;Ljava/lang/Object;)V
 		ARG 1 idList
 		ARG 2 defaultValue

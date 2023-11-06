@@ -1,10 +1,10 @@
-CLASS cri net/minecraft/util/hit/HitResult
-	CLASS cri$a Type
-		FIELD a NONE Lcri$a;
-		FIELD b BLOCK Lcri$a;
-		FIELD c ENTITY Lcri$a;
-	FIELD a pos Lcrk;
-	METHOD <init> (Lcrk;)V
+CLASS net/minecraft/class_239 net/minecraft/util/hit/HitResult
+	CLASS net/minecraft/class_239$class_240 Type
+		FIELD field_1333 NONE Lnet/minecraft/class_239$class_240;
+		FIELD field_1332 BLOCK Lnet/minecraft/class_239$class_240;
+		FIELD field_1331 ENTITY Lnet/minecraft/class_239$class_240;
+	FIELD field_1329 pos Lnet/minecraft/class_243;
+	METHOD <init> (Lnet/minecraft/class_243;)V
 		ARG 1 pos
-	METHOD c getType ()Lcri$a;
-	METHOD e getPos ()Lcrk;
+	METHOD method_17783 getType ()Lnet/minecraft/class_239$class_240;
+	METHOD method_17784 getPos ()Lnet/minecraft/class_243;

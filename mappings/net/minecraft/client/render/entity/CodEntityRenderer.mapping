@@ -1,1 +1,1 @@
-CLASS dop net/minecraft/client/render/entity/CodEntityRenderer
+CLASS net/minecraft/class_885 net/minecraft/client/render/entity/CodEntityRenderer

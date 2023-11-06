@@ -1,2 +1,2 @@
-CLASS cyn net/minecraft/client/gui/menu/DemoScreen
-	FIELD a DEMO_BG Lqr;
+CLASS net/minecraft/class_417 net/minecraft/client/gui/menu/DemoScreen
+	FIELD field_2447 DEMO_BG Lnet/minecraft/class_2960;

@@ -1,7 +1,7 @@
-CLASS dhw net/minecraft/client/particle/DamageParticle
-	CLASS dhw$a DefaultFactory
-	CLASS dhw$b EnchantedHitFactory
-	METHOD <init> (Lbgx;DDDDDD)V
+CLASS net/minecraft/class_657 net/minecraft/client/particle/DamageParticle
+	CLASS net/minecraft/class_657$class_658 DefaultFactory
+	CLASS net/minecraft/class_657$class_659 EnchantedHitFactory
+	METHOD <init> (Lnet/minecraft/class_1937;DDDDDD)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y

@@ -1,9 +1,9 @@
-CLASS aly net/minecraft/entity/ai/goal/AnimalMateGoal
-	FIELD a owner Laqh;
-	FIELD b world Lbgx;
-	FIELD c mate Laqh;
-	FIELD f timer I
-	FIELD g chance D
-	METHOD <init> (Laqh;D)V
+CLASS net/minecraft/class_1341 net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD field_6404 owner Lnet/minecraft/class_1429;
+	FIELD field_6405 world Lnet/minecraft/class_1937;
+	FIELD field_6406 mate Lnet/minecraft/class_1429;
+	FIELD field_6402 timer I
+	FIELD field_6407 chance D
+	METHOD <init> (Lnet/minecraft/class_1429;D)V
 		ARG 1 owner
-	METHOD h findMate ()Laqh;
+	METHOD method_6250 findMate ()Lnet/minecraft/class_1429;

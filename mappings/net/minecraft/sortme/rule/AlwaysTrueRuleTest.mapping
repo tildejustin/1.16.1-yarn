@@ -1,2 +1,2 @@
-CLASS cie net/minecraft/sortme/rule/AlwaysTrueRuleTest
-	FIELD a INSTANCE Lcie;
+CLASS net/minecraft/class_3818 net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD field_16868 INSTANCE Lnet/minecraft/class_3818;

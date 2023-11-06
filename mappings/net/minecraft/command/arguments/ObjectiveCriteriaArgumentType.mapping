@@ -1,8 +1,8 @@
-CLASS cu net/minecraft/command/arguments/ObjectiveCriteriaArgumentType
-	FIELD a INVALID_CRITERIA_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD b EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Lcu;
-	METHOD a getCriteriaArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcsn;
+CLASS net/minecraft/class_2216 net/minecraft/command/arguments/ObjectiveCriteriaArgumentType
+	FIELD field_9927 INVALID_CRITERIA_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_9926 EXAMPLES Ljava/util/Collection;
+	METHOD method_9399 create ()Lnet/minecraft/class_2216;
+	METHOD method_9402 getCriteriaArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_274;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

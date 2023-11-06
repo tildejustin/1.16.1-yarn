@@ -1,5 +1,5 @@
-CLASS apl net/minecraft/entity/ai/brain/sensor/SensorType
-	FIELD j factory Ljava/util/function/Supplier;
-	FIELD k id Lqr;
-	METHOD a create ()Lapk;
-	METHOD a register (Ljava/lang/String;Ljava/util/function/Supplier;)Lapl;
+CLASS net/minecraft/class_4149 net/minecraft/entity/ai/brain/sensor/SensorType
+	FIELD field_18471 factory Ljava/util/function/Supplier;
+	FIELD field_18472 id Lnet/minecraft/class_2960;
+	METHOD method_19102 create ()Lnet/minecraft/class_4148;
+	METHOD method_19103 register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraft/class_4149;

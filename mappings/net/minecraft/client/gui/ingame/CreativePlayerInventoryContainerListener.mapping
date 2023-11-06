@@ -1,2 +1,2 @@
-CLASS dat net/minecraft/client/gui/ingame/CreativePlayerInventoryContainerListener
-	FIELD a client Lcux;
+CLASS net/minecraft/class_478 net/minecraft/client/gui/ingame/CreativePlayerInventoryContainerListener
+	FIELD field_2876 client Lnet/minecraft/class_310;

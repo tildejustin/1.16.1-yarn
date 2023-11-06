@@ -1,2 +1,2 @@
-CLASS diy net/minecraft/client/particle/FireSmokeParticle
-	CLASS diy$a Factory
+CLASS net/minecraft/class_717 net/minecraft/client/particle/FireSmokeParticle
+	CLASS net/minecraft/class_717$class_718 Factory

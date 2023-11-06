@@ -1,2 +1,2 @@
-CLASS agu net/minecraft/util/ActionResult
-	FIELD b PASS Lagu;
+CLASS net/minecraft/class_1269 net/minecraft/util/ActionResult
+	FIELD field_5811 PASS Lnet/minecraft/class_1269;

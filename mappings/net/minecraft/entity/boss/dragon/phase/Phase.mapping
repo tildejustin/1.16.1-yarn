@@ -1,11 +1,11 @@
-CLASS asg net/minecraft/entity/boss/dragon/phase/Phase
-	METHOD a modifyDamageTaken (Lahi;F)F
-	METHOD a crystalDestroyed (Larv;Lev;Lahi;Lavm;)V
+CLASS net/minecraft/class_1521 net/minecraft/entity/boss/dragon/phase/Phase
+	METHOD method_6852 modifyDamageTaken (Lnet/minecraft/class_1282;F)F
+	METHOD method_6850 crystalDestroyed (Lnet/minecraft/class_1511;Lnet/minecraft/class_2338;Lnet/minecraft/class_1282;Lnet/minecraft/class_1657;)V
 		ARG 1 crystal
 		ARG 2 pos
 		ARG 3 source
 		ARG 4 player
-	METHOD d beginPhase ()V
-	METHOD e endPhase ()V
-	METHOD g getTarget ()Lcrk;
-	METHOD i getType ()Lasm;
+	METHOD method_6856 beginPhase ()V
+	METHOD method_6854 endPhase ()V
+	METHOD method_6851 getTarget ()Lnet/minecraft/class_243;
+	METHOD method_6849 getType ()Lnet/minecraft/class_1527;

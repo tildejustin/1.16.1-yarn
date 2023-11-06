@@ -1,7 +1,7 @@
-CLASS cuc net/minecraft/client/render/Tessellator
-	FIELD a buffer Lctz;
-	FIELD b renderer Lcua;
-	FIELD c INSTANCE Lcuc;
-	METHOD a getInstance ()Lcuc;
-	METHOD b draw ()V
-	METHOD c getBufferBuilder ()Lctz;
+CLASS net/minecraft/class_289 net/minecraft/client/render/Tessellator
+	FIELD field_1574 buffer Lnet/minecraft/class_287;
+	FIELD field_1572 renderer Lnet/minecraft/class_286;
+	FIELD field_1573 INSTANCE Lnet/minecraft/class_289;
+	METHOD method_1348 getInstance ()Lnet/minecraft/class_289;
+	METHOD method_1350 draw ()V
+	METHOD method_1349 getBufferBuilder ()Lnet/minecraft/class_287;

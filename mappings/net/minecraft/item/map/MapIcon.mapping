@@ -1,32 +1,32 @@
-CLASS cng net/minecraft/item/map/MapIcon
-	CLASS cng$a Type
-		FIELD B id B
-		FIELD C renderNotHeld Z
-		FIELD D tintColor I
+CLASS net/minecraft/class_20 net/minecraft/item/map/MapIcon
+	CLASS net/minecraft/class_20$class_21 Type
+		FIELD field_81 id B
+		FIELD field_111 renderNotHeld Z
+		FIELD field_82 tintColor I
 		METHOD <init> (Ljava/lang/String;IZ)V
 			ARG 3 renderNotHeld
 		METHOD <init> (Ljava/lang/String;IZI)V
 			ARG 3 renderNotHeld
 			ARG 4 tintColor
-		METHOD a getId ()B
-		METHOD a byId (B)Lcng$a;
+		METHOD method_98 getId ()B
+		METHOD method_99 byId (B)Lnet/minecraft/class_20$class_21;
 			ARG 0 id
-		METHOD b renderIfNotHeld ()Z
-		METHOD c hasTintColor ()Z
-		METHOD d getTintColor ()I
-	FIELD a type Lcng$a;
-	FIELD b x B
-	FIELD c z B
-	FIELD d angle B
-	FIELD e text Ljm;
-	METHOD <init> (Lcng$a;BBBLjm;)V
+		METHOD method_95 renderIfNotHeld ()Z
+		METHOD method_97 hasTintColor ()Z
+		METHOD method_96 getTintColor ()I
+	FIELD field_77 type Lnet/minecraft/class_20$class_21;
+	FIELD field_76 x B
+	FIELD field_80 z B
+	FIELD field_79 angle B
+	FIELD field_78 text Lnet/minecraft/class_2561;
+	METHOD <init> (Lnet/minecraft/class_20$class_21;BBBLnet/minecraft/class_2561;)V
 		ARG 1 direction
-	METHOD a getTypeId ()B
-	METHOD b getType ()Lcng$a;
-	METHOD c getX ()B
-	METHOD d getZ ()B
-	METHOD e getAngle ()B
+	METHOD method_92 getTypeId ()B
+	METHOD method_93 getType ()Lnet/minecraft/class_20$class_21;
+	METHOD method_90 getX ()B
+	METHOD method_91 getZ ()B
+	METHOD method_89 getAngle ()B
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f renderIfNotHeld ()Z
-	METHOD g getText ()Ljm;
+	METHOD method_94 renderIfNotHeld ()Z
+	METHOD method_88 getText ()Lnet/minecraft/class_2561;

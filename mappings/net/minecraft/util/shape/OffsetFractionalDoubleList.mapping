@@ -1,6 +1,6 @@
-CLASS cry net/minecraft/util/shape/OffsetFractionalDoubleList
-	FIELD a count I
-	FIELD b offset I
+CLASS net/minecraft/class_258 net/minecraft/util/shape/OffsetFractionalDoubleList
+	FIELD field_1383 count I
+	FIELD field_1382 offset I
 	METHOD <init> (II)V
 		ARG 1 count
 		ARG 2 offset

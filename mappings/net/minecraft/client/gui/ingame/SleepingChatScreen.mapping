@@ -1,2 +1,2 @@
-CLASS cyz net/minecraft/client/gui/ingame/SleepingChatScreen
-	METHOD b stopSleeping ()V
+CLASS net/minecraft/class_423 net/minecraft/client/gui/ingame/SleepingChatScreen
+	METHOD method_2180 stopSleeping ()V

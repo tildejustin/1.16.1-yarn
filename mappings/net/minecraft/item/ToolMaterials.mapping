@@ -1,10 +1,10 @@
-CLASS bcx net/minecraft/item/ToolMaterials
-	FIELD f miningLevel I
-	FIELD g durability I
-	FIELD h blockBreakSpeed F
-	FIELD i attackDamage F
-	FIELD j enchantability I
-	FIELD k repairIngredient Lzn;
+CLASS net/minecraft/class_1834 net/minecraft/item/ToolMaterials
+	FIELD field_8925 miningLevel I
+	FIELD field_8924 durability I
+	FIELD field_8932 blockBreakSpeed F
+	FIELD field_8931 attackDamage F
+	FIELD field_8933 enchantability I
+	FIELD field_8928 repairIngredient Lnet/minecraft/class_3528;
 	METHOD <init> (Ljava/lang/String;IIIFFILjava/util/function/Supplier;)V
 		ARG 3 miningLevel
 		ARG 4 durability

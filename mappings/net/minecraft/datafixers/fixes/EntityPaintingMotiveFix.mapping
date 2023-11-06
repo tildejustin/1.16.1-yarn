@@ -1,2 +1,2 @@
-CLASS abq net/minecraft/datafixers/fixes/EntityPaintingMotiveFix
-	FIELD a RENAMED_MOTIVES Ljava/util/Map;
+CLASS net/minecraft/class_3607 net/minecraft/datafixers/fixes/EntityPaintingMotiveFix
+	FIELD field_15898 RENAMED_MOTIVES Ljava/util/Map;

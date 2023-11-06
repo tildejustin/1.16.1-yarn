@@ -1,68 +1,68 @@
-CLASS apw net/minecraft/village/PointOfInterestStorage
-	CLASS apw$a PointOfInterestDistanceTracker
-		FIELD b distances Lit/unimi/dsi/fastutil/longs/Long2ByteMap;
-		METHOD a update ()V
-	CLASS apw$b OccupationStatus
-		FIELD a HAS_SPACE Lapw$b;
-		FIELD b IS_OCCUPIED Lapw$b;
-		FIELD c ANY Lapw$b;
-		FIELD d predicate Ljava/util/function/Predicate;
-		METHOD a getPredicate ()Ljava/util/function/Predicate;
-	FIELD a pointOfInterestDistanceTracker Lapw$a;
-	METHOD a remove (Lev;)V
+CLASS net/minecraft/class_4153 net/minecraft/village/PointOfInterestStorage
+	CLASS net/minecraft/class_4153$class_4154 PointOfInterestDistanceTracker
+		FIELD field_18486 distances Lit/unimi/dsi/fastutil/longs/Long2ByteMap;
+		METHOD method_19134 update ()V
+	CLASS net/minecraft/class_4153$class_4155 OccupationStatus
+		FIELD field_18487 HAS_SPACE Lnet/minecraft/class_4153$class_4155;
+		FIELD field_18488 IS_OCCUPIED Lnet/minecraft/class_4153$class_4155;
+		FIELD field_18489 ANY Lnet/minecraft/class_4153$class_4155;
+		FIELD field_18490 predicate Ljava/util/function/Predicate;
+		METHOD method_19135 getPredicate ()Ljava/util/function/Predicate;
+	FIELD field_18484 pointOfInterestDistanceTracker Lnet/minecraft/class_4153$class_4154;
+	METHOD method_19112 remove (Lnet/minecraft/class_2338;)V
 		ARG 1 pos
-	METHOD a add (Lev;Lapz;)V
+	METHOD method_19115 add (Lnet/minecraft/class_2338;Lnet/minecraft/class_4158;)V
 		ARG 1 pos
 		ARG 2 type
-	METHOD a test (Lev;Ljava/util/function/Predicate;)Z
+	METHOD method_19116 test (Lnet/minecraft/class_2338;Ljava/util/function/Predicate;)Z
 		ARG 1 pos
 		ARG 2 predicate
-	METHOD a getDistanceFromNearestOccupied (Lfo;)I
+	METHOD method_19118 getDistanceFromNearestOccupied (Lnet/minecraft/class_4076;)I
 		ARG 1 pos
-	METHOD a get (Ljava/util/function/Predicate;JLapw$b;)Ljava/util/stream/Stream;
+	METHOD method_19119 get (Ljava/util/function/Predicate;JLnet/minecraft/class_4153$class_4155;)Ljava/util/stream/Stream;
 		ARG 1 typePredicate
 		ARG 2 pos
 		ARG 4 occupationStatus
-	METHOD a get (Ljava/util/function/Predicate;Lbgk;Lapw$b;)Ljava/util/stream/Stream;
+	METHOD method_19123 get (Ljava/util/function/Predicate;Lnet/minecraft/class_1923;Lnet/minecraft/class_4153$class_4155;)Ljava/util/stream/Stream;
 		ARG 1 typePredicate
 		ARG 2 pos
 		ARG 3 occupationStatus
-	METHOD a get (Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/stream/Stream;
+	METHOD method_19125 get (Ljava/util/function/Predicate;Lnet/minecraft/class_2338;ILnet/minecraft/class_4153$class_4155;)Ljava/util/stream/Stream;
 		ARG 1 typePredicate
 		ARG 2 pos
 		ARG 4 occupationStatus
-	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lapw$b;Lev;ILjava/util/Random;)Ljava/util/Optional;
+	METHOD method_20005 getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/class_4153$class_4155;Lnet/minecraft/class_2338;ILjava/util/Random;)Ljava/util/Optional;
 		ARG 1 typePredicate
 		ARG 2 positionPredicate
 		ARG 3 occupationStatus
 		ARG 4 pos
 		ARG 5 radius
 		ARG 6 random
-	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;I)Ljava/util/Optional;
+	METHOD method_19126 getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/class_2338;I)Ljava/util/Optional;
 		ARG 1 typePredicate
 		ARG 2 positionPredicate
 		ARG 3 pos
 		ARG 4 radius
-	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/Optional;
+	METHOD method_19127 getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/class_2338;ILnet/minecraft/class_4153$class_4155;)Ljava/util/Optional;
 		ARG 1 typePredicate
 		ARG 2 positionPredicate
 		ARG 3 pos
 		ARG 4 radius
 		ARG 5 occupationStatus
-	METHOD b releaseTicket (Lev;)Z
+	METHOD method_19129 releaseTicket (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
-	METHOD b getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;I)Ljava/util/Optional;
+	METHOD method_19131 getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/class_2338;I)Ljava/util/Optional;
 		ARG 1 typePredicate
 		ARG 2 positionPredicate
 		ARG 3 pos
 		ARG 4 radius
-	METHOD b getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/Optional;
+	METHOD method_20006 getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/class_2338;ILnet/minecraft/class_4153$class_4155;)Ljava/util/Optional;
 		ARG 1 typePredicate
 		ARG 2 blockPosPredicate
 		ARG 3 pos
 		ARG 4 radius
 		ARG 5 occupationStatus
-	METHOD c getType (Lev;)Ljava/util/Optional;
+	METHOD method_19132 getType (Lnet/minecraft/class_2338;)Ljava/util/Optional;
 		ARG 1 pos
-	METHOD f isOccupied (J)Z
+	METHOD method_19133 isOccupied (J)Z
 		ARG 1 pos

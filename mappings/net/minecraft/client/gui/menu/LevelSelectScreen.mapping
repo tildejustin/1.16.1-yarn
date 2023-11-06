@@ -1,10 +1,10 @@
-CLASS dcv net/minecraft/client/gui/menu/LevelSelectScreen
-	FIELD a parent Lczn;
-	FIELD b searchBox Lcwh;
-	FIELD d deleteButton Lcwc;
-	FIELD e selectButton Lcwc;
-	FIELD f editButton Lcwc;
-	FIELD g recreateButton Lcwc;
-	FIELD h levelList Ldcw;
-	METHOD <init> (Lczn;)V
+CLASS net/minecraft/class_526 net/minecraft/client/gui/menu/LevelSelectScreen
+	FIELD field_3221 parent Lnet/minecraft/class_437;
+	FIELD field_3220 searchBox Lnet/minecraft/class_342;
+	FIELD field_3219 deleteButton Lnet/minecraft/class_4185;
+	FIELD field_3224 selectButton Lnet/minecraft/class_4185;
+	FIELD field_3215 editButton Lnet/minecraft/class_4185;
+	FIELD field_3216 recreateButton Lnet/minecraft/class_4185;
+	FIELD field_3218 levelList Lnet/minecraft/class_528;
+	METHOD <init> (Lnet/minecraft/class_437;)V
 		ARG 1 parent

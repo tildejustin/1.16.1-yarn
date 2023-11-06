@@ -1,6 +1,6 @@
-CLASS dht net/minecraft/client/particle/WaterBubbleParticle
-	CLASS dht$a Factory
-	METHOD <init> (Lbgx;DDDDDD)V
+CLASS net/minecraft/class_653 net/minecraft/client/particle/WaterBubbleParticle
+	CLASS net/minecraft/class_653$class_654 Factory
+	METHOD <init> (Lnet/minecraft/class_1937;DDDDDD)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y

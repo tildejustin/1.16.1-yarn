@@ -1,3 +1,3 @@
-CLASS nm net/minecraft/client/network/packet/SynchronizeRecipesS2CPacket
-	FIELD a recipes Ljava/util/List;
-	METHOD b getRecipes ()Ljava/util/List;
+CLASS net/minecraft/class_2788 net/minecraft/client/network/packet/SynchronizeRecipesS2CPacket
+	FIELD field_12751 recipes Ljava/util/List;
+	METHOD method_11998 getRecipes ()Ljava/util/List;

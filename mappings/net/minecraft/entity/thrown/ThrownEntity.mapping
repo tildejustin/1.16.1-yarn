@@ -1,19 +1,19 @@
-CLASS awi net/minecraft/entity/thrown/ThrownEntity
-	FIELD b inGround Z
-	FIELD c shake I
-	FIELD d owner Laii;
-	FIELD e blockX I
-	FIELD f blockY I
-	FIELD g blockZ I
-	METHOD <init> (Laid;DDDLbgx;)V
+CLASS net/minecraft/class_1682 net/minecraft/entity/thrown/ThrownEntity
+	FIELD field_7645 inGround Z
+	FIELD field_7643 shake I
+	FIELD field_7642 owner Lnet/minecraft/class_1309;
+	FIELD field_7640 blockX I
+	FIELD field_7639 blockY I
+	FIELD field_7641 blockZ I
+	METHOD <init> (Lnet/minecraft/class_1299;DDDLnet/minecraft/class_1937;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD <init> (Laid;Laii;Lbgx;)V
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1309;Lnet/minecraft/class_1937;)V
 		ARG 1 world
-	METHOD <init> (Laid;Lbgx;)V
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD a onCollision (Lcri;)V
-	METHOD l getGravity ()F
-	METHOD m getOwner ()Laii;
+	METHOD method_7492 onCollision (Lnet/minecraft/class_239;)V
+	METHOD method_7490 getGravity ()F
+	METHOD method_7491 getOwner ()Lnet/minecraft/class_1309;

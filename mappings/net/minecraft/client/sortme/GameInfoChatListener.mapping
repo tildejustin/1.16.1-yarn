@@ -1,2 +1,2 @@
-CLASS cvv net/minecraft/client/sortme/GameInfoChatListener
-	FIELD a client Lcux;
+CLASS net/minecraft/class_336 net/minecraft/client/sortme/GameInfoChatListener
+	FIELD field_2057 client Lnet/minecraft/class_310;

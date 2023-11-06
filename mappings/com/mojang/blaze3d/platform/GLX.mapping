@@ -1,8 +1,8 @@
 CLASS com/mojang/blaze3d/platform/GLX
-	CLASS com/mojang/blaze3d/platform/GLX$a FBOMode
-		FIELD a BASE Lcom/mojang/blaze3d/platform/GLX$a;
-		FIELD b ARB Lcom/mojang/blaze3d/platform/GLX$a;
-		FIELD c EXT Lcom/mojang/blaze3d/platform/GLX$a;
+	CLASS com/mojang/blaze3d/platform/GLX$class_1010 FBOMode
+		FIELD field_4981 BASE Lcom/mojang/blaze3d/platform/GLX$class_1010;
+		FIELD field_4983 ARB Lcom/mojang/blaze3d/platform/GLX$class_1010;
+		FIELD field_4984 EXT Lcom/mojang/blaze3d/platform/GLX$class_1010;
 	METHOD glActiveTexture (I)V
 		ARG 0 texture
 	METHOD glAttachShader (II)V

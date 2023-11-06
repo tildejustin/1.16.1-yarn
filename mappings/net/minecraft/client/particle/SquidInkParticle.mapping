@@ -1,2 +1,2 @@
-CLASS djd net/minecraft/client/particle/SquidInkParticle
-	CLASS djd$a Factory
+CLASS net/minecraft/class_725 net/minecraft/client/particle/SquidInkParticle
+	CLASS net/minecraft/class_725$class_726 Factory

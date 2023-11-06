@@ -1,29 +1,29 @@
-CLASS qj net/minecraft/entity/data/DataTracker
-	CLASS qj$a Entry
-		FIELD b value Ljava/lang/Object;
-		FIELD c dirty Z
-		METHOD a set (Ljava/lang/Object;)V
-		METHOD a setDirty (Z)V
-		METHOD b get ()Ljava/lang/Object;
-		METHOD c isDirty ()Z
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b trackedEntities Ljava/util/Map;
-	FIELD c trackedEntity Lahz;
-	FIELD d entries Ljava/util/Map;
-	FIELD e lock Ljava/util/concurrent/locks/ReadWriteLock;
-	FIELD g dirty Z
-	METHOD a isDirty ()Z
-	METHOD a registerData (Ljava/lang/Class;Lqh;)Lqg;
+CLASS net/minecraft/class_2945 net/minecraft/entity/data/DataTracker
+	CLASS net/minecraft/class_2945$class_2946 Entry
+		FIELD field_13338 value Ljava/lang/Object;
+		FIELD field_13336 dirty Z
+		METHOD method_12799 set (Ljava/lang/Object;)V
+		METHOD method_12795 setDirty (Z)V
+		METHOD method_12794 get ()Ljava/lang/Object;
+		METHOD method_12796 isDirty ()Z
+	FIELD field_13334 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_13332 trackedEntities Ljava/util/Map;
+	FIELD field_13333 trackedEntity Lnet/minecraft/class_1297;
+	FIELD field_13331 entries Ljava/util/Map;
+	FIELD field_13335 lock Ljava/util/concurrent/locks/ReadWriteLock;
+	FIELD field_13329 dirty Z
+	METHOD method_12786 isDirty ()Z
+	METHOD method_12791 registerData (Ljava/lang/Class;Lnet/minecraft/class_2941;)Lnet/minecraft/class_2940;
 		ARG 0 entityClass
 		ARG 1 dataHandler
-	METHOD a serializePacket (Ljava/util/List;Ljc;)V
-	METHOD a serializePacket (Ljc;)V
-	METHOD a get (Lqg;)Ljava/lang/Object;
-	METHOD a startTracking (Lqg;Ljava/lang/Object;)V
+	METHOD method_12787 serializePacket (Ljava/util/List;Lnet/minecraft/class_2540;)V
+	METHOD method_12780 serializePacket (Lnet/minecraft/class_2540;)V
+	METHOD method_12789 get (Lnet/minecraft/class_2940;)Ljava/lang/Object;
+	METHOD method_12784 startTracking (Lnet/minecraft/class_2940;Ljava/lang/Object;)V
 		ARG 1 key
-	METHOD b getDirtyEntries ()Ljava/util/List;
-	METHOD b deserializePacket (Ljc;)Ljava/util/List;
-	METHOD b set (Lqg;Ljava/lang/Object;)V
+	METHOD method_12781 getDirtyEntries ()Ljava/util/List;
+	METHOD method_12788 deserializePacket (Lnet/minecraft/class_2540;)Ljava/util/List;
+	METHOD method_12778 set (Lnet/minecraft/class_2940;Ljava/lang/Object;)V
 		ARG 1 key
-	METHOD c getAllEntries ()Ljava/util/List;
-	METHOD e clearDirty ()V
+	METHOD method_12793 getAllEntries ()Ljava/util/List;
+	METHOD method_12792 clearDirty ()V

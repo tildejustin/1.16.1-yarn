@@ -1,6 +1,6 @@
-CLASS ceh net/minecraft/structure/generator/village/VillageGenerator
-	CLASS ceh$a Piece
-	METHOD a addPieces (Lbwn;Lcis;Lev;Ljava/util/List;Lbyp;Lcef;)V
+CLASS net/minecraft/class_3813 net/minecraft/structure/generator/village/VillageGenerator
+	CLASS net/minecraft/class_3813$class_3814 Piece
+	METHOD method_16753 addPieces (Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_2338;Ljava/util/List;Lnet/minecraft/class_2919;Lnet/minecraft/class_3812;)V
 		ARG 0 chunkGenerator
 		ARG 1 structureManager
 		ARG 2 pos

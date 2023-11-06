@@ -1,8 +1,8 @@
-CLASS dqr net/minecraft/client/render/entity/RabbitEntityRenderer
-	FIELD a BROWN_SKIN Lqr;
-	FIELD j WHITE_SKIN Lqr;
-	FIELD k BLACK_SKIN Lqr;
-	FIELD l GOLD_SKIN Lqr;
-	FIELD m SALT_SKIN Lqr;
-	FIELD n WHITE_SPOTTED_SKIN Lqr;
-	FIELD o TOAST_SKIN Lqr;
+CLASS net/minecraft/class_939 net/minecraft/client/render/entity/RabbitEntityRenderer
+	FIELD field_4770 BROWN_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4773 WHITE_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4775 BLACK_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4768 GOLD_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4774 SALT_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4772 WHITE_SPOTTED_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4771 TOAST_SKIN Lnet/minecraft/class_2960;

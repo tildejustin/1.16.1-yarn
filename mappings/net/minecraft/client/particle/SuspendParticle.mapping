@@ -1,4 +1,4 @@
-CLASS djf net/minecraft/client/particle/SuspendParticle
-	CLASS djf$b DolphinFactory
-	CLASS djf$c HappyVillagerFactory
-	CLASS djf$d MyceliumFactory
+CLASS net/minecraft/class_729 net/minecraft/client/particle/SuspendParticle
+	CLASS net/minecraft/class_729$class_730 DolphinFactory
+	CLASS net/minecraft/class_729$class_731 HappyVillagerFactory
+	CLASS net/minecraft/class_729$class_732 MyceliumFactory

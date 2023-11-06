@@ -1,15 +1,15 @@
-CLASS azt net/minecraft/item/ItemPlacementContext
-	FIELD f placedPos Lev;
-	METHOD <init> (Lbdc;)V
+CLASS net/minecraft/class_1750 net/minecraft/item/ItemPlacementContext
+	FIELD field_7903 placedPos Lnet/minecraft/class_2338;
+	METHOD <init> (Lnet/minecraft/class_1838;)V
 		ARG 1 usageCtx
-	METHOD <init> (Lbgx;Lavm;Lbbp;Lcrg;)V
+	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;Lnet/minecraft/class_3965;)V
 		ARG 1 world
 		ARG 2 player
 		ARG 3 stack
 		ARG 4 hitResult
-	METHOD a create (Lazt;Lev;Lfa;)Lazt;
+	METHOD method_16355 create (Lnet/minecraft/class_1750;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Lnet/minecraft/class_1750;
 		ARG 0 placementCtx
 		ARG 2 facing
-	METHOD b canPlace ()Z
-	METHOD d getPlayerFacing ()Lfa;
-	METHOD e getPlacementFacings ()[Lfa;
+	METHOD method_7716 canPlace ()Z
+	METHOD method_7715 getPlayerFacing ()Lnet/minecraft/class_2350;
+	METHOD method_7718 getPlacementFacings ()LLfa;

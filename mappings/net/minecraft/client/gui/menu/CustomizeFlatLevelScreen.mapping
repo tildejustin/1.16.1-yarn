@@ -1,11 +1,11 @@
-CLASS cyk net/minecraft/client/gui/menu/CustomizeFlatLevelScreen
-	CLASS cyk$a SuperflatLayersListWidget
-		CLASS cyk$a$a SuperflatLayerItem
-	FIELD a parent Ldcs;
-	FIELD b config Lcfa;
-	FIELD c tileText Ljava/lang/String;
-	FIELD d heightText Ljava/lang/String;
-	FIELD f widgetButtonRemoveLayer Lcwc;
-	METHOD <init> (Ldcs;Lib;)V
+CLASS net/minecraft/class_413 net/minecraft/client/gui/menu/CustomizeFlatLevelScreen
+	CLASS net/minecraft/class_413$class_4192 SuperflatLayersListWidget
+		CLASS net/minecraft/class_413$class_4192$class_4193 SuperflatLayerItem
+	FIELD field_2422 parent Lnet/minecraft/class_525;
+	FIELD field_2419 config Lnet/minecraft/class_3232;
+	FIELD field_2418 tileText Ljava/lang/String;
+	FIELD field_2425 heightText Ljava/lang/String;
+	FIELD field_2421 widgetButtonRemoveLayer Lnet/minecraft/class_4185;
+	METHOD <init> (Lnet/minecraft/class_525;Lnet/minecraft/class_2487;)V
 		ARG 1 parent
-	METHOD a getConfigString ()Ljava/lang/String;
+	METHOD method_2138 getConfigString ()Ljava/lang/String;

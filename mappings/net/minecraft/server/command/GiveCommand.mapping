@@ -1,2 +1,2 @@
-CLASS sg net/minecraft/server/command/GiveCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3068 net/minecraft/server/command/GiveCommand
+	METHOD method_13402 register (Lcom/mojang/brigadier/CommandDispatcher;)V

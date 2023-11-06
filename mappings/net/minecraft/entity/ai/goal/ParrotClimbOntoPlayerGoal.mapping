@@ -1,6 +1,6 @@
-CLASS amr net/minecraft/entity/ai/goal/ParrotClimbOntoPlayerGoal
-	FIELD a parrot Lara;
-	FIELD b parrotOwner Lvf;
-	FIELD c mounted Z
-	METHOD <init> (Lara;)V
+CLASS net/minecraft/class_1360 net/minecraft/entity/ai/goal/ParrotClimbOntoPlayerGoal
+	FIELD field_6478 parrot Lnet/minecraft/class_1471;
+	FIELD field_6479 parrotOwner Lnet/minecraft/class_3222;
+	FIELD field_6480 mounted Z
+	METHOD <init> (Lnet/minecraft/class_1471;)V
 		ARG 1 parrot

@@ -1,24 +1,24 @@
-CLASS dby net/minecraft/client/gui/widget/RecipeBookGhostSlots
-	CLASS dby$a GhostInputSlot
-		FIELD b ingredient Lbdw;
-		FIELD c x I
-		FIELD d y I
-		METHOD <init> (Ldby;Lbdw;II)V
+CLASS net/minecraft/class_505 net/minecraft/client/gui/widget/RecipeBookGhostSlots
+	CLASS net/minecraft/class_505$class_506 GhostInputSlot
+		FIELD field_3082 ingredient Lnet/minecraft/class_1856;
+		FIELD field_3084 x I
+		FIELD field_3083 y I
+		METHOD <init> (Lnet/minecraft/class_505;Lnet/minecraft/class_1856;II)V
 			ARG 3 x
 			ARG 4 y
-		METHOD a getX ()I
-		METHOD b getY ()I
-		METHOD c getCurrentItemStack ()Lbbp;
-	FIELD a recipe Lbdz;
-	FIELD b slots Ljava/util/List;
-	FIELD c time F
-	METHOD a reset ()V
-	METHOD a getSlot (I)Ldby$a;
-	METHOD a addSlot (Lbdw;II)V
+		METHOD method_2574 getX ()I
+		METHOD method_2575 getY ()I
+		METHOD method_2573 getCurrentItemStack ()Lnet/minecraft/class_1799;
+	FIELD field_3079 recipe Lnet/minecraft/class_1860;
+	FIELD field_3081 slots Ljava/util/List;
+	FIELD field_3080 time F
+	METHOD method_2571 reset ()V
+	METHOD method_2570 getSlot (I)Lnet/minecraft/class_505$class_506;
+	METHOD method_2569 addSlot (Lnet/minecraft/class_1856;II)V
 		ARG 2 x
 		ARG 3 y
-	METHOD a setRecipe (Lbdz;)V
-	METHOD a draw (Lcux;IIZF)V
+	METHOD method_2565 setRecipe (Lnet/minecraft/class_1860;)V
+	METHOD method_2567 draw (Lnet/minecraft/class_310;IIZF)V
 		ARG 5 lastFrameDuration
-	METHOD b getSlotCount ()I
-	METHOD c getRecipe ()Lbdz;
+	METHOD method_2572 getSlotCount ()I
+	METHOD method_2566 getRecipe ()Lnet/minecraft/class_1860;

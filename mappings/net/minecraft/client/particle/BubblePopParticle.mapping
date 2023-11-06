@@ -1,2 +1,2 @@
-CLASS dhu net/minecraft/client/particle/BubblePopParticle
-	CLASS dhu$a Factory
+CLASS net/minecraft/class_661 net/minecraft/client/particle/BubblePopParticle
+	CLASS net/minecraft/class_661$class_662 Factory

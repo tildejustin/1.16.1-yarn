@@ -1,3 +1,3 @@
-CLASS ait net/minecraft/entity/InteractionObserver
-	METHOD a onInteractionWith (Lapt;Lahz;)V
+CLASS net/minecraft/class_4094 net/minecraft/entity/InteractionObserver
+	METHOD method_18870 onInteractionWith (Lnet/minecraft/class_4151;Lnet/minecraft/class_1297;)V
 		ARG 1 interaction

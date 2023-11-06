@@ -1,2 +1,2 @@
-CLASS in net/minecraft/datafixers/NbtOps
-	FIELD a INSTANCE Lin;
+CLASS net/minecraft/class_2509 net/minecraft/datafixers/NbtOps
+	FIELD field_11560 INSTANCE Lnet/minecraft/class_2509;

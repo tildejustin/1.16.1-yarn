@@ -1,6 +1,6 @@
-CLASS bhl net/minecraft/sortme/MobSpawnerEntry
-	FIELD b entityTag Lib;
-	METHOD <init> (ILib;)V
+CLASS net/minecraft/class_1952 net/minecraft/sortme/MobSpawnerEntry
+	FIELD field_9307 entityTag Lnet/minecraft/class_2487;
+	METHOD <init> (ILnet/minecraft/class_2487;)V
 		ARG 1 weight
-	METHOD a serialize ()Lib;
-	METHOD b getEntityTag ()Lib;
+	METHOD method_8679 serialize ()Lnet/minecraft/class_2487;
+	METHOD method_8678 getEntityTag ()Lnet/minecraft/class_2487;

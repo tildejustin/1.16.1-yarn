@@ -1,15 +1,15 @@
-CLASS are net/minecraft/entity/passive/TurtleEntity
-	CLASS are$a TurtleMateGoal
-	CLASS are$e TurtleMoveControl
-		FIELD i turtle Lare;
-	CLASS are$g TurtleSwimNavigation
-	FIELD bA HOME_POS Lqg;
-	FIELD bB HAS_EGG Lqg;
-	FIELD bE TRAVEL_POS Lqg;
-	FIELD bz BABY_TURTLE_ON_LAND_FILTER Ljava/util/function/Predicate;
-	METHOD dP getHasEgg ()Z
-	METHOD dR getHomePos ()Lev;
-	METHOD dS getTravelPos ()Lev;
-	METHOD g setHomePos (Lev;)V
-	METHOD h setTravelPos (Lev;)V
-	METHOD r setHasEgg (Z)V
+CLASS net/minecraft/class_1481 net/minecraft/entity/passive/TurtleEntity
+	CLASS net/minecraft/class_1481$class_1482 TurtleMateGoal
+	CLASS net/minecraft/class_1481$class_1486 TurtleMoveControl
+		FIELD field_6933 turtle Lnet/minecraft/class_1481;
+	CLASS net/minecraft/class_1481$class_1488 TurtleSwimNavigation
+	FIELD field_6920 HOME_POS Lnet/minecraft/class_2940;
+	FIELD field_6919 HAS_EGG Lnet/minecraft/class_2940;
+	FIELD field_6922 TRAVEL_POS Lnet/minecraft/class_2940;
+	FIELD field_6921 BABY_TURTLE_ON_LAND_FILTER Ljava/util/function/Predicate;
+	METHOD method_6679 getHasEgg ()Z
+	METHOD method_6693 getHomePos ()Lnet/minecraft/class_2338;
+	METHOD method_6687 getTravelPos ()Lnet/minecraft/class_2338;
+	METHOD method_6683 setHomePos (Lnet/minecraft/class_2338;)V
+	METHOD method_6699 setTravelPos (Lnet/minecraft/class_2338;)V
+	METHOD method_6680 setHasEgg (Z)V

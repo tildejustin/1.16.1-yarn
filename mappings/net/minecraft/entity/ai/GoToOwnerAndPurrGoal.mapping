@@ -1,2 +1,2 @@
-CLASS alz net/minecraft/entity/ai/GoToOwnerAndPurrGoal
-	FIELD g cat Laqi;
+CLASS net/minecraft/class_3697 net/minecraft/entity/ai/GoToOwnerAndPurrGoal
+	FIELD field_16282 cat Lnet/minecraft/class_1451;

@@ -1,2 +1,2 @@
-CLASS zy net/minecraft/util/Void
-	FIELD a INSTANCE Lzy;
+CLASS net/minecraft/class_3902 net/minecraft/util/Void
+	FIELD field_17274 INSTANCE Lnet/minecraft/class_3902;

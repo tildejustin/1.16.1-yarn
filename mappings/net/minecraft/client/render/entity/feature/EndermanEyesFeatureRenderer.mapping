@@ -1,4 +1,4 @@
-CLASS dsp net/minecraft/client/render/entity/feature/EndermanEyesFeatureRenderer
-	FIELD a SKIN Lqr;
-	METHOD <init> (Ldqt;)V
+CLASS net/minecraft/class_985 net/minecraft/client/render/entity/feature/EndermanEyesFeatureRenderer
+	FIELD field_4876 SKIN Lnet/minecraft/class_2960;
+	METHOD <init> (Lnet/minecraft/class_3883;)V
 		ARG 1 context

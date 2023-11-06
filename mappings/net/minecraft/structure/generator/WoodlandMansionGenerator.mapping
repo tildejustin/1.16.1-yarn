@@ -1,5 +1,5 @@
-CLASS cic net/minecraft/structure/generator/WoodlandMansionGenerator
-	CLASS cic$i Piece
-		FIELD d template Ljava/lang/String;
-		FIELD e rotation Lbql;
-		FIELD f mirror Lbpl;
+CLASS net/minecraft/class_3471 net/minecraft/structure/generator/WoodlandMansionGenerator
+	CLASS net/minecraft/class_3471$class_3480 Piece
+		FIELD field_15455 template Ljava/lang/String;
+		FIELD field_15457 rotation Lnet/minecraft/class_2470;
+		FIELD field_15456 mirror Lnet/minecraft/class_2415;

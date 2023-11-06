@@ -1,27 +1,27 @@
-CLASS cwd net/minecraft/client/gui/hud/ChatHud
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b client Lcux;
-	FIELD d messages Ljava/util/List;
-	FIELD e visibleMessages Ljava/util/List;
-	METHOD <init> (Lcux;)V
+CLASS net/minecraft/class_338 net/minecraft/client/gui/hud/ChatHud
+	FIELD field_2065 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_2062 client Lnet/minecraft/class_310;
+	FIELD field_2061 messages Ljava/util/List;
+	FIELD field_2064 visibleMessages Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_310;)V
 		ARG 1 client
-	METHOD a reset ()V
-	METHOD a getTextComponentAt (DD)Ljm;
+	METHOD method_1817 reset ()V
+	METHOD method_1816 getTextComponentAt (DD)Lnet/minecraft/class_2561;
 		ARG 1 x
 		ARG 3 y
-	METHOD a draw (I)V
-	METHOD a addMessage (Ljm;)V
-	METHOD a addMessage (Ljm;I)V
+	METHOD method_1805 draw (I)V
+	METHOD method_1812 addMessage (Lnet/minecraft/class_2561;)V
+	METHOD method_1804 addMessage (Lnet/minecraft/class_2561;I)V
 		ARG 1 message
-	METHOD a addMessage (Ljm;IIZ)V
-	METHOD a clear (Z)V
-	METHOD b getWidth (D)I
+	METHOD method_1815 addMessage (Lnet/minecraft/class_2561;IIZ)V
+	METHOD method_1808 clear (Z)V
+	METHOD method_1806 getWidth (D)I
 		ARG 0 widthOption
-	METHOD b removeMessage (I)V
-	METHOD c getHeight (D)I
+	METHOD method_1807 removeMessage (I)V
+	METHOD method_1818 getHeight (D)I
 		ARG 0 heightOption
-	METHOD d isChatFocused ()Z
-	METHOD e getWidth ()I
-	METHOD f getHeight ()I
-	METHOD g getScale ()D
-	METHOD h getVisibleLineCount ()I
+	METHOD method_1819 isChatFocused ()Z
+	METHOD method_1811 getWidth ()I
+	METHOD method_1810 getHeight ()I
+	METHOD method_1814 getScale ()D
+	METHOD method_1813 getVisibleLineCount ()I

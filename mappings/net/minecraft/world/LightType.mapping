@@ -1,3 +1,3 @@
-CLASS bhg net/minecraft/world/LightType
-	FIELD a SKY Lbhg;
-	FIELD b BLOCK Lbhg;
+CLASS net/minecraft/class_1944 net/minecraft/world/LightType
+	FIELD field_9284 SKY Lnet/minecraft/class_1944;
+	FIELD field_9282 BLOCK Lnet/minecraft/class_1944;

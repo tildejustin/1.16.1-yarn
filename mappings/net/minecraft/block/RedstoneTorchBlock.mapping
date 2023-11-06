@@ -1,4 +1,4 @@
-CLASS bqg net/minecraft/block/RedstoneTorchBlock
-	FIELD a LIT Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2459 net/minecraft/block/RedstoneTorchBlock
+	FIELD field_11446 LIT Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

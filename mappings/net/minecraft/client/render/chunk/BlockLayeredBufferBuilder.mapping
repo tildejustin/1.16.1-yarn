@@ -1,4 +1,4 @@
-CLASS djx net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
-	FIELD a layerBuilders [Lctz;
-	METHOD a get (I)Lctz;
-	METHOD a get (Lbgj;)Lctz;
+CLASS net/minecraft/class_750 net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD field_3951 layerBuilders LLctz;
+	METHOD method_3155 get (I)Lnet/minecraft/class_287;
+	METHOD method_3154 get (Lnet/minecraft/class_1921;)Lnet/minecraft/class_287;

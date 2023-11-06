@@ -1,33 +1,33 @@
-CLASS bgt net/minecraft/world/GameRules
-	CLASS bgt$a Value
-		FIELD a asString Ljava/lang/String;
-		FIELD b asBoolean Z
-		FIELD c asInteger I
-		FIELD d asDouble D
-		FIELD e type Lbgt$c;
-		FIELD f applyConsumer Ljava/util/function/BiConsumer;
-		METHOD a getString ()Ljava/lang/String;
-		METHOD a set (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
-		METHOD b getBoolean ()Z
-		METHOD c getInteger ()I
-		METHOD e getType ()Lbgt$c;
-	CLASS bgt$b Key
-		FIELD a type Lbgt$c;
-		FIELD b defaultValue Ljava/lang/String;
-		METHOD a createValue ()Lbgt$a;
-		METHOD b getType ()Lbgt$c;
-	CLASS bgt$c Type
-		FIELD a STRING Lbgt$c;
-		FIELD b BOOLEAN Lbgt$c;
-		FIELD c INTEGER Lbgt$c;
-	FIELD a KEYS Ljava/util/TreeMap;
-	FIELD b rules Ljava/util/TreeMap;
-	METHOD a serialize ()Lib;
-	METHOD a deserialize (Lib;)V
-	METHOD a put (Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+CLASS net/minecraft/class_1928 net/minecraft/world/GameRules
+	CLASS net/minecraft/class_1928$class_1929 Value
+		FIELD field_9199 asString Ljava/lang/String;
+		FIELD field_9202 asBoolean Z
+		FIELD field_9201 asInteger I
+		FIELD field_9198 asDouble D
+		FIELD field_9200 type Lnet/minecraft/class_1928$class_1931;
+		FIELD field_9203 applyConsumer Ljava/util/function/BiConsumer;
+		METHOD method_8362 getString ()Ljava/lang/String;
+		METHOD method_8366 set (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		METHOD method_8365 getBoolean ()Z
+		METHOD method_8363 getInteger ()I
+		METHOD method_8364 getType ()Lnet/minecraft/class_1928$class_1931;
+	CLASS net/minecraft/class_1928$class_1930 Key
+		FIELD field_9205 type Lnet/minecraft/class_1928$class_1931;
+		FIELD field_9206 defaultValue Ljava/lang/String;
+		METHOD method_8368 createValue ()Lnet/minecraft/class_1928$class_1929;
+		METHOD method_8367 getType ()Lnet/minecraft/class_1928$class_1931;
+	CLASS net/minecraft/class_1928$class_1931 Type
+		FIELD field_9211 STRING Lnet/minecraft/class_1928$class_1931;
+		FIELD field_9209 BOOLEAN Lnet/minecraft/class_1928$class_1931;
+		FIELD field_9210 INTEGER Lnet/minecraft/class_1928$class_1931;
+	FIELD field_9197 KEYS Ljava/util/TreeMap;
+	FIELD field_9196 rules Ljava/util/TreeMap;
+	METHOD method_8358 serialize ()Lnet/minecraft/class_2487;
+	METHOD method_8357 deserialize (Lnet/minecraft/class_2487;)V
+	METHOD method_8359 put (Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD b getKeys ()Ljava/util/TreeMap;
-	METHOD b getBoolean (Ljava/lang/String;)Z
-	METHOD c getInteger (Ljava/lang/String;)I
-	METHOD f get (Ljava/lang/String;)Lbgt$a;
+	METHOD method_8354 getKeys ()Ljava/util/TreeMap;
+	METHOD method_8355 getBoolean (Ljava/lang/String;)Z
+	METHOD method_8356 getInteger (Ljava/lang/String;)I
+	METHOD method_8360 get (Ljava/lang/String;)Lnet/minecraft/class_1928$class_1929;

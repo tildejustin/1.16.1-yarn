@@ -1,5 +1,5 @@
-CLASS brv net/minecraft/block/TallSeagrassBlock
-	FIELD c HALF Lbvw;
-	FIELD d SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2525 net/minecraft/block/TallSeagrassBlock
+	FIELD field_11616 HALF Lnet/minecraft/class_2754;
+	FIELD field_11615 SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

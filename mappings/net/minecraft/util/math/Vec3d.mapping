@@ -1,50 +1,50 @@
-CLASS crk net/minecraft/util/math/Vec3d
-	FIELD a ZERO Lcrk;
-	FIELD b x D
-	FIELD c y D
-	FIELD d z D
+CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
+	FIELD field_1353 ZERO Lnet/minecraft/class_243;
+	FIELD field_1352 x D
+	FIELD field_1351 y D
+	FIELD field_1350 z D
 	METHOD <init> (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a multiply (D)Lcrk;
+	METHOD method_1021 multiply (D)Lnet/minecraft/class_243;
 		ARG 1 mult
-	METHOD a subtract (DDD)Lcrk;
+	METHOD method_1023 subtract (DDD)Lnet/minecraft/class_243;
 		ARG 1 x
-	METHOD a rotateX (F)Lcrk;
-	METHOD a fromPolar (FF)Lcrk;
+	METHOD method_1037 rotateX (F)Lnet/minecraft/class_243;
+	METHOD method_1030 fromPolar (FF)Lnet/minecraft/class_243;
 		ARG 0 pitch
 		ARG 1 yaw
-	METHOD a fromPolar (Lcrj;)Lcrk;
+	METHOD method_1034 fromPolar (Lnet/minecraft/class_241;)Lnet/minecraft/class_243;
 		ARG 0 polar
-	METHOD a reverseSubtract (Lcrk;)Lcrk;
-	METHOD a getComponentAlongAxis (Lfa$a;)D
-	METHOD a floorAlongAxes (Ljava/util/EnumSet;)Lcrk;
+	METHOD method_1035 reverseSubtract (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
+	METHOD method_18043 getComponentAlongAxis (Lnet/minecraft/class_2350$class_2351;)D
+	METHOD method_1032 floorAlongAxes (Ljava/util/EnumSet;)Lnet/minecraft/class_243;
 		ARG 1 axes
-	METHOD b add (DDD)Lcrk;
+	METHOD method_1031 add (DDD)Lnet/minecraft/class_243;
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD b rotateY (F)Lcrk;
-	METHOD b dotProduct (Lcrk;)D
-	METHOD c squaredDistanceTo (DDD)D
+	METHOD method_1024 rotateY (F)Lnet/minecraft/class_243;
+	METHOD method_1026 dotProduct (Lnet/minecraft/class_243;)D
+	METHOD method_1028 squaredDistanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD c crossProduct (Lcrk;)Lcrk;
-	METHOD d normalize ()Lcrk;
-	METHOD d multiply (DDD)Lcrk;
+	METHOD method_1036 crossProduct (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
+	METHOD method_1029 normalize ()Lnet/minecraft/class_243;
+	METHOD method_18805 multiply (DDD)Lnet/minecraft/class_243;
 		ARG 1 multX
 		ARG 3 multY
 		ARG 5 multZ
-	METHOD d subtract (Lcrk;)Lcrk;
-	METHOD e negate ()Lcrk;
-	METHOD e add (Lcrk;)Lcrk;
+	METHOD method_1020 subtract (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
+	METHOD method_19637 negate ()Lnet/minecraft/class_243;
+	METHOD method_1019 add (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f length ()D
-	METHOD f distanceTo (Lcrk;)D
-	METHOD g lengthSquared ()D
-	METHOD g squaredDistanceTo (Lcrk;)D
-	METHOD h multiply (Lcrk;)Lcrk;
+	METHOD method_1033 length ()D
+	METHOD method_1022 distanceTo (Lnet/minecraft/class_243;)D
+	METHOD method_1027 lengthSquared ()D
+	METHOD method_1025 squaredDistanceTo (Lnet/minecraft/class_243;)D
+	METHOD method_18806 multiply (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
 		ARG 1 mult

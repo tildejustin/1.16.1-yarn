@@ -1,93 +1,93 @@
 CLASS com/mojang/blaze3d/platform/GlStateManager
-	CLASS com/mojang/blaze3d/platform/GlStateManager$a AlphaTestState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b func I
-		FIELD c ref F
-	CLASS com/mojang/blaze3d/platform/GlStateManager$b BlendFuncState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b sfactor I
-		FIELD c dfactor I
-		FIELD d srcAlpha I
-		FIELD e dstAlpha I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$c CapabilityTracker
-		FIELD a cap I
-		FIELD b state Z
-		METHOD a disable ()V
-		METHOD a setState (Z)V
-		METHOD b enable ()V
-	CLASS com/mojang/blaze3d/platform/GlStateManager$d ClearState
-		FIELD a clearDepth D
-		FIELD b clearColor Lcom/mojang/blaze3d/platform/GlStateManager$e;
-	CLASS com/mojang/blaze3d/platform/GlStateManager$e Color4
-		FIELD a red F
-		FIELD b green F
-		FIELD c blue F
-		FIELD d alpha F
-	CLASS com/mojang/blaze3d/platform/GlStateManager$f LogicOpState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b opcode I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$g ColorMask
-		FIELD a red Z
-		FIELD b green Z
-		FIELD c blue Z
-		FIELD d alpha Z
-	CLASS com/mojang/blaze3d/platform/GlStateManager$h ColorMaterialState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b face I
-		FIELD c mode I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$i FaceSides
-		FIELD d glValue I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$j CullFaceState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b mode I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$k DepthTestState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b mask Z
-		FIELD c func I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$l FogMode
-		FIELD d glValue I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$m FogState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b mode I
-		FIELD c density F
-		FIELD d start F
-		FIELD e end F
-	CLASS com/mojang/blaze3d/platform/GlStateManager$n LogicOp
-		FIELD q glValue I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$o PolygonOffsetState
-		FIELD a capFill Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b capLine Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD c factor F
-		FIELD d units F
-	CLASS com/mojang/blaze3d/platform/GlStateManager$p RenderMode
-		FIELD a DEFAULT Lcom/mojang/blaze3d/platform/GlStateManager$p;
-		FIELD b PLAYER_SKIN Lcom/mojang/blaze3d/platform/GlStateManager$p;
-		FIELD c TRANSPARENT_MODEL Lcom/mojang/blaze3d/platform/GlStateManager$p;
-		METHOD a begin ()V
-		METHOD b end ()V
-	CLASS com/mojang/blaze3d/platform/GlStateManager$q StencilSubState
-		FIELD a func I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$r StencilState
-		FIELD a subState Lcom/mojang/blaze3d/platform/GlStateManager$q;
-	CLASS com/mojang/blaze3d/platform/GlStateManager$s TexCoord
-	CLASS com/mojang/blaze3d/platform/GlStateManager$t TexGenCoordState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b coord I
-		FIELD c mode I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$u TexGenState
-		FIELD a s Lcom/mojang/blaze3d/platform/GlStateManager$t;
-		FIELD b t Lcom/mojang/blaze3d/platform/GlStateManager$t;
-		FIELD c r Lcom/mojang/blaze3d/platform/GlStateManager$t;
-		FIELD d q Lcom/mojang/blaze3d/platform/GlStateManager$t;
-	CLASS com/mojang/blaze3d/platform/GlStateManager$v Texture2DState
-		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
-		FIELD b boundTexture I
-	CLASS com/mojang/blaze3d/platform/GlStateManager$w Viewport
-		FIELD a INSTANCE Lcom/mojang/blaze3d/platform/GlStateManager$w;
-		FIELD b x I
-		FIELD c y I
-		FIELD d width I
-		FIELD e height I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1016 AlphaTestState
+		FIELD field_5042 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5044 func I
+		FIELD field_5043 ref F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1017 BlendFuncState
+		FIELD field_5045 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5049 sfactor I
+		FIELD field_5048 dfactor I
+		FIELD field_5047 srcAlpha I
+		FIELD field_5046 dstAlpha I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1018 CapabilityTracker
+		FIELD field_5050 cap I
+		FIELD field_5051 state Z
+		METHOD method_4469 disable ()V
+		METHOD method_4470 setState (Z)V
+		METHOD method_4471 enable ()V
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1019 ClearState
+		FIELD field_5053 clearDepth D
+		FIELD field_5052 clearColor Lcom/mojang/blaze3d/platform/GlStateManager$class_1020;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1020 Color4
+		FIELD field_5057 red F
+		FIELD field_5056 green F
+		FIELD field_5055 blue F
+		FIELD field_5054 alpha F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1021 LogicOpState
+		FIELD field_5058 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5059 opcode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1022 ColorMask
+		FIELD field_5063 red Z
+		FIELD field_5062 green Z
+		FIELD field_5061 blue Z
+		FIELD field_5060 alpha Z
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1023 ColorMaterialState
+		FIELD field_5064 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5066 face I
+		FIELD field_5065 mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1024 FaceSides
+		FIELD field_5069 glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1025 CullFaceState
+		FIELD field_5072 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5073 mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1026 DepthTestState
+		FIELD field_5074 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5076 mask Z
+		FIELD field_5075 func I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1028 FogMode
+		FIELD field_5093 glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1029 FogState
+		FIELD field_5100 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5102 mode I
+		FIELD field_5101 density F
+		FIELD field_5099 start F
+		FIELD field_5098 end F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1030 LogicOp
+		FIELD field_5108 glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1031 PolygonOffsetState
+		FIELD field_5123 capFill Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5121 capLine Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5124 factor F
+		FIELD field_5122 units F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1032 RenderMode
+		FIELD field_5127 DEFAULT Lcom/mojang/blaze3d/platform/GlStateManager$class_1032;
+		FIELD field_5128 PLAYER_SKIN Lcom/mojang/blaze3d/platform/GlStateManager$class_1032;
+		FIELD field_5125 TRANSPARENT_MODEL Lcom/mojang/blaze3d/platform/GlStateManager$class_1032;
+		METHOD method_4472 begin ()V
+		METHOD method_4473 end ()V
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1034 StencilSubState
+		FIELD field_5148 func I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1035 StencilState
+		FIELD field_5149 subState Lcom/mojang/blaze3d/platform/GlStateManager$class_1034;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1036 TexCoord
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1037 TexGenCoordState
+		FIELD field_5159 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5161 coord I
+		FIELD field_5160 mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1038 TexGenState
+		FIELD field_5162 s Lcom/mojang/blaze3d/platform/GlStateManager$class_1037;
+		FIELD field_5163 t Lcom/mojang/blaze3d/platform/GlStateManager$class_1037;
+		FIELD field_5164 r Lcom/mojang/blaze3d/platform/GlStateManager$class_1037;
+		FIELD field_5165 q Lcom/mojang/blaze3d/platform/GlStateManager$class_1037;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1039 Texture2DState
+		FIELD field_5166 capState Lcom/mojang/blaze3d/platform/GlStateManager$class_1018;
+		FIELD field_5167 boundTexture I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$class_1040 Viewport
+		FIELD field_5169 INSTANCE Lcom/mojang/blaze3d/platform/GlStateManager$class_1040;
+		FIELD field_5172 x I
+		FIELD field_5171 y I
+		FIELD field_5170 width I
+		FIELD field_5168 height I
 	METHOD alphaFunc (IF)V
 		ARG 0 func
 		ARG 1 ref

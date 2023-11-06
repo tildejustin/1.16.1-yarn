@@ -1,13 +1,13 @@
-CLASS dbs net/minecraft/client/gui/menu/MultiplayerScreen
-	FIELD a serverListWidget Ldbt;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d parent Lczn;
-	FIELD f buttonEdit Lcwc;
-	FIELD g buttonSelect Lcwc;
-	FIELD h buttonDelete Lcwc;
-	METHOD <init> (Lczn;)V
+CLASS net/minecraft/class_500 net/minecraft/client/gui/menu/MultiplayerScreen
+	FIELD field_3043 serverListWidget Lnet/minecraft/class_4267;
+	FIELD field_3044 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_3049 parent Lnet/minecraft/class_437;
+	FIELD field_3041 buttonEdit Lnet/minecraft/class_4185;
+	FIELD field_3050 buttonSelect Lnet/minecraft/class_4185;
+	FIELD field_3047 buttonDelete Lnet/minecraft/class_4185;
+	METHOD <init> (Lnet/minecraft/class_437;)V
 		ARG 1 parent
-	METHOD a selectEntry (Ldbt$a;)V
+	METHOD method_2531 selectEntry (Lnet/minecraft/class_4267$class_504;)V
 		ARG 1 arg1
 	METHOD confirmResult (ZI)V
 		ARG 1 result

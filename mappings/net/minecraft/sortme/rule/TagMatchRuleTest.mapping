@@ -1,4 +1,4 @@
-CLASS cix net/minecraft/sortme/rule/TagMatchRuleTest
-	FIELD a tag Lyz;
-	METHOD <init> (Lyz;)V
+CLASS net/minecraft/class_3798 net/minecraft/sortme/rule/TagMatchRuleTest
+	FIELD field_16747 tag Lnet/minecraft/class_3494;
+	METHOD <init> (Lnet/minecraft/class_3494;)V
 		ARG 1 tag

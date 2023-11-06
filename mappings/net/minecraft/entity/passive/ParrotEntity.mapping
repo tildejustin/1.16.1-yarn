@@ -1,5 +1,5 @@
-CLASS aqt net/minecraft/entity/passive/ParrotEntity
-	FIELD bI ATTR_VARIANT Lqg;
-	FIELD bL TAMING_INGREDIENTS Ljava/util/Set;
-	METHOD dZ getVariant ()I
-	METHOD r setVariant (I)V
+CLASS net/minecraft/class_1453 net/minecraft/entity/passive/ParrotEntity
+	FIELD field_6826 ATTR_VARIANT Lnet/minecraft/class_2940;
+	FIELD field_6825 TAMING_INGREDIENTS Ljava/util/Set;
+	METHOD method_6584 getVariant ()I
+	METHOD method_6585 setVariant (I)V

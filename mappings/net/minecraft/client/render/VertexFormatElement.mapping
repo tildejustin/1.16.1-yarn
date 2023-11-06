@@ -1,44 +1,44 @@
-CLASS cug net/minecraft/client/render/VertexFormatElement
-	CLASS cug$a Format
-		FIELD a FLOAT Lcug$a;
-		FIELD b UNSIGNED_BYTE Lcug$a;
-		FIELD c BYTE Lcug$a;
-		FIELD d UNSIGNED_SHORT Lcug$a;
-		FIELD e SHORT Lcug$a;
-		FIELD f UNSIGNED_INT Lcug$a;
-		FIELD g INT Lcug$a;
-		FIELD h size I
-		FIELD i name Ljava/lang/String;
-		FIELD j glId I
-		METHOD a getSize ()I
-		METHOD b getName ()Ljava/lang/String;
-		METHOD c getGlId ()I
-	CLASS cug$b Type
-		FIELD a POSITION Lcug$b;
-		FIELD b NORMAL Lcug$b;
-		FIELD c COLOR Lcug$b;
-		FIELD d UV Lcug$b;
-		FIELD e BONE_MATRIX Lcug$b;
-		FIELD f BLEND_WEIGHT Lcug$b;
-		FIELD g PADDING Lcug$b;
-		FIELD h name Ljava/lang/String;
-		METHOD a getName ()Ljava/lang/String;
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b format Lcug$a;
-	FIELD c type Lcug$b;
-	FIELD d index I
-	FIELD e count I
-	METHOD <init> (ILcug$a;Lcug$b;I)V
+CLASS net/minecraft/class_296 net/minecraft/client/render/VertexFormatElement
+	CLASS net/minecraft/class_296$class_297 Format
+		FIELD field_1623 FLOAT Lnet/minecraft/class_296$class_297;
+		FIELD field_1624 UNSIGNED_BYTE Lnet/minecraft/class_296$class_297;
+		FIELD field_1621 BYTE Lnet/minecraft/class_296$class_297;
+		FIELD field_1622 UNSIGNED_SHORT Lnet/minecraft/class_296$class_297;
+		FIELD field_1625 SHORT Lnet/minecraft/class_296$class_297;
+		FIELD field_1619 UNSIGNED_INT Lnet/minecraft/class_296$class_297;
+		FIELD field_1617 INT Lnet/minecraft/class_296$class_297;
+		FIELD field_1618 size I
+		FIELD field_1626 name Ljava/lang/String;
+		FIELD field_1627 glId I
+		METHOD method_1391 getSize ()I
+		METHOD method_1389 getName ()Ljava/lang/String;
+		METHOD method_1390 getGlId ()I
+	CLASS net/minecraft/class_296$class_298 Type
+		FIELD field_1633 POSITION Lnet/minecraft/class_296$class_298;
+		FIELD field_1635 NORMAL Lnet/minecraft/class_296$class_298;
+		FIELD field_1632 COLOR Lnet/minecraft/class_296$class_298;
+		FIELD field_1636 UV Lnet/minecraft/class_296$class_298;
+		FIELD field_1634 BONE_MATRIX Lnet/minecraft/class_296$class_298;
+		FIELD field_1628 BLEND_WEIGHT Lnet/minecraft/class_296$class_298;
+		FIELD field_1629 PADDING Lnet/minecraft/class_296$class_298;
+		FIELD field_1630 name Ljava/lang/String;
+		METHOD method_1392 getName ()Ljava/lang/String;
+	FIELD field_1616 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_1615 format Lnet/minecraft/class_296$class_297;
+	FIELD field_1614 type Lnet/minecraft/class_296$class_298;
+	FIELD field_1613 index I
+	FIELD field_1612 count I
+	METHOD <init> (ILnet/minecraft/class_296$class_297;Lnet/minecraft/class_296$class_298;I)V
 		ARG 1 index
 		ARG 2 format
 		ARG 3 type
-	METHOD a getFormat ()Lcug$a;
-	METHOD a isValidType (ILcug$b;)Z
+	METHOD method_1386 getFormat ()Lnet/minecraft/class_296$class_297;
+	METHOD method_1383 isValidType (ILnet/minecraft/class_296$class_298;)Z
 		ARG 1 index
-	METHOD b getType ()Lcug$b;
-	METHOD c getCount ()I
-	METHOD d getIndex ()I
-	METHOD e getSize ()I
+	METHOD method_1382 getType ()Lnet/minecraft/class_296$class_298;
+	METHOD method_1384 getCount ()I
+	METHOD method_1385 getIndex ()I
+	METHOD method_1387 getSize ()I
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f isPosition ()Z
+	METHOD method_1388 isPosition ()Z

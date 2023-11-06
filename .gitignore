@@ -5,6 +5,8 @@
 *.DS_Store
 build/
 out/
+mappings_official/
+namedSrc/
 
 # idea
 .idea/
@@ -12,3 +14,13 @@ out/
 *.iws
 *.ipr
 *.jar
+
+# eclipse
+.eclipse
+.classpath
+.project
+.settings/
+
+# vscode
+.vscode/
+bin/

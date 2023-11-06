@@ -1,15 +1,15 @@
-CLASS dak net/minecraft/client/gui/container/BeaconScreen
-	CLASS dak$a WidgetButtonIconCancel
-	CLASS dak$b WidgetButtonIconDone
-	CLASS dak$c WidgetButtonIconEffect
-		FIELD b effect Lahr;
-		FIELD d primary Z
-	CLASS dak$d WidgetButtonIcon
-		FIELD a disabled Z
-		METHOD a setDisabled (Z)V
-		METHOD b isDisabled ()Z
-	FIELD k BG_TEX Lqr;
-	FIELD l doneButton Ldak$b;
-	FIELD m canConsumeGem Z
-	FIELD n primaryEffect Lahr;
-	FIELD o secondaryEffect Lahr;
+CLASS net/minecraft/class_466 net/minecraft/client/gui/container/BeaconScreen
+	CLASS net/minecraft/class_466$class_467 WidgetButtonIconCancel
+	CLASS net/minecraft/class_466$class_468 WidgetButtonIconDone
+	CLASS net/minecraft/class_466$class_469 WidgetButtonIconEffect
+		FIELD field_2813 effect Lnet/minecraft/class_1291;
+		FIELD field_17416 primary Z
+	CLASS net/minecraft/class_466$class_470 WidgetButtonIcon
+		FIELD field_2815 disabled Z
+		METHOD method_2401 setDisabled (Z)V
+		METHOD method_2402 isDisabled ()Z
+	FIELD field_2808 BG_TEX Lnet/minecraft/class_2960;
+	FIELD field_2804 doneButton Lnet/minecraft/class_466$class_468;
+	FIELD field_2805 canConsumeGem Z
+	FIELD field_17412 primaryEffect Lnet/minecraft/class_1291;
+	FIELD field_17413 secondaryEffect Lnet/minecraft/class_1291;

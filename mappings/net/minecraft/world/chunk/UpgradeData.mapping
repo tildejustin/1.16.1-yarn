@@ -1,8 +1,8 @@
-CLASS bxi net/minecraft/world/chunk/UpgradeData
-	FIELD a NO_UPGRADE_DATA Lbxi;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d sides Ljava/util/EnumSet;
-	FIELD e indices [[I
-	METHOD <init> (Lib;)V
+CLASS net/minecraft/class_2843 net/minecraft/world/chunk/UpgradeData
+	FIELD field_12950 NO_UPGRADE_DATA Lnet/minecraft/class_2843;
+	FIELD field_12956 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_12951 sides Ljava/util/EnumSet;
+	FIELD field_12955 indices [[I
+	METHOD <init> (Lnet/minecraft/class_2487;)V
 		ARG 1 tag
-	METHOD b toTag ()Lib;
+	METHOD method_12350 toTag ()Lnet/minecraft/class_2487;

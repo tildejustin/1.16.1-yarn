@@ -1,6 +1,6 @@
-CLASS wk net/minecraft/resource/metadata/PackResourceMetadata
-	FIELD a READER Lwl;
-	FIELD b description Ljm;
-	FIELD c packFormat I
-	METHOD a getDescription ()Ljm;
-	METHOD b getPackFormat ()I
+CLASS net/minecraft/class_3272 net/minecraft/resource/metadata/PackResourceMetadata
+	FIELD field_14202 READER Lnet/minecraft/class_3274;
+	FIELD field_14203 description Lnet/minecraft/class_2561;
+	FIELD field_14201 packFormat I
+	METHOD method_14423 getDescription ()Lnet/minecraft/class_2561;
+	METHOD method_14424 getPackFormat ()I

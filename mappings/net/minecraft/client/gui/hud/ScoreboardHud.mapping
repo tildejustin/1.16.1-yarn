@@ -1,8 +1,8 @@
-CLASS cwo net/minecraft/client/gui/hud/ScoreboardHud
-	CLASS cwo$a EntryOrderComparator
-	FIELD a ENTRY_ORDERING Lcom/google/common/collect/Ordering;
-	FIELD b client Lcux;
-	FIELD c inGameHud Lcvq;
-	METHOD <init> (Lcux;Lcvq;)V
+CLASS net/minecraft/class_355 net/minecraft/client/gui/hud/ScoreboardHud
+	CLASS net/minecraft/class_355$class_356 EntryOrderComparator
+	FIELD field_2156 ENTRY_ORDERING Lcom/google/common/collect/Ordering;
+	FIELD field_2155 client Lnet/minecraft/class_310;
+	FIELD field_2157 inGameHud Lnet/minecraft/class_329;
+	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_329;)V
 		ARG 1 client
-	METHOD a clear ()V
+	METHOD method_1920 clear ()V

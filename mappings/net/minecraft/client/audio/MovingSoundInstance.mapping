@@ -1,4 +1,4 @@
-CLASS dwg net/minecraft/client/audio/MovingSoundInstance
-	FIELD a done Z
-	METHOD <init> (Lyh;Lyj;)V
+CLASS net/minecraft/class_1101 net/minecraft/client/audio/MovingSoundInstance
+	FIELD field_5438 done Z
+	METHOD <init> (Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;)V
 		ARG 1 sound

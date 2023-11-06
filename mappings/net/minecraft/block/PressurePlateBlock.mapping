@@ -1,9 +1,9 @@
-CLASS bpz net/minecraft/block/PressurePlateBlock
-	CLASS bpz$a Type
-		FIELD a WOOD Lbpz$a;
-		FIELD b STONE Lbpz$a;
-	FIELD d POWERED Lbvq;
-	FIELD e type Lbpz$a;
-	METHOD <init> (Lbpz$a;Lbma$c;)V
+CLASS net/minecraft/class_2440 net/minecraft/block/PressurePlateBlock
+	CLASS net/minecraft/class_2440$class_2441 Type
+		FIELD field_11361 WOOD Lnet/minecraft/class_2440$class_2441;
+		FIELD field_11362 STONE Lnet/minecraft/class_2440$class_2441;
+	FIELD field_11358 POWERED Lnet/minecraft/class_2746;
+	FIELD field_11359 type Lnet/minecraft/class_2440$class_2441;
+	METHOD <init> (Lnet/minecraft/class_2440$class_2441;Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 type
 		ARG 2 settings

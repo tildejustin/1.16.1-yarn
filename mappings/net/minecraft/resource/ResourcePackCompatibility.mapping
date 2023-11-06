@@ -1,7 +1,7 @@
-CLASS wq net/minecraft/resource/ResourcePackCompatibility
-	FIELD d notification Ljm;
-	FIELD e confirmMessage Ljm;
-	METHOD a isCompatible ()Z
-	METHOD a from (I)Lwq;
-	METHOD b getNotification ()Ljm;
-	METHOD c getConfirmMessage ()Ljm;
+CLASS net/minecraft/class_3281 net/minecraft/resource/ResourcePackCompatibility
+	FIELD field_14219 notification Lnet/minecraft/class_2561;
+	FIELD field_14222 confirmMessage Lnet/minecraft/class_2561;
+	METHOD method_14437 isCompatible ()Z
+	METHOD method_14436 from (I)Lnet/minecraft/class_3281;
+	METHOD method_14439 getNotification ()Lnet/minecraft/class_2561;
+	METHOD method_14438 getConfirmMessage ()Lnet/minecraft/class_2561;

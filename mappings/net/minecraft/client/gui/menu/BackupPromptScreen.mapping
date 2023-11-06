@@ -1,11 +1,11 @@
-CLASS cyc net/minecraft/client/gui/menu/BackupPromptScreen
-	CLASS cyc$a Callback
-	FIELD b confirmText Ljava/lang/String;
-	FIELD c skipText Ljava/lang/String;
-	FIELD d cancelText Ljava/lang/String;
-	FIELD e parent Lczn;
-	FIELD f subtitle Ljm;
-	FIELD g wrappedText Ljava/util/List;
-	METHOD <init> (Lczn;Lcyc$a;Ljm;Ljm;)V
+CLASS net/minecraft/class_405 net/minecraft/client/gui/menu/BackupPromptScreen
+	CLASS net/minecraft/class_405$class_406 Callback
+	FIELD field_2361 confirmText Ljava/lang/String;
+	FIELD field_2359 skipText Ljava/lang/String;
+	FIELD field_2362 cancelText Ljava/lang/String;
+	FIELD field_2360 parent Lnet/minecraft/class_437;
+	FIELD field_2364 subtitle Lnet/minecraft/class_2561;
+	FIELD field_2365 wrappedText Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_405$class_406;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;)V
 		ARG 1 parent
 		ARG 2 callback

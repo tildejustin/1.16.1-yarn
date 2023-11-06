@@ -1,2 +1,2 @@
-CLASS dqk net/minecraft/client/render/entity/ParrotEntityRenderer
-	FIELD a TEXTURES [Lqr;
+CLASS net/minecraft/class_930 net/minecraft/client/render/entity/ParrotEntityRenderer
+	FIELD field_4754 TEXTURES LLqr;

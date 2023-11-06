@@ -1,13 +1,13 @@
-CLASS dyb net/minecraft/client/tutorial/TutorialManager
-	FIELD a client Lcux;
-	FIELD b currentHandler Ldyc;
-	METHOD a onInventoryOpened ()V
-	METHOD a onSlotUpdate (Lbbp;)V
-	METHOD a onBlockAttacked (Ldhh;Lev;Lbuy;F)V
-	METHOD a setStep (Ldyd;)V
-	METHOD a getKeybindName (Ljava/lang/String;)Ljm;
-	METHOD b destroyHandler ()V
-	METHOD c createHandler ()V
-	METHOD d tick ()V
-	METHOD e getClient ()Lcux;
-	METHOD f getGameMode ()Lbgu;
+CLASS net/minecraft/class_1156 net/minecraft/client/tutorial/TutorialManager
+	FIELD field_5645 client Lnet/minecraft/class_310;
+	FIELD field_5646 currentHandler Lnet/minecraft/class_1155;
+	METHOD method_4912 onInventoryOpened ()V
+	METHOD method_4906 onSlotUpdate (Lnet/minecraft/class_1799;)V
+	METHOD method_4907 onBlockAttacked (Lnet/minecraft/class_638;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)V
+	METHOD method_4910 setStep (Lnet/minecraft/class_1157;)V
+	METHOD method_4913 getKeybindName (Ljava/lang/String;)Lnet/minecraft/class_2561;
+	METHOD method_4915 destroyHandler ()V
+	METHOD method_4916 createHandler ()V
+	METHOD method_4917 tick ()V
+	METHOD method_4914 getClient ()Lnet/minecraft/class_310;
+	METHOD method_4905 getGameMode ()Lnet/minecraft/class_1934;

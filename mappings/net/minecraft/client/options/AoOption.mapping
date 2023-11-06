@@ -1,7 +1,7 @@
-CLASS cuk net/minecraft/client/options/AoOption
-	FIELD d OPTIONS [Lcuk;
-	FIELD e value I
-	FIELD f translationKey Ljava/lang/String;
-	METHOD a getValue ()I
-	METHOD a getOption (I)Lcuk;
-	METHOD b getTranslationKey ()Ljava/lang/String;
+CLASS net/minecraft/class_4060 net/minecraft/client/options/AoOption
+	FIELD field_18147 OPTIONS LLcuk;
+	FIELD field_18148 value I
+	FIELD field_18149 translationKey Ljava/lang/String;
+	METHOD method_18483 getValue ()I
+	METHOD method_18484 getOption (I)Lnet/minecraft/class_4060;
+	METHOD method_18485 getTranslationKey ()Ljava/lang/String;

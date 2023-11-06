@@ -1,24 +1,24 @@
-CLASS c net/minecraft/text/TextFormat
-	FIELD A modifier Z
-	FIELD B code Ljava/lang/String;
-	FIELD C id I
-	FIELD D color Ljava/lang/Integer;
-	FIELD a BLACK Lc;
-	FIELD x FORMAT_PATTERN Ljava/util/regex/Pattern;
-	FIELD z sectionSignCode C
-	METHOD a bySectionSignCode (C)Lc;
+CLASS net/minecraft/class_124 net/minecraft/text/TextFormat
+	FIELD field_1081 modifier Z
+	FIELD field_1069 code Ljava/lang/String;
+	FIELD field_1071 id I
+	FIELD field_1053 color Ljava/lang/Integer;
+	FIELD field_1074 BLACK Lnet/minecraft/class_124;
+	FIELD field_1066 FORMAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD field_1059 sectionSignCode C
+	METHOD method_544 bySectionSignCode (C)Lnet/minecraft/class_124;
 		ARG 0 code
-	METHOD a byId (I)Lc;
+	METHOD method_534 byId (I)Lnet/minecraft/class_124;
 		ARG 0 id
-	METHOD b getId ()I
-	METHOD b stripFormatting (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_536 getId ()I
+	METHOD method_539 stripFormatting (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 str
-	METHOD c isModifier ()Z
-	METHOD c getFormatByName (Ljava/lang/String;)Lc;
+	METHOD method_542 isModifier ()Z
+	METHOD method_533 getFormatByName (Ljava/lang/String;)Lnet/minecraft/class_124;
 		ARG 0 name
-	METHOD d isColor ()Z
-	METHOD d sanitizeName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_543 isColor ()Z
+	METHOD method_535 sanitizeName (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 name
-	METHOD e getColor ()Ljava/lang/Integer;
-	METHOD f affectsGlyphWidth ()Z
-	METHOD g getFormatName ()Ljava/lang/String;
+	METHOD method_532 getColor ()Ljava/lang/Integer;
+	METHOD method_545 affectsGlyphWidth ()Z
+	METHOD method_537 getFormatName ()Ljava/lang/String;

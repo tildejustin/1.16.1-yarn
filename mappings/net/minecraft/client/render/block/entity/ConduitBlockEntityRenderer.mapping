@@ -1,23 +1,23 @@
-CLASS dmk net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
-	CLASS dmk$a CageModel
-		FIELD a cuboid Ldgx;
-		METHOD a render (FFFFFF)V
-	CLASS dmk$b EyeModel
-		FIELD a cuboid Ldgx;
-		METHOD a render (FFFFFF)V
-	CLASS dmk$c BaseModel
-		FIELD a cuboid Ldgx;
-		METHOD a render (FFFFFF)V
-	CLASS dmk$d WindModel
-		FIELD a cuboids [Ldgx;
-		METHOD a render (FFFFFF)V
-	FIELD c BASE_TEX Lqr;
-	FIELD d CAGE_TEX Lqr;
-	FIELD e WIND_TEX Lqr;
-	FIELD f WIND_VERTICAL_TEX Lqr;
-	FIELD g OPEN_EYE_TEX Lqr;
-	FIELD h CLOSED_EYE_TEX Lqr;
-	FIELD i baseModel Ldmk$c;
-	FIELD j cageModel Ldmk$a;
-	FIELD k windModel Ldmk$d;
-	FIELD l eyeModel Ldmk$b;
+CLASS net/minecraft/class_829 net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
+	CLASS net/minecraft/class_829$class_830 CageModel
+		FIELD field_4381 cuboid Lnet/minecraft/class_630;
+		METHOD method_17140 render (FFFFFF)V
+	CLASS net/minecraft/class_829$class_831 EyeModel
+		FIELD field_4382 cuboid Lnet/minecraft/class_630;
+		METHOD method_17141 render (FFFFFF)V
+	CLASS net/minecraft/class_829$class_832 BaseModel
+		FIELD field_4383 cuboid Lnet/minecraft/class_630;
+		METHOD method_17142 render (FFFFFF)V
+	CLASS net/minecraft/class_829$class_833 WindModel
+		FIELD field_4386 cuboids LLdgx;
+		METHOD method_17143 render (FFFFFF)V
+	FIELD field_4377 BASE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4378 CAGE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4373 WIND_TEX Lnet/minecraft/class_2960;
+	FIELD field_4371 WIND_VERTICAL_TEX Lnet/minecraft/class_2960;
+	FIELD field_4379 OPEN_EYE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4380 CLOSED_EYE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4372 baseModel Lnet/minecraft/class_829$class_832;
+	FIELD field_4375 cageModel Lnet/minecraft/class_829$class_830;
+	FIELD field_4374 windModel Lnet/minecraft/class_829$class_833;
+	FIELD field_4376 eyeModel Lnet/minecraft/class_829$class_831;

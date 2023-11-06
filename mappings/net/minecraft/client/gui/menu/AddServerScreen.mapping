@@ -1,8 +1,8 @@
-CLASS cyr net/minecraft/client/gui/menu/AddServerScreen
-	FIELD a buttonAdd Lcwc;
-	FIELD b parent Lczn;
-	FIELD c serverEntry Ldhk;
-	FIELD d addressField Lcwh;
-	FIELD e serverNameField Lcwh;
-	FIELD f resourcePackOptionButton Lcwc;
-	METHOD a addAndClose ()V
+CLASS net/minecraft/class_422 net/minecraft/client/gui/menu/AddServerScreen
+	FIELD field_2472 buttonAdd Lnet/minecraft/class_4185;
+	FIELD field_2470 parent Lnet/minecraft/class_437;
+	FIELD field_2469 serverEntry Lnet/minecraft/class_642;
+	FIELD field_2474 addressField Lnet/minecraft/class_342;
+	FIELD field_2471 serverNameField Lnet/minecraft/class_342;
+	FIELD field_2473 resourcePackOptionButton Lnet/minecraft/class_4185;
+	METHOD method_2172 addAndClose ()V

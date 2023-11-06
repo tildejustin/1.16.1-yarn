@@ -1,29 +1,29 @@
-CLASS bly net/minecraft/block/BellBlock
-	FIELD a FACING Lbvt;
-	FIELD b ATTACHMENT Lbvw;
-	FIELD c NORTH_SOUTH_SHAPE Lcse;
-	FIELD d EAST_WEST_SHAPE Lcse;
-	FIELD g BELL_SHAPE Lcse;
-	FIELD h NORTH_SOUTH_WALLS_SHAPE Lcse;
-	FIELD i EAST_WEST_WALLS_SHAPE Lcse;
-	FIELD j WEST_WALL_SHAPE Lcse;
-	FIELD k EAST_WALL_SHAPE Lcse;
-	FIELD w NORTH_WALL_SHAPE Lcse;
-	FIELD x SOUTH_WALL_SHAPE Lcse;
-	FIELD y HANGING_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_3709 net/minecraft/block/BellBlock
+	FIELD field_16324 FACING Lnet/minecraft/class_2753;
+	FIELD field_16326 ATTACHMENT Lnet/minecraft/class_2754;
+	FIELD field_16325 NORTH_SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16322 EAST_WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17089 BELL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17090 NORTH_SOUTH_WALLS_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16321 EAST_WEST_WALLS_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17091 WEST_WALL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17092 EAST_WALL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16323 NORTH_WALL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17093 SOUTH_WALL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17094 HANGING_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a ring (Lbgx;Lbuy;Lbtb;Lcrg;)Z
+	METHOD method_19285 ring (Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;Lnet/minecraft/class_3965;)Z
 		ARG 1 world
 		ARG 2 state
 		ARG 3 blockEntity
 		ARG 4 hitPosition
-	METHOD a ring (Lbgx;Lev;)V
+	METHOD method_17026 ring (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a isPointOnBell (Lbuy;Lfa;D)Z
+	METHOD method_17028 isPointOnBell (Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;D)Z
 		ARG 1 state
 		ARG 2 side
 		ARG 3 y
-	METHOD j getShape (Lbuy;)Lcse;
+	METHOD method_16116 getShape (Lnet/minecraft/class_2680;)Lnet/minecraft/class_265;
 		ARG 1 state

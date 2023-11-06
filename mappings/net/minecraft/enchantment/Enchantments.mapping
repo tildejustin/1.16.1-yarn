@@ -1,3 +1,3 @@
-CLASS bfd net/minecraft/enchantment/Enchantments
-	FIELD L ALL_ARMOR [Laie;
-	METHOD a register (Ljava/lang/String;Lbez;)Lbez;
+CLASS net/minecraft/class_1893 net/minecraft/enchantment/Enchantments
+	FIELD field_9102 ALL_ARMOR LLaie;
+	METHOD method_8235 register (Ljava/lang/String;Lnet/minecraft/class_1887;)Lnet/minecraft/class_1887;

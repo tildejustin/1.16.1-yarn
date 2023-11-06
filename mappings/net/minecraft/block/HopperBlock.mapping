@@ -1,17 +1,17 @@
-CLASS bop net/minecraft/block/HopperBlock
-	FIELD A WEST_RAY_TRACE_SHAPE Lcse;
-	FIELD a FACING Lbvt;
-	FIELD b ENABLED Lbvq;
-	FIELD e OUTSIDE_SHAPE Lcse;
-	FIELD f DEFAULT_SHAPE Lcse;
-	FIELD g DOWN_SHAPE Lcse;
-	FIELD h EAST_SHAPE Lcse;
-	FIELD i NORTH_SHAPE Lcse;
-	FIELD j SOUTH_SHAPE Lcse;
-	FIELD k WEST_SHAPE Lcse;
-	FIELD w DOWN_RAY_TRACE_SHAPE Lcse;
-	FIELD x EAST_RAY_TRACE_SHAPE Lcse;
-	FIELD y NORTH_RAY_TRACE_SHAPE Lcse;
-	FIELD z SOUTH_RAY_TRACE_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2377 net/minecraft/block/HopperBlock
+	FIELD field_11135 WEST_RAY_TRACE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11129 FACING Lnet/minecraft/class_2753;
+	FIELD field_11126 ENABLED Lnet/minecraft/class_2746;
+	FIELD field_11121 OUTSIDE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11132 DEFAULT_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11120 DOWN_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11134 EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11124 NORTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11122 SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11130 WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11125 DOWN_RAY_TRACE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11133 EAST_RAY_TRACE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11123 NORTH_RAY_TRACE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11128 SOUTH_RAY_TRACE_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

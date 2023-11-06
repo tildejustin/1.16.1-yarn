@@ -1,5 +1,5 @@
-CLASS wg net/minecraft/resource/ResourceType
-	FIELD a ASSETS Lwg;
-	FIELD b DATA Lwg;
-	FIELD c name Ljava/lang/String;
-	METHOD a getName ()Ljava/lang/String;
+CLASS net/minecraft/class_3264 net/minecraft/resource/ResourceType
+	FIELD field_14188 ASSETS Lnet/minecraft/class_3264;
+	FIELD field_14190 DATA Lnet/minecraft/class_3264;
+	FIELD field_14189 name Ljava/lang/String;
+	METHOD method_14413 getName ()Ljava/lang/String;

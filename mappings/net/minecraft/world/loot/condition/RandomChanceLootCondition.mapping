@@ -1,3 +1,3 @@
-CLASS cqr net/minecraft/world/loot/condition/RandomChanceLootCondition
-	CLASS cqr$a Factory
-	FIELD a chance F
+CLASS net/minecraft/class_219 net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS net/minecraft/class_219$class_220 Factory
+	FIELD field_1296 chance F

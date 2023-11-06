@@ -1,15 +1,15 @@
-CLASS dkb net/minecraft/client/render/item/ItemDynamicRenderer
-	FIELD a INSTANCE Ldkb;
-	FIELD b RENDER_SHULKER_BOX_DYED [Lbtw;
-	FIELD c RENDER_SHULKER_BOX Lbtw;
-	FIELD d renderChestNormal Lbtf;
-	FIELD e renderChestTrapped Lbtf;
-	FIELD f renderChestEnder Lbtn;
-	FIELD g renderBanner Lbst;
-	FIELD h renderBed Lbsy;
-	FIELD i renderSkull Lbty;
-	FIELD j renderConduit Lbti;
-	FIELD k modelShield Ldft;
-	FIELD l modelTrident Ldge;
-	METHOD a render (Lbbp;)V
-	METHOD a renderEnchantmentGlint (Ljava/lang/Runnable;)V
+CLASS net/minecraft/class_756 net/minecraft/client/render/item/ItemDynamicRenderer
+	FIELD field_3986 INSTANCE Lnet/minecraft/class_756;
+	FIELD field_3981 RENDER_SHULKER_BOX_DYED LLbtw;
+	FIELD field_3984 RENDER_SHULKER_BOX Lnet/minecraft/class_2627;
+	FIELD field_3976 renderChestNormal Lnet/minecraft/class_2595;
+	FIELD field_3978 renderChestTrapped Lnet/minecraft/class_2595;
+	FIELD field_3977 renderChestEnder Lnet/minecraft/class_2611;
+	FIELD field_3983 renderBanner Lnet/minecraft/class_2573;
+	FIELD field_3982 renderBed Lnet/minecraft/class_2587;
+	FIELD field_3987 renderSkull Lnet/minecraft/class_2631;
+	FIELD field_3979 renderConduit Lnet/minecraft/class_2597;
+	FIELD field_3980 modelShield Lnet/minecraft/class_600;
+	FIELD field_3985 modelTrident Lnet/minecraft/class_613;
+	METHOD method_3166 render (Lnet/minecraft/class_1799;)V
+	METHOD method_3164 renderEnchantmentGlint (Ljava/lang/Runnable;)V

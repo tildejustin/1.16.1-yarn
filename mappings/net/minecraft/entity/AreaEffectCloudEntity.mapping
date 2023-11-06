@@ -1,39 +1,39 @@
-CLASS ahy net/minecraft/entity/AreaEffectCloudEntity
-	FIELD ap effects Ljava/util/List;
-	FIELD aq affectedEntities Ljava/util/Map;
-	FIELD ar duration I
-	FIELD as waitTime I
-	FIELD at reapplicationDelay I
-	FIELD au customColor Z
-	FIELD av durationOnUse I
-	FIELD aw radiusOnUse F
-	FIELD ax radiusGrowth F
-	FIELD ay owner Laii;
-	FIELD az ownerUuid Ljava/util/UUID;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c RADIUS Lqg;
-	FIELD d COLOR Lqg;
-	FIELD e WAITING Lqg;
-	FIELD f PARTICLE_ID Lqg;
-	FIELD g potion Lbdg;
-	METHOD <init> (Lbgx;DDD)V
+CLASS net/minecraft/class_1295 net/minecraft/entity/AreaEffectCloudEntity
+	FIELD field_5934 effects Ljava/util/List;
+	FIELD field_5942 affectedEntities Ljava/util/Map;
+	FIELD field_5939 duration I
+	FIELD field_5941 waitTime I
+	FIELD field_5937 reapplicationDelay I
+	FIELD field_5928 customColor Z
+	FIELD field_5932 durationOnUse I
+	FIELD field_5929 radiusOnUse F
+	FIELD field_5930 radiusGrowth F
+	FIELD field_5943 owner Lnet/minecraft/class_1309;
+	FIELD field_5940 ownerUuid Ljava/util/UUID;
+	FIELD field_5935 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5938 RADIUS Lnet/minecraft/class_2940;
+	FIELD field_5936 COLOR Lnet/minecraft/class_2940;
+	FIELD field_5944 WAITING Lnet/minecraft/class_2940;
+	FIELD field_5931 PARTICLE_ID Lnet/minecraft/class_2940;
+	FIELD field_5933 potion Lnet/minecraft/class_1842;
+	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
 		ARG 1 world
 		ARG 2 x
-	METHOD a setRadius (F)V
-	METHOD a setColor (I)V
-	METHOD a addEffect (Laht;)V
-	METHOD a setOwner (Laii;)V
-	METHOD a setPotion (Lbdg;)V
-	METHOD a setParticleType (Lgd;)V
-	METHOD a setWaiting (Z)V
-	METHOD b setRadiusStart (F)V
-	METHOD b setDuration (I)V
-	METHOD c setRadiusGrowth (F)V
-	METHOD d setWaitTime (I)V
-	METHOD f getRadius ()F
-	METHOD i getColor ()I
-	METHOD k getParticleType ()Lgd;
-	METHOD l isWaiting ()Z
-	METHOD m getDuration ()I
-	METHOD u getOwner ()Laii;
-	METHOD z updateColor ()V
+	METHOD method_5603 setRadius (F)V
+	METHOD method_5602 setColor (I)V
+	METHOD method_5610 addEffect (Lnet/minecraft/class_1293;)V
+	METHOD method_5607 setOwner (Lnet/minecraft/class_1309;)V
+	METHOD method_5612 setPotion (Lnet/minecraft/class_1842;)V
+	METHOD method_5608 setParticleType (Lnet/minecraft/class_2394;)V
+	METHOD method_5598 setWaiting (Z)V
+	METHOD method_5609 setRadiusStart (F)V
+	METHOD method_5604 setDuration (I)V
+	METHOD method_5596 setRadiusGrowth (F)V
+	METHOD method_5595 setWaitTime (I)V
+	METHOD method_5599 getRadius ()F
+	METHOD method_5606 getColor ()I
+	METHOD method_5600 getParticleType ()Lnet/minecraft/class_2394;
+	METHOD method_5611 isWaiting ()Z
+	METHOD method_5605 getDuration ()I
+	METHOD method_5601 getOwner ()Lnet/minecraft/class_1309;
+	METHOD method_5597 updateColor ()V

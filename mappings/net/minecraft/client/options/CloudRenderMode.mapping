@@ -1,5 +1,5 @@
-CLASS cup net/minecraft/client/options/CloudRenderMode
-	FIELD e renderModeId I
-	FIELD f renderMode Ljava/lang/String;
-	METHOD a getRenderModeId ()I
-	METHOD b getRenderMode ()Ljava/lang/String;
+CLASS net/minecraft/class_4063 net/minecraft/client/options/CloudRenderMode
+	FIELD field_18166 renderModeId I
+	FIELD field_18167 renderMode Ljava/lang/String;
+	METHOD method_18496 getRenderModeId ()I
+	METHOD method_18498 getRenderMode ()Ljava/lang/String;

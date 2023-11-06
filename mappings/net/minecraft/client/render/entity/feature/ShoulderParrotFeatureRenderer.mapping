@@ -1,4 +1,4 @@
-CLASS dsy net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer
-	METHOD <init> (Ldqt;)V
+CLASS net/minecraft/class_983 net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer
+	METHOD <init> (Lnet/minecraft/class_3883;)V
 		ARG 1 context
-	METHOD a renderShoulderParrot (Lavm;FFFFFFZ)V
+	METHOD method_4186 renderShoulderParrot (Lnet/minecraft/class_1657;FFFFFFZ)V

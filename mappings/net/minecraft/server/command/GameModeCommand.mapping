@@ -1,2 +1,2 @@
-CLASS se net/minecraft/server/command/GameModeCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3064 net/minecraft/server/command/GameModeCommand
+	METHOD method_13388 register (Lcom/mojang/brigadier/CommandDispatcher;)V

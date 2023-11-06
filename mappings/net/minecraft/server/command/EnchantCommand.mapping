@@ -1,7 +1,7 @@
-CLASS ry net/minecraft/server/command/EnchantCommand
-	FIELD a FAILED_ENTITY_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD b FAILED_ITEMLESS_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD c FAILED_INCOMPATIBLE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD d FAILED_LEVEL_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
-	FIELD e FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3048 net/minecraft/server/command/EnchantCommand
+	FIELD field_13629 FAILED_ENTITY_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13631 FAILED_ITEMLESS_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13633 FAILED_INCOMPATIBLE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13632 FAILED_LEVEL_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD field_13630 FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13243 register (Lcom/mojang/brigadier/CommandDispatcher;)V

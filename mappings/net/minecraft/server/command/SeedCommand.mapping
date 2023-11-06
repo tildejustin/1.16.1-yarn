@@ -1,2 +1,2 @@
-CLASS te net/minecraft/server/command/SeedCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3118 net/minecraft/server/command/SeedCommand
+	METHOD method_13616 register (Lcom/mojang/brigadier/CommandDispatcher;)V

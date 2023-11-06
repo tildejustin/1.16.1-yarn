@@ -1,9 +1,9 @@
-CLASS bcc net/minecraft/item/BaseBowItem
-	FIELD a IS_BOW_PROJECTILE Ljava/util/function/Predicate;
-	FIELD b IS_CROSSBOW_PROJECTILE Ljava/util/function/Predicate;
-	METHOD <init> (Lbbk$a;)V
+CLASS net/minecraft/class_1811 net/minecraft/item/BaseBowItem
+	FIELD field_18281 IS_BOW_PROJECTILE Ljava/util/function/Predicate;
+	FIELD field_18282 IS_CROSSBOW_PROJECTILE Ljava/util/function/Predicate;
+	METHOD <init> (Lnet/minecraft/class_1792$class_1793;)V
 		ARG 1 settings
-	METHOD a getItemHeld (Laii;Ljava/util/function/Predicate;)Lbbp;
+	METHOD method_18815 getItemHeld (Lnet/minecraft/class_1309;Ljava/util/function/Predicate;)Lnet/minecraft/class_1799;
 		ARG 0 entity
 		ARG 1 predicate
-	METHOD b getProjectilePredicate ()Ljava/util/function/Predicate;
+	METHOD method_19268 getProjectilePredicate ()Ljava/util/function/Predicate;

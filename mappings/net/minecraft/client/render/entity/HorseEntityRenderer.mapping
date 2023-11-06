@@ -1,2 +1,2 @@
-CLASS dpp net/minecraft/client/render/entity/HorseEntityRenderer
-	FIELD a TEXTURES Ljava/util/Map;
+CLASS net/minecraft/class_910 net/minecraft/client/render/entity/HorseEntityRenderer
+	FIELD field_4714 TEXTURES Ljava/util/Map;

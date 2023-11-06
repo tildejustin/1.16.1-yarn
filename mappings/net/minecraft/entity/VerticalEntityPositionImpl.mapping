@@ -1,11 +1,11 @@
-CLASS cru net/minecraft/entity/VerticalEntityPositionImpl
+CLASS net/minecraft/class_3727 net/minecraft/entity/VerticalEntityPositionImpl
 	CLASS cru$1
-		METHOD <init> (ZDLbbk;)V
+		METHOD <init> (ZDLnet/minecraft/class_1792;)V
 			ARG 1 sneaking
-	FIELD a MIN_VALUE Lcrp;
-	FIELD b sneaking Z
-	FIELD c posY D
-	METHOD <init> (Lahz;)V
+	FIELD field_17593 MIN_VALUE Lnet/minecraft/class_3726;
+	FIELD field_16451 sneaking Z
+	FIELD field_16450 posY D
+	METHOD <init> (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
-	METHOD <init> (ZDLbbk;)V
+	METHOD <init> (ZDLnet/minecraft/class_1792;)V
 		ARG 1 sneaking

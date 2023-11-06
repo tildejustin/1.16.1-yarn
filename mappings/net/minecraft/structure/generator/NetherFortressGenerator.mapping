@@ -1,2 +1,2 @@
-CLASS chn net/minecraft/structure/generator/NetherFortressGenerator
-	CLASS chn$q Start
+CLASS net/minecraft/class_3390 net/minecraft/structure/generator/NetherFortressGenerator
+	CLASS net/minecraft/class_3390$class_3407 Start

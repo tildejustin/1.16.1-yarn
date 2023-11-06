@@ -1,2 +1,2 @@
-CLASS ts net/minecraft/server/command/TimeCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3149 net/minecraft/server/command/TimeCommand
+	METHOD method_13786 register (Lcom/mojang/brigadier/CommandDispatcher;)V

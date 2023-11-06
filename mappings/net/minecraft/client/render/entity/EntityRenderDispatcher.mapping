@@ -1,25 +1,25 @@
-CLASS dpc net/minecraft/client/render/entity/EntityRenderDispatcher
-	FIELD a textureManager Lduf;
-	FIELD b world Lbgx;
-	FIELD g settings Lcvb;
-	FIELD h renderers Ljava/util/Map;
-	FIELD i skinMap Ljava/util/Map;
-	FIELD j playerRenderer Ldtq;
-	FIELD k fontRenderer Lcvp;
-	FIELD l renderPosX D
-	FIELD m renderPosY D
-	FIELD n renderPosZ D
-	FIELD o renderOutlines Z
-	METHOD <init> (Lduf;Ldpx;Lxa;)V
+CLASS net/minecraft/class_898 net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD field_4685 textureManager Lnet/minecraft/class_1060;
+	FIELD field_4684 world Lnet/minecraft/class_1937;
+	FIELD field_4692 settings Lnet/minecraft/class_315;
+	FIELD field_4696 renderers Ljava/util/Map;
+	FIELD field_4687 skinMap Ljava/util/Map;
+	FIELD field_4683 playerRenderer Lnet/minecraft/class_1007;
+	FIELD field_4689 fontRenderer Lnet/minecraft/class_327;
+	FIELD field_4691 renderPosX D
+	FIELD field_4690 renderPosY D
+	FIELD field_4688 renderPosZ D
+	FIELD field_4682 renderOutlines Z
+	METHOD <init> (Lnet/minecraft/class_1060;Lnet/minecraft/class_918;Lnet/minecraft/class_3296;)V
 		ARG 1 textureManager
-	METHOD a setRenderPosition (DDD)V
+	METHOD method_3952 setRenderPosition (DDD)V
 		ARG 1 x
-	METHOD a getRenderer (Lahz;)Ldpd;
-	METHOD a renderHitbox (Lahz;DDDFF)V
-	METHOD a render (Lahz;DDDFFZ)V
-	METHOD a renderSecondPass (Lahz;F)V
-	METHOD a render (Lahz;FZ)V
-	METHOD a getRenderer (Ljava/lang/Class;)Ldpd;
-	METHOD b hasSecondPass (Lahz;)Z
-	METHOD c getFontRenderer ()Lcvp;
-	METHOD c setRenderOutlines (Z)V
+	METHOD method_3957 getRenderer (Lnet/minecraft/class_1297;)Lnet/minecraft/class_897;
+	METHOD method_3956 renderHitbox (Lnet/minecraft/class_1297;DDDFF)V
+	METHOD method_3954 render (Lnet/minecraft/class_1297;DDDFFZ)V
+	METHOD method_3947 renderSecondPass (Lnet/minecraft/class_1297;F)V
+	METHOD method_3946 render (Lnet/minecraft/class_1297;FZ)V
+	METHOD method_3953 getRenderer (Ljava/lang/Class;)Lnet/minecraft/class_897;
+	METHOD method_3942 hasSecondPass (Lnet/minecraft/class_1297;)Z
+	METHOD method_3949 getFontRenderer ()Lnet/minecraft/class_327;
+	METHOD method_3943 setRenderOutlines (Z)V

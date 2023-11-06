@@ -1,8 +1,8 @@
-CLASS csf net/minecraft/util/shape/OffsetVoxelShape
-	FIELD b xOffset I
-	FIELD c yOffset I
-	FIELD d zOffset I
-	METHOD <init> (Lcrt;III)V
+CLASS net/minecraft/class_264 net/minecraft/util/shape/OffsetVoxelShape
+	FIELD field_1400 xOffset I
+	FIELD field_1399 yOffset I
+	FIELD field_1398 zOffset I
+	METHOD <init> (Lnet/minecraft/class_251;III)V
 		ARG 1 shape
 		ARG 2 xOffset
 		ARG 3 yOffset

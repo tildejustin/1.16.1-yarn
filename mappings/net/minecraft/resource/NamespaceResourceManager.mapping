@@ -1,12 +1,12 @@
-CLASS ww net/minecraft/resource/NamespaceResourceManager
-	CLASS ww$a DebugInputStream
-		FIELD a parent Ljava/io/InputStream;
-		FIELD b leakMessage Ljava/lang/String;
-		FIELD c closed Z
-	FIELD a packList Ljava/util/List;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c type Lwg;
-	METHOD a open (Lqr;Lwf;)Ljava/io/InputStream;
-	METHOD d getMetadataPath (Lqr;)Lqr;
-	METHOD e validate (Lqr;)V
-	METHOD f isPathAbsolute (Lqr;)Z
+CLASS net/minecraft/class_3294 net/minecraft/resource/NamespaceResourceManager
+	CLASS net/minecraft/class_3294$class_3295 DebugInputStream
+		FIELD field_14286 parent Ljava/io/InputStream;
+		FIELD field_14288 leakMessage Ljava/lang/String;
+		FIELD field_14287 closed Z
+	FIELD field_14283 packList Ljava/util/List;
+	FIELD field_14285 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_14284 type Lnet/minecraft/class_3264;
+	METHOD method_14476 open (Lnet/minecraft/class_2960;Lnet/minecraft/class_3262;)Ljava/io/InputStream;
+	METHOD method_14473 getMetadataPath (Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;
+	METHOD method_14472 validate (Lnet/minecraft/class_2960;)V
+	METHOD method_18221 isPathAbsolute (Lnet/minecraft/class_2960;)Z

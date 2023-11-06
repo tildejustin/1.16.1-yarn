@@ -1,61 +1,61 @@
-CLASS cwh net/minecraft/client/gui/widget/TextFieldWidget
-	FIELD a textRenderer Lcvp;
-	FIELD b x I
-	FIELD c y I
-	FIELD d width I
-	FIELD e height I
-	FIELD f text Ljava/lang/String;
-	FIELD g maxLength I
-	FIELD h focusedTicks I
-	FIELD i hasBorder Z
-	FIELD k focused Z
-	FIELD l editable Z
-	FIELD o cursorMax I
-	FIELD p cursorMin I
-	FIELD s visible Z
-	FIELD t suggestion Ljava/lang/String;
-	FIELD u changedListener Ljava/util/function/Consumer;
-	FIELD v textPredicate Ljava/util/function/Predicate;
-	FIELD w renderTextProvider Ljava/util/function/BiFunction;
-	METHOD <init> (Lcvp;IIII)V
+CLASS net/minecraft/class_342 net/minecraft/client/gui/widget/TextFieldWidget
+	FIELD field_2105 textRenderer Lnet/minecraft/class_327;
+	FIELD field_2093 x I
+	FIELD field_2090 y I
+	FIELD field_2087 width I
+	FIELD field_2109 height I
+	FIELD field_2092 text Ljava/lang/String;
+	FIELD field_2108 maxLength I
+	FIELD field_2107 focusedTicks I
+	FIELD field_2097 hasBorder Z
+	FIELD field_2095 focused Z
+	FIELD field_2094 editable Z
+	FIELD field_2102 cursorMax I
+	FIELD field_2101 cursorMin I
+	FIELD field_2091 visible Z
+	FIELD field_2106 suggestion Ljava/lang/String;
+	FIELD field_2088 changedListener Ljava/util/function/Consumer;
+	FIELD field_2104 textPredicate Ljava/util/function/Predicate;
+	FIELD field_2099 renderTextProvider Ljava/util/function/BiFunction;
+	METHOD <init> (Lnet/minecraft/class_327;IIII)V
 		ARG 1 textRenderer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 width
 		ARG 5 height
-	METHOD <init> (Lcvp;IIIILcwh;)V
+	METHOD <init> (Lnet/minecraft/class_327;IIIILnet/minecraft/class_342;)V
 		ARG 1 textRenderer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 width
 		ARG 5 height
-	METHOD a tick ()V
-	METHOD a setText (Ljava/lang/String;)V
+	METHOD method_1865 tick ()V
+	METHOD method_1852 setText (Ljava/lang/String;)V
 		ARG 1 text
-	METHOD a setRenderTextProvider (Ljava/util/function/BiFunction;)V
+	METHOD method_1854 setRenderTextProvider (Ljava/util/function/BiFunction;)V
 		ARG 1 renderTextProvider
-	METHOD a setChangedListener (Ljava/util/function/Consumer;)V
-	METHOD a setHasBorder (Z)V
+	METHOD method_1863 setChangedListener (Ljava/util/function/Consumer;)V
+	METHOD method_1858 setHasBorder (Z)V
 		ARG 1 hasBorder
-	METHOD b getText ()Ljava/lang/String;
-	METHOD b addText (Ljava/lang/String;)V
-	METHOD b_ setFocused (Z)V
-	METHOD c getSelectedText ()Ljava/lang/String;
-	METHOD c onChanged (Ljava/lang/String;)V
-	METHOD c setIsEditable (Z)V
+	METHOD method_1882 getText ()Ljava/lang/String;
+	METHOD method_1867 addText (Ljava/lang/String;)V
+	METHOD method_1876 setFocused (Z)V
+	METHOD method_1866 getSelectedText ()Ljava/lang/String;
+	METHOD method_1874 onChanged (Ljava/lang/String;)V
+	METHOD method_1888 setIsEditable (Z)V
 		ARG 1 editable
-	METHOD d moveCursor (I)V
-	METHOD d setSuggestion (Ljava/lang/String;)V
+	METHOD method_1855 moveCursor (I)V
+	METHOD method_1887 setSuggestion (Ljava/lang/String;)V
 		ARG 1 suggestion
-	METHOD e setVisible (Z)V
+	METHOD method_1862 setVisible (Z)V
 		ARG 1 visible
-	METHOD f getMaxLength ()I
-	METHOD f setCursor (I)V
+	METHOD method_1861 getMaxLength ()I
+	METHOD method_1875 setCursor (I)V
 		ARG 1 cursor
-	METHOD g getCursor ()I
-	METHOD g setMaxLength (I)V
-	METHOD h hasBorder ()Z
-	METHOD k isFocused ()Z
-	METHOD l setX (I)V
+	METHOD method_1881 getCursor ()I
+	METHOD method_1880 setMaxLength (I)V
+	METHOD method_1851 hasBorder ()Z
+	METHOD method_1871 isFocused ()Z
+	METHOD method_16872 setX (I)V
 		ARG 1 x
-	METHOD p isVisible ()Z
+	METHOD method_1885 isVisible ()Z

@@ -1,6 +1,6 @@
-CLASS dyc net/minecraft/client/tutorial/TutorialStepHandler
-	METHOD a tick ()V
-	METHOD a onSlotUpdate (Lbbp;)V
-	METHOD a onBlockAttacked (Ldhh;Lev;Lbuy;F)V
-	METHOD b destroy ()V
-	METHOD c onInventoryOpened ()V
+CLASS net/minecraft/class_1155 net/minecraft/client/tutorial/TutorialStepHandler
+	METHOD method_4899 tick ()V
+	METHOD method_4897 onSlotUpdate (Lnet/minecraft/class_1799;)V
+	METHOD method_4900 onBlockAttacked (Lnet/minecraft/class_638;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)V
+	METHOD method_4902 destroy ()V
+	METHOD method_4904 onInventoryOpened ()V

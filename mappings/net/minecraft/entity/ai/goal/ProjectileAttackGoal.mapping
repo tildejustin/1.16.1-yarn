@@ -1,6 +1,6 @@
-CLASS anl net/minecraft/entity/ai/goal/ProjectileAttackGoal
-	FIELD a mobEntity Laij;
-	FIELD b rangedAttacker Laue;
-	FIELD c target Laii;
-	METHOD <init> (Laue;DIIF)V
+CLASS net/minecraft/class_1381 net/minecraft/entity/ai/goal/ProjectileAttackGoal
+	FIELD field_6583 mobEntity Lnet/minecraft/class_1308;
+	FIELD field_6582 rangedAttacker Lnet/minecraft/class_1603;
+	FIELD field_6580 target Lnet/minecraft/class_1309;
+	METHOD <init> (Lnet/minecraft/class_1603;DIIF)V
 		ARG 1 entity

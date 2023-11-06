@@ -1,2 +1,2 @@
-CLASS dih net/minecraft/client/particle/ExplosionLargeParticle
-	CLASS dih$a Factory
+CLASS net/minecraft/class_691 net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS net/minecraft/class_691$class_692 Factory

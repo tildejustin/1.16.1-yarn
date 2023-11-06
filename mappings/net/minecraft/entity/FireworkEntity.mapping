@@ -1,2 +1,2 @@
-CLASS avx net/minecraft/entity/FireworkEntity
-	FIELD b ITEM_STACK Lqg;
+CLASS net/minecraft/class_1671 net/minecraft/entity/FireworkEntity
+	FIELD field_7614 ITEM_STACK Lnet/minecraft/class_2940;

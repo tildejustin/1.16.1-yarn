@@ -1,7 +1,7 @@
-CLASS cvn net/minecraft/client/render/item/ItemColorMap
-	FIELD a mappers Lfe;
-	METHOD a getRenderColor (Lbbp;I)I
+CLASS net/minecraft/class_325 net/minecraft/client/render/item/ItemColorMap
+	FIELD field_1996 mappers Lnet/minecraft/class_2361;
+	METHOD method_1704 getRenderColor (Lnet/minecraft/class_1799;I)I
 		ARG 1 item
-	METHOD a create (Lcvk;)Lcvn;
-	METHOD a register (Lcvm;[Lbgw;)V
+	METHOD method_1706 create (Lnet/minecraft/class_324;)Lnet/minecraft/class_325;
+	METHOD method_1708 register (Lnet/minecraft/class_326;[Lnet/minecraft/class_1935;)V
 		ARG 1 mapper

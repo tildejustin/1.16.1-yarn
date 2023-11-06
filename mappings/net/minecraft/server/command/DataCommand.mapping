@@ -1,10 +1,10 @@
-CLASS ua net/minecraft/server/command/DataCommand
-	FIELD a OBJECTS Ljava/util/List;
-	FIELD d MERGE_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD e GET_INVALID_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD f GET_UNKNOWN_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD g GET_MULTIPLE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD h MODIFY_EXPECTED_LIST_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD i MODIFY_EXPECTED_OBJECT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD j MODIFY_INVALID_INDEX_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3164 net/minecraft/server/command/DataCommand
+	FIELD field_13790 OBJECTS Ljava/util/List;
+	FIELD field_13796 MERGE_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13791 GET_INVALID_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13793 GET_UNKNOWN_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13794 GET_MULTIPLE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13795 MODIFY_EXPECTED_LIST_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13797 MODIFY_EXPECTED_OBJECT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_17441 MODIFY_INVALID_INDEX_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD method_13905 register (Lcom/mojang/brigadier/CommandDispatcher;)V

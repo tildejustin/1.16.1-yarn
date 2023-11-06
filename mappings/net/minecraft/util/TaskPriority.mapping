@@ -1,7 +1,7 @@
-CLASS bho net/minecraft/util/TaskPriority
-	FIELD h priorityIndex I
+CLASS net/minecraft/class_1953 net/minecraft/util/TaskPriority
+	FIELD field_9308 priorityIndex I
 	METHOD <init> (Ljava/lang/String;II)V
 		ARG 3 priorityIndex
-	METHOD a getPriorityIndex ()I
-	METHOD a getByIndex (I)Lbho;
+	METHOD method_8681 getPriorityIndex ()I
+	METHOD method_8680 getByIndex (I)Lnet/minecraft/class_1953;
 		ARG 0 priorityIndex

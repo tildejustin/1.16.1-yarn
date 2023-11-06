@@ -1,2 +1,2 @@
-CLASS djb net/minecraft/client/particle/WaterSplashParticle
-	CLASS djb$a SplashFactory
+CLASS net/minecraft/class_719 net/minecraft/client/particle/WaterSplashParticle
+	CLASS net/minecraft/class_719$class_720 SplashFactory

@@ -1,14 +1,14 @@
-CLASS dkh net/minecraft/client/render/item/ItemModels
-	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
-	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
-	FIELD c modelManager Ldvw;
-	METHOD a getModelManager ()Ldvw;
-	METHOD a getModel (Lbbk;)Ldvs;
-	METHOD a putModel (Lbbk;Ldvx;)V
+CLASS net/minecraft/class_763 net/minecraft/client/render/item/ItemModels
+	FIELD field_4129 modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD field_4130 models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD field_4128 modelManager Lnet/minecraft/class_1092;
+	METHOD method_3303 getModelManager ()Lnet/minecraft/class_1092;
+	METHOD method_3304 getModel (Lnet/minecraft/class_1792;)Lnet/minecraft/class_1087;
+	METHOD method_3309 putModel (Lnet/minecraft/class_1792;Lnet/minecraft/class_1091;)V
 		ARG 1 item
 		ARG 2 modelId
-	METHOD a getSprite (Lbbp;)Ldue;
-	METHOD a getSprite (Lbgw;)Ldue;
-	METHOD b reloadModels ()V
-	METHOD b getModelId (Lbbk;)I
-	METHOD b getModel (Lbbp;)Ldvs;
+	METHOD method_3305 getSprite (Lnet/minecraft/class_1799;)Lnet/minecraft/class_1058;
+	METHOD method_3307 getSprite (Lnet/minecraft/class_1935;)Lnet/minecraft/class_1058;
+	METHOD method_3310 reloadModels ()V
+	METHOD method_3306 getModelId (Lnet/minecraft/class_1792;)I
+	METHOD method_3308 getModel (Lnet/minecraft/class_1799;)Lnet/minecraft/class_1087;

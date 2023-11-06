@@ -1,20 +1,20 @@
-CLASS mk net/minecraft/client/network/packet/WorldBorderS2CPacket
-	CLASS mk$a Type
-		FIELD a SET_SIZE Lmk$a;
-		FIELD b INTERPOLATE_SIZE Lmk$a;
-		FIELD c SET_CENTER Lmk$a;
-		FIELD d INITIALIZE Lmk$a;
-		FIELD e SET_WARNING_TIME Lmk$a;
-		FIELD f SET_WARNING_BLOCKS Lmk$a;
-	FIELD a type Lmk$a;
-	FIELD b portalTeleportPosLimit I
-	FIELD c centerX D
-	FIELD d centerZ D
-	FIELD e size D
-	FIELD f oldSize D
-	FIELD g interpolationDuration J
-	FIELD h warningTime I
-	FIELD i warningBlocks I
-	METHOD <init> (Lbwk;Lmk$a;)V
+CLASS net/minecraft/class_2730 net/minecraft/client/network/packet/WorldBorderS2CPacket
+	CLASS net/minecraft/class_2730$class_2731 Type
+		FIELD field_12456 SET_SIZE Lnet/minecraft/class_2730$class_2731;
+		FIELD field_12452 INTERPOLATE_SIZE Lnet/minecraft/class_2730$class_2731;
+		FIELD field_12450 SET_CENTER Lnet/minecraft/class_2730$class_2731;
+		FIELD field_12454 INITIALIZE Lnet/minecraft/class_2730$class_2731;
+		FIELD field_12455 SET_WARNING_TIME Lnet/minecraft/class_2730$class_2731;
+		FIELD field_12451 SET_WARNING_BLOCKS Lnet/minecraft/class_2730$class_2731;
+	FIELD field_12448 type Lnet/minecraft/class_2730$class_2731;
+	FIELD field_12446 portalTeleportPosLimit I
+	FIELD field_12443 centerX D
+	FIELD field_12441 centerZ D
+	FIELD field_12449 size D
+	FIELD field_12447 oldSize D
+	FIELD field_12445 interpolationDuration J
+	FIELD field_12444 warningTime I
+	FIELD field_12442 warningBlocks I
+	METHOD <init> (Lnet/minecraft/class_2784;Lnet/minecraft/class_2730$class_2731;)V
 		ARG 1 border
-	METHOD a apply (Lbwk;)V
+	METHOD method_11795 apply (Lnet/minecraft/class_2784;)V

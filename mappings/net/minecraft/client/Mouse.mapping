@@ -1,30 +1,30 @@
-CLASS cuy net/minecraft/client/Mouse
-	FIELD a client Lcux;
-	FIELD e x D
-	FIELD f y D
-	FIELD h activeButton I
-	FIELD i hasResolutionChanged Z
-	FIELD k glfwTime D
-	FIELD l cursorXSmoother Lzu;
-	FIELD m cursorYSmoother Lzu;
-	FIELD n cursorDeltaX D
-	FIELD o cursorDeltaY D
-	FIELD p eventDeltaWheel D
-	FIELD r isCursorLocked Z
-	METHOD <init> (Lcux;)V
+CLASS net/minecraft/class_312 net/minecraft/client/Mouse
+	FIELD field_1779 client Lnet/minecraft/class_310;
+	FIELD field_1795 x D
+	FIELD field_1794 y D
+	FIELD field_1780 activeButton I
+	FIELD field_1784 hasResolutionChanged Z
+	FIELD field_1792 glfwTime D
+	FIELD field_1793 cursorXSmoother Lnet/minecraft/class_3540;
+	FIELD field_1782 cursorYSmoother Lnet/minecraft/class_3540;
+	FIELD field_1789 cursorDeltaX D
+	FIELD field_1787 cursorDeltaY D
+	FIELD field_1786 eventDeltaWheel D
+	FIELD field_1783 isCursorLocked Z
+	METHOD <init> (Lnet/minecraft/class_310;)V
 		ARG 1 client
-	METHOD a updateMouse ()V
-	METHOD a setup (J)V
-	METHOD a onMouseScroll (JDD)V
+	METHOD method_1606 updateMouse ()V
+	METHOD method_1607 setup (J)V
+	METHOD method_1598 onMouseScroll (JDD)V
 		ARG 1 window
-	METHOD a onMouseButton (JIII)V
+	METHOD method_1601 onMouseButton (JIII)V
 		ARG 1 window
 		ARG 3 button
-	METHOD b onCursorPos (JDD)V
+	METHOD method_1600 onCursorPos (JDD)V
 		ARG 1 window
-	METHOD e getX ()D
-	METHOD f getY ()D
-	METHOD g onResolutionChanged ()V
-	METHOD h isCursorLocked ()Z
-	METHOD i lockCursor ()V
-	METHOD j unlockCursor ()V
+	METHOD method_1603 getX ()D
+	METHOD method_1604 getY ()D
+	METHOD method_1599 onResolutionChanged ()V
+	METHOD method_1613 isCursorLocked ()Z
+	METHOD method_1612 lockCursor ()V
+	METHOD method_1610 unlockCursor ()V

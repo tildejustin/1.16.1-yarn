@@ -1,8 +1,8 @@
-CLASS dc net/minecraft/command/arguments/TeamArgumentType
-	FIELD a EXAMPLES Ljava/util/Collection;
-	FIELD b UNKNOWN_TEAM_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD a create ()Ldc;
-	METHOD a getTeamArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcsi;
+CLASS net/minecraft/class_2243 net/minecraft/command/arguments/TeamArgumentType
+	FIELD field_9964 EXAMPLES Ljava/util/Collection;
+	FIELD field_9963 UNKNOWN_TEAM_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD method_9482 create ()Lnet/minecraft/class_2243;
+	METHOD method_9480 getTeamArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_268;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

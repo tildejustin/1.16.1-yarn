@@ -1,4 +1,4 @@
-CLASS awo net/minecraft/entity/projectile/ExplodingWitherSkullEntity
-	FIELD f CHARGED Lqg;
-	METHOD a setCharged (Z)V
-	METHOD l isCharged ()Z
+CLASS net/minecraft/class_1687 net/minecraft/entity/projectile/ExplodingWitherSkullEntity
+	FIELD field_7654 CHARGED Lnet/minecraft/class_2940;
+	METHOD method_7502 setCharged (Z)V
+	METHOD method_7503 isCharged ()Z

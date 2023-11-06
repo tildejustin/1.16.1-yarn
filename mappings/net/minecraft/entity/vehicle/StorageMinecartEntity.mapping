@@ -1,10 +1,10 @@
-CLASS axb net/minecraft/entity/vehicle/StorageMinecartEntity
-	FIELD b inventory Lfj;
-	FIELD d lootTableId Lqr;
-	FIELD e lootSeed J
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_1693 net/minecraft/entity/vehicle/StorageMinecartEntity
+	FIELD field_7735 inventory Lnet/minecraft/class_2371;
+	FIELD field_7734 lootTableId Lnet/minecraft/class_2960;
+	FIELD field_7732 lootSeed J
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD a setLootTable (Lqr;J)V
+	METHOD method_7562 setLootTable (Lnet/minecraft/class_2960;J)V
 		ARG 1 id
 	METHOD createMenu (ILavl;Lavm;)Laxq;
 		ARG 1 syncId

@@ -1,45 +1,45 @@
-CLASS cnz net/minecraft/world/loot/context/LootContext
-	CLASS cnz$a Builder
-		FIELD a world Lve;
-		FIELD b parameters Ljava/util/Map;
-		FIELD c drops Ljava/util/Map;
-		FIELD d random Ljava/util/Random;
-		FIELD e luck F
-		METHOD a getWorld ()Lve;
-		METHOD a setLuck (F)Lcnz$a;
-		METHOD a setRandom (J)Lcnz$a;
-		METHOD a setRandom (JLjava/util/Random;)Lcnz$a;
-		METHOD a get (Lcpz;)Ljava/lang/Object;
-		METHOD a put (Lcpz;Ljava/lang/Object;)Lcnz$a;
-		METHOD a build (Lcqa;)Lcnz;
-		METHOD a setRandom (Ljava/util/Random;)Lcnz$a;
-		METHOD a putDrop (Lqr;Lcnz$b;)Lcnz$a;
-		METHOD b getNullable (Lcpz;)Ljava/lang/Object;
-		METHOD b putNullable (Lcpz;Ljava/lang/Object;)Lcnz$a;
-	CLASS cnz$b Dropper
-	CLASS cnz$c EntityTarget
-		CLASS cnz$c$a Serializer
-		FIELD a THIS Lcnz$c;
-		FIELD b KILLER Lcnz$c;
-		FIELD c DIRECT_KILLER Lcnz$c;
-		FIELD d KILLER_PLAYER Lcnz$c;
-		FIELD e type Ljava/lang/String;
-		FIELD f identifier Lcpz;
-		METHOD a getIdentifier ()Lcpz;
-		METHOD a fromString (Ljava/lang/String;)Lcnz$c;
-	FIELD a random Ljava/util/Random;
-	FIELD b luck F
-	FIELD c world Lve;
-	FIELD d manager Lcoe;
-	FIELD e suppliers Ljava/util/Set;
-	FIELD f parameters Ljava/util/Map;
-	FIELD g drops Ljava/util/Map;
-	METHOD a getLootManager ()Lcoe;
-	METHOD a addDrop (Lcoc;)Z
-	METHOD a hasParameter (Lcpz;)Z
-	METHOD a drop (Lqr;Ljava/util/function/Consumer;)V
-	METHOD b getRandom ()Ljava/util/Random;
-	METHOD b removeDrop (Lcoc;)V
-	METHOD c getLuck ()F
-	METHOD c get (Lcpz;)Ljava/lang/Object;
-	METHOD d getWorld ()Lve;
+CLASS net/minecraft/class_47 net/minecraft/world/loot/context/LootContext
+	CLASS net/minecraft/class_47$class_48 Builder
+		FIELD field_930 world Lnet/minecraft/class_3218;
+		FIELD field_932 parameters Ljava/util/Map;
+		FIELD field_933 drops Ljava/util/Map;
+		FIELD field_934 random Ljava/util/Random;
+		FIELD field_931 luck F
+		METHOD method_313 getWorld ()Lnet/minecraft/class_3218;
+		METHOD method_303 setLuck (F)Lnet/minecraft/class_47$class_48;
+		METHOD method_304 setRandom (J)Lnet/minecraft/class_47$class_48;
+		METHOD method_310 setRandom (JLjava/util/Random;)Lnet/minecraft/class_47$class_48;
+		METHOD method_308 get (Lnet/minecraft/class_169;)Ljava/lang/Object;
+		METHOD method_312 put (Lnet/minecraft/class_169;Ljava/lang/Object;)Lnet/minecraft/class_47$class_48;
+		METHOD method_309 build (Lnet/minecraft/class_176;)Lnet/minecraft/class_47;
+		METHOD method_311 setRandom (Ljava/util/Random;)Lnet/minecraft/class_47$class_48;
+		METHOD method_307 putDrop (Lnet/minecraft/class_2960;Lnet/minecraft/class_47$class_49;)Lnet/minecraft/class_47$class_48;
+		METHOD method_305 getNullable (Lnet/minecraft/class_169;)Ljava/lang/Object;
+		METHOD method_306 putNullable (Lnet/minecraft/class_169;Ljava/lang/Object;)Lnet/minecraft/class_47$class_48;
+	CLASS net/minecraft/class_47$class_49 Dropper
+	CLASS net/minecraft/class_47$class_50 EntityTarget
+		CLASS net/minecraft/class_47$class_50$class_51 Serializer
+		FIELD field_935 THIS Lnet/minecraft/class_47$class_50;
+		FIELD field_936 KILLER Lnet/minecraft/class_47$class_50;
+		FIELD field_939 DIRECT_KILLER Lnet/minecraft/class_47$class_50;
+		FIELD field_937 KILLER_PLAYER Lnet/minecraft/class_47$class_50;
+		FIELD field_941 type Ljava/lang/String;
+		FIELD field_938 identifier Lnet/minecraft/class_169;
+		METHOD method_315 getIdentifier ()Lnet/minecraft/class_169;
+		METHOD method_314 fromString (Ljava/lang/String;)Lnet/minecraft/class_47$class_50;
+	FIELD field_923 random Ljava/util/Random;
+	FIELD field_926 luck F
+	FIELD field_928 world Lnet/minecraft/class_3218;
+	FIELD field_924 manager Lnet/minecraft/class_60;
+	FIELD field_927 suppliers Ljava/util/Set;
+	FIELD field_925 parameters Ljava/util/Map;
+	FIELD field_929 drops Ljava/util/Map;
+	METHOD method_301 getLootManager ()Lnet/minecraft/class_60;
+	METHOD method_298 addDrop (Lnet/minecraft/class_52;)Z
+	METHOD method_300 hasParameter (Lnet/minecraft/class_169;)Z
+	METHOD method_297 drop (Lnet/minecraft/class_2960;Ljava/util/function/Consumer;)V
+	METHOD method_294 getRandom ()Ljava/util/Random;
+	METHOD method_295 removeDrop (Lnet/minecraft/class_52;)V
+	METHOD method_302 getLuck ()F
+	METHOD method_296 get (Lnet/minecraft/class_169;)Ljava/lang/Object;
+	METHOD method_299 getWorld ()Lnet/minecraft/class_3218;

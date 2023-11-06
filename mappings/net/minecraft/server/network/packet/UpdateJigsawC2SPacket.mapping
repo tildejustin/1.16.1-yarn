@@ -1,14 +1,14 @@
-CLASS pb net/minecraft/server/network/packet/UpdateJigsawC2SPacket
-	FIELD a pos Lev;
-	FIELD b attachmentType Lqr;
-	FIELD c targetPool Lqr;
-	FIELD d finalState Ljava/lang/String;
-	METHOD <init> (Lev;Lqr;Lqr;Ljava/lang/String;)V
+CLASS net/minecraft/class_3753 net/minecraft/server/network/packet/UpdateJigsawC2SPacket
+	FIELD field_16565 pos Lnet/minecraft/class_2338;
+	FIELD field_16563 attachmentType Lnet/minecraft/class_2960;
+	FIELD field_16566 targetPool Lnet/minecraft/class_2960;
+	FIELD field_16564 finalState Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2960;Lnet/minecraft/class_2960;Ljava/lang/String;)V
 		ARG 1 pos
 		ARG 2 attachmentType
 		ARG 3 targetPool
 		ARG 4 finalState
-	METHOD b getPos ()Lev;
-	METHOD c getTargetPool ()Lqr;
-	METHOD d getAttachmentType ()Lqr;
-	METHOD e getFinalState ()Ljava/lang/String;
+	METHOD method_16396 getPos ()Lnet/minecraft/class_2338;
+	METHOD method_16394 getTargetPool ()Lnet/minecraft/class_2960;
+	METHOD method_16395 getAttachmentType ()Lnet/minecraft/class_2960;
+	METHOD method_16393 getFinalState ()Ljava/lang/String;

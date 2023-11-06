@@ -1,16 +1,16 @@
-CLASS awx net/minecraft/entity/ai/brain/ScheduleBuilder
-	CLASS awx$a ActivityEntry
-		FIELD a startTime I
-		FIELD b activity Lawu;
-		METHOD <init> (ILawu;)V
+CLASS net/minecraft/class_4171 net/minecraft/entity/ai/brain/ScheduleBuilder
+	CLASS net/minecraft/class_4171$class_4172 ActivityEntry
+		FIELD field_18610 startTime I
+		FIELD field_18611 activity Lnet/minecraft/class_4168;
+		METHOD <init> (ILnet/minecraft/class_4168;)V
 			ARG 1 startTime
-		METHOD a getStartTime ()I
-		METHOD b getActivity ()Lawu;
-	FIELD a schedule Laww;
-	FIELD b activities Ljava/util/List;
-	METHOD <init> (Laww;)V
+		METHOD method_19224 getStartTime ()I
+		METHOD method_19225 getActivity ()Lnet/minecraft/class_4168;
+	FIELD field_18608 schedule Lnet/minecraft/class_4170;
+	FIELD field_18609 activities Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_4170;)V
 		ARG 1 schedule
-	METHOD a build ()Laww;
-	METHOD a withActivity (ILawu;)Lawx;
+	METHOD method_19220 build ()Lnet/minecraft/class_4170;
+	METHOD method_19221 withActivity (ILnet/minecraft/class_4168;)Lnet/minecraft/class_4171;
 		ARG 1 startTime
 		ARG 2 activity

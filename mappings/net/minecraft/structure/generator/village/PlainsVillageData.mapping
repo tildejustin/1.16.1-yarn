@@ -1,2 +1,2 @@
-CLASS ccp net/minecraft/structure/generator/village/PlainsVillageData
-	METHOD a initialize ()V
+CLASS net/minecraft/class_3815 net/minecraft/structure/generator/village/PlainsVillageData
+	METHOD method_16754 initialize ()V

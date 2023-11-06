@@ -1,14 +1,14 @@
-CLASS dm net/minecraft/command/arguments/LookingPosArgument
-	FIELD a x D
-	FIELD b y D
-	FIELD c z D
+CLASS net/minecraft/class_2268 net/minecraft/command/arguments/LookingPosArgument
+	FIELD field_10714 x D
+	FIELD field_10713 y D
+	FIELD field_10712 z D
 	METHOD <init> (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldm;
+	METHOD method_9711 parse (Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/class_2268;
 		ARG 0 reader
-	METHOD a readCoordinate (Lcom/mojang/brigadier/StringReader;I)D
+	METHOD method_9710 readCoordinate (Lcom/mojang/brigadier/StringReader;I)D
 		ARG 0 reader
 		ARG 1 startingCursorPos
 	METHOD equals (Ljava/lang/Object;)Z

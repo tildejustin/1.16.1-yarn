@@ -1,5 +1,5 @@
-CLASS div net/minecraft/client/particle/PortalParticle
-	CLASS div$a Factory
-	FIELD C startX D
-	FIELD F startY D
-	FIELD G startZ D
+CLASS net/minecraft/class_709 net/minecraft/client/particle/PortalParticle
+	CLASS net/minecraft/class_709$class_710 Factory
+	FIELD field_3886 startX D
+	FIELD field_3885 startY D
+	FIELD field_3884 startZ D

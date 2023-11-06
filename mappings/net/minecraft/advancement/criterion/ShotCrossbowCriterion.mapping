@@ -1,6 +1,6 @@
-CLASS bp net/minecraft/advancement/criterion/ShotCrossbowCriterion
-	CLASS bp$b Conditions
-		FIELD a item Lbc;
-		METHOD a matches (Lbbp;)Z
-		METHOD a create (Lbgw;)Lbp$b;
-	FIELD a ID Lqr;
+CLASS net/minecraft/class_2123 net/minecraft/advancement/criterion/ShotCrossbowCriterion
+	CLASS net/minecraft/class_2123$class_2125 Conditions
+		FIELD field_9747 item Lnet/minecraft/class_2073;
+		METHOD method_9121 matches (Lnet/minecraft/class_1799;)Z
+		METHOD method_9120 create (Lnet/minecraft/class_1935;)Lnet/minecraft/class_2123$class_2125;
+	FIELD field_9743 ID Lnet/minecraft/class_2960;

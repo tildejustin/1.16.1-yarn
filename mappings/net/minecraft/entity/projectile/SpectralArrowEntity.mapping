@@ -1,2 +1,2 @@
-CLASS awg net/minecraft/entity/projectile/SpectralArrowEntity
-	FIELD ap duration I
+CLASS net/minecraft/class_1679 net/minecraft/entity/projectile/SpectralArrowEntity
+	FIELD field_7636 duration I

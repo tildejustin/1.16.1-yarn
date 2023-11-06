@@ -1,13 +1,13 @@
-CLASS cws net/minecraft/client/gui/hud/SubtitlesHud
-	CLASS cws$a SubtitleEntry
-		FIELD b text Ljava/lang/String;
-		FIELD c time J
-		FIELD d pos Lcrk;
-		METHOD a getText ()Ljava/lang/String;
-		METHOD a reset (Lcrk;)V
-		METHOD b getTime ()J
-		METHOD c getPosition ()Lcrk;
-	FIELD a client Lcux;
-	FIELD b entries Ljava/util/List;
-	FIELD c enabled Z
-	METHOD a draw ()V
+CLASS net/minecraft/class_359 net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS net/minecraft/class_359$class_360 SubtitleEntry
+		FIELD field_2188 text Ljava/lang/String;
+		FIELD field_2185 time J
+		FIELD field_2186 pos Lnet/minecraft/class_243;
+		METHOD method_1960 getText ()Ljava/lang/String;
+		METHOD method_1958 reset (Lnet/minecraft/class_243;)V
+		METHOD method_1961 getTime ()J
+		METHOD method_1959 getPosition ()Lnet/minecraft/class_243;
+	FIELD field_2182 client Lnet/minecraft/class_310;
+	FIELD field_2183 entries Ljava/util/List;
+	FIELD field_2184 enabled Z
+	METHOD method_1957 draw ()V

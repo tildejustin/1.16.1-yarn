@@ -1,9 +1,9 @@
-CLASS bli net/minecraft/block/BambooBlock
-	FIELD a SMALL_LEAVES_SHAPE Lcse;
-	FIELD b LARGE_LEAVES_SHAPE Lcse;
-	FIELD c NO_LEAVES_SHAPE Lcse;
-	FIELD d AGE Lbvy;
-	FIELD e LEAVES Lbvw;
-	FIELD f STAGE Lbvy;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2211 net/minecraft/block/BambooBlock
+	FIELD field_9912 SMALL_LEAVES_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9915 LARGE_LEAVES_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9913 NO_LEAVES_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9914 AGE Lnet/minecraft/class_2758;
+	FIELD field_9917 LEAVES Lnet/minecraft/class_2754;
+	FIELD field_9916 STAGE Lnet/minecraft/class_2758;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

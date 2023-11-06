@@ -1,29 +1,29 @@
-CLASS cmu net/minecraft/entity/ai/pathing/Path
-	FIELD a nodes [Lcms;
-	FIELD e currentNodeIndex I
-	FIELD f length I
-	METHOD <init> ([Lcms;)V
+CLASS net/minecraft/class_11 net/minecraft/entity/ai/pathing/Path
+	FIELD field_52 nodes LLcms;
+	FIELD field_54 currentNodeIndex I
+	FIELD field_53 length I
+	METHOD <init> ([Lnet/minecraft/class_9;)V
 		ARG 1 nodes
-	METHOD a next ()V
-	METHOD a getNode (I)Lcms;
+	METHOD method_44 next ()V
+	METHOD method_40 getNode (I)Lnet/minecraft/class_9;
 		ARG 1 index
-	METHOD a setNode (ILcms;)V
+	METHOD method_33 setNode (ILnet/minecraft/class_9;)V
 		ARG 1 index
 		ARG 2 node
-	METHOD a getNodePosition (Lahz;)Lcrk;
-	METHOD a getNodePosition (Lahz;I)Lcrk;
+	METHOD method_49 getNodePosition (Lnet/minecraft/class_1297;)Lnet/minecraft/class_243;
+	METHOD method_47 getNodePosition (Lnet/minecraft/class_1297;I)Lnet/minecraft/class_243;
 		ARG 1 entity
 		ARG 2 index
-	METHOD a equalsPath (Lcmu;)Z
-	METHOD b isFinished ()Z
-	METHOD b setLength (I)V
+	METHOD method_41 equalsPath (Lnet/minecraft/class_11;)Z
+	METHOD method_46 isFinished ()Z
+	METHOD method_36 setLength (I)V
 		ARG 1 length
-	METHOD b fromBuffer (Ljc;)Lcmu;
+	METHOD method_34 fromBuffer (Lnet/minecraft/class_2540;)Lnet/minecraft/class_11;
 		ARG 0 buffer
-	METHOD c getEnd ()Lcms;
-	METHOD c setCurrentNodeIndex (I)V
+	METHOD method_45 getEnd ()Lnet/minecraft/class_9;
+	METHOD method_42 setCurrentNodeIndex (I)V
 		ARG 1 index
-	METHOD d getNodes ()[Lcms;
-	METHOD e getLength ()I
-	METHOD f getCurrentNodeIndex ()I
-	METHOD g getCurrentPosition ()Lcrk;
+	METHOD method_19314 getNodes ()LLcms;
+	METHOD method_38 getLength ()I
+	METHOD method_39 getCurrentNodeIndex ()I
+	METHOD method_35 getCurrentPosition ()Lnet/minecraft/class_243;

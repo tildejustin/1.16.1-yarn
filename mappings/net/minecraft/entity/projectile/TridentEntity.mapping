@@ -1,5 +1,5 @@
-CLASS awn net/minecraft/entity/projectile/TridentEntity
-	FIELD aq LOYALTY Lqg;
-	FIELD ar tridentStack Lbbp;
-	FIELD as dealtDamage Z
-	METHOD w isOwnerAlive ()Z
+CLASS net/minecraft/class_1685 net/minecraft/entity/projectile/TridentEntity
+	FIELD field_7647 LOYALTY Lnet/minecraft/class_2940;
+	FIELD field_7650 tridentStack Lnet/minecraft/class_1799;
+	FIELD field_7648 dealtDamage Z
+	METHOD method_7493 isOwnerAlive ()Z

@@ -1,15 +1,15 @@
-CLASS rh net/minecraft/entity/boss/CommandBossBar
-	FIELD h id Lqr;
-	FIELD i playerUuids Ljava/util/Set;
-	FIELD j value I
-	FIELD k maxValue I
-	METHOD a getId ()Lqr;
-	METHOD a setValue (I)V
-	METHOD a fromTag (Lib;Lqr;)Lrh;
-	METHOD a addPlayers (Ljava/util/Collection;)Z
-	METHOD a addPlayer (Ljava/util/UUID;)V
-	METHOD b setMaxValue (I)V
-	METHOD c getValue ()I
-	METHOD d getMaxValue ()I
-	METHOD e getTextComponent ()Ljm;
-	METHOD f toTag ()Lib;
+CLASS net/minecraft/class_3002 net/minecraft/entity/boss/CommandBossBar
+	FIELD field_13441 id Lnet/minecraft/class_2960;
+	FIELD field_13440 playerUuids Ljava/util/Set;
+	FIELD field_13443 value I
+	FIELD field_13442 maxValue I
+	METHOD method_12959 getId ()Lnet/minecraft/class_2960;
+	METHOD method_12954 setValue (I)V
+	METHOD method_12966 fromTag (Lnet/minecraft/class_2487;Lnet/minecraft/class_2960;)Lnet/minecraft/class_3002;
+	METHOD method_12962 addPlayers (Ljava/util/Collection;)Z
+	METHOD method_12964 addPlayer (Ljava/util/UUID;)V
+	METHOD method_12956 setMaxValue (I)V
+	METHOD method_12955 getValue ()I
+	METHOD method_12960 getMaxValue ()I
+	METHOD method_12965 getTextComponent ()Lnet/minecraft/class_2561;
+	METHOD method_12963 toTag ()Lnet/minecraft/class_2487;

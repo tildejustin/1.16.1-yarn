@@ -1,5 +1,5 @@
-CLASS dfz net/minecraft/client/render/entity/model/SkullEntityModel
-	METHOD a setRotationAngles (FFFFFF)V
+CLASS net/minecraft/class_607 net/minecraft/client/render/entity/model/SkullEntityModel
+	METHOD method_2821 setRotationAngles (FFFFFF)V
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount
 		ARG 3 age

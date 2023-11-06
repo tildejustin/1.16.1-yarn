@@ -1,2 +1,2 @@
-CLASS djl net/minecraft/client/particle/CurrentDownParticle
-	CLASS djl$a Factory
+CLASS net/minecraft/class_736 net/minecraft/client/particle/CurrentDownParticle
+	CLASS net/minecraft/class_736$class_737 Factory

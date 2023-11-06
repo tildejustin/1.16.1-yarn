@@ -1,6 +1,6 @@
-CLASS cmc net/minecraft/world/biome/layer/InitLayer
-	METHOD a create (Lcla;)Lckx;
+CLASS net/minecraft/class_3658 net/minecraft/world/biome/layer/InitLayer
+	METHOD method_15854 create (Lnet/minecraft/class_3628;)Lnet/minecraft/class_3627;
 		ARG 1 context
-	METHOD a sample (Lclb;II)I
+	METHOD method_15855 sample (Lnet/minecraft/class_3630;II)I
 		ARG 2 x
 		ARG 3 y

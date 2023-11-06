@@ -1,4 +1,4 @@
-CLASS dbi net/minecraft/client/gui/container/VillagerScreen
-	CLASS dbi$a WidgetButtonPage
-	FIELD k TEXTURE Lqr;
-	METHOD b syncRecipeIndex ()V
+CLASS net/minecraft/class_492 net/minecraft/client/gui/container/VillagerScreen
+	CLASS net/minecraft/class_492$class_493 WidgetButtonPage
+	FIELD field_2950 TEXTURE Lnet/minecraft/class_2960;
+	METHOD method_2496 syncRecipeIndex ()V

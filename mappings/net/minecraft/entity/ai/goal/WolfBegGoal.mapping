@@ -1,8 +1,8 @@
-CLASS alu net/minecraft/entity/ai/goal/WolfBegGoal
-	FIELD a owner Larg;
-	FIELD b begFrom Lavm;
-	FIELD c world Lbgx;
-	FIELD d chance F
-	FIELD e timer I
-	METHOD <init> (Larg;F)V
+CLASS net/minecraft/class_1337 net/minecraft/entity/ai/goal/WolfBegGoal
+	FIELD field_6384 owner Lnet/minecraft/class_1493;
+	FIELD field_6383 begFrom Lnet/minecraft/class_1657;
+	FIELD field_6381 world Lnet/minecraft/class_1937;
+	FIELD field_6380 chance F
+	FIELD field_6382 timer I
+	METHOD <init> (Lnet/minecraft/class_1493;F)V
 		ARG 1 owner

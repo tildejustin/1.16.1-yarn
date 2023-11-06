@@ -1,5 +1,5 @@
-CLASS akc net/minecraft/entity/ai/brain/task/SeekSkyTask
-	FIELD a speed F
+CLASS net/minecraft/class_4248 net/minecraft/entity/ai/brain/task/SeekSkyTask
+	FIELD field_18999 speed F
 	METHOD <init> (F)V
 		ARG 1 speed
 	METHOD b (Lve;Laii;)Lcrk;

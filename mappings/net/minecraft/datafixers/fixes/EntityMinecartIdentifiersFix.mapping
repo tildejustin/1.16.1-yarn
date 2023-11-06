@@ -1,2 +1,2 @@
-CLASS abo net/minecraft/datafixers/fixes/EntityMinecartIdentifiersFix
-	FIELD a MINECARTS Ljava/util/List;
+CLASS net/minecraft/class_3605 net/minecraft/datafixers/fixes/EntityMinecartIdentifiersFix
+	FIELD field_15896 MINECARTS Ljava/util/List;

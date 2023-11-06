@@ -1,14 +1,14 @@
-CLASS byl net/minecraft/world/gen/PillagerSpawner
-	CLASS byl$a SpawnEntry
-		FIELD b entityType Laid;
-		METHOD <init> (Laid;I)V
+CLASS net/minecraft/class_3769 net/minecraft/world/gen/PillagerSpawner
+	CLASS net/minecraft/class_3769$class_3731 SpawnEntry
+		FIELD field_16476 entityType Lnet/minecraft/class_1299;
+		METHOD <init> (Lnet/minecraft/class_1299;I)V
 			ARG 2 weight
-	FIELD a SPAWN_ENTRIES Ljava/util/List;
-	FIELD b ticksUntilNextSpawn I
-	METHOD a spawnOneEntity (Lbgx;Lev;Ljava/util/Random;Z)V
+	FIELD field_16651 SPAWN_ENTRIES Ljava/util/List;
+	FIELD field_16652 ticksUntilNextSpawn I
+	METHOD method_16575 spawnOneEntity (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Ljava/util/Random;Z)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD a spawn (Lbgx;ZZ)I
+	METHOD method_16574 spawn (Lnet/minecraft/class_1937;ZZ)I
 		ARG 2 spawnMonsters
 		ARG 3 spawnAnimals

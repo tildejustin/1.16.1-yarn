@@ -1,15 +1,15 @@
-CLASS bpy net/minecraft/block/PoweredRailBlock
-	FIELD c SHAPE Lbvw;
-	FIELD d POWERED Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2442 net/minecraft/block/PoweredRailBlock
+	FIELD field_11365 SHAPE Lnet/minecraft/class_2754;
+	FIELD field_11364 POWERED Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a isPoweredByOtherRails (Lbgx;Lev;Lbuy;ZI)Z
+	METHOD method_10413 isPoweredByOtherRails (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;ZI)Z
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 state
 		ARG 4 boolean4
 		ARG 5 distance
-	METHOD a isPoweredByOtherRails (Lbgx;Lev;ZILbwc;)Z
+	METHOD method_10414 isPoweredByOtherRails (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;ZILnet/minecraft/class_2768;)Z
 		ARG 1 world
 		ARG 2 pos
 		ARG 4 distance

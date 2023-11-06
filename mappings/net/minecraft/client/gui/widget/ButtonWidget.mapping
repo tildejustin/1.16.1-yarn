@@ -1,8 +1,8 @@
-CLASS cwc net/minecraft/client/gui/widget/ButtonWidget
-	CLASS cwc$a PressAction
+CLASS net/minecraft/class_4185 net/minecraft/client/gui/widget/ButtonWidget
+	CLASS net/minecraft/class_4185$class_4241 PressAction
 		METHOD onPress (Lcwc;)V
 			ARG 1 button
-	METHOD <init> (IIIILjava/lang/String;Lcwc$a;)V
+	METHOD <init> (IIIILjava/lang/String;Lnet/minecraft/class_4185$class_4241;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 width

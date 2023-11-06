@@ -1,2 +1,2 @@
-CLASS azi net/minecraft/item/block/AirBlockItem
-	FIELD a block Lbma;
+CLASS net/minecraft/class_1739 net/minecraft/item/block/AirBlockItem
+	FIELD field_7882 block Lnet/minecraft/class_2248;

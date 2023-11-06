@@ -1,11 +1,11 @@
-CLASS cut net/minecraft/client/gui/hud/ChatHudLine
-	FIELD a tickCreated I
-	FIELD b contents Ljm;
-	FIELD c id I
-	METHOD <init> (ILjm;I)V
+CLASS net/minecraft/class_303 net/minecraft/client/gui/hud/ChatHudLine
+	FIELD field_1650 tickCreated I
+	FIELD field_1651 contents Lnet/minecraft/class_2561;
+	FIELD field_1649 id I
+	METHOD <init> (ILnet/minecraft/class_2561;I)V
 		ARG 1 tickCreated
 		ARG 2 contents
 		ARG 3 id
-	METHOD a getContents ()Ljm;
-	METHOD b getTickCreated ()I
-	METHOD c getId ()I
+	METHOD method_1412 getContents ()Lnet/minecraft/class_2561;
+	METHOD method_1414 getTickCreated ()I
+	METHOD method_1413 getId ()I

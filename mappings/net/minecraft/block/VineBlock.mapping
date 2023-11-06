@@ -1,28 +1,28 @@
-CLASS bsd net/minecraft/block/VineBlock
-	FIELD a UP Lbvq;
-	FIELD b NORTH Lbvq;
-	FIELD c EAST Lbvq;
-	FIELD d SOUTH Lbvq;
-	FIELD e WEST Lbvq;
-	FIELD f FACING_PROPERTIES Ljava/util/Map;
-	FIELD g UP_SHAPE Lcse;
-	FIELD h WEST_SHAPE Lcse;
-	FIELD i EAST_SHAPE Lcse;
-	FIELD j NORTH_SHAPE Lcse;
-	FIELD k SOUTH_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2541 net/minecraft/block/VineBlock
+	FIELD field_11703 UP Lnet/minecraft/class_2746;
+	FIELD field_11706 NORTH Lnet/minecraft/class_2746;
+	FIELD field_11702 EAST Lnet/minecraft/class_2746;
+	FIELD field_11699 SOUTH Lnet/minecraft/class_2746;
+	FIELD field_11696 WEST Lnet/minecraft/class_2746;
+	FIELD field_11697 FACING_PROPERTIES Ljava/util/Map;
+	FIELD field_11698 UP_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11705 WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11704 EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11700 NORTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11701 SOUTH_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a shouldConnectTo (Lbgi;Lev;Lfa;)Z
+	METHOD method_10821 shouldConnectTo (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 direction
-	METHOD a getFacingProperty (Lfa;)Lbvq;
+	METHOD method_10828 getFacingProperty (Lnet/minecraft/class_2350;)Lnet/minecraft/class_2746;
 		ARG 0 direction
-	METHOD j hasAdjacentBlocks (Lbuy;)Z
+	METHOD method_10823 hasAdjacentBlocks (Lnet/minecraft/class_2680;)Z
 		ARG 1 state
-	METHOD n getPlacementShape (Lbuy;Lbgi;Lev;)Lbuy;
+	METHOD method_10827 getPlacementShape (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;
 		ARG 1 state
 		ARG 2 world
 		ARG 3 pos
-	METHOD q getAdjacentBlockCount (Lbuy;)I
+	METHOD method_10822 getAdjacentBlockCount (Lnet/minecraft/class_2680;)I
 		ARG 1 state

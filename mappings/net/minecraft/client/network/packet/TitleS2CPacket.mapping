@@ -1,25 +1,25 @@
-CLASS nb net/minecraft/client/network/packet/TitleS2CPacket
-	CLASS nb$a Action
-		FIELD d DISPLAY Lnb$a;
-		FIELD e HIDE Lnb$a;
-		FIELD f RESET Lnb$a;
-	FIELD a action Lnb$a;
-	FIELD b text Ljm;
-	FIELD c ticksFadeIn I
-	FIELD d ticksDisplay I
-	FIELD e ticksFadeOut I
+CLASS net/minecraft/class_2762 net/minecraft/client/network/packet/TitleS2CPacket
+	CLASS net/minecraft/class_2762$class_2763 Action
+		FIELD field_12629 DISPLAY Lnet/minecraft/class_2762$class_2763;
+		FIELD field_12633 HIDE Lnet/minecraft/class_2762$class_2763;
+		FIELD field_12628 RESET Lnet/minecraft/class_2762$class_2763;
+	FIELD field_12625 action Lnet/minecraft/class_2762$class_2763;
+	FIELD field_12626 text Lnet/minecraft/class_2561;
+	FIELD field_12624 ticksFadeIn I
+	FIELD field_12623 ticksDisplay I
+	FIELD field_12622 ticksFadeOut I
 	METHOD <init> (III)V
 		ARG 1 ticksFadeIn
 		ARG 2 ticksDisplay
-	METHOD <init> (Lnb$a;Ljm;)V
+	METHOD <init> (Lnet/minecraft/class_2762$class_2763;Lnet/minecraft/class_2561;)V
 		ARG 1 action
-	METHOD <init> (Lnb$a;Ljm;III)V
+	METHOD <init> (Lnet/minecraft/class_2762$class_2763;Lnet/minecraft/class_2561;III)V
 		ARG 1 action
 		ARG 2 text
 		ARG 3 ticksFadeIn
 		ARG 4 ticksDisplay
-	METHOD b getAction ()Lnb$a;
-	METHOD c getText ()Ljm;
-	METHOD d getTicksFadeIn ()I
-	METHOD e getTicksDisplay ()I
-	METHOD f getTicksFadeOut ()I
+	METHOD method_11878 getAction ()Lnet/minecraft/class_2762$class_2763;
+	METHOD method_11877 getText ()Lnet/minecraft/class_2561;
+	METHOD method_11874 getTicksFadeIn ()I
+	METHOD method_11876 getTicksDisplay ()I
+	METHOD method_11875 getTicksFadeOut ()I

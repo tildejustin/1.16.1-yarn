@@ -1,8 +1,8 @@
-CLASS gc net/minecraft/particle/ItemStackParticleParameters
-	FIELD a PARAMETERS_FACTORY Lgd$a;
-	FIELD b particleType Lge;
-	FIELD c stack Lbbp;
-	METHOD <init> (Lge;Lbbp;)V
+CLASS net/minecraft/class_2392 net/minecraft/particle/ItemStackParticleParameters
+	FIELD field_11191 PARAMETERS_FACTORY Lnet/minecraft/class_2394$class_2395;
+	FIELD field_11193 particleType Lnet/minecraft/class_2396;
+	FIELD field_11192 stack Lnet/minecraft/class_1799;
+	METHOD <init> (Lnet/minecraft/class_2396;Lnet/minecraft/class_1799;)V
 		ARG 1 particleType
 		ARG 2 stack
-	METHOD c getItemStack ()Lbbp;
+	METHOD method_10289 getItemStack ()Lnet/minecraft/class_1799;

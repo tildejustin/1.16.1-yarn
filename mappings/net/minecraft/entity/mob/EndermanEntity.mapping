@@ -1,11 +1,11 @@
-CLASS atp net/minecraft/entity/mob/EndermanEntity
-	CLASS atp$b PlaceBlockGoal
-		FIELD a owner Latp;
-	CLASS atp$d PickUpBlockGoal
-		FIELD a owner Latp;
-	FIELD bC ageWhenTargetSet I
-	FIELD bz ANGRY Lqg;
-	FIELD d CARRIED_BLOCK Lqg;
-	METHOD b setCarriedBlock (Lbuy;)V
-	METHOD dR getCarriedBlock ()Lbuy;
-	METHOD dS isAngry ()Z
+CLASS net/minecraft/class_1560 net/minecraft/entity/mob/EndermanEntity
+	CLASS net/minecraft/class_1560$class_1561 PlaceBlockGoal
+		FIELD field_7258 owner Lnet/minecraft/class_1560;
+	CLASS net/minecraft/class_1560$class_1563 PickUpBlockGoal
+		FIELD field_7263 owner Lnet/minecraft/class_1560;
+	FIELD field_7254 ageWhenTargetSet I
+	FIELD field_7255 ANGRY Lnet/minecraft/class_2940;
+	FIELD field_7257 CARRIED_BLOCK Lnet/minecraft/class_2940;
+	METHOD method_7032 setCarriedBlock (Lnet/minecraft/class_2680;)V
+	METHOD method_7027 getCarriedBlock ()Lnet/minecraft/class_2680;
+	METHOD method_7028 isAngry ()Z

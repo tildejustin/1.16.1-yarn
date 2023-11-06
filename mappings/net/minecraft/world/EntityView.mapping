@@ -1,17 +1,17 @@
-CLASS bgp net/minecraft/world/EntityView
-	METHOD A getPlayers ()Ljava/util/List;
-	METHOD a getEntities (Lahz;Lcrf;)Ljava/util/List;
+CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
+	METHOD method_18456 getPlayers ()Ljava/util/List;
+	METHOD method_8335 getEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 except
 		ARG 2 box
-	METHOD a getEntities (Lahz;Lcrf;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD method_8333 getEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/List;
 		ARG 1 except
 		ARG 2 boundingBox
-	METHOD a intersectsEntities (Lahz;Lcse;)Z
+	METHOD method_8611 intersectsEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_265;)Z
 		ARG 1 except
 		ARG 2 shape
-	METHOD a getCollisionShapes (Lahz;Lcse;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD method_8334 getCollisionShapes (Lnet/minecraft/class_1297;Lnet/minecraft/class_265;Ljava/util/Set;)Ljava/util/stream/Stream;
 		ARG 1 entity
 		ARG 2 entityBoundingBox
 		ARG 3 otherEntities
-	METHOD a getEntities (Ljava/lang/Class;Lcrf;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD method_8390 getEntities (Ljava/lang/Class;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/List;
 		ARG 1 except

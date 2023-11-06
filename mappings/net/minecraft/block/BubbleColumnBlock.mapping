@@ -1,4 +1,4 @@
-CLASS bme net/minecraft/block/BubbleColumnBlock
-	FIELD a DRAG Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2258 net/minecraft/block/BubbleColumnBlock
+	FIELD field_10680 DRAG Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

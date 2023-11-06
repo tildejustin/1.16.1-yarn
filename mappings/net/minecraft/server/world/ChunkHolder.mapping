@@ -1,89 +1,89 @@
-CLASS uq net/minecraft/server/world/ChunkHolder
-	CLASS uq$a Unloaded
-		FIELD b INSTANCE Luq$a;
-	CLASS uq$b LevelType
-		FIELD a BORDER Luq$b;
-		FIELD b TICKING Luq$b;
-		FIELD c ENTITY_TICKING Luq$b;
-		METHOD a isAfter (Luq$b;)Z
+CLASS net/minecraft/class_3193 net/minecraft/server/world/ChunkHolder
+	CLASS net/minecraft/class_3193$class_3724 Unloaded
+		FIELD field_16433 INSTANCE Lnet/minecraft/class_3193$class_3724;
+	CLASS net/minecraft/class_3193$class_3194 LevelType
+		FIELD field_13876 BORDER Lnet/minecraft/class_3193$class_3194;
+		FIELD field_13875 TICKING Lnet/minecraft/class_3193$class_3194;
+		FIELD field_13877 ENTITY_TICKING Lnet/minecraft/class_3193$class_3194;
+		METHOD method_14014 isAfter (Lnet/minecraft/class_3193$class_3194;)Z
 			ARG 1 levelType
-	CLASS uq$c LevelUpdateListener
-		METHOD a updateLevel (Lbgk;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V
+	CLASS net/minecraft/class_3193$class_3896 LevelUpdateListener
+		METHOD method_17209 updateLevel (Lnet/minecraft/class_1923;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V
 			ARG 1 pos
 			ARG 2 levelGetter
 			ARG 3 targetLevel
 			ARG 4 levelSetter
-	CLASS uq$d PlayersWatchingChunkProvider
-		METHOD a getPlayersWatchingChunk (Lbgk;Z)Ljava/util/stream/Stream;
+	CLASS net/minecraft/class_3193$class_3897 PlayersWatchingChunkProvider
+		METHOD method_17210 getPlayersWatchingChunk (Lnet/minecraft/class_1923;Z)Ljava/util/stream/Stream;
 			ARG 1 chunkPos
 			ARG 2 onlyOnWatchDistanceEdge
-	FIELD a UNLOADED_CHUNK Lcom/mojang/datafixers/util/Either;
-	FIELD b UNLOADED_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
-	FIELD c UNLOADED_WORLD_CHUNK Lcom/mojang/datafixers/util/Either;
-	FIELD d UNLOADED_WORLD_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
-	FIELD e CHUNK_STATUSES Ljava/util/List;
-	FIELD f LEVEL_TYPES [Luq$b;
-	FIELD g futuresByStatus Ljava/util/concurrent/atomic/AtomicReferenceArray;
-	FIELD h tickingFuture Ljava/util/concurrent/CompletableFuture;
-	FIELD i entityTickingFuture Ljava/util/concurrent/CompletableFuture;
-	FIELD j future Ljava/util/concurrent/CompletableFuture;
-	FIELD k lastTickLevel I
-	FIELD l level I
-	FIELD m completedLevel I
-	FIELD n pos Lbgk;
-	FIELD o blockUpdatePositions [S
-	FIELD p blockUpdateCount I
-	FIELD q sectionsNeedingUpdateMask I
-	FIELD r lightSentWithBlocksBits I
-	FIELD s blockLightUpdateBits I
-	FIELD t skyLightUpdateBits I
-	FIELD u lightingProvider Lcke;
-	FIELD v levelUpdateListener Luq$c;
-	FIELD w playersWatchingChunkProvider Luq$d;
-	METHOD <init> (Lbgk;ILcke;Luq$c;Luq$d;)V
+	FIELD field_16426 UNLOADED_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD field_16430 UNLOADED_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD field_16427 UNLOADED_WORLD_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD field_16429 UNLOADED_WORLD_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD field_13868 CHUNK_STATUSES Ljava/util/List;
+	FIELD field_13873 LEVEL_TYPES LLuq$b;
+	FIELD field_16425 futuresByStatus Ljava/util/concurrent/atomic/AtomicReferenceArray;
+	FIELD field_16431 tickingFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD field_13865 entityTickingFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD field_16428 future Ljava/util/concurrent/CompletableFuture;
+	FIELD field_16432 lastTickLevel I
+	FIELD field_13862 level I
+	FIELD field_17208 completedLevel I
+	FIELD field_13864 pos Lnet/minecraft/class_1923;
+	FIELD field_13861 blockUpdatePositions [S
+	FIELD field_13874 blockUpdateCount I
+	FIELD field_13872 sectionsNeedingUpdateMask I
+	FIELD field_16209 lightSentWithBlocksBits I
+	FIELD field_13871 blockLightUpdateBits I
+	FIELD field_13870 skyLightUpdateBits I
+	FIELD field_13863 lightingProvider Lnet/minecraft/class_3568;
+	FIELD field_17209 levelUpdateListener Lnet/minecraft/class_3193$class_3896;
+	FIELD field_17210 playersWatchingChunkProvider Lnet/minecraft/class_3193$class_3897;
+	METHOD <init> (Lnet/minecraft/class_1923;ILnet/minecraft/class_3568;Lnet/minecraft/class_3193$class_3896;Lnet/minecraft/class_3193$class_3897;)V
 		ARG 1 pos
 		ARG 2 level
 		ARG 5 playersWatchingChunkProvider
-	METHOD a getTickingFuture ()Ljava/util/concurrent/CompletableFuture;
-	METHOD a setLevel (I)V
+	METHOD method_16145 getTickingFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD method_15890 setLevel (I)V
 		ARG 1 level
-	METHOD a markForBlockUpdate (III)V
+	METHOD method_14002 markForBlockUpdate (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a sendBlockEntityUpdatePacket (Lbgx;Lev;)V
+	METHOD method_14009 sendBlockEntityUpdatePacket (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a markForLightUpdate (Lbhg;I)V
+	METHOD method_14012 markForLightUpdate (Lnet/minecraft/class_1944;I)V
 		ARG 1 type
 		ARG 2 y
-	METHOD a getFuture (Lbwr;)Ljava/util/concurrent/CompletableFuture;
+	METHOD method_16146 getFuture (Lnet/minecraft/class_2806;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 status
-	METHOD a createFuture (Lbwr;Lur;)Ljava/util/concurrent/CompletableFuture;
+	METHOD method_13993 createFuture (Lnet/minecraft/class_2806;Lnet/minecraft/class_3898;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 targetStatus
 		ARG 2 chunkStorage
-	METHOD a flushUpdates (Lbwy;)V
+	METHOD method_14006 flushUpdates (Lnet/minecraft/class_2818;)V
 		ARG 1 chunk
-	METHOD a updateFuture (Ljava/util/concurrent/CompletableFuture;)V
+	METHOD method_16143 updateFuture (Ljava/util/concurrent/CompletableFuture;)V
 		ARG 1 newChunkFuture
-	METHOD a sendPacketToPlayersWatching (Lka;Z)V
+	METHOD method_13992 sendPacketToPlayersWatching (Lnet/minecraft/class_2596;Z)V
 		ARG 2 onlyOnWatchDistanceEdge
-	METHOD a tick (Lur;)V
+	METHOD method_14007 tick (Lnet/minecraft/class_3898;)V
 		ARG 1 chunkStorage
-	METHOD b getEntityTickingFuture ()Ljava/util/concurrent/CompletableFuture;
-	METHOD b getTargetGenerationStatus (I)Lbwr;
+	METHOD method_14003 getEntityTickingFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD method_14011 getTargetGenerationStatus (I)Lnet/minecraft/class_2806;
 		ARG 0 level
-	METHOD b getFutureChecked (Lbwr;)Ljava/util/concurrent/CompletableFuture;
+	METHOD method_13997 getFutureChecked (Lnet/minecraft/class_2806;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 status
-	METHOD c getWorldChunk ()Lbwy;
-	METHOD c getLevelType (I)Luq$b;
+	METHOD method_16144 getWorldChunk ()Lnet/minecraft/class_2818;
+	METHOD method_14008 getLevelType (I)Lnet/minecraft/class_3193$class_3194;
 		ARG 0 distance
-	METHOD d getCompletedStatus ()Lbwr;
-	METHOD d setCompletedLevel (I)V
+	METHOD method_16141 getCompletedStatus ()Lnet/minecraft/class_2806;
+	METHOD method_17207 setCompletedLevel (I)V
 		ARG 1 level
-	METHOD e getCompletedChunk ()Lbwm;
-	METHOD f getFuture ()Ljava/util/concurrent/CompletableFuture;
-	METHOD g getLevelType ()Luq$b;
-	METHOD h getPos ()Lbgk;
-	METHOD i getLevel ()I
-	METHOD j getCompletedLevel ()I
+	METHOD method_14010 getCompletedChunk ()Lnet/minecraft/class_2791;
+	METHOD method_14000 getFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD method_13995 getLevelType ()Lnet/minecraft/class_3193$class_3194;
+	METHOD method_13994 getPos ()Lnet/minecraft/class_1923;
+	METHOD method_14005 getLevel ()I
+	METHOD method_17208 getCompletedLevel ()I

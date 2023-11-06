@@ -1,12 +1,12 @@
-CLASS aia net/minecraft/entity/EntitySize
-	FIELD a width F
-	FIELD b height F
-	FIELD c constant Z
-	METHOD a scaled (F)Laia;
+CLASS net/minecraft/class_4048 net/minecraft/entity/EntitySize
+	FIELD field_18067 width F
+	FIELD field_18068 height F
+	FIELD field_18069 constant Z
+	METHOD method_18383 scaled (F)Lnet/minecraft/class_4048;
 		ARG 1 ratio
-	METHOD b resizeable (FF)Laia;
+	METHOD method_18384 resizeable (FF)Lnet/minecraft/class_4048;
 		ARG 0 x
 		ARG 1 z
-	METHOD c constant (FF)Laia;
+	METHOD method_18385 constant (FF)Lnet/minecraft/class_4048;
 		ARG 0 x
 		ARG 1 z

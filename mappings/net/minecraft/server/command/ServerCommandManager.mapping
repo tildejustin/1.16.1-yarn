@@ -1,11 +1,11 @@
-CLASS ce net/minecraft/server/command/ServerCommandManager
-	CLASS ce$a CommandParser
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b dispatcher Lcom/mojang/brigadier/CommandDispatcher;
-	METHOD a getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
-	METHOD a execute (Lcd;Ljava/lang/String;)I
+CLASS net/minecraft/class_2170 net/minecraft/server/command/ServerCommandManager
+	CLASS net/minecraft/class_2170$class_2171 CommandParser
+	FIELD field_9833 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_9832 dispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD method_9235 getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD method_9249 execute (Lnet/minecraft/class_2168;Ljava/lang/String;)I
 		ARG 1 commandSource
-	METHOD a getCommandValidator (Lce$a;)Ljava/util/function/Predicate;
-	METHOD a literal (Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
-	METHOD a argument (Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
-	METHOD a sendCommandTree (Lvf;)V
+	METHOD method_9238 getCommandValidator (Lnet/minecraft/class_2170$class_2171;)Ljava/util/function/Predicate;
+	METHOD method_9247 literal (Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	METHOD method_9244 argument (Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	METHOD method_9241 sendCommandTree (Lnet/minecraft/class_3222;)V

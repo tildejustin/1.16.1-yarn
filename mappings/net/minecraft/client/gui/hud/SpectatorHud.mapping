@@ -1,24 +1,24 @@
-CLASS cxa net/minecraft/client/gui/hud/SpectatorHud
-	FIELD a SPECTATOR_TEX Lqr;
-	FIELD b WIDGETS_TEX Lqr;
-	FIELD c client Lcux;
-	FIELD d lastKeyPressTime J
-	FIELD e spectatorMenu Ldda;
-	METHOD <init> (Lcux;)V
+CLASS net/minecraft/class_365 net/minecraft/client/gui/hud/SpectatorHud
+	FIELD field_2199 SPECTATOR_TEX Lnet/minecraft/class_2960;
+	FIELD field_2197 WIDGETS_TEX Lnet/minecraft/class_2960;
+	FIELD field_2201 client Lnet/minecraft/class_310;
+	FIELD field_2198 lastKeyPressTime J
+	FIELD field_2200 spectatorMenu Lnet/minecraft/class_531;
+	METHOD <init> (Lnet/minecraft/class_310;)V
 		ARG 1 client
-	METHOD a draw ()V
-	METHOD a draw (F)V
-	METHOD a drawSpectatorMenu (FIFLdde;)V
+	METHOD method_1979 draw ()V
+	METHOD method_1978 draw (F)V
+	METHOD method_1975 drawSpectatorMenu (FIFLnet/minecraft/class_539;)V
 		ARG 1 height
 		ARG 2 x
 		ARG 3 y
 		ARG 4 state
-	METHOD a onHotbarKeyPress (I)V
+	METHOD method_1977 onHotbarKeyPress (I)V
 		ARG 1 slot
-	METHOD a drawSpectatorCommand (IIFFLddc;)V
+	METHOD method_1982 drawSpectatorCommand (IIFFLnet/minecraft/class_537;)V
 		ARG 1 slot
 		ARG 2 x
 		ARG 3 y
 		ARG 4 alpha
 		ARG 5 command
-	METHOD d getSpectatorMenuHeight ()F
+	METHOD method_1981 getSpectatorMenuHeight ()F

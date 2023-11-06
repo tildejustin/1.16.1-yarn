@@ -1,2 +1,2 @@
-CLASS dhp net/minecraft/client/particle/SweepAttackParticle
-	CLASS dhp$a Factory
+CLASS net/minecraft/class_645 net/minecraft/client/particle/SweepAttackParticle
+	CLASS net/minecraft/class_645$class_646 Factory

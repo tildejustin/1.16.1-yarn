@@ -1,10 +1,10 @@
-CLASS wy net/minecraft/resource/ProfilingResourceReloadHandler
-	CLASS wy$a ProfilingInformation
-		FIELD a name Ljava/lang/String;
-		FIELD b prepareProfile Lafx;
-		FIELD c applyProfile Lafx;
-		FIELD d prepareTimeMs Ljava/util/concurrent/atomic/AtomicLong;
-		FIELD e applyTimeMs Ljava/util/concurrent/atomic/AtomicLong;
-	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD e reloadTimer Lcom/google/common/base/Stopwatch;
-	METHOD a finish (Ljava/util/List;)V
+CLASS net/minecraft/class_4010 net/minecraft/resource/ProfilingResourceReloadHandler
+	CLASS net/minecraft/class_4010$class_4046 ProfilingInformation
+		FIELD field_18037 name Ljava/lang/String;
+		FIELD field_18038 prepareProfile Lnet/minecraft/class_3696;
+		FIELD field_18039 applyProfile Lnet/minecraft/class_3696;
+		FIELD field_18040 prepareTimeMs Ljava/util/concurrent/atomic/AtomicLong;
+		FIELD field_18041 applyTimeMs Ljava/util/concurrent/atomic/AtomicLong;
+	FIELD field_17918 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_17919 reloadTimer Lcom/google/common/base/Stopwatch;
+	METHOD method_18238 finish (Ljava/util/List;)V

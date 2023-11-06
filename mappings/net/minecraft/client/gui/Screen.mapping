@@ -1,4 +1,4 @@
-CLASS czn net/minecraft/client/gui/Screen
+CLASS net/minecraft/class_437 net/minecraft/client/gui/Screen
 	METHOD addButton (Lcwa;)Lcwa;
 		ARG 1 button
 	METHOD confirmResult (ZI)V

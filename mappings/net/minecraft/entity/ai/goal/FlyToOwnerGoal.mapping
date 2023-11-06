@@ -1,1 +1,1 @@
-CLASS amj net/minecraft/entity/ai/goal/FlyToOwnerGoal
+CLASS net/minecraft/class_1351 net/minecraft/entity/ai/goal/FlyToOwnerGoal

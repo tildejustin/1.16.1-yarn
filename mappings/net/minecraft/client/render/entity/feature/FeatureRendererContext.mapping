@@ -1,4 +1,4 @@
-CLASS dqt net/minecraft/client/render/entity/feature/FeatureRendererContext
-	METHOD a bindTexture (Lqr;)V
-	METHOD d getModel ()Ldej;
-	METHOD e applyLightmapCoordinates (Lahz;)V
+CLASS net/minecraft/class_3883 net/minecraft/client/render/entity/feature/FeatureRendererContext
+	METHOD method_3924 bindTexture (Lnet/minecraft/class_2960;)V
+	METHOD method_4038 getModel ()Lnet/minecraft/class_583;
+	METHOD method_17146 applyLightmapCoordinates (Lnet/minecraft/class_1297;)V

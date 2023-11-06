@@ -1,11 +1,11 @@
-CLASS ct net/minecraft/command/arguments/ObjectiveArgumentType
-	FIELD a LONG_NAME_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD b EXAMPLES Ljava/util/Collection;
-	FIELD c UNKNOWN_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD d READONLY_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD a create ()Lct;
-	METHOD a getObjectiveArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcsh;
-	METHOD b getWritableObjectiveArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcsh;
+CLASS net/minecraft/class_2214 net/minecraft/command/arguments/ObjectiveArgumentType
+	FIELD field_9920 LONG_NAME_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_9919 EXAMPLES Ljava/util/Collection;
+	FIELD field_9922 UNKNOWN_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_9921 READONLY_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD method_9391 create ()Lnet/minecraft/class_2214;
+	METHOD method_9395 getObjectiveArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_266;
+	METHOD method_9393 getWritableObjectiveArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_266;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

@@ -1,11 +1,11 @@
-CLASS w net/minecraft/advancement/criterion/CriterionProgress
-	FIELD a FORMAT Ljava/text/SimpleDateFormat;
-	FIELD b obtained Ljava/util/Date;
-	METHOD a isObtained ()Z
-	METHOD a create (Ljava/lang/String;)Lw;
-	METHOD a serialize (Ljc;)V
-	METHOD b obtain ()V
-	METHOD b deserialize (Ljc;)Lw;
-	METHOD c reset ()V
-	METHOD d getObtainedDate ()Ljava/util/Date;
-	METHOD e serialize ()Lcom/google/gson/JsonElement;
+CLASS net/minecraft/class_178 net/minecraft/advancement/criterion/CriterionProgress
+	FIELD field_1220 FORMAT Ljava/text/SimpleDateFormat;
+	FIELD field_1219 obtained Ljava/util/Date;
+	METHOD method_784 isObtained ()Z
+	METHOD method_788 create (Ljava/lang/String;)Lnet/minecraft/class_178;
+	METHOD method_787 serialize (Lnet/minecraft/class_2540;)V
+	METHOD method_789 obtain ()V
+	METHOD method_785 deserialize (Lnet/minecraft/class_2540;)Lnet/minecraft/class_178;
+	METHOD method_790 reset ()V
+	METHOD method_786 getObtainedDate ()Ljava/util/Date;
+	METHOD method_783 serialize ()Lcom/google/gson/JsonElement;

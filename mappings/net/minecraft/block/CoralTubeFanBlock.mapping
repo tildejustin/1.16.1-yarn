@@ -1,2 +1,2 @@
-CLASS bmz net/minecraft/block/CoralTubeFanBlock
-	FIELD a deadCoralBlock Lbma;
+CLASS net/minecraft/class_2297 net/minecraft/block/CoralTubeFanBlock
+	FIELD field_10817 deadCoralBlock Lnet/minecraft/class_2248;

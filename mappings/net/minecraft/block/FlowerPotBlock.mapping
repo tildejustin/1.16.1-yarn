@@ -1,7 +1,7 @@
-CLASS boe net/minecraft/block/FlowerPotBlock
-	FIELD a SHAPE Lcse;
-	FIELD b CONTENT_TO_POTTED Ljava/util/Map;
-	FIELD c content Lbma;
-	METHOD <init> (Lbma;Lbma$c;)V
+CLASS net/minecraft/class_2362 net/minecraft/block/FlowerPotBlock
+	FIELD field_11102 SHAPE Lnet/minecraft/class_265;
+	FIELD field_11103 CONTENT_TO_POTTED Ljava/util/Map;
+	FIELD field_11101 content Lnet/minecraft/class_2248;
+	METHOD <init> (Lnet/minecraft/class_2248;Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 content
-	METHOD d getContent ()Lbma;
+	METHOD method_16231 getContent ()Lnet/minecraft/class_2248;

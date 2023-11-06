@@ -1,5 +1,5 @@
-CLASS clv net/minecraft/world/biome/layer/NoiseToRiverLayer
-	FIELD a INSTANCE Lclv;
-	FIELD b RIVER_ID I
-	METHOD c isValidForRiver (I)I
+CLASS net/minecraft/class_3653 net/minecraft/world/biome/layer/NoiseToRiverLayer
+	FIELD field_16168 INSTANCE Lnet/minecraft/class_3653;
+	FIELD field_16167 RIVER_ID I
+	METHOD method_15850 isValidForRiver (I)I
 		ARG 0 value

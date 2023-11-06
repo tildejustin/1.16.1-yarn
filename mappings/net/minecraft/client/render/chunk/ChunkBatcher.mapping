@@ -1,17 +1,17 @@
-CLASS dmx net/minecraft/client/render/chunk/ChunkBatcher
-	CLASS dmx$a ChunkUploadTask
-		FIELD b task Lcom/google/common/util/concurrent/ListenableFutureTask;
-		FIELD c priority D
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
-	FIELD d workerThreads Ljava/util/List;
-	FIELD e workers Ljava/util/List;
-	FIELD f pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
-	FIELD g availableBuffers Ljava/util/concurrent/BlockingQueue;
-	FIELD h bufferRenderer Lcua;
-	FIELD j pendingUploads Ljava/util/Queue;
-	FIELD k activeWorker Ldmy;
-	METHOD a getDebugString ()Ljava/lang/String;
-	METHOD a addAvailableBuffer (Ldjx;)V
-	METHOD d getNextAvailableBuffer ()Ldjx;
-	METHOD e getNextChunkRenderDataTask ()Ldmw;
+CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBatcher
+	CLASS net/minecraft/class_846$class_847 ChunkUploadTask
+		FIELD field_4446 task Lcom/google/common/util/concurrent/ListenableFutureTask;
+		FIELD field_4447 priority D
+	FIELD field_4445 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_4436 THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
+	FIELD field_4440 workerThreads Ljava/util/List;
+	FIELD field_4444 workers Ljava/util/List;
+	FIELD field_4435 pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
+	FIELD field_4438 availableBuffers Ljava/util/concurrent/BlockingQueue;
+	FIELD field_4437 bufferRenderer Lnet/minecraft/class_286;
+	FIELD field_4443 pendingUploads Ljava/util/Queue;
+	FIELD field_4439 activeWorker Lnet/minecraft/class_845;
+	METHOD method_3622 getDebugString ()Ljava/lang/String;
+	METHOD method_3625 addAvailableBuffer (Lnet/minecraft/class_750;)V
+	METHOD method_3626 getNextAvailableBuffer ()Lnet/minecraft/class_750;
+	METHOD method_3629 getNextChunkRenderDataTask ()Lnet/minecraft/class_842;

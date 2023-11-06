@@ -1,8 +1,8 @@
-CLASS dbw net/minecraft/client/gui/container/AbstractFurnaceRecipeBookScreen
-	FIELD k outputSlot Lazd;
-	METHOD a setFilteringCraftable (Z)V
-	METHOD b isFilteringCraftable ()Z
-	METHOD d isGuiOpen ()Z
-	METHOD d setGuiOpen (Z)V
-	METHOD g getToggleCraftableButtonText ()Ljava/lang/String;
-	METHOD h getAllowedFuels ()Ljava/util/Set;
+CLASS net/minecraft/class_517 net/minecraft/client/gui/container/AbstractFurnaceRecipeBookScreen
+	FIELD field_3150 outputSlot Lnet/minecraft/class_1735;
+	METHOD method_17060 setFilteringCraftable (Z)V
+	METHOD method_17061 isFilteringCraftable ()Z
+	METHOD method_17062 isGuiOpen ()Z
+	METHOD method_17063 setGuiOpen (Z)V
+	METHOD method_17064 getToggleCraftableButtonText ()Ljava/lang/String;
+	METHOD method_17065 getAllowedFuels ()Ljava/util/Set;

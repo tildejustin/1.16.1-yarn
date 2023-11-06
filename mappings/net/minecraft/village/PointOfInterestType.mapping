@@ -1,13 +1,13 @@
-CLASS apz net/minecraft/village/PointOfInterestType
-	FIELD a IS_USED_BY_PROFESSION Ljava/util/function/Predicate;
-	FIELD b ALWAYS_TRUE Ljava/util/function/Predicate;
-	FIELD u id Ljava/lang/String;
-	FIELD v blockTag Lyz;
-	FIELD x ticketCount I
-	FIELD y sound Lyh;
-	FIELD z completedCondition Ljava/util/function/Predicate;
-	METHOD a register (Ljava/lang/String;Lyz;ILyh;)Lapz;
-	METHOD a register (Ljava/lang/String;Lyz;ILyh;Ljava/util/function/Predicate;)Lapz;
-	METHOD b getTicketCount ()I
-	METHOD c getCompletedCondition ()Ljava/util/function/Predicate;
-	METHOD d getSound ()Lyh;
+CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
+	FIELD field_18500 IS_USED_BY_PROFESSION Ljava/util/function/Predicate;
+	FIELD field_18501 ALWAYS_TRUE Ljava/util/function/Predicate;
+	FIELD field_18519 id Ljava/lang/String;
+	FIELD field_18520 blockTag Lnet/minecraft/class_3494;
+	FIELD field_18521 ticketCount I
+	FIELD field_18522 sound Lnet/minecraft/class_3414;
+	FIELD field_18523 completedCondition Ljava/util/function/Predicate;
+	METHOD method_19159 register (Ljava/lang/String;Lnet/minecraft/class_3494;ILnet/minecraft/class_3414;)Lnet/minecraft/class_4158;
+	METHOD method_19160 register (Ljava/lang/String;Lnet/minecraft/class_3494;ILnet/minecraft/class_3414;Ljava/util/function/Predicate;)Lnet/minecraft/class_4158;
+	METHOD method_19161 getTicketCount ()I
+	METHOD method_19164 getCompletedCondition ()Ljava/util/function/Predicate;
+	METHOD method_19166 getSound ()Lnet/minecraft/class_3414;

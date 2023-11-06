@@ -1,13 +1,13 @@
-CLASS cnh net/minecraft/sortme/MapFrameInstance
-	FIELD a pos Lev;
-	FIELD b rotation I
-	FIELD c entityId I
-	METHOD <init> (Lev;II)V
+CLASS net/minecraft/class_19 net/minecraft/sortme/MapFrameInstance
+	FIELD field_75 pos Lnet/minecraft/class_2338;
+	FIELD field_74 rotation I
+	FIELD field_73 entityId I
+	METHOD <init> (Lnet/minecraft/class_2338;II)V
 		ARG 1 pos
 		ARG 2 rotation
-	METHOD a getNbt ()Lib;
-	METHOD a fromNbt (Lib;)Lcnh;
+	METHOD method_84 getNbt ()Lnet/minecraft/class_2487;
+	METHOD method_87 fromNbt (Lnet/minecraft/class_2487;)Lnet/minecraft/class_19;
 		ARG 0 tag
-	METHOD b getPos ()Lev;
-	METHOD c getRotation ()I
-	METHOD d getEntityId ()I
+	METHOD method_86 getPos ()Lnet/minecraft/class_2338;
+	METHOD method_83 getRotation ()I
+	METHOD method_85 getEntityId ()I

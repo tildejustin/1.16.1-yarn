@@ -1,51 +1,51 @@
-CLASS ard net/minecraft/entity/passive/TropicalFishEntity
-	CLASS ard$a Variety
-		FIELD m shape I
-		FIELD n pattern I
+CLASS net/minecraft/class_1474 net/minecraft/entity/passive/TropicalFishEntity
+	CLASS net/minecraft/class_1474$class_1475 Variety
+		FIELD field_6895 shape I
+		FIELD field_6894 pattern I
 		METHOD <init> (Ljava/lang/String;III)V
 			ARG 3 shape
 			ARG 4 pattern
-		METHOD a getShape ()I
-		METHOD a getTranslateKey (II)Ljava/lang/String;
+		METHOD method_6662 getShape ()I
+		METHOD method_6660 getTranslateKey (II)Ljava/lang/String;
 			ARG 0 shape
 			ARG 1 pattern
-		METHOD b getPattern ()I
-		METHOD c getTranslationKey ()Ljava/lang/String;
-	CLASS ard$b Data
-		FIELD b shape I
-		FIELD c pattern I
-		FIELD d baseColor I
-		FIELD e patternColor I
-	FIELD bA LARGE_FISH_VARIETY_IDS [Lqr;
-	FIELD bB commonSpawn Z
-	FIELD b COMMON_VARIANTS [I
-	FIELD bz SMALL_FISH_VARIETY_IDS [Lqr;
-	FIELD c VARIANT Lqg;
-	FIELD d SHAPE_IDS [Lqr;
-	METHOD a toVariant (Lard$a;Lbam;Lbam;)I
+		METHOD method_6663 getPattern ()I
+		METHOD method_6661 getTranslationKey ()Ljava/lang/String;
+	CLASS net/minecraft/class_1474$class_1476 Data
+		FIELD field_6899 shape I
+		FIELD field_6898 pattern I
+		FIELD field_6897 baseColor I
+		FIELD field_6896 patternColor I
+	FIELD field_6876 LARGE_FISH_VARIETY_IDS LLqr;
+	FIELD field_6877 commonSpawn Z
+	FIELD field_6879 COMMON_VARIANTS [I
+	FIELD field_6878 SMALL_FISH_VARIETY_IDS LLqr;
+	FIELD field_6874 VARIANT Lnet/minecraft/class_2940;
+	FIELD field_6875 SHAPE_IDS LLqr;
+	METHOD method_6647 toVariant (Lnet/minecraft/class_1474$class_1475;Lnet/minecraft/class_1767;Lnet/minecraft/class_1767;)I
 		ARG 0 variety
 		ARG 1 baseColor
 		ARG 2 patternColor
-	METHOD b getToolTipForVariant (I)Ljava/lang/String;
+	METHOD method_6649 getToolTipForVariant (I)Ljava/lang/String;
 		ARG 0 variant
-	METHOD dY getVariant ()I
-	METHOD dZ getBaseColorComponents ()[F
-	METHOD ea getPatternColorComponents ()[F
-	METHOD eb getShape ()I
-	METHOD ec getVarietyId ()Lqr;
-	METHOD ed getShapeId ()Lqr;
-	METHOD q getBaseDyeColor (I)Lbam;
+	METHOD method_6644 getVariant ()I
+	METHOD method_6658 getBaseColorComponents ()[F
+	METHOD method_6655 getPatternColorComponents ()[F
+	METHOD method_6654 getShape ()I
+	METHOD method_6646 getVarietyId ()Lnet/minecraft/class_2960;
+	METHOD method_6650 getShapeId ()Lnet/minecraft/class_2960;
+	METHOD method_6652 getBaseDyeColor (I)Lnet/minecraft/class_1767;
 		ARG 0 variant
-	METHOD r getPatternDyeColor (I)Lbam;
+	METHOD method_6651 getPatternDyeColor (I)Lnet/minecraft/class_1767;
 		ARG 0 variant
-	METHOD s getTranslationKey (I)Ljava/lang/String;
+	METHOD method_6657 getTranslationKey (I)Ljava/lang/String;
 		ARG 0 variant
-	METHOD t setVariant (I)V
-	METHOD u getShape (I)I
+	METHOD method_6659 setVariant (I)V
+	METHOD method_6656 getShape (I)I
 		ARG 0 variant
-	METHOD v getBaseDyeColorIndex (I)I
+	METHOD method_6653 getBaseDyeColorIndex (I)I
 		ARG 0 variant
-	METHOD w getPatternDyeColorIndex (I)I
+	METHOD method_6648 getPatternDyeColorIndex (I)I
 		ARG 0 variant
-	METHOD x getPattern (I)I
+	METHOD method_6645 getPattern (I)I
 		ARG 0 variant

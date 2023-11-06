@@ -1,12 +1,12 @@
-CLASS wf net/minecraft/resource/ResourcePack
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a getNamespaces (Lwg;)Ljava/util/Set;
-	METHOD a findResources (Lwg;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+CLASS net/minecraft/class_3262 net/minecraft/resource/ResourcePack
+	METHOD method_14409 getName ()Ljava/lang/String;
+	METHOD method_14406 getNamespaces (Lnet/minecraft/class_3264;)Ljava/util/Set;
+	METHOD method_14408 findResources (Lnet/minecraft/class_3264;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
 		ARG 1 type
 		ARG 2 namespace
-	METHOD a open (Lwg;Lqr;)Ljava/io/InputStream;
+	METHOD method_14405 open (Lnet/minecraft/class_3264;Lnet/minecraft/class_2960;)Ljava/io/InputStream;
 		ARG 1 type
-	METHOD a parseMetadata (Lwj;)Ljava/lang/Object;
-	METHOD b openRoot (Ljava/lang/String;)Ljava/io/InputStream;
-	METHOD b contains (Lwg;Lqr;)Z
+	METHOD method_14407 parseMetadata (Lnet/minecraft/class_3270;)Ljava/lang/Object;
+	METHOD method_14410 openRoot (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD method_14411 contains (Lnet/minecraft/class_3264;Lnet/minecraft/class_2960;)Z
 		ARG 1 type

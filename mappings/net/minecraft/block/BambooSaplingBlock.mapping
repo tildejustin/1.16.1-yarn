@@ -1,4 +1,4 @@
-CLASS blj net/minecraft/block/BambooSaplingBlock
-	FIELD a SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2202 net/minecraft/block/BambooSaplingBlock
+	FIELD field_9897 SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

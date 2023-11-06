@@ -1,5 +1,5 @@
-CLASS cky net/minecraft/world/biome/layer/CachingLayerSampler
-	FIELD a operator Lcmm;
-	FIELD b cache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
-	FIELD c cacheCapacity I
-	METHOD a getCapacity ()I
+CLASS net/minecraft/class_3626 net/minecraft/world/biome/layer/CachingLayerSampler
+	FIELD field_16035 operator Lnet/minecraft/class_4;
+	FIELD field_16038 cache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
+	FIELD field_16036 cacheCapacity I
+	METHOD method_15827 getCapacity ()I

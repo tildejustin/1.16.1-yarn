@@ -1,7 +1,7 @@
-CLASS acr net/minecraft/datafixers/fixes/ItemInstanceTheFlatteningFix
-	FIELD a FLATTENING_MAP Ljava/util/Map;
-	FIELD b ORIGINAL_ITEM_NAMES Ljava/util/Set;
-	FIELD c DAMAGABLE_ITEMS Ljava/util/Set;
-	METHOD a getItem (Ljava/lang/String;I)Ljava/lang/String;
+CLASS net/minecraft/class_1188 net/minecraft/datafixers/fixes/ItemInstanceTheFlatteningFix
+	FIELD field_5684 FLATTENING_MAP Ljava/util/Map;
+	FIELD field_5683 ORIGINAL_ITEM_NAMES Ljava/util/Set;
+	FIELD field_5682 DAMAGABLE_ITEMS Ljava/util/Set;
+	METHOD method_5042 getItem (Ljava/lang/String;I)Ljava/lang/String;
 		ARG 0 originalName
 		ARG 1 damage

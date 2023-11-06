@@ -1,28 +1,28 @@
-CLASS ari net/minecraft/entity/passive/HorseBaseEntity
-	FIELD bE items Lagz;
-	FIELD bF temper I
-	FIELD bJ IS_BRED_HORSE Ljava/util/function/Predicate;
-	FIELD bL HORSE_FLAGS Lqg;
-	FIELD bM OWNER_UUID Lqg;
-	FIELD bz JUMP_STRENGTH Laiy;
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_1496 net/minecraft/entity/passive/HorseBaseEntity
+	FIELD field_6962 items Lnet/minecraft/class_1277;
+	FIELD field_6955 temper I
+	FIELD field_6956 IS_BRED_HORSE Ljava/util/function/Predicate;
+	FIELD field_6959 HORSE_FLAGS Lnet/minecraft/class_2940;
+	FIELD field_6972 OWNER_UUID Lnet/minecraft/class_2940;
+	FIELD field_6974 JUMP_STRENGTH Lnet/minecraft/class_1320;
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD b setOwnerUuid (Ljava/util/UUID;)V
-	METHOD d setHorseFlag (IZ)V
+	METHOD method_6732 setOwnerUuid (Ljava/util/UUID;)V
+	METHOD method_6769 setHorseFlag (IZ)V
 		ARG 1 index
-	METHOD dQ getInventorySize ()I
-	METHOD dY initCustomGoals ()V
-	METHOD dZ isTame ()Z
-	METHOD ea getOwnerUuid ()Ljava/util/UUID;
-	METHOD ec isEating ()Z
-	METHOD ee isBred ()Z
-	METHOD ef getTemper ()I
-	METHOD ek isSaddled ()Z
-	METHOD ep playJumpSound ()V
-	METHOD g putPlayerOnBack (Lavm;)V
-	METHOD r getHorseFlag (I)Z
-	METHOD s setTemper (I)V
-	METHOD s setTame (Z)V
-	METHOD u setBred (Z)V
-	METHOD v setSaddled (Z)V
-	METHOD w setEating (Z)V
+	METHOD method_6750 getInventorySize ()I
+	METHOD method_6764 initCustomGoals ()V
+	METHOD method_6727 isTame ()Z
+	METHOD method_6768 getOwnerUuid ()Ljava/util/UUID;
+	METHOD method_6724 isEating ()Z
+	METHOD method_6744 isBred ()Z
+	METHOD method_6729 getTemper ()I
+	METHOD method_6725 isSaddled ()Z
+	METHOD method_6723 playJumpSound ()V
+	METHOD method_6726 putPlayerOnBack (Lnet/minecraft/class_1657;)V
+	METHOD method_6730 getHorseFlag (I)Z
+	METHOD method_6749 setTemper (I)V
+	METHOD method_6766 setTame (Z)V
+	METHOD method_6751 setBred (Z)V
+	METHOD method_6753 setSaddled (Z)V
+	METHOD method_6740 setEating (Z)V

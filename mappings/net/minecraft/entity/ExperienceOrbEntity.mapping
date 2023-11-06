@@ -1,13 +1,13 @@
-CLASS aif net/minecraft/entity/ExperienceOrbEntity
-	FIELD c xpAge I
-	FIELD e health I
-	FIELD f amount I
-	FIELD g target Lavm;
-	METHOD <init> (Lbgx;DDDI)V
+CLASS net/minecraft/class_1303 net/minecraft/entity/ExperienceOrbEntity
+	FIELD field_6164 xpAge I
+	FIELD field_6161 health I
+	FIELD field_6159 amount I
+	FIELD field_6162 target Lnet/minecraft/class_1657;
+	METHOD <init> (Lnet/minecraft/class_1937;DDDI)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
-	METHOD a roundToOrbSize (I)I
+	METHOD method_5918 roundToOrbSize (I)I
 		ARG 0 value
-	METHOD f getExperienceAmount ()I
-	METHOD i getOrbSize ()I
+	METHOD method_5919 getExperienceAmount ()I
+	METHOD method_5920 getOrbSize ()I

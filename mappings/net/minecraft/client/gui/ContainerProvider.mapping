@@ -1,2 +1,2 @@
-CLASS dbh net/minecraft/client/gui/ContainerProvider
-	METHOD a getContainer ()Laxq;
+CLASS net/minecraft/class_3936 net/minecraft/client/gui/ContainerProvider
+	METHOD method_17577 getContainer ()Lnet/minecraft/class_1703;

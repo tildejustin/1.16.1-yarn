@@ -1,13 +1,13 @@
-CLASS dad net/minecraft/client/gui/widget/KeyBindingListWidget
-	CLASS dad$a CategoryEntry
-		FIELD c name Ljava/lang/String;
-		FIELD d nameWidth I
-	CLASS dad$b Entry
-	CLASS dad$c KeyBindingEntry
-		FIELD c binding Lcuv;
-		FIELD d bindingName Ljava/lang/String;
-		FIELD e editButton Lcwc;
-		FIELD f resetButton Lcwc;
-	FIELD n gui Ldae;
-	METHOD <init> (Ldae;Lcux;)V
+CLASS net/minecraft/class_459 net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS net/minecraft/class_459$class_460 CategoryEntry
+		FIELD field_2736 name Ljava/lang/String;
+		FIELD field_2737 nameWidth I
+	CLASS net/minecraft/class_459$class_461 Entry
+	CLASS net/minecraft/class_459$class_462 KeyBindingEntry
+		FIELD field_2740 binding Lnet/minecraft/class_304;
+		FIELD field_2741 bindingName Ljava/lang/String;
+		FIELD field_2739 editButton Lnet/minecraft/class_4185;
+		FIELD field_2743 resetButton Lnet/minecraft/class_4185;
+	FIELD field_2735 gui Lnet/minecraft/class_458;
+	METHOD <init> (Lnet/minecraft/class_458;Lnet/minecraft/class_310;)V
 		ARG 1 gui

@@ -1,5 +1,5 @@
-CLASS dli net/minecraft/client/render/model/RetexturedBakedQuad
-	FIELD e spriteRetextured Ldue;
-	METHOD <init> (Ldlb;Ldue;)V
+CLASS net/minecraft/class_798 net/minecraft/client/render/model/RetexturedBakedQuad
+	FIELD field_4267 spriteRetextured Lnet/minecraft/class_1058;
+	METHOD <init> (Lnet/minecraft/class_777;Lnet/minecraft/class_1058;)V
 		ARG 1 parent
-	METHOD f recalculateUvs ()V
+	METHOD method_3471 recalculateUvs ()V

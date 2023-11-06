@@ -1,17 +1,17 @@
-CLASS bah net/minecraft/item/CrossbowItem
-	METHOD a getChargeSound (I)Lyh;
+CLASS net/minecraft/class_1764 net/minecraft/item/CrossbowItem
+	METHOD method_7773 getChargeSound (I)Lnet/minecraft/class_3414;
 		ARG 1 quickChargeLevel
-	METHOD a hasProjectile (Lbbp;Lbbk;)Z
-	METHOD a setCharged (Lbbp;Z)V
+	METHOD method_7772 hasProjectile (Lnet/minecraft/class_1799;Lnet/minecraft/class_1792;)Z
+	METHOD method_7782 setCharged (Lnet/minecraft/class_1799;Z)V
 		ARG 0 stack
 		ARG 1 charged
-	METHOD a shootAllProjectiles (Lbgx;Laii;Lbbp;FF)V
-	METHOD a shoot (Lbgx;Laii;Lbbp;Lbbp;FZFFF)V
+	METHOD method_7777 shootAllProjectiles (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;FF)V
+	METHOD method_7763 shoot (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;FZFFF)V
 		ARG 3 crossbowStack
-	METHOD b storeChargedProjectile (Lbbp;Lbbp;)V
-	METHOD d isCharged (Lbbp;)Z
+	METHOD method_7778 storeChargedProjectile (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)V
+	METHOD method_7781 isCharged (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
-	METHOD e getPullTime (Lbbp;)I
+	METHOD method_7775 getPullTime (Lnet/minecraft/class_1799;)I
 		ARG 0 stack
-	METHOD j getChargedProjectiles (Lbbp;)Ljava/util/List;
-	METHOD k clearProjectiles (Lbbp;)V
+	METHOD method_7785 getChargedProjectiles (Lnet/minecraft/class_1799;)Ljava/util/List;
+	METHOD method_7766 clearProjectiles (Lnet/minecraft/class_1799;)V

@@ -1,16 +1,16 @@
-CLASS ark net/minecraft/entity/passive/HorseEntity
-	FIELD bK VARIANT Lqg;
-	FIELD bL HORSE_TEX [Ljava/lang/String;
-	FIELD bM HORSE_TEX_ID [Ljava/lang/String;
-	FIELD bN HORSE_MARKING_TEX [Ljava/lang/String;
-	FIELD bO HORSE_MARKING_TEX_ID [Ljava/lang/String;
-	FIELD bP textureLocation Ljava/lang/String;
-	FIELD bQ textureLayers [Ljava/lang/String;
-	METHOD dP getArmorType ()Lbbp;
-	METHOD dS getVariant ()I
-	METHOD dT getTextureLocation ()Ljava/lang/String;
-	METHOD ev getTextureLayers ()[Ljava/lang/String;
-	METHOD ew clearTextureInfo ()V
-	METHOD ex initTextureInfo ()V
-	METHOD m setArmorTypeFromStack (Lbbp;)V
-	METHOD u setVariant (I)V
+CLASS net/minecraft/class_1498 net/minecraft/entity/passive/HorseEntity
+	FIELD field_6990 VARIANT Lnet/minecraft/class_2940;
+	FIELD field_6992 HORSE_TEX LLjava/lang/String;
+	FIELD field_6991 HORSE_TEX_ID LLjava/lang/String;
+	FIELD field_6986 HORSE_MARKING_TEX LLjava/lang/String;
+	FIELD field_6989 HORSE_MARKING_TEX_ID LLjava/lang/String;
+	FIELD field_6987 textureLocation Ljava/lang/String;
+	FIELD field_6988 textureLayers LLjava/lang/String;
+	METHOD method_6786 getArmorType ()Lnet/minecraft/class_1799;
+	METHOD method_6788 getVariant ()I
+	METHOD method_6784 getTextureLocation ()Ljava/lang/String;
+	METHOD method_6787 getTextureLayers ()LLjava/lang/String;
+	METHOD method_6785 clearTextureInfo ()V
+	METHOD method_6789 initTextureInfo ()V
+	METHOD method_6790 setArmorTypeFromStack (Lnet/minecraft/class_1799;)V
+	METHOD method_6783 setVariant (I)V

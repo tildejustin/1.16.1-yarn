@@ -1,2 +1,2 @@
-CLASS dib net/minecraft/client/particle/EndRodParticle
-	CLASS dib$a Factory
+CLASS net/minecraft/class_675 net/minecraft/client/particle/EndRodParticle
+	CLASS net/minecraft/class_675$class_676 Factory

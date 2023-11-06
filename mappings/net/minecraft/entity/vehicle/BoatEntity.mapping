@@ -1,34 +1,34 @@
-CLASS axc net/minecraft/entity/vehicle/BoatEntity
-	CLASS axc$a Location
-	CLASS axc$b Type
-		FIELD a OAK Laxc$b;
-		FIELD b SPRUCE Laxc$b;
-		FIELD c BIRCH Laxc$b;
-		FIELD d JUNGLE Laxc$b;
-		FIELD e ACACIA Laxc$b;
-		FIELD f DARK_OAK Laxc$b;
-		FIELD g name Ljava/lang/String;
-		FIELD h baseBlock Lbma;
-		METHOD a getName ()Ljava/lang/String;
-		METHOD a getType (I)Laxc$b;
-		METHOD a getType (Ljava/lang/String;)Laxc$b;
-		METHOD b getBaseBlock ()Lbma;
-	FIELD aG location Laxc$a;
-	FIELD aH lastLocation Laxc$a;
-	FIELD e BOAT_TYPE Lqg;
-	FIELD f LEFT_PADDLE_MOVING Lqg;
-	FIELD g RIGHT_PADDLE_MOVING Lqg;
-	METHOD <init> (Lbgx;DDD)V
+CLASS net/minecraft/class_1690 net/minecraft/entity/vehicle/BoatEntity
+	CLASS net/minecraft/class_1690$class_1691 Location
+	CLASS net/minecraft/class_1690$class_1692 Type
+		FIELD field_7727 OAK Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7728 SPRUCE Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7729 BIRCH Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7730 JUNGLE Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7725 ACACIA Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7723 DARK_OAK Lnet/minecraft/class_1690$class_1692;
+		FIELD field_7726 name Ljava/lang/String;
+		FIELD field_7731 baseBlock Lnet/minecraft/class_2248;
+		METHOD method_7559 getName ()Ljava/lang/String;
+		METHOD method_7558 getType (I)Lnet/minecraft/class_1690$class_1692;
+		METHOD method_7561 getType (Ljava/lang/String;)Lnet/minecraft/class_1690$class_1692;
+		METHOD method_7560 getBaseBlock ()Lnet/minecraft/class_2248;
+	FIELD field_7702 location Lnet/minecraft/class_1690$class_1691;
+	FIELD field_7701 lastLocation Lnet/minecraft/class_1690$class_1691;
+	FIELD field_7698 BOAT_TYPE Lnet/minecraft/class_2940;
+	FIELD field_7687 LEFT_PADDLE_MOVING Lnet/minecraft/class_2940;
+	FIELD field_7713 RIGHT_PADDLE_MOVING Lnet/minecraft/class_2940;
+	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
 		ARG 1 world
 		ARG 2 x
-	METHOD a getPaddleState (I)Z
+	METHOD method_7556 getPaddleState (I)Z
 		ARG 1 paddle
-	METHOD a copyEntityData (Lahz;)V
-	METHOD a setBoatType (Laxc$b;)V
-	METHOD a setPaddleState (ZZ)V
-	METHOD f asItem ()Lbbk;
-	METHOD i getPaddleSoundEvent ()Lyh;
-	METHOD p getBoatType ()Laxc$b;
-	METHOD s checkLocation ()Laxc$a;
-	METHOD u checKBoatInWater ()Z
-	METHOD v getUnderWaterLocation ()Laxc$a;
+	METHOD method_7546 copyEntityData (Lnet/minecraft/class_1297;)V
+	METHOD method_7541 setBoatType (Lnet/minecraft/class_1690$class_1692;)V
+	METHOD method_7538 setPaddleState (ZZ)V
+	METHOD method_7557 asItem ()Lnet/minecraft/class_1792;
+	METHOD method_7537 getPaddleSoundEvent ()Lnet/minecraft/class_3414;
+	METHOD method_7536 getBoatType ()Lnet/minecraft/class_1690$class_1692;
+	METHOD method_7552 checkLocation ()Lnet/minecraft/class_1690$class_1691;
+	METHOD method_7545 checKBoatInWater ()Z
+	METHOD method_7532 getUnderWaterLocation ()Lnet/minecraft/class_1690$class_1691;

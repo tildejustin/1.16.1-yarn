@@ -1,2 +1,2 @@
-CLASS dbn net/minecraft/client/gui/container/SmokerScreen
-	FIELD l BG_TEX Lqr;
+CLASS net/minecraft/class_3874 net/minecraft/client/gui/container/SmokerScreen
+	FIELD field_17128 BG_TEX Lnet/minecraft/class_2960;

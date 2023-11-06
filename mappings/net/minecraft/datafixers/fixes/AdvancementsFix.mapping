@@ -1,2 +1,2 @@
-CLASS aad net/minecraft/datafixers/fixes/AdvancementsFix
-	FIELD a RENAMED_ADVANCEMENTS Ljava/util/Map;
+CLASS net/minecraft/class_3555 net/minecraft/datafixers/fixes/AdvancementsFix
+	FIELD field_15788 RENAMED_ADVANCEMENTS Ljava/util/Map;

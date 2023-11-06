@@ -1,6 +1,6 @@
-CLASS dhr net/minecraft/client/particle/CrackParticle
-	CLASS dhr$a ItemFactory
-	CLASS dhr$b SlimeballFactory
-	CLASS dhr$c SnowballFactory
-	METHOD <init> (Lbgx;DDDDDDLbbp;)V
+CLASS net/minecraft/class_647 net/minecraft/client/particle/CrackParticle
+	CLASS net/minecraft/class_647$class_648 ItemFactory
+	CLASS net/minecraft/class_647$class_649 SlimeballFactory
+	CLASS net/minecraft/class_647$class_650 SnowballFactory
+	METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_1799;)V
 		ARG 1 world

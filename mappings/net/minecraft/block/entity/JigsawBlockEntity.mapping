@@ -1,13 +1,13 @@
-CLASS btr net/minecraft/block/entity/JigsawBlockEntity
-	FIELD a attachmentType Lqr;
-	FIELD b targetPool Lqr;
-	FIELD c finalState Ljava/lang/String;
-	METHOD a setFinalState (Ljava/lang/String;)V
+CLASS net/minecraft/class_3751 net/minecraft/block/entity/JigsawBlockEntity
+	FIELD field_16550 attachmentType Lnet/minecraft/class_2960;
+	FIELD field_16552 targetPool Lnet/minecraft/class_2960;
+	FIELD field_16551 finalState Ljava/lang/String;
+	METHOD method_16377 setFinalState (Ljava/lang/String;)V
 		ARG 1 value
-	METHOD a setAttachmentType (Lqr;)V
+	METHOD method_16379 setAttachmentType (Lnet/minecraft/class_2960;)V
 		ARG 1 value
-	METHOD b setTargetPool (Lqr;)V
+	METHOD method_16378 setTargetPool (Lnet/minecraft/class_2960;)V
 		ARG 1 value
-	METHOD c getAttachmentType ()Lqr;
-	METHOD d getTargetPool ()Lqr;
-	METHOD f getFinalState ()Ljava/lang/String;
+	METHOD method_16381 getAttachmentType ()Lnet/minecraft/class_2960;
+	METHOD method_16382 getTargetPool ()Lnet/minecraft/class_2960;
+	METHOD method_16380 getFinalState ()Ljava/lang/String;

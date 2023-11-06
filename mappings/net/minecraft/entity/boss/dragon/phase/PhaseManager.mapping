@@ -1,12 +1,12 @@
-CLASS asn net/minecraft/entity/boss/dragon/phase/PhaseManager
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b dragon Larw;
-	FIELD c phases [Lasg;
-	FIELD d current Lasg;
-	METHOD <init> (Larw;)V
+CLASS net/minecraft/class_1526 net/minecraft/entity/boss/dragon/phase/PhaseManager
+	FIELD field_7066 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_7065 dragon Lnet/minecraft/class_1510;
+	FIELD field_7064 phases LLasg;
+	FIELD field_7063 current Lnet/minecraft/class_1521;
+	METHOD <init> (Lnet/minecraft/class_1510;)V
 		ARG 1 dragon
-	METHOD a getCurrent ()Lasg;
-	METHOD a setPhase (Lasm;)V
+	METHOD method_6864 getCurrent ()Lnet/minecraft/class_1521;
+	METHOD method_6863 setPhase (Lnet/minecraft/class_1527;)V
 		ARG 1 type
-	METHOD b create (Lasm;)Lasg;
+	METHOD method_6865 create (Lnet/minecraft/class_1527;)Lnet/minecraft/class_1521;
 		ARG 1 type

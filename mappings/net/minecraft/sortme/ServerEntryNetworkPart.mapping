@@ -1,7 +1,7 @@
-CLASS dhm net/minecraft/sortme/ServerEntryNetworkPart
-	FIELD a ZERO_SPLITTER Lcom/google/common/base/Splitter;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c clientConnections Ljava/util/List;
-	METHOD b ping (Ldhk;)V
-	METHOD c getLogger ()Lorg/apache/logging/log4j/Logger;
-	METHOD d getZeroSplitter ()Lcom/google/common/base/Splitter;
+CLASS net/minecraft/class_644 net/minecraft/sortme/ServerEntryNetworkPart
+	FIELD field_3770 ZERO_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD field_3771 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_3769 clientConnections Ljava/util/List;
+	METHOD method_3001 ping (Lnet/minecraft/class_642;)V
+	METHOD method_3002 getLogger ()Lorg/apache/logging/log4j/Logger;
+	METHOD method_2999 getZeroSplitter ()Lcom/google/common/base/Splitter;

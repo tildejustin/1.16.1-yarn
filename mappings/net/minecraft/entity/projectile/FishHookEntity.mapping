@@ -1,7 +1,7 @@
-CLASS asz net/minecraft/entity/projectile/FishHookEntity
-	CLASS asz$a State
-	FIELD at state Lasz$a;
-	FIELD b hookedEntity Lahz;
-	FIELD c HOOK_ENTITY_ID Lqg;
-	FIELD f owner Lavm;
-	METHOD i getOwner ()Lavm;
+CLASS net/minecraft/class_1536 net/minecraft/entity/projectile/FishHookEntity
+	CLASS net/minecraft/class_1536$class_1537 State
+	FIELD field_7175 state Lnet/minecraft/class_1536$class_1537;
+	FIELD field_7165 hookedEntity Lnet/minecraft/class_1297;
+	FIELD field_7170 HOOK_ENTITY_ID Lnet/minecraft/class_2940;
+	FIELD field_7177 owner Lnet/minecraft/class_1657;
+	METHOD method_6947 getOwner ()Lnet/minecraft/class_1657;

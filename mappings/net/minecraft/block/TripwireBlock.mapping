@@ -1,11 +1,11 @@
-CLASS bsa net/minecraft/block/TripwireBlock
-	FIELD a POWERED Lbvq;
-	FIELD b ATTACHED Lbvq;
-	FIELD c DISARMED Lbvq;
-	FIELD d NORTH Lbvq;
-	FIELD e EAST Lbvq;
-	FIELD f SOUTH Lbvq;
-	FIELD g WEST Lbvq;
-	FIELD h ATTACHED_SHAPE Lcse;
-	FIELD i DETACHED_SHAPE Lcse;
-	FIELD j FACING_PROPERTIES Ljava/util/Map;
+CLASS net/minecraft/class_2538 net/minecraft/block/TripwireBlock
+	FIELD field_11680 POWERED Lnet/minecraft/class_2746;
+	FIELD field_11683 ATTACHED Lnet/minecraft/class_2746;
+	FIELD field_11679 DISARMED Lnet/minecraft/class_2746;
+	FIELD field_11675 NORTH Lnet/minecraft/class_2746;
+	FIELD field_11673 EAST Lnet/minecraft/class_2746;
+	FIELD field_11678 SOUTH Lnet/minecraft/class_2746;
+	FIELD field_11674 WEST Lnet/minecraft/class_2746;
+	FIELD field_11682 ATTACHED_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11681 DETACHED_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11676 FACING_PROPERTIES Ljava/util/Map;

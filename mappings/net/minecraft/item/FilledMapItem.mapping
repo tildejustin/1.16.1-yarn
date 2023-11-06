@@ -1,14 +1,14 @@
-CLASS bbv net/minecraft/item/FilledMapItem
-	METHOD a getMapStorageName (I)Ljava/lang/String;
+CLASS net/minecraft/class_1806 net/minecraft/item/FilledMapItem
+	METHOD method_17440 getMapStorageName (I)Ljava/lang/String;
 		ARG 0 mapId
-	METHOD a getMapState (Lbbp;Lbgx;)Lcnj;
-	METHOD a createMapState (Lbbp;Lbgx;IIIZZLbxs;)Lcnj;
+	METHOD method_7997 getMapState (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;)Lnet/minecraft/class_22;
+	METHOD method_8000 createMapState (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;IIIZZLnet/minecraft/class_2874;)Lnet/minecraft/class_22;
 		ARG 4 scale
 		ARG 5 showIcons
 		ARG 6 unlimitedTracking
-	METHOD a createMap (Lbgx;IIBZZ)Lbbp;
+	METHOD method_8005 createMap (Lnet/minecraft/class_1937;IIBZZ)Lnet/minecraft/class_1799;
 		ARG 3 scale
 		ARG 4 showIcons
 		ARG 5 unlimitedTracking
-	METHOD b getOrCreateMapState (Lbbp;Lbgx;)Lcnj;
-	METHOD e getMapId (Lbbp;)I
+	METHOD method_8001 getOrCreateMapState (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;)Lnet/minecraft/class_22;
+	METHOD method_8003 getMapId (Lnet/minecraft/class_1799;)I

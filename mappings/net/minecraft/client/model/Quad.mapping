@@ -1,9 +1,9 @@
-CLASS dfj net/minecraft/client/model/Quad
-	FIELD a vertices [Ldgj;
-	FIELD b vertexCount I
-	FIELD c flipNormals Z
-	METHOD <init> ([Ldgj;IIIIFF)V
+CLASS net/minecraft/class_593 net/minecraft/client/model/Quad
+	FIELD field_3502 vertices LLdgj;
+	FIELD field_3500 vertexCount I
+	FIELD field_3501 flipNormals Z
+	METHOD <init> ([Lnet/minecraft/class_618;IIIIFF)V
 		ARG 1 vertices
-	METHOD a flip ()V
-	METHOD a render (Lctz;F)V
+	METHOD method_2826 flip ()V
+	METHOD method_2825 render (Lnet/minecraft/class_287;F)V
 		ARG 2 scale

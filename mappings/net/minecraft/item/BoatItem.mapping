@@ -1,5 +1,5 @@
-CLASS azu net/minecraft/item/BoatItem
-	FIELD b type Laxc$b;
-	METHOD <init> (Laxc$b;Lbbk$a;)V
+CLASS net/minecraft/class_1749 net/minecraft/item/BoatItem
+	FIELD field_7902 type Lnet/minecraft/class_1690$class_1692;
+	METHOD <init> (Lnet/minecraft/class_1690$class_1692;Lnet/minecraft/class_1792$class_1793;)V
 		ARG 1 type
 		ARG 2 settings

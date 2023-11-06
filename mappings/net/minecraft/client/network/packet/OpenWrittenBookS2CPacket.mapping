@@ -1,3 +1,3 @@
-CLASS lu net/minecraft/client/network/packet/OpenWrittenBookS2CPacket
-	FIELD a hand Lagt;
-	METHOD b getHand ()Lagt;
+CLASS net/minecraft/class_3895 net/minecraft/client/network/packet/OpenWrittenBookS2CPacket
+	FIELD field_17199 hand Lnet/minecraft/class_1268;
+	METHOD method_17188 getHand ()Lnet/minecraft/class_1268;

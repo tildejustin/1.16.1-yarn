@@ -1,9 +1,9 @@
-CLASS dwu net/minecraft/client/audio/AmbientSoundLoops
-	CLASS dwu$a MusicLoop
-		FIELD o player Ldjr;
-		METHOD <init> (Ldjr;Lyh;)V
+CLASS net/minecraft/class_1118 net/minecraft/client/audio/AmbientSoundLoops
+	CLASS net/minecraft/class_1118$class_1119 MusicLoop
+		FIELD field_5482 player Lnet/minecraft/class_746;
+		METHOD <init> (Lnet/minecraft/class_746;Lnet/minecraft/class_3414;)V
 			ARG 1 player
 			ARG 2 soundEvent
-	CLASS dwu$b Underwater
-		FIELD o player Ldjr;
-		FIELD p transitionTimer I
+	CLASS net/minecraft/class_1118$class_1120 Underwater
+		FIELD field_5483 player Lnet/minecraft/class_746;
+		FIELD field_5484 transitionTimer I

@@ -1,9 +1,9 @@
-CLASS ia net/minecraft/nbt/AbstractListTag
-	METHOD a setTag (ILis;)Z
+CLASS net/minecraft/class_2483 net/minecraft/nbt/AbstractListTag
+	METHOD method_10535 setTag (ILnet/minecraft/class_2520;)Z
 		ARG 1 index
 	METHOD add (ILjava/lang/Object;)V
 		ARG 1 value
-	METHOD b addTag (ILis;)Z
+	METHOD method_10533 addTag (ILnet/minecraft/class_2520;)Z
 		ARG 1 index
 	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
 		ARG 1 index

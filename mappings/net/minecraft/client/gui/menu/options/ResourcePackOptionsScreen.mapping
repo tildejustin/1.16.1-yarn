@@ -1,8 +1,8 @@
-CLASS dck net/minecraft/client/gui/menu/options/ResourcePackOptionsScreen
-	FIELD a parent Lczn;
-	FIELD b availableList Ldcm;
-	FIELD c selectedList Ldco;
-	METHOD <init> (Lczn;)V
+CLASS net/minecraft/class_519 net/minecraft/client/gui/menu/options/ResourcePackOptionsScreen
+	FIELD field_3156 parent Lnet/minecraft/class_437;
+	FIELD field_3157 availableList Lnet/minecraft/class_522;
+	FIELD field_3154 selectedList Lnet/minecraft/class_523;
+	METHOD <init> (Lnet/minecraft/class_437;)V
 		ARG 1 parent
-	METHOD a select (Ldcn$a;)V
-	METHOD b remove (Ldcn$a;)V
+	METHOD method_2674 select (Lnet/minecraft/class_521$class_4271;)V
+	METHOD method_2663 remove (Lnet/minecraft/class_521$class_4271;)V

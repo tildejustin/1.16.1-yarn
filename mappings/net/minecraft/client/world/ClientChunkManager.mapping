@@ -1,31 +1,31 @@
-CLASS dhc net/minecraft/client/world/ClientChunkManager
-	CLASS dhc$a ClientChunkMap
-		FIELD b chunks Ljava/util/concurrent/atomic/AtomicReferenceArray;
-		FIELD c loadDistance I
-		FIELD d loadDiameter I
-		METHOD <init> (Ldhc;I)V
+CLASS net/minecraft/class_631 net/minecraft/client/world/ClientChunkManager
+	CLASS net/minecraft/class_631$class_3681 ClientChunkMap
+		FIELD field_16251 chunks Ljava/util/concurrent/atomic/AtomicReferenceArray;
+		FIELD field_16253 loadDistance I
+		FIELD field_16252 loadDiameter I
+		METHOD <init> (Lnet/minecraft/class_631;I)V
 			ARG 2 loadDistance
-		METHOD a getChunk (I)Lbwy;
+		METHOD method_16033 getChunk (I)Lnet/minecraft/class_2818;
 			ARG 1 chunkX
-		METHOD a index (II)I
-			ARG 1 chunkX
-			ARG 2 chunkZ
-		METHOD a unload (ILbwy;)V
-			ARG 1 chunkX
-		METHOD b hasChunk (II)Z
+		METHOD method_16027 index (II)I
 			ARG 1 chunkX
 			ARG 2 chunkZ
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b client Lcux;
-	FIELD c emptyChunk Lbwy;
-	FIELD d lightingProvider Lcke;
-	FIELD e chunks Ldhc$a;
-	FIELD f loadedChunkCount I
-	FIELD g playerChunkZ I
-	FIELD h world Ldhh;
-	METHOD a updateChunkList ()V
-	METHOD a updateLoadDistance (I)V
-	METHOD a loadChunkFromPacket (Lbgx;IILjc;Lib;IZ)Lbwy;
+		METHOD method_16031 unload (ILnet/minecraft/class_2818;)V
+			ARG 1 chunkX
+		METHOD method_16034 hasChunk (II)Z
+			ARG 1 chunkX
+			ARG 2 chunkZ
+	FIELD field_3679 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_16250 client Lnet/minecraft/class_310;
+	FIELD field_3676 emptyChunk Lnet/minecraft/class_2818;
+	FIELD field_3677 lightingProvider Lnet/minecraft/class_3568;
+	FIELD field_16246 chunks Lnet/minecraft/class_631$class_3681;
+	FIELD field_16249 loadedChunkCount I
+	FIELD field_16247 playerChunkZ I
+	FIELD field_16525 world Lnet/minecraft/class_638;
+	METHOD method_16026 updateChunkList ()V
+	METHOD method_20180 updateLoadDistance (I)V
+	METHOD method_16020 loadChunkFromPacket (Lnet/minecraft/class_1937;IILnet/minecraft/class_2540;Lnet/minecraft/class_2487;IZ)Lnet/minecraft/class_2818;
 		ARG 1 world
 		ARG 2 chunkX
 		ARG 3 chunkZ
@@ -33,6 +33,6 @@ CLASS dhc net/minecraft/client/world/ClientChunkManager
 		ARG 5 nbt
 		ARG 6 updatedSectionsBits
 		ARG 7 clearOld
-	METHOD c unload (II)V
+	METHOD method_2859 unload (II)V
 		ARG 1 chunkX
 		ARG 2 chunkZ

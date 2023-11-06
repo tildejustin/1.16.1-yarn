@@ -1,2 +1,2 @@
-CLASS dqs net/minecraft/client/render/entity/IllagerBeastEntityRenderer
-	FIELD a TEXTURE Lqr;
+CLASS net/minecraft/class_911 net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD field_4715 TEXTURE Lnet/minecraft/class_2960;

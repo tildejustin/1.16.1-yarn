@@ -1,21 +1,21 @@
-CLASS au net/minecraft/advancement/criterion/EntityHurtPlayerCriterion
-	CLASS au$a Handler
-		FIELD a manager Lra;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a handle (Lvf;Lahi;FFZ)V
+CLASS net/minecraft/class_2044 net/minecraft/advancement/criterion/EntityHurtPlayerCriterion
+	CLASS net/minecraft/class_2044$class_2045 Handler
+		FIELD field_9592 manager Lnet/minecraft/class_2985;
+		FIELD field_9591 conditions Ljava/util/Set;
+		METHOD method_8904 isEmpty ()Z
+		METHOD method_8905 handle (Lnet/minecraft/class_3222;Lnet/minecraft/class_1282;FFZ)V
 			ARG 1 source
 			ARG 2 dealt
 			ARG 3 taken
 			ARG 4 blocked
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS au$b Conditions
-		FIELD a damage Lal;
-		METHOD a matches (Lvf;Lahi;FFZ)Z
-	FIELD a ID Lqr;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvf;Lahi;FFZ)V
+		METHOD method_8903 addCondition (Lnet/minecraft/class_179$class_180;)V
+		METHOD method_8906 removeCondition (Lnet/minecraft/class_179$class_180;)V
+	CLASS net/minecraft/class_2044$class_2046 Conditions
+		FIELD field_9593 damage Lnet/minecraft/class_2019;
+		METHOD method_8907 matches (Lnet/minecraft/class_3222;Lnet/minecraft/class_1282;FFZ)Z
+	FIELD field_9589 ID Lnet/minecraft/class_2960;
+	FIELD field_9590 handlers Ljava/util/Map;
+	METHOD method_8901 handle (Lnet/minecraft/class_3222;Lnet/minecraft/class_1282;FFZ)V
 		ARG 1 player
 		ARG 2 source
 		ARG 3 dealt

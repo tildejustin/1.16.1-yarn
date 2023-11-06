@@ -1,30 +1,30 @@
-CLASS kq net/minecraft/client/network/packet/BossBarS2CPacket
-	CLASS kq$a Type
-		FIELD a ADD Lkq$a;
-		FIELD b REMOVE Lkq$a;
-		FIELD c UPDATE_PCT Lkq$a;
-		FIELD d UPDATE_TITLE Lkq$a;
-		FIELD e UPDATE_STYLE Lkq$a;
-		FIELD f UPDATE_FLAGS Lkq$a;
-	FIELD a uuid Ljava/util/UUID;
-	FIELD b type Lkq$a;
-	FIELD c name Ljm;
-	FIELD d percent F
-	FIELD e color Lagk$a;
-	FIELD f overlay Lagk$b;
-	FIELD g darkenSky Z
-	FIELD h dragonMusic Z
-	FIELD i thickenFog Z
-	METHOD <init> (Lkq$a;Lagk;)V
+CLASS net/minecraft/class_2629 net/minecraft/client/network/packet/BossBarS2CPacket
+	CLASS net/minecraft/class_2629$class_2630 Type
+		FIELD field_12078 ADD Lnet/minecraft/class_2629$class_2630;
+		FIELD field_12082 REMOVE Lnet/minecraft/class_2629$class_2630;
+		FIELD field_12080 UPDATE_PCT Lnet/minecraft/class_2629$class_2630;
+		FIELD field_12084 UPDATE_TITLE Lnet/minecraft/class_2629$class_2630;
+		FIELD field_12081 UPDATE_STYLE Lnet/minecraft/class_2629$class_2630;
+		FIELD field_12083 UPDATE_FLAGS Lnet/minecraft/class_2629$class_2630;
+	FIELD field_12074 uuid Ljava/util/UUID;
+	FIELD field_12075 type Lnet/minecraft/class_2629$class_2630;
+	FIELD field_12071 name Lnet/minecraft/class_2561;
+	FIELD field_12069 percent F
+	FIELD field_12073 color Lnet/minecraft/class_1259$class_1260;
+	FIELD field_12076 overlay Lnet/minecraft/class_1259$class_1261;
+	FIELD field_12072 darkenSky Z
+	FIELD field_12070 dragonMusic Z
+	FIELD field_12068 thickenFog Z
+	METHOD <init> (Lnet/minecraft/class_2629$class_2630;Lnet/minecraft/class_1259;)V
 		ARG 1 action
-	METHOD a setFlagBitfield (I)V
-	METHOD b getUuid ()Ljava/util/UUID;
-	METHOD c getType ()Lkq$a;
-	METHOD d getName ()Ljm;
-	METHOD e getPercent ()F
-	METHOD f getColor ()Lagk$a;
-	METHOD g getOverlay ()Lagk$b;
-	METHOD h shouldDarkenSky ()Z
-	METHOD i hasDragonMusic ()Z
-	METHOD j shouldThickenFog ()Z
-	METHOD k getFlagBitfield ()I
+	METHOD method_11323 setFlagBitfield (I)V
+	METHOD method_11322 getUuid ()Ljava/util/UUID;
+	METHOD method_11324 getType ()Lnet/minecraft/class_2629$class_2630;
+	METHOD method_11328 getName ()Lnet/minecraft/class_2561;
+	METHOD method_11327 getPercent ()F
+	METHOD method_11325 getColor ()Lnet/minecraft/class_1259$class_1260;
+	METHOD method_11329 getOverlay ()Lnet/minecraft/class_1259$class_1261;
+	METHOD method_11331 shouldDarkenSky ()Z
+	METHOD method_11321 hasDragonMusic ()Z
+	METHOD method_11332 shouldThickenFog ()Z
+	METHOD method_11326 getFlagBitfield ()I

@@ -1,126 +1,126 @@
-CLASS bbp net/minecraft/item/ItemStack
-	FIELD a EMPTY Lbbp;
-	FIELD b MODIFIER_FORMAT Ljava/text/DecimalFormat;
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d amount I
-	FIELD e updateCooldown I
-	FIELD f item Lbbk;
-	FIELD g tag Lib;
-	FIELD h empty Z
-	FIELD i holdingItemFrame Lasu;
-	FIELD j lastCheckedCanHarvestBlock Lbvc;
-	FIELD k lastCheckedCanHarvestResult Z
-	FIELD l lastCheckedCanPlaceBlock Lbvc;
-	FIELD m lastCheckedCanPlaceResult Z
-	METHOD <init> (Lbgw;I)V
+CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
+	FIELD field_8037 EMPTY Lnet/minecraft/class_1799;
+	FIELD field_8029 MODIFIER_FORMAT Ljava/text/DecimalFormat;
+	FIELD field_8033 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_8031 amount I
+	FIELD field_8030 updateCooldown I
+	FIELD field_8038 item Lnet/minecraft/class_1792;
+	FIELD field_8040 tag Lnet/minecraft/class_2487;
+	FIELD field_8036 empty Z
+	FIELD field_8041 holdingItemFrame Lnet/minecraft/class_1533;
+	FIELD field_8039 lastCheckedCanHarvestBlock Lnet/minecraft/class_2694;
+	FIELD field_8035 lastCheckedCanHarvestResult Z
+	FIELD field_8032 lastCheckedCanPlaceBlock Lnet/minecraft/class_2694;
+	FIELD field_8034 lastCheckedCanPlaceResult Z
+	METHOD <init> (Lnet/minecraft/class_1935;I)V
 		ARG 1 container
-	METHOD A getRepairCost ()I
-	METHOD B toTextComponent ()Ljm;
-	METHOD C getUpdateCooldown ()I
-	METHOD D getAmount ()I
-	METHOD E isFood ()Z
-	METHOD F createModifierFormat ()Ljava/text/DecimalFormat;
-	METHOD G updateEmptyFlag ()V
-	METHOD a isEmpty ()Z
-	METHOD a split (I)Lbbp;
+	METHOD method_7928 getRepairCost ()I
+	METHOD method_7954 toTextComponent ()Lnet/minecraft/class_2561;
+	METHOD method_7965 getUpdateCooldown ()I
+	METHOD method_7947 getAmount ()I
+	METHOD method_19267 isFood ()Z
+	METHOD method_7931 createModifierFormat ()Ljava/text/DecimalFormat;
+	METHOD method_7957 updateEmptyFlag ()V
+	METHOD method_7960 isEmpty ()Z
+	METHOD method_7971 split (I)Lnet/minecraft/class_1799;
 		ARG 1 amount
-	METHOD a applyDamage (ILaii;)V
-	METHOD a applyDamage (ILjava/util/Random;Lvf;)Z
+	METHOD method_7956 applyDamage (ILnet/minecraft/class_1309;)V
+	METHOD method_7970 applyDamage (ILjava/util/Random;Lnet/minecraft/class_3222;)Z
 		ARG 1 amount
-	METHOD a getAttributeModifiers (Laie;)Lcom/google/common/collect/Multimap;
-	METHOD a onEntityDamaged (Laii;Lavm;)V
+	METHOD method_7926 getAttributeModifiers (Lnet/minecraft/class_1304;)Lcom/google/common/collect/Multimap;
+	METHOD method_7979 onEntityDamaged (Lnet/minecraft/class_1309;Lnet/minecraft/class_1657;)V
 		ARG 1 attacker
-	METHOD a setHoldingItemFrame (Lasu;)V
-	METHOD a interactWithEntity (Lavm;Laii;Lagt;)Z
+	METHOD method_7943 setHoldingItemFrame (Lnet/minecraft/class_1533;)V
+	METHOD method_7920 interactWithEntity (Lnet/minecraft/class_1657;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;)Z
 		ARG 1 user
 		ARG 2 target
-	METHOD a getTooltipText (Lavm;Lbcz;)Ljava/util/List;
+	METHOD method_7950 getTooltipText (Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;
 		ARG 1 player
-	METHOD a isEqualIgnoreTags (Lbbp;)Z
-	METHOD a areTagsEqual (Lbbp;Lbbp;)Z
+	METHOD method_7962 isEqualIgnoreTags (Lnet/minecraft/class_1799;)Z
+	METHOD method_7975 areTagsEqual (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD a useOnBlock (Lbdc;)Lagu;
-	METHOD a addEnchantment (Lbez;I)V
+	METHOD method_7981 useOnBlock (Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;
+	METHOD method_7978 addEnchantment (Lnet/minecraft/class_1887;I)V
 		ARG 1 enchantment
-	METHOD a update (Lbgx;Lahz;IZ)V
+	METHOD method_7917 update (Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;IZ)V
 		ARG 1 world
 		ARG 2 owner
 		ARG 3 invSlot
-	METHOD a onItemFinishedUsing (Lbgx;Laii;)Lbbp;
+	METHOD method_7910 onItemFinishedUsing (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;
 		ARG 1 world
-	METHOD a onItemStopUsing (Lbgx;Laii;I)V
+	METHOD method_7930 onItemStopUsing (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V
 		ARG 1 world
 		ARG 2 user
-	METHOD a onCrafted (Lbgx;Lavm;I)V
+	METHOD method_7982 onCrafted (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;I)V
 		ARG 1 world
 		ARG 2 player
 		ARG 3 amount
-	METHOD a use (Lbgx;Lavm;Lagt;)Lagv;
+	METHOD method_7913 use (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;
 		ARG 1 world
 		ARG 2 player
-	METHOD a onBlockBroken (Lbgx;Lbuy;Lev;Lavm;)V
+	METHOD method_7952 onBlockBroken (Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;)V
 		ARG 1 world
 		ARG 2 state
 		ARG 3 pos
-	METHOD a getBlockBreakingSpeed (Lbuy;)F
-	METHOD a areBlocksEqual (Lbvc;Lbvc;)Z
+	METHOD method_7924 getBlockBreakingSpeed (Lnet/minecraft/class_2680;)F
+	METHOD method_7918 areBlocksEqual (Lnet/minecraft/class_2694;Lnet/minecraft/class_2694;)Z
 		ARG 0 first
 		ARG 1 second
-	METHOD a fromTag (Lib;)Lbbp;
+	METHOD method_7915 fromTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_1799;
 		ARG 0 tag
-	METHOD a getOrCreateSubCompoundTag (Ljava/lang/String;)Lib;
-	METHOD a addAttributeModifier (Ljava/lang/String;Laja;Laie;)V
+	METHOD method_7911 getOrCreateSubCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_2487;
+	METHOD method_7916 addAttributeModifier (Ljava/lang/String;Lnet/minecraft/class_1322;Lnet/minecraft/class_1304;)V
 		ARG 1 attributeName
 		ARG 2 modifier
-	METHOD a setChildTag (Ljava/lang/String;Lis;)V
+	METHOD method_7959 setChildTag (Ljava/lang/String;Lnet/minecraft/class_2520;)V
 		ARG 1 tagName
-	METHOD a setDisplayName (Ljm;)Lbbp;
-	METHOD a getCustomCanHarvest (Lzb;Lbvc;)Z
-	METHOD b getItem ()Lbbk;
-	METHOD b setDamage (I)V
-	METHOD b isEqualIgnoreDurability (Lbbp;)Z
-	METHOD b areEqual (Lbbp;Lbbp;)Z
+	METHOD method_7977 setDisplayName (Lnet/minecraft/class_2561;)Lnet/minecraft/class_1799;
+	METHOD method_7940 getCustomCanHarvest (Lnet/minecraft/class_3505;Lnet/minecraft/class_2694;)Z
+	METHOD method_7909 getItem ()Lnet/minecraft/class_1792;
+	METHOD method_7974 setDamage (I)V
+	METHOD method_7929 isEqualIgnoreDurability (Lnet/minecraft/class_1799;)Z
+	METHOD method_7973 areEqual (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD b isEffectiveOn (Lbuy;)Z
-	METHOD b toTag (Lib;)Lib;
-	METHOD b getSubCompoundTag (Ljava/lang/String;)Lib;
-	METHOD b getCustomCanPlace (Lzb;Lbvc;)Z
-	METHOD c getMaxAmount ()I
-	METHOD c setRepairCost (I)V
-	METHOD c isEqual (Lbbp;)Z
-	METHOD c areEqualIgnoreTags (Lbbp;Lbbp;)Z
+	METHOD method_7951 isEffectiveOn (Lnet/minecraft/class_2680;)Z
+	METHOD method_7953 toTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
+	METHOD method_7941 getSubCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_2487;
+	METHOD method_7944 getCustomCanPlace (Lnet/minecraft/class_3505;Lnet/minecraft/class_2694;)Z
+	METHOD method_7914 getMaxAmount ()I
+	METHOD method_7927 setRepairCost (I)V
+	METHOD method_7968 isEqual (Lnet/minecraft/class_1799;)Z
+	METHOD method_7984 areEqualIgnoreTags (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD c setTag (Lib;)V
-	METHOD c removeSubTag (Ljava/lang/String;)V
-	METHOD d canStack ()Z
-	METHOD d setUpdateCooldown (I)V
-	METHOD d areEqualIgnoreDurability (Lbbp;Lbbp;)Z
+	METHOD method_7980 setTag (Lnet/minecraft/class_2487;)V
+	METHOD method_7983 removeSubTag (Ljava/lang/String;)V
+	METHOD method_7946 canStack ()Z
+	METHOD method_7912 setUpdateCooldown (I)V
+	METHOD method_7987 areEqualIgnoreDurability (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD e hasDurability ()Z
-	METHOD e setAmount (I)V
-	METHOD f isDamaged ()Z
-	METHOD f addAmount (I)V
-	METHOD g getDamage ()I
-	METHOD g subtractAmount (I)V
-	METHOD h getDurability ()I
-	METHOD i copy ()Lbbp;
-	METHOD j getTranslationKey ()Ljava/lang/String;
-	METHOD k getMaxUseTime ()I
-	METHOD l getUseAction ()Lbdb;
-	METHOD n hasTag ()Z
-	METHOD o getTag ()Lib;
-	METHOD p getOrCreateTag ()Lib;
-	METHOD q getEnchantmentList ()Lii;
-	METHOD r getDisplayName ()Ljm;
-	METHOD s removeDisplayName ()V
-	METHOD t hasDisplayName ()Z
-	METHOD u hasEnchantmentGlint ()Z
-	METHOD v getRarity ()Lbcd;
-	METHOD w isEnchantable ()Z
-	METHOD x hasEnchantments ()Z
-	METHOD y isHeldInItemFrame ()Z
-	METHOD z getHoldingItemFrame ()Lasu;
+	METHOD method_7963 hasDurability ()Z
+	METHOD method_7939 setAmount (I)V
+	METHOD method_7986 isDamaged ()Z
+	METHOD method_7933 addAmount (I)V
+	METHOD method_7919 getDamage ()I
+	METHOD method_7934 subtractAmount (I)V
+	METHOD method_7936 getDurability ()I
+	METHOD method_7972 copy ()Lnet/minecraft/class_1799;
+	METHOD method_7922 getTranslationKey ()Ljava/lang/String;
+	METHOD method_7935 getMaxUseTime ()I
+	METHOD method_7976 getUseAction ()Lnet/minecraft/class_1839;
+	METHOD method_7985 hasTag ()Z
+	METHOD method_7969 getTag ()Lnet/minecraft/class_2487;
+	METHOD method_7948 getOrCreateTag ()Lnet/minecraft/class_2487;
+	METHOD method_7921 getEnchantmentList ()Lnet/minecraft/class_2499;
+	METHOD method_7964 getDisplayName ()Lnet/minecraft/class_2561;
+	METHOD method_7925 removeDisplayName ()V
+	METHOD method_7938 hasDisplayName ()Z
+	METHOD method_7958 hasEnchantmentGlint ()Z
+	METHOD method_7932 getRarity ()Lnet/minecraft/class_1814;
+	METHOD method_7923 isEnchantable ()Z
+	METHOD method_7942 hasEnchantments ()Z
+	METHOD method_7961 isHeldInItemFrame ()Z
+	METHOD method_7945 getHoldingItemFrame ()Lnet/minecraft/class_1533;

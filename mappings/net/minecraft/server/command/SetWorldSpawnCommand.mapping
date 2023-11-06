@@ -1,2 +1,2 @@
-CLASS ti net/minecraft/server/command/SetWorldSpawnCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3128 net/minecraft/server/command/SetWorldSpawnCommand
+	METHOD method_13647 register (Lcom/mojang/brigadier/CommandDispatcher;)V

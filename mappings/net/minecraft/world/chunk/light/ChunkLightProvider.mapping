@@ -1,26 +1,26 @@
-CLASS ckb net/minecraft/world/chunk/light/ChunkLightProvider
-	FIELD a chunkProvider Lbxa;
-	FIELD b type Lbhg;
-	FIELD c lightStorage Lckd;
-	FIELD d DIRECTIONS [Lfa;
-	FIELD f srcMutablePos Lev$a;
-	FIELD g destMutablePos Lev$a;
-	FIELD h mutablePosGetLightBlockedBetween Lev$a;
-	METHOD <init> (Lbxa;Lbhg;Lckd;)V
+CLASS net/minecraft/class_3558 net/minecraft/world/chunk/light/ChunkLightProvider
+	FIELD field_15795 chunkProvider Lnet/minecraft/class_2823;
+	FIELD field_15792 type Lnet/minecraft/class_1944;
+	FIELD field_15793 lightStorage Lnet/minecraft/class_3560;
+	FIELD field_16513 DIRECTIONS LLfa;
+	FIELD field_16514 srcMutablePos Lnet/minecraft/class_2338$class_2339;
+	FIELD field_16515 destMutablePos Lnet/minecraft/class_2338$class_2339;
+	FIELD field_16512 mutablePosGetLightBlockedBetween Lnet/minecraft/class_2338$class_2339;
+	METHOD <init> (Lnet/minecraft/class_2823;Lnet/minecraft/class_1944;Lnet/minecraft/class_3560;)V
 		ARG 1 chunkProvider
 		ARG 2 type
 		ARG 3 lightStorage
-	METHOD a hasUpdates ()Z
+	METHOD method_15518 hasUpdates ()Z
 	METHOD a (II)Lbgi;
 		ARG 1 chunkX
 		ARG 2 chunkZ
-	METHOD a doLightUpdates (IZZ)I
+	METHOD method_15516 doLightUpdates (IZZ)I
 		ARG 1 stepCount
-	METHOD a getLightBlockedBetween (JJ)I
+	METHOD method_16340 getLightBlockedBetween (JJ)I
 		ARG 1 src
 		ARG 3 dest
-	METHOD a setSection (JLbws;)V
-	METHOD a getCurrentLevelFromArray (Lbws;J)I
+	METHOD method_15515 setSection (JLnet/minecraft/class_2804;)V
+	METHOD method_15517 getCurrentLevelFromArray (Lnet/minecraft/class_2804;J)I
 		ARG 1 array
 		ARG 2 blockPos
-	METHOD a queueLightCheck (Lev;)V
+	METHOD method_15513 queueLightCheck (Lnet/minecraft/class_2338;)V

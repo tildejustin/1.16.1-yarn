@@ -1,4 +1,4 @@
-CLASS amw net/minecraft/entity/ai/goal/MeleeAttackGoal
-	FIELD a entity Laip;
-	METHOD <init> (Laip;DZ)V
+CLASS net/minecraft/class_1366 net/minecraft/entity/ai/goal/MeleeAttackGoal
+	FIELD field_6503 entity Lnet/minecraft/class_1314;
+	METHOD <init> (Lnet/minecraft/class_1314;DZ)V
 		ARG 1 entity

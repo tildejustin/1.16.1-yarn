@@ -1,32 +1,32 @@
-CLASS dub net/minecraft/client/texture/TextureStitcher
-	CLASS dub$a Holder
-		FIELD a sprite Ldue;
-		FIELD b width I
-		FIELD c height I
-	CLASS dub$b Slot
-		FIELD a x I
-		FIELD b y I
-		FIELD c width I
-		FIELD d height I
-		FIELD e subSlots Ljava/util/List;
-		FIELD f spriteHolder Ldub$a;
-		METHOD a getSpriteHolder ()Ldub$a;
-		METHOD a tryFit (Ldub$a;)Z
-		METHOD a addAllFilledSlots (Ljava/util/function/Consumer;)V
-		METHOD b getX ()I
-		METHOD c getY ()I
-	FIELD c holders Ljava/util/Set;
-	FIELD d slots Ljava/util/List;
-	FIELD e width I
-	FIELD f height I
-	FIELD g maxWidth I
-	FIELD h maxHeight I
+CLASS net/minecraft/class_1055 net/minecraft/client/texture/TextureStitcher
+	CLASS net/minecraft/class_1055$class_1056 Holder
+		FIELD field_5249 sprite Lnet/minecraft/class_1058;
+		FIELD field_5248 width I
+		FIELD field_5247 height I
+	CLASS net/minecraft/class_1055$class_1057 Slot
+		FIELD field_5253 x I
+		FIELD field_5252 y I
+		FIELD field_5251 width I
+		FIELD field_5250 height I
+		FIELD field_5255 subSlots Ljava/util/List;
+		FIELD field_5254 spriteHolder Lnet/minecraft/class_1055$class_1056;
+		METHOD method_4565 getSpriteHolder ()Lnet/minecraft/class_1055$class_1056;
+		METHOD method_4566 tryFit (Lnet/minecraft/class_1055$class_1056;)Z
+		METHOD method_4568 addAllFilledSlots (Ljava/util/function/Consumer;)V
+		METHOD method_4569 getX ()I
+		METHOD method_4567 getY ()I
+	FIELD field_5237 holders Ljava/util/Set;
+	FIELD field_5239 slots Ljava/util/List;
+	FIELD field_5242 width I
+	FIELD field_5241 height I
+	FIELD field_5240 maxWidth I
+	FIELD field_5238 maxHeight I
 	METHOD <init> (III)V
 		ARG 1 maxWidth
 		ARG 2 maxHeight
-	METHOD a getWidth ()I
-	METHOD a tryFit (Ldub$a;)Z
-	METHOD a add (Ldue;)V
-	METHOD b getHeight ()I
-	METHOD c stitch ()V
-	METHOD d getStitchedSprites ()Ljava/util/List;
+	METHOD method_4554 getWidth ()I
+	METHOD method_4550 tryFit (Lnet/minecraft/class_1055$class_1056;)Z
+	METHOD method_4553 add (Lnet/minecraft/class_1058;)V
+	METHOD method_4555 getHeight ()I
+	METHOD method_4557 stitch ()V
+	METHOD method_4549 getStitchedSprites ()Ljava/util/List;

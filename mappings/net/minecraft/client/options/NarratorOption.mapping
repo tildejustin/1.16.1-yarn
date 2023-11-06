@@ -1,11 +1,11 @@
-CLASS cuz net/minecraft/client/options/NarratorOption
-	FIELD e VALUES [Lcuz;
-	FIELD f id I
-	FIELD g translationKey Ljava/lang/String;
+CLASS net/minecraft/class_4065 net/minecraft/client/options/NarratorOption
+	FIELD field_18180 VALUES LLcuz;
+	FIELD field_18181 id I
+	FIELD field_18182 translationKey Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
 		ARG 3 id
 		ARG 4 translationKey
-	METHOD a getId ()I
-	METHOD a byId (I)Lcuz;
+	METHOD method_18509 getId ()I
+	METHOD method_18510 byId (I)Lnet/minecraft/class_4065;
 		ARG 0 id
-	METHOD b getTranslationKey ()Ljava/lang/String;
+	METHOD method_18511 getTranslationKey ()Ljava/lang/String;

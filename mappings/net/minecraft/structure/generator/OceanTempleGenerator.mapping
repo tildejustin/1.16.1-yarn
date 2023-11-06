@@ -1,11 +1,11 @@
-CLASS chq net/minecraft/structure/generator/OceanTempleGenerator
-	CLASS chq$a Piece
-		FIELD d biomeType Lchp$b;
-		FIELD e integrity F
-		FIELD f template Lqr;
-		FIELD g rotation Lbql;
-		FIELD h large Z
-		METHOD <init> (Lcis;Lqr;Lev;Lbql;FLchp$b;Z)V
+CLASS net/minecraft/class_3409 net/minecraft/structure/generator/OceanTempleGenerator
+	CLASS net/minecraft/class_3409$class_3410 Piece
+		FIELD field_14527 biomeType Lnet/minecraft/class_3411$class_3413;
+		FIELD field_14524 integrity F
+		FIELD field_14523 template Lnet/minecraft/class_2960;
+		FIELD field_14526 rotation Lnet/minecraft/class_2470;
+		FIELD field_14525 large Z
+		METHOD <init> (Lnet/minecraft/class_3485;Lnet/minecraft/class_2960;Lnet/minecraft/class_2338;Lnet/minecraft/class_2470;FLnet/minecraft/class_3411$class_3413;Z)V
 			ARG 1 structureManager
 			ARG 2 template
 			ARG 3 pos
@@ -13,23 +13,23 @@ CLASS chq net/minecraft/structure/generator/OceanTempleGenerator
 			ARG 5 integrity
 			ARG 6 biomeType
 			ARG 7 large
-		METHOD a initialize (Lcis;)V
+		METHOD method_14828 initialize (Lnet/minecraft/class_3485;)V
 			ARG 1 structureManager
-	FIELD a WARM_RUINS [Lqr;
-	FIELD b BRICK_RUINS [Lqr;
-	FIELD c CRACKED_RUINS [Lqr;
-	FIELD d MOSSY_RUINS [Lqr;
-	FIELD e BIG_BRICK_RUINS [Lqr;
-	FIELD f BIG_MOSSY_RUINS [Lqr;
-	FIELD g BIG_CRACKED_RUINS [Lqr;
-	FIELD h BIG_WARM_RUINS [Lqr;
+	FIELD field_14521 WARM_RUINS LLqr;
+	FIELD field_14518 BRICK_RUINS LLqr;
+	FIELD field_14519 CRACKED_RUINS LLqr;
+	FIELD field_14522 MOSSY_RUINS LLqr;
+	FIELD field_14516 BIG_BRICK_RUINS LLqr;
+	FIELD field_14517 BIG_MOSSY_RUINS LLqr;
+	FIELD field_14520 BIG_CRACKED_RUINS LLqr;
+	FIELD field_14515 BIG_WARM_RUINS LLqr;
 	METHOD a (Lcis;Lev;Lbql;Ljava/util/List;Ljava/util/Random;Lcci;ZF)V
 		ARG 1 pos
 		ARG 2 rotation
 		ARG 5 config
 		ARG 6 large
 		ARG 7 integrity
-	METHOD a getRandomWarmRuin (Ljava/util/Random;)Lqr;
+	METHOD method_14824 getRandomWarmRuin (Ljava/util/Random;)Lnet/minecraft/class_2960;
 		ARG 0 random
-	METHOD b getRandomBigWarmRuin (Ljava/util/Random;)Lqr;
+	METHOD method_14826 getRandomBigWarmRuin (Ljava/util/Random;)Lnet/minecraft/class_2960;
 		ARG 0 random

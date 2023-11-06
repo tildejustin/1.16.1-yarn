@@ -1,7 +1,7 @@
-CLASS diz net/minecraft/client/particle/SpellParticle
-	CLASS diz$a EntityAmbientFactory
-	CLASS diz$b DefaultFactory
-	CLASS diz$c EntityFactory
-	CLASS diz$d InstantFactory
-	CLASS diz$e WitchFactory
-	FIELD C RANDOM Ljava/util/Random;
+CLASS net/minecraft/class_711 net/minecraft/client/particle/SpellParticle
+	CLASS net/minecraft/class_711$class_712 EntityAmbientFactory
+	CLASS net/minecraft/class_711$class_715 DefaultFactory
+	CLASS net/minecraft/class_711$class_714 EntityFactory
+	CLASS net/minecraft/class_711$class_713 InstantFactory
+	CLASS net/minecraft/class_711$class_716 WitchFactory
+	FIELD field_3888 RANDOM Ljava/util/Random;

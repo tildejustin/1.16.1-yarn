@@ -1,2 +1,2 @@
-CLASS tt net/minecraft/server/command/TitleCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3151 net/minecraft/server/command/TitleCommand
+	METHOD method_13804 register (Lcom/mojang/brigadier/CommandDispatcher;)V

@@ -1,2 +1,2 @@
-CLASS pq net/minecraft/client/network/packet/LoginCompressionS2CPacket
-	METHOD b getMinCompressedSize ()I
+CLASS net/minecraft/class_2907 net/minecraft/client/network/packet/LoginCompressionS2CPacket
+	METHOD method_12634 getMinCompressedSize ()I

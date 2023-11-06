@@ -1,14 +1,14 @@
-CLASS to net/minecraft/server/command/TeamCommand
-	FIELD a ADD_DUPLICATE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD b ADD_LONGNAME_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD c EMPTY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD d OPTION_NAME_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD e OPTION_COLOR_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD f OPTION_FRIENDLYFIRE_ALREADYENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD g OPTION_FRIENDLYFIRE_ALREADYDISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD h OPTION_SEEFRIENDLYINVISIBLES_ALREADYENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD i SEEFRIENDLYINVISIBLES_ALREADYDSISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD j OPTION_NAMETAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD k OPTION_DEATHMESSAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD l OPTION_COLLISIONRULE_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3142 net/minecraft/server/command/TeamCommand
+	FIELD field_13749 ADD_DUPLICATE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13748 ADD_LONGNAME_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD field_13751 EMPTY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13755 OPTION_NAME_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13746 OPTION_COLOR_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13753 OPTION_FRIENDLYFIRE_ALREADYENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13754 OPTION_FRIENDLYFIRE_ALREADYDISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13747 OPTION_SEEFRIENDLYINVISIBLES_ALREADYENABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13756 SEEFRIENDLYINVISIBLES_ALREADYDSISABLED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13752 OPTION_NAMETAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13757 OPTION_DEATHMESSAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_13750 OPTION_COLLISIONRULE_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13736 register (Lcom/mojang/brigadier/CommandDispatcher;)V

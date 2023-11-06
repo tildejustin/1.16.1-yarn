@@ -1,11 +1,11 @@
-CLASS dk net/minecraft/command/arguments/ColumnPosArgumentType
-	CLASS dk$a SimpleColumnPos
-		FIELD a x I
-		FIELD b z I
-	FIELD a INCOMPLETE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD b EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Ldk;
-	METHOD a parseSimple (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ldk$a;
+CLASS net/minecraft/class_2264 net/minecraft/command/arguments/ColumnPosArgumentType
+	CLASS net/minecraft/class_2264$class_2265 SimpleColumnPos
+		FIELD field_10708 x I
+		FIELD field_10707 z I
+	FIELD field_10706 INCOMPLETE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD field_10705 EXAMPLES Ljava/util/Collection;
+	METHOD method_9701 create ()Lnet/minecraft/class_2264;
+	METHOD method_9702 parseSimple (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2264$class_2265;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder

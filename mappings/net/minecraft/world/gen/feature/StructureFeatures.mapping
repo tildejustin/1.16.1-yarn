@@ -1,24 +1,24 @@
-CLASS chw net/minecraft/world/gen/feature/StructureFeatures
-	FIELD a MINESHAFT Lcdx;
-	FIELD b PILLAGER_OUTPOST Lcdx;
-	FIELD c FORTRESS Lcdx;
-	FIELD d STRONGHOLD Lcdx;
-	FIELD e JUNGLE_PYRAMID Lcdx;
-	FIELD f OCEAN_RUIN Lcdx;
-	FIELD g DESERT_PYRAMID Lcdx;
-	FIELD h IGLOO Lcdx;
-	FIELD i SWAMP_HUT Lcdx;
-	FIELD j MONUMENT Lcdx;
-	FIELD k END_CITY Lcdx;
-	FIELD l MANSION Lcdx;
-	FIELD m BURIED_TREASURE Lcdx;
-	FIELD n SHIPWRECK Lcdx;
-	FIELD o VILLAGE Lcdx;
-	FIELD p LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a initialize ()V
-	METHOD a readStructureStart (Lbwn;Lcis;Lbhw;Lib;)Lchz;
+CLASS net/minecraft/class_3420 net/minecraft/world/gen/feature/StructureFeatures
+	FIELD field_16709 MINESHAFT Lnet/minecraft/class_3195;
+	FIELD field_16706 PILLAGER_OUTPOST Lnet/minecraft/class_3195;
+	FIELD field_16707 FORTRESS Lnet/minecraft/class_3195;
+	FIELD field_16697 STRONGHOLD Lnet/minecraft/class_3195;
+	FIELD field_16710 JUNGLE_PYRAMID Lnet/minecraft/class_3195;
+	FIELD field_16705 OCEAN_RUIN Lnet/minecraft/class_3195;
+	FIELD field_16700 DESERT_PYRAMID Lnet/minecraft/class_3195;
+	FIELD field_16708 IGLOO Lnet/minecraft/class_3195;
+	FIELD field_16703 SWAMP_HUT Lnet/minecraft/class_3195;
+	FIELD field_16699 MONUMENT Lnet/minecraft/class_3195;
+	FIELD field_16701 END_CITY Lnet/minecraft/class_3195;
+	FIELD field_16704 MANSION Lnet/minecraft/class_3195;
+	FIELD field_16711 BURIED_TREASURE Lnet/minecraft/class_3195;
+	FIELD field_16702 SHIPWRECK Lnet/minecraft/class_3195;
+	FIELD field_16698 VILLAGE Lnet/minecraft/class_3195;
+	FIELD field_15262 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_16651 initialize ()V
+	METHOD method_14842 readStructureStart (Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_1966;Lnet/minecraft/class_2487;)Lnet/minecraft/class_3449;
 		ARG 0 chunkGenerator
 		ARG 1 structureManager
 		ARG 2 biomeSource
 		ARG 3 tag
-	METHOD a register (Ljava/lang/String;Lcdx;)Lcdx;
+	METHOD method_14846 register (Ljava/lang/String;Lnet/minecraft/class_3195;)Lnet/minecraft/class_3195;

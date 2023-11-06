@@ -1,25 +1,25 @@
-CLASS aug net/minecraft/entity/attribute/EntityAttributes
-	FIELD a MAX_HEALTH Laiy;
-	FIELD b FOLLOW_RANGE Laiy;
-	FIELD c KNOCKBACK_RESISTANCE Laiy;
-	FIELD d MOVEMENT_SPEED Laiy;
-	FIELD e FLYING_SPEED Laiy;
-	FIELD f ATTACK_DAMAGE Laiy;
-	FIELD g ATTACK_KNOCKBACK Laiy;
-	FIELD h ATTACK_SPEED Laiy;
-	FIELD i ARMOR Laiy;
-	FIELD j ARMOR_TOUGHNESS Laiy;
-	FIELD k LUCK Laiy;
-	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a toTag (Laiz;)Lib;
+CLASS net/minecraft/class_1612 net/minecraft/entity/attribute/EntityAttributes
+	FIELD field_7359 MAX_HEALTH Lnet/minecraft/class_1320;
+	FIELD field_7365 FOLLOW_RANGE Lnet/minecraft/class_1320;
+	FIELD field_7360 KNOCKBACK_RESISTANCE Lnet/minecraft/class_1320;
+	FIELD field_7357 MOVEMENT_SPEED Lnet/minecraft/class_1320;
+	FIELD field_7355 FLYING_SPEED Lnet/minecraft/class_1320;
+	FIELD field_7363 ATTACK_DAMAGE Lnet/minecraft/class_1320;
+	FIELD field_7361 ATTACK_KNOCKBACK Lnet/minecraft/class_1320;
+	FIELD field_7356 ATTACK_SPEED Lnet/minecraft/class_1320;
+	FIELD field_7358 ARMOR Lnet/minecraft/class_1320;
+	FIELD field_7364 ARMOR_TOUGHNESS Lnet/minecraft/class_1320;
+	FIELD field_7362 LUCK Lnet/minecraft/class_1320;
+	FIELD field_7354 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_7130 toTag (Lnet/minecraft/class_1324;)Lnet/minecraft/class_2487;
 		ARG 0 instance
-	METHOD a fromTag (Laiz;Lib;)V
+	METHOD method_7132 fromTag (Lnet/minecraft/class_1324;Lnet/minecraft/class_2487;)V
 		ARG 0 instance
-	METHOD a toTag (Laja;)Lib;
+	METHOD method_7135 toTag (Lnet/minecraft/class_1322;)Lnet/minecraft/class_2487;
 		ARG 0 modifier
-	METHOD a toTag (Lajc;)Lii;
+	METHOD method_7134 toTag (Lnet/minecraft/class_1325;)Lnet/minecraft/class_2499;
 		ARG 0 container
-	METHOD a fromTag (Lajc;Lii;)V
+	METHOD method_7131 fromTag (Lnet/minecraft/class_1325;Lnet/minecraft/class_2499;)V
 		ARG 0 container
-	METHOD a createFromTag (Lib;)Laja;
+	METHOD method_7133 createFromTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_1322;
 		ARG 0 tag

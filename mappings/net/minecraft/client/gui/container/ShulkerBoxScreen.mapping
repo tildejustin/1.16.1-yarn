@@ -1,2 +1,2 @@
-CLASS dbl net/minecraft/client/gui/container/ShulkerBoxScreen
-	FIELD k TEXTURE Lqr;
+CLASS net/minecraft/class_495 net/minecraft/client/gui/container/ShulkerBoxScreen
+	FIELD field_2973 TEXTURE Lnet/minecraft/class_2960;

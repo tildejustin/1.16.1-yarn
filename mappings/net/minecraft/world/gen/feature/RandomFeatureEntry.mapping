@@ -1,17 +1,17 @@
-CLASS cel net/minecraft/world/gen/feature/RandomFeatureEntry
-	FIELD a feature Lcat;
-	FIELD b config Lcau;
-	FIELD c chance Ljava/lang/Float;
-	METHOD <init> (Lcat;Lcau;Ljava/lang/Float;)V
+CLASS net/minecraft/class_3226 net/minecraft/world/gen/feature/RandomFeatureEntry
+	FIELD field_14013 feature Lnet/minecraft/class_3031;
+	FIELD field_14012 config Lnet/minecraft/class_3037;
+	FIELD field_14011 chance Ljava/lang/Float;
+	METHOD <init> (Lnet/minecraft/class_3031;Lnet/minecraft/class_3037;Ljava/lang/Float;)V
 		ARG 1 feature
 		ARG 2 config
 		ARG 3 chance
-	METHOD <init> (Lcat;Lcom/mojang/datafixers/Dynamic;F)V
+	METHOD <init> (Lnet/minecraft/class_3031;Lcom/mojang/datafixers/Dynamic;F)V
 		ARG 1 feature
 		ARG 2 dynamic
-	METHOD a generate (Lbgy;Lbwn;Ljava/util/Random;Lev;)Z
+	METHOD method_14271 generate (Lnet/minecraft/class_1936;Lnet/minecraft/class_2794;Ljava/util/Random;Lnet/minecraft/class_2338;)Z
 		ARG 1 world
 		ARG 3 random
-	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcel;
+	METHOD method_14270 deserialize (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_3226;
 		ARG 0 dynamic
-	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD method_16599 serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

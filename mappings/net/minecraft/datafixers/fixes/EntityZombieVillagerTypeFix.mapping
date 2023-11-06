@@ -1,3 +1,3 @@
-CLASS acd net/minecraft/datafixers/fixes/EntityZombieVillagerTypeFix
-	FIELD a RANDOM Ljava/util/Random;
-	METHOD a clampType (I)I
+CLASS net/minecraft/class_1174 net/minecraft/datafixers/fixes/EntityZombieVillagerTypeFix
+	FIELD field_5674 RANDOM Ljava/util/Random;
+	METHOD method_4991 clampType (I)I

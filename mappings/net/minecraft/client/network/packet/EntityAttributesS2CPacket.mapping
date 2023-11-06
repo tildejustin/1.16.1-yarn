@@ -1,4 +1,4 @@
-CLASS nk net/minecraft/client/network/packet/EntityAttributesS2CPacket
-	CLASS nk$a Entry
-	FIELD b entries Ljava/util/List;
-	METHOD c getEntries ()Ljava/util/List;
+CLASS net/minecraft/class_2781 net/minecraft/client/network/packet/EntityAttributesS2CPacket
+	CLASS net/minecraft/class_2781$class_2782 Entry
+	FIELD field_12720 entries Ljava/util/List;
+	METHOD method_11938 getEntries ()Ljava/util/List;

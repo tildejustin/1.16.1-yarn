@@ -1,10 +1,10 @@
-CLASS jw net/minecraft/text/TranslatableTextComponent
-	FIELD c PARAM_PATTERN Ljava/util/regex/Pattern;
-	FIELD d EMPTY_LANGUAGE Lhw;
-	FIELD e LANGUAGE Lhw;
-	FIELD f key Ljava/lang/String;
-	FIELD g params [Ljava/lang/Object;
+CLASS net/minecraft/class_2588 net/minecraft/text/TranslatableTextComponent
+	FIELD field_11872 PARAM_PATTERN Ljava/util/regex/Pattern;
+	FIELD field_11870 EMPTY_LANGUAGE Lnet/minecraft/class_2477;
+	FIELD field_11874 LANGUAGE Lnet/minecraft/class_2477;
+	FIELD field_11876 key Ljava/lang/String;
+	FIELD field_11875 params LLjava/lang/Object;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD k getKey ()Ljava/lang/String;
-	METHOD l getParams ()[Ljava/lang/Object;
+	METHOD method_11022 getKey ()Ljava/lang/String;
+	METHOD method_11023 getParams ()LLjava/lang/Object;

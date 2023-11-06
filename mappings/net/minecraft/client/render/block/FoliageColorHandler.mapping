@@ -1,9 +1,9 @@
-CLASS bgr net/minecraft/client/render/block/FoliageColorHandler
-	FIELD a colorMap [I
-	METHOD a getSpruceColor ()I
-	METHOD a getColor (DD)I
+CLASS net/minecraft/class_1926 net/minecraft/client/render/block/FoliageColorHandler
+	FIELD field_9183 colorMap [I
+	METHOD method_8342 getSpruceColor ()I
+	METHOD method_8344 getColor (DD)I
 		ARG 0 temperature
-	METHOD a setColorMap ([I)V
+	METHOD method_8340 setColorMap ([I)V
 		ARG 0 pixels
-	METHOD b getBirchColor ()I
-	METHOD c getDefaultColor ()I
+	METHOD method_8343 getBirchColor ()I
+	METHOD method_8341 getDefaultColor ()I

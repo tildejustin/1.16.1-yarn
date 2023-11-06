@@ -1,13 +1,13 @@
-CLASS auk net/minecraft/entity/mob/SlimeEntity
-	CLASS auk$d SlimeMoveControl
-		FIELD k slime Lauk;
-	FIELD bA onGroundLastTick Z
-	FIELD b sizeX F
-	FIELD bz SLIME_SIZE Lqg;
-	FIELD c sizeY F
-	FIELD d sizeZ F
-	METHOD dR getSquishSound ()Lyh;
-	METHOD dS getJumpSound ()Lyh;
-	METHOD dT getSize ()I
-	METHOD dU isSmall ()Z
-	METHOD l getParticles ()Lgd;
+CLASS net/minecraft/class_1621 net/minecraft/entity/mob/SlimeEntity
+	CLASS net/minecraft/class_1621$class_1625 SlimeMoveControl
+		FIELD field_7396 slime Lnet/minecraft/class_1621;
+	FIELD field_7391 onGroundLastTick Z
+	FIELD field_7389 sizeX F
+	FIELD field_7390 SLIME_SIZE Lnet/minecraft/class_2940;
+	FIELD field_7388 sizeY F
+	FIELD field_7387 sizeZ F
+	METHOD method_7160 getSquishSound ()Lnet/minecraft/class_3414;
+	METHOD method_7153 getJumpSound ()Lnet/minecraft/class_3414;
+	METHOD method_7152 getSize ()I
+	METHOD method_7157 isSmall ()Z
+	METHOD method_7162 getParticles ()Lnet/minecraft/class_2394;

@@ -1,4 +1,4 @@
-CLASS dxq net/minecraft/client/audio/ListenerSoundInstance
-	METHOD a onSoundPlayed (Ldwr;Ldxs;)V
+CLASS net/minecraft/class_1145 net/minecraft/client/audio/ListenerSoundInstance
+	METHOD method_4884 onSoundPlayed (Lnet/minecraft/class_1113;Lnet/minecraft/class_1146;)V
 		ARG 1 sound
 		ARG 2 soundSet

@@ -1,3 +1,3 @@
-CLASS djh net/minecraft/client/particle/SpriteBillboardParticle
-	FIELD E sprite Ldue;
-	METHOD a setSprite (Ldue;)V
+CLASS net/minecraft/class_4003 net/minecraft/client/particle/SpriteBillboardParticle
+	FIELD field_17886 sprite Lnet/minecraft/class_1058;
+	METHOD method_18141 setSprite (Lnet/minecraft/class_1058;)V

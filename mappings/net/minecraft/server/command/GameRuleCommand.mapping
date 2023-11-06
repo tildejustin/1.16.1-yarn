@@ -1,2 +1,2 @@
-CLASS sf net/minecraft/server/command/GameRuleCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3065 net/minecraft/server/command/GameRuleCommand
+	METHOD method_13392 register (Lcom/mojang/brigadier/CommandDispatcher;)V

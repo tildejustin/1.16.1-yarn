@@ -1,12 +1,12 @@
-CLASS avf net/minecraft/entity/passive/WanderingTraderEntity
-	CLASS avf$a WanderToTargetGoal
-		FIELD b proximityDistance D
-		FIELD c speed D
-		METHOD a isTooFarFrom (Lev;D)Z
+CLASS net/minecraft/class_3989 net/minecraft/entity/passive/WanderingTraderEntity
+	CLASS net/minecraft/class_3989$class_3994 WanderToTargetGoal
+		FIELD field_17760 proximityDistance D
+		FIELD field_17761 speed D
+		METHOD method_18070 isTooFarFrom (Lnet/minecraft/class_2338;D)Z
 			ARG 2 proximityDistance
-	FIELD bA wanderTarget Lev;
-	FIELD bB despawnDelay I
-	METHOD dZ getDespawnDelay ()I
-	METHOD ea getWanderTarget ()Lev;
-	METHOD g setWanderTarget (Lev;)V
-	METHOD r setDespawnDelay (I)V
+	FIELD field_17758 wanderTarget Lnet/minecraft/class_2338;
+	FIELD field_17725 despawnDelay I
+	METHOD method_18014 getDespawnDelay ()I
+	METHOD method_18065 getWanderTarget ()Lnet/minecraft/class_2338;
+	METHOD method_18069 setWanderTarget (Lnet/minecraft/class_2338;)V
+	METHOD method_18013 setDespawnDelay (I)V

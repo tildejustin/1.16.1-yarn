@@ -1,5 +1,5 @@
-CLASS czt net/minecraft/client/gui/menu/EndCreditsScreen
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b MINECRAFT_TITLE_TEXTURE Lqr;
-	FIELD c EDITION_TITLE_TEXTURE Lqr;
-	FIELD d VIGNETTE_TEXTURE Lqr;
+CLASS net/minecraft/class_445 net/minecraft/client/gui/menu/EndCreditsScreen
+	FIELD field_2632 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_2626 MINECRAFT_TITLE_TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_2631 EDITION_TITLE_TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_2633 VIGNETTE_TEXTURE Lnet/minecraft/class_2960;

@@ -1,4 +1,4 @@
-CLASS ew net/minecraft/util/math/BlockPointer
-	METHOD d getBlockPos ()Lev;
-	METHOD e getBlockState ()Lbuy;
-	METHOD g getBlockEntity ()Lbtb;
+CLASS net/minecraft/class_2342 net/minecraft/util/math/BlockPointer
+	METHOD method_10122 getBlockPos ()Lnet/minecraft/class_2338;
+	METHOD method_10120 getBlockState ()Lnet/minecraft/class_2680;
+	METHOD method_10121 getBlockEntity ()Lnet/minecraft/class_2586;

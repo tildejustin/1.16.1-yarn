@@ -1,5 +1,5 @@
-CLASS bpp net/minecraft/block/NetherWartBlock
-	FIELD a AGE Lbvy;
-	FIELD b AGE_TO_SHAPE [Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2421 net/minecraft/block/NetherWartBlock
+	FIELD field_11306 AGE Lnet/minecraft/class_2758;
+	FIELD field_11305 AGE_TO_SHAPE LLcse;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

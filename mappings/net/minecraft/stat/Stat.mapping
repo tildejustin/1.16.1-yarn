@@ -1,9 +1,9 @@
-CLASS yo net/minecraft/stat/Stat
-	FIELD o formatter Lyp;
-	FIELD p value Ljava/lang/Object;
-	FIELD q type Lyq;
-	METHOD a getType ()Lyq;
-	METHOD a format (I)Ljava/lang/String;
-	METHOD b getValue ()Ljava/lang/Object;
+CLASS net/minecraft/class_3445 net/minecraft/stat/Stat
+	FIELD field_15319 formatter Lnet/minecraft/class_3446;
+	FIELD field_15320 value Ljava/lang/Object;
+	FIELD field_15321 type Lnet/minecraft/class_3448;
+	METHOD method_14949 getType ()Lnet/minecraft/class_3448;
+	METHOD method_14953 format (I)Ljava/lang/String;
+	METHOD method_14951 getValue ()Ljava/lang/Object;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

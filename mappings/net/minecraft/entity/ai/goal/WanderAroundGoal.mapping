@@ -1,17 +1,17 @@
-CLASS anj net/minecraft/entity/ai/goal/WanderAroundGoal
-	FIELD a owner Laip;
-	FIELD b targetX D
-	FIELD c targetY D
-	FIELD d targetZ D
-	FIELD e speed D
-	FIELD f chance I
-	METHOD <init> (Laip;D)V
+CLASS net/minecraft/class_1379 net/minecraft/entity/ai/goal/WanderAroundGoal
+	FIELD field_6566 owner Lnet/minecraft/class_1314;
+	FIELD field_6563 targetX D
+	FIELD field_6562 targetY D
+	FIELD field_6561 targetZ D
+	FIELD field_6567 speed D
+	FIELD field_6564 chance I
+	METHOD <init> (Lnet/minecraft/class_1314;D)V
 		ARG 1 owner
 		ARG 2 speed
-	METHOD <init> (Laip;DI)V
+	METHOD <init> (Lnet/minecraft/class_1314;DI)V
 		ARG 1 owner
 		ARG 2 speed
 		ARG 4 chance
-	METHOD a setChance (I)V
+	METHOD method_6303 setChance (I)V
 		ARG 1 chance
-	METHOD g getWanderTarget ()Lcrk;
+	METHOD method_6302 getWanderTarget ()Lnet/minecraft/class_243;

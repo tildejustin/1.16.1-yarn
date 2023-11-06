@@ -1,5 +1,5 @@
-CLASS dlj net/minecraft/client/render/model/BakedQuadFactory
-	METHOD a bake (Lb;Lb;Ldld;Ldue;Lfa;Ldvy;Ldle;Z)Ldlb;
+CLASS net/minecraft/class_796 net/minecraft/client/render/model/BakedQuadFactory
+	METHOD method_3468 bake (Lnet/minecraft/class_1160;Lnet/minecraft/class_1160;Lnet/minecraft/class_783;Lnet/minecraft/class_1058;Lnet/minecraft/class_2350;Lnet/minecraft/class_3665;Lnet/minecraft/class_789;Z)Lnet/minecraft/class_777;
 		ARG 1 from
 		ARG 2 to
 		ARG 3 face

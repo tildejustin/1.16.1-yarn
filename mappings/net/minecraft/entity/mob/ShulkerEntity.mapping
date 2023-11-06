@@ -1,22 +1,22 @@
-CLASS auh net/minecraft/entity/mob/ShulkerEntity
-	CLASS auh$a ShootBulletGoal
-		FIELD b counter I
-	CLASS auh$b ShulkerBodyControl
-	CLASS auh$c SearchForTargetGoal
+CLASS net/minecraft/class_1606 net/minecraft/entity/mob/ShulkerEntity
+	CLASS net/minecraft/class_1606$class_1607 ShootBulletGoal
+		FIELD field_7347 counter I
+	CLASS net/minecraft/class_1606$class_1608 ShulkerBodyControl
+	CLASS net/minecraft/class_1606$class_1609 SearchForTargetGoal
 		METHOD a (Laii;)Z
 			ARG 0 entity
-	CLASS auh$d SearchForPlayerGoal
-	CLASS auh$e PeekGoal
-		FIELD b counter I
-	FIELD bA ATTR_COVERED_ARMOR_BONUS_UUID Ljava/util/UUID;
-	FIELD bB ATTR_COVERED_ARMOR_BONUS Laja;
-	FIELD b ATTACHED_FACE Lqg;
-	FIELD bz COLOR Lqg;
-	FIELD c ATTACHED_BLOCK Lqg;
-	FIELD d PEEK_AMOUNT Lqg;
-	METHOD a setPeekAmount (I)V
-	METHOD dP getAttachedFace ()Lfa;
-	METHOD dQ getAttachedBlock ()Lev;
-	METHOD dR getPeekAmount ()I
-	METHOD dW getColor ()Lbam;
-	METHOD g setAttachedBlock (Lev;)V
+	CLASS net/minecraft/class_1606$class_1610 SearchForPlayerGoal
+	CLASS net/minecraft/class_1606$class_1611 PeekGoal
+		FIELD field_7352 counter I
+	FIELD field_7341 ATTR_COVERED_ARMOR_BONUS_UUID Ljava/util/UUID;
+	FIELD field_7342 ATTR_COVERED_ARMOR_BONUS Lnet/minecraft/class_1322;
+	FIELD field_7344 ATTACHED_FACE Lnet/minecraft/class_2940;
+	FIELD field_7343 COLOR Lnet/minecraft/class_2940;
+	FIELD field_7338 ATTACHED_BLOCK Lnet/minecraft/class_2940;
+	FIELD field_7346 PEEK_AMOUNT Lnet/minecraft/class_2940;
+	METHOD method_7122 setPeekAmount (I)V
+	METHOD method_7119 getAttachedFace ()Lnet/minecraft/class_2350;
+	METHOD method_7123 getAttachedBlock ()Lnet/minecraft/class_2338;
+	METHOD method_7115 getPeekAmount ()I
+	METHOD method_7121 getColor ()Lnet/minecraft/class_1767;
+	METHOD method_7125 setAttachedBlock (Lnet/minecraft/class_2338;)V

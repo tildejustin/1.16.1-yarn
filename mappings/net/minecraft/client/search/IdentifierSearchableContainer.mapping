@@ -1,8 +1,8 @@
-CLASS dwx net/minecraft/client/search/IdentifierSearchableContainer
-	CLASS dwx$a Iterator
-	FIELD a byNamespace Ldxb;
-	FIELD b byPath Ldxb;
-	FIELD c identifierFinder Ljava/util/function/Function;
-	FIELD d entries Ljava/util/List;
-	FIELD e entryIds Lit/unimi/dsi/fastutil/objects/Object2IntMap;
-	METHOD b index (Ljava/lang/Object;)V
+CLASS net/minecraft/class_1121 net/minecraft/client/search/IdentifierSearchableContainer
+	CLASS net/minecraft/class_1121$class_1122 Iterator
+	FIELD field_5489 byNamespace Lnet/minecraft/class_1128;
+	FIELD field_5485 byPath Lnet/minecraft/class_1128;
+	FIELD field_5487 identifierFinder Ljava/util/function/Function;
+	FIELD field_5486 entries Ljava/util/List;
+	FIELD field_5488 entryIds Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD method_4795 index (Ljava/lang/Object;)V

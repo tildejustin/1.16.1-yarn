@@ -1,7 +1,7 @@
-CLASS cwj net/minecraft/client/gui/hud/ClientBossBar
-	FIELD h healthLatest F
-	FIELD i timeHealthSet J
-	METHOD <init> (Lkq;)V
+CLASS net/minecraft/class_345 net/minecraft/client/gui/hud/ClientBossBar
+	FIELD field_2129 healthLatest F
+	FIELD field_2128 timeHealthSet J
+	METHOD <init> (Lnet/minecraft/class_2629;)V
 		ARG 1 packet
-	METHOD a handlePacket (Lkq;)V
+	METHOD method_1894 handlePacket (Lnet/minecraft/class_2629;)V
 		ARG 1 packet

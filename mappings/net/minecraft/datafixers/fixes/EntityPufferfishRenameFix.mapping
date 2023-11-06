@@ -1,2 +1,2 @@
-CLASS abr net/minecraft/datafixers/fixes/EntityPufferfishRenameFix
-	FIELD a RENAMED_FISHES Ljava/util/Map;
+CLASS net/minecraft/class_3608 net/minecraft/datafixers/fixes/EntityPufferfishRenameFix
+	FIELD field_15899 RENAMED_FISHES Ljava/util/Map;

@@ -1,2 +1,2 @@
-CLASS bqm net/minecraft/block/SandBlock
-	FIELD a color I
+CLASS net/minecraft/class_2468 net/minecraft/block/SandBlock
+	FIELD field_11462 color I

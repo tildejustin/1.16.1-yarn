@@ -1,13 +1,13 @@
-CLASS cpb net/minecraft/world/loot/function/CopyNameLootFunction
-	CLASS cpb$a Source
-		FIELD a THIS Lcpb$a;
-		FIELD b KILLER Lcpb$a;
-		FIELD c KILLER_PLAYER Lcpb$a;
-		FIELD d BLOCK_ENTITY Lcpb$a;
-		FIELD e name Ljava/lang/String;
-		FIELD f parameter Lcpz;
-		METHOD a get (Ljava/lang/String;)Lcpb$a;
-	CLASS cpb$b Factory
-	FIELD a source Lcpb$a;
-	METHOD a create (Lcpb$a;)Lcpj$a;
+CLASS net/minecraft/class_101 net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS net/minecraft/class_101$class_102 Source
+		FIELD field_1022 THIS Lnet/minecraft/class_101$class_102;
+		FIELD field_1019 KILLER Lnet/minecraft/class_101$class_102;
+		FIELD field_1020 KILLER_PLAYER Lnet/minecraft/class_101$class_102;
+		FIELD field_1023 BLOCK_ENTITY Lnet/minecraft/class_101$class_102;
+		FIELD field_1025 name Ljava/lang/String;
+		FIELD field_1024 parameter Lnet/minecraft/class_169;
+		METHOD method_475 get (Ljava/lang/String;)Lnet/minecraft/class_101$class_102;
+	CLASS net/minecraft/class_101$class_103 Factory
+	FIELD field_1018 source Lnet/minecraft/class_101$class_102;
+	METHOD method_473 create (Lnet/minecraft/class_101$class_102;)Lnet/minecraft/class_120$class_121;
 		ARG 0 source

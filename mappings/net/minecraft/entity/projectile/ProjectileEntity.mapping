@@ -1,48 +1,48 @@
-CLASS avq net/minecraft/entity/projectile/ProjectileEntity
-	CLASS avq$a PickupType
-		FIELD a NO_PICKUP Lavq$a;
-		FIELD b PICKUP Lavq$a;
-		FIELD c CREATIVE_PICKUP Lavq$a;
-		METHOD a fromOrdinal (I)Lavq$a;
-	FIELD aA piercedEntities Lit/unimi/dsi/fastutil/ints/IntOpenHashSet;
-	FIELD aB piercingKilledEntities Ljava/util/List;
-	FIELD ap FLAGS Lqg;
-	FIELD aq PIERCE_LEVEL Lqg;
-	FIELD ar xTile I
-	FIELD as yTile I
-	FIELD at zTIle I
-	FIELD au inBlockState Lbuy;
-	FIELD av life I
-	FIELD ax damage D
-	FIELD az sound Lyh;
-	FIELD c inGround Z
-	FIELD d inGroundTime I
-	FIELD e pickupType Lavq$a;
-	FIELD f shake I
-	FIELD g ownerUuid Ljava/util/UUID;
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_1665 net/minecraft/entity/projectile/ProjectileEntity
+	CLASS net/minecraft/class_1665$class_1666 PickupType
+		FIELD field_7592 NO_PICKUP Lnet/minecraft/class_1665$class_1666;
+		FIELD field_7593 PICKUP Lnet/minecraft/class_1665$class_1666;
+		FIELD field_7594 CREATIVE_PICKUP Lnet/minecraft/class_1665$class_1666;
+		METHOD method_7458 fromOrdinal (I)Lnet/minecraft/class_1665$class_1666;
+	FIELD field_7590 piercedEntities Lit/unimi/dsi/fastutil/ints/IntOpenHashSet;
+	FIELD field_7579 piercingKilledEntities Ljava/util/List;
+	FIELD field_7573 FLAGS Lnet/minecraft/class_2940;
+	FIELD field_7589 PIERCE_LEVEL Lnet/minecraft/class_2940;
+	FIELD field_7585 xTile I
+	FIELD field_7582 yTile I
+	FIELD field_7583 zTIle I
+	FIELD field_7586 inBlockState Lnet/minecraft/class_2680;
+	FIELD field_7578 life I
+	FIELD field_7571 damage D
+	FIELD field_7584 sound Lnet/minecraft/class_3414;
+	FIELD field_7588 inGround Z
+	FIELD field_7576 inGroundTime I
+	FIELD field_7572 pickupType Lnet/minecraft/class_1665$class_1666;
+	FIELD field_7574 shake I
+	FIELD field_7587 ownerUuid Ljava/util/UUID;
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD a setFlag (IZ)V
+	METHOD method_7455 setFlag (IZ)V
 		ARG 1 index
-	METHOD a setOwner (Lahz;)V
-	METHOD a onHit (Laii;)V
-	METHOD a onEntityHit (Lcrh;)V
-	METHOD a onHit (Lcri;)V
-	METHOD a tryHitEntity (Lcrk;Lcrk;)Lcrh;
-	METHOD a setSound (Lyh;)V
-	METHOD a setCritical (Z)V
-	METHOD b setFlagByte (B)V
-	METHOD c setDamage (D)V
-	METHOD i age ()V
-	METHOD k getSound ()Lyh;
-	METHOD m getOwner ()Lahz;
-	METHOD n asItemStack ()Lbbp;
-	METHOD n setNoClip (Z)V
-	METHOD o getDamage ()D
-	METHOD o setShotFromCrossbow (Z)V
-	METHOD q isCritical ()Z
-	METHOD r isShotFromCrossbow ()Z
-	METHOD s getPierceLevel ()B
-	METHOD u getDragInWater ()F
-	METHOD v isNoClip ()Z
-	METHOD w clearPiercingStatus ()V
+	METHOD method_7432 setOwner (Lnet/minecraft/class_1297;)V
+	METHOD method_7450 onHit (Lnet/minecraft/class_1309;)V
+	METHOD method_7454 onEntityHit (Lnet/minecraft/class_3966;)V
+	METHOD method_7457 onHit (Lnet/minecraft/class_239;)V
+	METHOD method_7434 tryHitEntity (Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_3966;
+	METHOD method_7444 setSound (Lnet/minecraft/class_3414;)V
+	METHOD method_7439 setCritical (Z)V
+	METHOD method_7451 setFlagByte (B)V
+	METHOD method_7438 setDamage (D)V
+	METHOD method_7446 age ()V
+	METHOD method_7440 getSound ()Lnet/minecraft/class_3414;
+	METHOD method_7452 getOwner ()Lnet/minecraft/class_1297;
+	METHOD method_7445 asItemStack ()Lnet/minecraft/class_1799;
+	METHOD method_7433 setNoClip (Z)V
+	METHOD method_7448 getDamage ()D
+	METHOD method_7442 setShotFromCrossbow (Z)V
+	METHOD method_7443 isCritical ()Z
+	METHOD method_7456 isShotFromCrossbow ()Z
+	METHOD method_7447 getPierceLevel ()B
+	METHOD method_7436 getDragInWater ()F
+	METHOD method_7441 isNoClip ()Z
+	METHOD method_7453 clearPiercingStatus ()V

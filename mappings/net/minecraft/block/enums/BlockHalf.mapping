@@ -1,4 +1,4 @@
-CLASS bvx net/minecraft/block/enums/BlockHalf
-	FIELD a TOP Lbvx;
-	FIELD b BOTTOM Lbvx;
-	FIELD c name Ljava/lang/String;
+CLASS net/minecraft/class_2760 net/minecraft/block/enums/BlockHalf
+	FIELD field_12619 TOP Lnet/minecraft/class_2760;
+	FIELD field_12617 BOTTOM Lnet/minecraft/class_2760;
+	FIELD field_12616 name Ljava/lang/String;

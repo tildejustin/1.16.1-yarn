@@ -1,2 +1,2 @@
-CLASS dnn net/minecraft/client/render/debug/ChunkBorderDebugRenderer
-	FIELD a client Lcux;
+CLASS net/minecraft/class_862 net/minecraft/client/render/debug/ChunkBorderDebugRenderer
+	FIELD field_4516 client Lnet/minecraft/class_310;

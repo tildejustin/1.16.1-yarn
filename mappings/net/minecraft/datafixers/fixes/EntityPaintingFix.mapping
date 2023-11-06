@@ -1,2 +1,2 @@
-CLASS abp net/minecraft/datafixers/fixes/EntityPaintingFix
-	FIELD a OFFSETS [[I
+CLASS net/minecraft/class_3606 net/minecraft/datafixers/fixes/EntityPaintingFix
+	FIELD field_15897 OFFSETS [[I

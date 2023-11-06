@@ -1,9 +1,9 @@
 CLASS net/minecraft/realms/RealmsButtonProxy net/minecraft/client/gui/widget/RealmsButtonWidget
-	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IILjava/lang/String;IILcwc$a;)V
+	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IILjava/lang/String;IILnet/minecraft/class_4185$class_4241;)V
 		ARG 1 button
 		ARG 2 x
 		ARG 3 y
 		ARG 4 text
 		ARG 5 width
 		ARG 6 height
-	METHOD y getHeight ()I
+	METHOD method_2066 getHeight ()I

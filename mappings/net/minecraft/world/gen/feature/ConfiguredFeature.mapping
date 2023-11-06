@@ -1,16 +1,16 @@
-CLASS bzr net/minecraft/world/gen/feature/ConfiguredFeature
-	FIELD a feature Lcat;
-	FIELD b config Lcau;
-	METHOD <init> (Lcat;Lcau;)V
+CLASS net/minecraft/class_2975 net/minecraft/world/gen/feature/ConfiguredFeature
+	FIELD field_13376 feature Lnet/minecraft/class_3031;
+	FIELD field_13375 config Lnet/minecraft/class_3037;
+	METHOD <init> (Lnet/minecraft/class_3031;Lnet/minecraft/class_3037;)V
 		ARG 1 feature
 		ARG 2 config
-	METHOD <init> (Lcat;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> (Lnet/minecraft/class_3031;Lcom/mojang/datafixers/Dynamic;)V
 		ARG 1 feature
-	METHOD a generate (Lbgy;Lbwn;Ljava/util/Random;Lev;)Z
+	METHOD method_12862 generate (Lnet/minecraft/class_1936;Lnet/minecraft/class_2794;Ljava/util/Random;Lnet/minecraft/class_2338;)Z
 		ARG 1 world
 		ARG 2 generator
 		ARG 3 random
-	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzr;
+	METHOD method_12861 deserialize (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_2975;
 		ARG 0 dynamic
-	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD method_16584 serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 		ARG 1 ops

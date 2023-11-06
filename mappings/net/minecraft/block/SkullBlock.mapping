@@ -1,14 +1,14 @@
-CLASS bqv net/minecraft/block/SkullBlock
-	CLASS bqv$a SkullType
-	CLASS bqv$b Type
-		FIELD a SKELETON Lbqv$b;
-		FIELD b WITHER_SKELETON Lbqv$b;
-		FIELD c PLAYER Lbqv$b;
-		FIELD d ZOMBIE Lbqv$b;
-		FIELD e CREEPER Lbqv$b;
-		FIELD f DRAGON Lbqv$b;
-	FIELD a ROTATION Lbvy;
-	FIELD b SHAPE Lcse;
+CLASS net/minecraft/class_2484 net/minecraft/block/SkullBlock
+	CLASS net/minecraft/class_2484$class_2485 SkullType
+	CLASS net/minecraft/class_2484$class_2486 Type
+		FIELD field_11512 SKELETON Lnet/minecraft/class_2484$class_2486;
+		FIELD field_11513 WITHER_SKELETON Lnet/minecraft/class_2484$class_2486;
+		FIELD field_11510 PLAYER Lnet/minecraft/class_2484$class_2486;
+		FIELD field_11508 ZOMBIE Lnet/minecraft/class_2484$class_2486;
+		FIELD field_11507 CREEPER Lnet/minecraft/class_2484$class_2486;
+		FIELD field_11511 DRAGON Lnet/minecraft/class_2484$class_2486;
+	FIELD field_11505 ROTATION Lnet/minecraft/class_2758;
+	FIELD field_11506 SHAPE Lnet/minecraft/class_265;
 	METHOD h (Lbuy;Lbgi;Lev;)Lcse;
 		ARG 1 state
 		ARG 2 view

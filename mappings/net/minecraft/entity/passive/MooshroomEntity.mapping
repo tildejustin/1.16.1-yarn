@@ -1,14 +1,14 @@
-CLASS aqq net/minecraft/entity/passive/MooshroomEntity
-	CLASS aqq$a Type
-		FIELD c name Ljava/lang/String;
-		FIELD d mushroomState Lbuy;
-		METHOD a getMushroomState ()Lbuy;
-		METHOD b fromName (Ljava/lang/String;)Laqq$a;
-	FIELD bA stewEffect Lahr;
-	FIELD bB stewEffectDuration I
-	FIELD bD lightningId Ljava/util/UUID;
-	FIELD bz TYPE Lqg;
-	METHOD a setType (Laqq$a;)V
-	METHOD a chooseBabyType (Laqq;)Laqq$a;
-	METHOD dP getMooshroomType ()Laqq$a;
-	METHOD k getStewEffectFrom (Lbbp;)Lorg/apache/commons/lang3/tuple/Pair;
+CLASS net/minecraft/class_1438 net/minecraft/entity/passive/MooshroomEntity
+	CLASS net/minecraft/class_1438$class_4053 Type
+		FIELD field_18111 name Ljava/lang/String;
+		FIELD field_18112 mushroomState Lnet/minecraft/class_2680;
+		METHOD method_18437 getMushroomState ()Lnet/minecraft/class_2680;
+		METHOD method_18441 fromName (Ljava/lang/String;)Lnet/minecraft/class_1438$class_4053;
+	FIELD field_18106 stewEffect Lnet/minecraft/class_1291;
+	FIELD field_18107 stewEffectDuration I
+	FIELD field_18108 lightningId Ljava/util/UUID;
+	FIELD field_18105 TYPE Lnet/minecraft/class_2940;
+	METHOD method_18433 setType (Lnet/minecraft/class_1438$class_4053;)V
+	METHOD method_18434 chooseBabyType (Lnet/minecraft/class_1438;)Lnet/minecraft/class_1438$class_4053;
+	METHOD method_18435 getMooshroomType ()Lnet/minecraft/class_1438$class_4053;
+	METHOD method_18436 getStewEffectFrom (Lnet/minecraft/class_1799;)Lorg/apache/commons/lang3/tuple/Pair;

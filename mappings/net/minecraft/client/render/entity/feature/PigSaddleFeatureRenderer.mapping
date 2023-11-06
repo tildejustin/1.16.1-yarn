@@ -1,4 +1,4 @@
-CLASS dta net/minecraft/client/render/entity/feature/PigSaddleFeatureRenderer
-	FIELD a SKIN Lqr;
-	METHOD <init> (Ldqt;)V
+CLASS net/minecraft/class_992 net/minecraft/client/render/entity/feature/PigSaddleFeatureRenderer
+	FIELD field_4888 SKIN Lnet/minecraft/class_2960;
+	METHOD <init> (Lnet/minecraft/class_3883;)V
 		ARG 1 context

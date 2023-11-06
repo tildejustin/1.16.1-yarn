@@ -1,67 +1,67 @@
-CLASS avd net/minecraft/village/Trades
-	CLASS avd$a SellDyedArmorFactory
-		FIELD a sell Lbbk;
-		FIELD b price I
-		FIELD c maxUses I
-		FIELD d experience I
-		METHOD a getDye (Ljava/util/Random;)Lban;
-	CLASS avd$b BuyForOneEmeraldFactory
-		FIELD a buy Lbbk;
-		FIELD b price I
-		FIELD c maxUses I
-		FIELD d experience I
-		FIELD e multiplier F
-	CLASS avd$c TypeAwareBuyForOneEmeraldFactory
-		FIELD a map Ljava/util/Map;
-		FIELD b count I
-		FIELD c maxUses I
-		FIELD d experience I
-	CLASS avd$d EnchantBookFactory
-		FIELD a experience I
-	CLASS avd$e SellEnchantedToolFactory
-		FIELD a tool Lbbp;
-		FIELD b basePrice I
-		FIELD c maxUses I
-		FIELD d experience I
-		FIELD e multiplier F
-	CLASS avd$f Factory
-		METHOD a create (Lahz;Ljava/util/Random;)Lbgb;
-	CLASS avd$g ProcessItemFactory
-		FIELD a secondBuy Lbbp;
-		FIELD b secondCount I
-		FIELD c price I
-		FIELD d sell Lbbp;
-		FIELD e sellCount I
-		FIELD f maxUses I
-		FIELD g experience I
-		FIELD h multiplier F
-	CLASS avd$h SellItemFactory
-		FIELD a sell Lbbp;
-		FIELD b price I
-		FIELD c count I
-		FIELD d maxUses I
-		FIELD e experience I
-		FIELD f multiplier F
-	CLASS avd$i SellSuspiciousStewFactory
-		FIELD a effect Lahr;
-		FIELD b duration I
-		FIELD c experience I
-		FIELD d multiplier F
-	CLASS avd$j SellPotionHoldingItemFactory
-		FIELD a sell Lbbp;
-		FIELD b sellCount I
-		FIELD c price I
-		FIELD d maxUses I
-		FIELD e experience I
-		FIELD f secondBuy Lbbk;
-		FIELD g secondCount I
-		FIELD h priceMultiplier F
-	CLASS avd$k SellMapFactory
-		FIELD a price I
-		FIELD b structure Ljava/lang/String;
-		FIELD c iconType Lcng$a;
-		FIELD d maxUses I
-		FIELD e experience I
-	FIELD a PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
-	FIELD b WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
-	METHOD a copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+CLASS net/minecraft/class_3853 net/minecraft/village/Trades
+	CLASS net/minecraft/class_3853$class_4160 SellDyedArmorFactory
+		FIELD field_18544 sell Lnet/minecraft/class_1792;
+		FIELD field_18545 price I
+		FIELD field_18546 maxUses I
+		FIELD field_18547 experience I
+		METHOD method_19200 getDye (Ljava/util/Random;)Lnet/minecraft/class_1769;
+	CLASS net/minecraft/class_3853$class_4161 BuyForOneEmeraldFactory
+		FIELD field_18548 buy Lnet/minecraft/class_1792;
+		FIELD field_18549 price I
+		FIELD field_18550 maxUses I
+		FIELD field_18551 experience I
+		FIELD field_18552 multiplier F
+	CLASS net/minecraft/class_3853$class_4162 TypeAwareBuyForOneEmeraldFactory
+		FIELD field_18553 map Ljava/util/Map;
+		FIELD field_18554 count I
+		FIELD field_18555 maxUses I
+		FIELD field_18556 experience I
+	CLASS net/minecraft/class_3853$class_1648 EnchantBookFactory
+		FIELD field_18557 experience I
+	CLASS net/minecraft/class_3853$class_4163 SellEnchantedToolFactory
+		FIELD field_18558 tool Lnet/minecraft/class_1799;
+		FIELD field_18559 basePrice I
+		FIELD field_18560 maxUses I
+		FIELD field_18561 experience I
+		FIELD field_18562 multiplier F
+	CLASS net/minecraft/class_3853$class_1652 Factory
+		METHOD method_7246 create (Lnet/minecraft/class_1297;Ljava/util/Random;)Lnet/minecraft/class_1914;
+	CLASS net/minecraft/class_3853$class_4164 ProcessItemFactory
+		FIELD field_18563 secondBuy Lnet/minecraft/class_1799;
+		FIELD field_18564 secondCount I
+		FIELD field_18565 price I
+		FIELD field_18566 sell Lnet/minecraft/class_1799;
+		FIELD field_18567 sellCount I
+		FIELD field_18568 maxUses I
+		FIELD field_18569 experience I
+		FIELD field_18570 multiplier F
+	CLASS net/minecraft/class_3853$class_4165 SellItemFactory
+		FIELD field_18571 sell Lnet/minecraft/class_1799;
+		FIELD field_18572 price I
+		FIELD field_18573 count I
+		FIELD field_18574 maxUses I
+		FIELD field_18575 experience I
+		FIELD field_18576 multiplier F
+	CLASS net/minecraft/class_3853$class_4166 SellSuspiciousStewFactory
+		FIELD field_18577 effect Lnet/minecraft/class_1291;
+		FIELD field_18578 duration I
+		FIELD field_18579 experience I
+		FIELD field_18580 multiplier F
+	CLASS net/minecraft/class_3853$class_4167 SellPotionHoldingItemFactory
+		FIELD field_18581 sell Lnet/minecraft/class_1799;
+		FIELD field_18582 sellCount I
+		FIELD field_18583 price I
+		FIELD field_18584 maxUses I
+		FIELD field_18585 experience I
+		FIELD field_18586 secondBuy Lnet/minecraft/class_1792;
+		FIELD field_18587 secondCount I
+		FIELD field_18588 priceMultiplier F
+	CLASS net/minecraft/class_3853$class_1654 SellMapFactory
+		FIELD field_18589 price I
+		FIELD field_7474 structure Ljava/lang/String;
+		FIELD field_7473 iconType Lnet/minecraft/class_20$class_21;
+		FIELD field_18590 maxUses I
+		FIELD field_18591 experience I
+	FIELD field_17067 PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
+	FIELD field_17724 WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD method_16928 copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

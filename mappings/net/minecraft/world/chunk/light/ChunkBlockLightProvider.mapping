@@ -1,7 +1,7 @@
-CLASS cjw net/minecraft/world/chunk/light/ChunkBlockLightProvider
-	FIELD d DIRECTIONS_BLOCKLIGHT [Lfa;
-	FIELD e mutablePos Lev$a;
-	METHOD <init> (Lbxa;)V
+CLASS net/minecraft/class_3552 net/minecraft/world/chunk/light/ChunkBlockLightProvider
+	FIELD field_15778 DIRECTIONS_BLOCKLIGHT LLfa;
+	FIELD field_16511 mutablePos Lnet/minecraft/class_2338$class_2339;
+	METHOD <init> (Lnet/minecraft/class_2823;)V
 		ARG 1 chunkProvider
-	METHOD d getLightSourceLuminance (J)I
+	METHOD method_15474 getLightSourceLuminance (J)I
 		ARG 1 blockPos

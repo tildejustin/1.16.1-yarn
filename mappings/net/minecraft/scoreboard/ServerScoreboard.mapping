@@ -1,6 +1,6 @@
-CLASS rf net/minecraft/scoreboard/ServerScoreboard
-	CLASS rf$a UpdateMode
-	FIELD a server Lnet/minecraft/server/MinecraftServer;
-	FIELD b objectiveList Ljava/util/Set;
-	METHOD e addScoreboardObjective (Lcsh;)V
-	METHOD g removeScoreboardObjective (Lcsh;)V
+CLASS net/minecraft/class_2995 net/minecraft/scoreboard/ServerScoreboard
+	CLASS net/minecraft/class_2995$class_2996 UpdateMode
+	FIELD field_13428 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_13427 objectiveList Ljava/util/Set;
+	METHOD method_12939 addScoreboardObjective (Lnet/minecraft/class_266;)V
+	METHOD method_12938 removeScoreboardObjective (Lnet/minecraft/class_266;)V

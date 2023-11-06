@@ -1,8 +1,8 @@
-CLASS atn net/minecraft/entity/mob/DrownedEntity
-	CLASS atn$d DrownedMoveControl
-		FIELD i drowned Latn;
-	FIELD b waterNavigation Laoz;
-	FIELD bz targettingUnderwater Z
-	FIELD c landNavigation Laow;
-	METHOD ea isTargettingUnderwater ()Z
-	METHOD r setTargettingUnderwater (Z)V
+CLASS net/minecraft/class_1551 net/minecraft/entity/mob/DrownedEntity
+	CLASS net/minecraft/class_1551$class_1556 DrownedMoveControl
+		FIELD field_7244 drowned Lnet/minecraft/class_1551;
+	FIELD field_7234 waterNavigation Lnet/minecraft/class_1412;
+	FIELD field_7233 targettingUnderwater Z
+	FIELD field_7232 landNavigation Lnet/minecraft/class_1409;
+	METHOD method_7018 isTargettingUnderwater ()Z
+	METHOD method_7013 setTargettingUnderwater (Z)V

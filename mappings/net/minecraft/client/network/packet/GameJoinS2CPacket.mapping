@@ -1,16 +1,16 @@
-CLASS lp net/minecraft/client/network/packet/GameJoinS2CPacket
-	FIELD a playerEntityId I
-	FIELD b hardcore Z
-	FIELD c gameMode Lbgu;
-	FIELD e maxPlayers I
-	FIELD f generatorType Lbhe;
-	FIELD h reducedDebugInfo Z
-	METHOD <init> (ILbgu;ZLbxs;ILbhe;IZ)V
+CLASS net/minecraft/class_2678 net/minecraft/client/network/packet/GameJoinS2CPacket
+	FIELD field_12280 playerEntityId I
+	FIELD field_12281 hardcore Z
+	FIELD field_12282 gameMode Lnet/minecraft/class_1934;
+	FIELD field_12279 maxPlayers I
+	FIELD field_12277 generatorType Lnet/minecraft/class_1942;
+	FIELD field_12278 reducedDebugInfo Z
+	METHOD <init> (ILnet/minecraft/class_1934;ZLnet/minecraft/class_2874;ILnet/minecraft/class_1942;IZ)V
 		ARG 1 playerEntityId
 		ARG 2 gameMode
 		ARG 3 hardcore
-	METHOD b getEntityId ()I
-	METHOD c isHardcore ()Z
-	METHOD d getGameMode ()Lbgu;
-	METHOD e getDimension ()Lbxs;
-	METHOD i hasReducedDebugInfo ()Z
+	METHOD method_11564 getEntityId ()I
+	METHOD method_11568 isHardcore ()Z
+	METHOD method_11561 getGameMode ()Lnet/minecraft/class_1934;
+	METHOD method_11565 getDimension ()Lnet/minecraft/class_2874;
+	METHOD method_11562 hasReducedDebugInfo ()Z

@@ -1,20 +1,20 @@
-CLASS bni net/minecraft/block/AbstractRedstoneGateBlock
-	FIELD b SHAPE Lcse;
-	FIELD c POWERED Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2312 net/minecraft/block/AbstractRedstoneGateBlock
+	FIELD field_10912 SHAPE Lnet/minecraft/class_265;
+	FIELD field_10911 POWERED Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a isLocked (Lbha;Lev;Lbuy;)Z
+	METHOD method_9996 isLocked (Lnet/minecraft/class_1941;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Z
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 state
-	METHOD b getOutputLevel (Lbgi;Lev;Lbuy;)I
+	METHOD method_9993 getOutputLevel (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)I
 		ARG 1 view
 		ARG 2 pos
-	METHOD b getMaxInputLevelSides (Lbha;Lev;Lbuy;)I
+	METHOD method_10000 getMaxInputLevelSides (Lnet/minecraft/class_1941;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)I
 		ARG 1 view
 		ARG 2 pos
-	METHOD b getInputLevel (Lbha;Lev;Lfa;)I
+	METHOD method_9995 getInputLevel (Lnet/minecraft/class_1941;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)I
 		ARG 1 view
 		ARG 2 pos
-	METHOD j getUpdateDelayInternal (Lbuy;)I
-	METHOD q isValidInput (Lbuy;)Z
+	METHOD method_9992 getUpdateDelayInternal (Lnet/minecraft/class_2680;)I
+	METHOD method_9989 isValidInput (Lnet/minecraft/class_2680;)Z

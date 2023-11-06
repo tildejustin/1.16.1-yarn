@@ -1,5 +1,5 @@
-CLASS dcu net/minecraft/client/gui/ingame/UpdateWorldScreen
-	FIELD b callback Lcyg;
-	FIELD c updater Lagi;
-	METHOD <init> (Lcyg;Ljava/lang/String;Lcnr;)V
+CLASS net/minecraft/class_527 net/minecraft/client/gui/ingame/UpdateWorldScreen
+	FIELD field_3233 callback Lnet/minecraft/class_411;
+	FIELD field_3234 updater Lnet/minecraft/class_1257;
+	METHOD <init> (Lnet/minecraft/class_411;Ljava/lang/String;Lnet/minecraft/class_32;)V
 		ARG 1 ballback

@@ -1,19 +1,19 @@
-CLASS cza net/minecraft/client/gui/menu/options/LanguageOptionsScreen
-	CLASS cza$a LanguageSelectionListWidget
-		CLASS cza$a$a LanguageItem
-			FIELD c languageDefinition Ldvb;
-			METHOD <init> (Lcza$a;Ldvb;)V
+CLASS net/minecraft/class_426 net/minecraft/client/gui/menu/options/LanguageOptionsScreen
+	CLASS net/minecraft/class_426$class_4195 LanguageSelectionListWidget
+		CLASS net/minecraft/class_426$class_4195$class_4194 LanguageItem
+			FIELD field_18743 languageDefinition Lnet/minecraft/class_1077;
+			METHOD <init> (Lnet/minecraft/class_426$class_4195;Lnet/minecraft/class_1077;)V
 				ARG 2 languageDefinition
-			METHOD a onPressed ()V
-		METHOD <init> (Lcza;Lcux;)V
+			METHOD method_19381 onPressed ()V
+		METHOD <init> (Lnet/minecraft/class_426;Lnet/minecraft/class_310;)V
 			ARG 2 client
-	FIELD a parent Lczn;
-	FIELD b languageSelectionList Lcza$a;
-	FIELD c options Lcvb;
-	FIELD d languageManager Ldvc;
-	FIELD e forceUnicodeButton Lcwm;
-	FIELD f doneButton Lcwc;
-	METHOD <init> (Lczn;Lcvb;Ldvc;)V
+	FIELD field_2490 parent Lnet/minecraft/class_437;
+	FIELD field_2486 languageSelectionList Lnet/minecraft/class_426$class_4195;
+	FIELD field_2489 options Lnet/minecraft/class_315;
+	FIELD field_2488 languageManager Lnet/minecraft/class_1076;
+	FIELD field_2487 forceUnicodeButton Lnet/minecraft/1;
+	FIELD field_2491 doneButton Lnet/minecraft/class_4185;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_315;Lnet/minecraft/class_1076;)V
 		ARG 1 parent
 		ARG 2 options
 		ARG 3 languageManager

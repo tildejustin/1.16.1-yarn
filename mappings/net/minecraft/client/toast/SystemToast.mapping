@@ -1,6 +1,6 @@
-CLASS cxe net/minecraft/client/toast/SystemToast
-	CLASS cxe$a Type
-	FIELD f startTime J
-	FIELD g justUpdated Z
-	METHOD a show (Lcxg;Lcxe$a;Ljm;Ljm;)V
-	METHOD a setContent (Ljm;Ljm;)V
+CLASS net/minecraft/class_370 net/minecraft/client/toast/SystemToast
+	CLASS net/minecraft/class_370$class_371 Type
+	FIELD field_2216 startTime J
+	FIELD field_2214 justUpdated Z
+	METHOD method_1990 show (Lnet/minecraft/class_374;Lnet/minecraft/class_370$class_371;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;)V
+	METHOD method_1991 setContent (Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;)V

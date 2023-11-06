@@ -1,2 +1,2 @@
-CLASS dba net/minecraft/client/gui/container/GrindstoneScreen
-	FIELD k TEXTURE Lqr;
+CLASS net/minecraft/class_3802 net/minecraft/client/gui/container/GrindstoneScreen
+	FIELD field_16769 TEXTURE Lnet/minecraft/class_2960;

@@ -1,9 +1,9 @@
-CLASS xf net/minecraft/resource/ResourceReloadHandler
-	FIELD a resourceManager Lxc;
-	FIELD b loadStageFuture Ljava/util/concurrent/CompletableFuture;
-	FIELD c applyStageFuture Ljava/util/concurrent/CompletableFuture;
-	FIELD d loadStageLoaders Ljava/util/Set;
-	FIELD e listenerCount I
-	METHOD <init> (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Lxc;Ljava/util/List;Lxf$a;Ljava/util/concurrent/CompletableFuture;)V
+CLASS net/minecraft/class_4014 net/minecraft/resource/ResourceReloadHandler
+	FIELD field_17927 resourceManager Lnet/minecraft/class_3300;
+	FIELD field_18042 loadStageFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD field_18043 applyStageFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD field_18044 loadStageLoaders Ljava/util/Set;
+	FIELD field_18045 listenerCount I
+	METHOD <init> (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Lnet/minecraft/class_3300;Ljava/util/List;Lnet/minecraft/class_4014$class_4047;Ljava/util/concurrent/CompletableFuture;)V
 		ARG 4 listeners
-	METHOD a create (Lxc;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lxf;
+	METHOD method_18369 create (Lnet/minecraft/class_3300;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lnet/minecraft/class_4014;

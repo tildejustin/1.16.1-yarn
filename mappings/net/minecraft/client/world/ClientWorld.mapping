@@ -1,35 +1,35 @@
-CLASS dhh net/minecraft/client/world/ClientWorld
-	FIELD A scoreboard Lcsk;
-	FIELD B mapStates Ljava/util/Map;
-	FIELD a globalEntities Ljava/util/List;
-	FIELD b regularEntities Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
-	FIELD c netHandler Ldhe;
-	FIELD d worldRenderer Ldki;
-	FIELD v client Lcux;
-	FIELD w players Ljava/util/List;
-	FIELD z ticksSinceLightingClient I
-	METHOD <init> (Ldhe;Lbhb;Lbxs;ILafy;Ldki;)V
+CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
+	FIELD field_3733 scoreboard Lnet/minecraft/class_269;
+	FIELD field_17675 mapStates Ljava/util/Map;
+	FIELD field_17777 globalEntities Ljava/util/List;
+	FIELD field_17778 regularEntities Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD field_3727 netHandler Lnet/minecraft/class_634;
+	FIELD field_17780 worldRenderer Lnet/minecraft/class_761;
+	FIELD field_3729 client Lnet/minecraft/class_310;
+	FIELD field_18226 players Ljava/util/List;
+	FIELD field_3730 ticksSinceLightingClient I
+	METHOD <init> (Lnet/minecraft/class_634;Lnet/minecraft/class_1940;Lnet/minecraft/class_2874;ILnet/minecraft/class_3695;Lnet/minecraft/class_761;)V
 		ARG 1 netHandler
 		ARG 2 levelInfo
-	METHOD a doRandomBlockDisplayTicks (III)V
+	METHOD method_2941 doRandomBlockDisplayTicks (III)V
 		ARG 1 xCenter
 		ARG 2 yCenter
-	METHOD a randomBlockDisplayTick (IIIILjava/util/Random;ZLev$a;)V
+	METHOD method_2943 randomBlockDisplayTick (IIIILjava/util/Random;ZLnet/minecraft/class_2338$class_2339;)V
 		ARG 1 xCenter
 		ARG 2 yCenter
 		ARG 3 zCenter
 		ARG 4 radius
 		ARG 5 random
 		ARG 6 spawnBarrierParticles
-	METHOD a tickEntity (Lahz;)V
+	METHOD method_18646 tickEntity (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
-	METHOD a setScoreboard (Lcsk;)V
+	METHOD method_2944 setScoreboard (Lnet/minecraft/class_269;)V
 		ARG 1 scoreboard
-	METHOD a playSound (Lev;Lyh;Lyj;FFZ)V
+	METHOD method_2947 playSound (Lnet/minecraft/class_2338;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FFZ)V
 		ARG 1 pos
 		ARG 2 sound
 		ARG 3 category
 		ARG 4 volume
 		ARG 5 pitch
 		ARG 6 useDistance
-	METHOD b getEntities ()Ljava/lang/Iterable;
+	METHOD method_18112 getEntities ()Ljava/lang/Iterable;

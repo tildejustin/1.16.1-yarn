@@ -1,8 +1,8 @@
-CLASS ann net/minecraft/entity/ai/goal/CrossbowAttackGoal
-	CLASS ann$a Stage
-	FIELD a entity Latz;
-	FIELD b stage Lann$a;
-	METHOD <init> (Latz;DF)V
+CLASS net/minecraft/class_1383 net/minecraft/entity/ai/goal/CrossbowAttackGoal
+	CLASS net/minecraft/class_1383$class_3744 Stage
+	FIELD field_6593 entity Lnet/minecraft/class_1588;
+	FIELD field_16528 stage Lnet/minecraft/class_1383$class_3744;
+	METHOD <init> (Lnet/minecraft/class_1588;DF)V
 		ARG 1 entity
-	METHOD g isEntityHoldingCrossbow ()Z
-	METHOD j isUncharged ()Z
+	METHOD method_6310 isEntityHoldingCrossbow ()Z
+	METHOD method_16352 isUncharged ()Z

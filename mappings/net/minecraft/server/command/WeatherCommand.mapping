@@ -1,2 +1,2 @@
-CLASS tv net/minecraft/server/command/WeatherCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3155 net/minecraft/server/command/WeatherCommand
+	METHOD method_13827 register (Lcom/mojang/brigadier/CommandDispatcher;)V

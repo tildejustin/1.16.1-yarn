@@ -1,9 +1,9 @@
-CLASS cwx net/minecraft/client/gui/Element
-	METHOD a keyReleased (III)Z
+CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
+	METHOD method_16803 keyReleased (III)Z
 		ARG 1 keyCode
 		ARG 2 scanCode
 		ARG 3 modifiers
-	METHOD c mouseMoved (DD)V
+	METHOD method_16014 mouseMoved (DD)V
 		ARG 1 mouseX
 		ARG 3 mouseY
 	METHOD charTyped (CI)Z

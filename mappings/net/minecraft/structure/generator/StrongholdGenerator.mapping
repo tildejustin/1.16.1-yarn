@@ -1,14 +1,14 @@
-CLASS chv net/minecraft/structure/generator/StrongholdGenerator
-	CLASS chv$a Door
-	CLASS chv$c FiveWayCrossing
-		FIELD a leftLow Z
-		FIELD b leftHigh Z
-		FIELD c rightLow Z
-		FIELD e rightHigh Z
+CLASS net/minecraft/class_3421 net/minecraft/structure/generator/StrongholdGenerator
+	CLASS net/minecraft/class_3421$class_3422 Door
+	CLASS net/minecraft/class_3421$class_3424 FiveWayCrossing
+		FIELD field_15273 leftLow Z
+		FIELD field_15272 leftHigh Z
+		FIELD field_15271 rightLow Z
+		FIELD field_15270 rightHigh Z
 	CLASS chv$k
 		METHOD a (Ljava/util/Random;IIIZ)V
 			ARG 1 random
 			ARG 2 x
-	CLASS chv$m Start
+	CLASS net/minecraft/class_3421$class_3434 Start
 	CLASS chv$p
-		FIELD d entryDoor Lchv$p$a;
+		FIELD field_15287 entryDoor Lnet/minecraft/class_3421$class_3437$class_3438;

@@ -1,16 +1,16 @@
-CLASS aua net/minecraft/entity/mob/PatrolEntity
-	CLASS aua$a PatrolGoal
-	FIELD b patrolTarget Lev;
-	FIELD c patrolLeader Z
-	FIELD d patrolling Z
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_3732 net/minecraft/entity/mob/PatrolEntity
+	CLASS net/minecraft/class_3732$class_3733 PatrolGoal
+	FIELD field_16478 patrolTarget Lnet/minecraft/class_2338;
+	FIELD field_16479 patrolLeader Z
+	FIELD field_16477 patrolling Z
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD dS canLead ()Z
-	METHOD dT getPatrolTarget ()Lev;
-	METHOD dU hasPatrolTarget ()Z
-	METHOD dV isPatrolLeader ()Z
-	METHOD dW hasNoRaid ()Z
-	METHOD dY setRandomRaidCenter ()V
-	METHOD dZ isRaidCenterSet ()Z
-	METHOD g setRaidCenter (Lev;)V
-	METHOD r setPatrolLeader (Z)V
+	METHOD method_16485 canLead ()Z
+	METHOD method_16215 getPatrolTarget ()Lnet/minecraft/class_2338;
+	METHOD method_16220 hasPatrolTarget ()Z
+	METHOD method_16219 isPatrolLeader ()Z
+	METHOD method_16472 hasNoRaid ()Z
+	METHOD method_16218 setRandomRaidCenter ()V
+	METHOD method_16915 isRaidCenterSet ()Z
+	METHOD method_16216 setRaidCenter (Lnet/minecraft/class_2338;)V
+	METHOD method_16217 setPatrolLeader (Z)V

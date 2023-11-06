@@ -1,21 +1,21 @@
-CLASS wu net/minecraft/resource/ResourcePackContainer
-	CLASS wu$a SortingDirection
-		METHOD a inverse ()Lwu$a;
-		METHOD a locate (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
+CLASS net/minecraft/class_3288 net/minecraft/resource/ResourcePackContainer
+	CLASS net/minecraft/class_3288$class_3289 SortingDirection
+		METHOD method_14467 inverse ()Lnet/minecraft/class_3288$class_3289;
+		METHOD method_14468 locate (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
 			ARG 3 converter
 			ARG 4 inverse
-	CLASS wu$b Factory
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b BROKEN_PACK_META Lwk;
-	FIELD c name Ljava/lang/String;
-	FIELD d packCreator Ljava/util/function/Supplier;
-	FIELD e displayName Ljm;
-	FIELD f description Ljm;
-	FIELD g compatibility Lwq;
-	FIELD h direction Lwu$a;
-	FIELD i notSorting Z
-	FIELD j tillEnd Z
-	METHOD <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Ljm;Ljm;Lwq;Lwu$a;Z)V
+	CLASS net/minecraft/class_3288$class_3290 Factory
+	FIELD field_14279 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_14276 BROKEN_PACK_META Lnet/minecraft/class_3272;
+	FIELD field_14272 name Ljava/lang/String;
+	FIELD field_14273 packCreator Ljava/util/function/Supplier;
+	FIELD field_14274 displayName Lnet/minecraft/class_2561;
+	FIELD field_14275 description Lnet/minecraft/class_2561;
+	FIELD field_14278 compatibility Lnet/minecraft/class_3281;
+	FIELD field_14277 direction Lnet/minecraft/class_3288$class_3289;
+	FIELD field_14271 notSorting Z
+	FIELD field_14270 tillEnd Z
+	METHOD <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_3281;Lnet/minecraft/class_3288$class_3289;Z)V
 		ARG 1 name
 		ARG 2 notSorting
 		ARG 3 packCreator
@@ -24,23 +24,23 @@ CLASS wu net/minecraft/resource/ResourcePackContainer
 		ARG 6 compatibility
 		ARG 7 direction
 		ARG 8 tillEnd
-	METHOD <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lwf;Lwk;Lwu$a;)V
+	METHOD <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/class_3262;Lnet/minecraft/class_3272;Lnet/minecraft/class_3288$class_3289;)V
 		ARG 1 name
 		ARG 2 notSorting
 		ARG 3 packCreator
 		ARG 4 pack
 		ARG 5 metadata
 		ARG 6 direction
-	METHOD a getDisplayName ()Ljm;
-	METHOD a of (Ljava/lang/String;ZLjava/util/function/Supplier;Lwu$b;Lwu$a;)Lwu;
+	METHOD method_14457 getDisplayName ()Lnet/minecraft/class_2561;
+	METHOD method_14456 of (Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/class_3288$class_3290;Lnet/minecraft/class_3288$class_3289;)Lnet/minecraft/class_3288;
 		ARG 0 name
-	METHOD a getInformationText (Z)Ljm;
-	METHOD b getDescription ()Ljm;
-	METHOD c getCompatibility ()Lwq;
-	METHOD d createResourcePack ()Lwf;
-	METHOD e getName ()Ljava/lang/String;
+	METHOD method_14461 getInformationText (Z)Lnet/minecraft/class_2561;
+	METHOD method_14459 getDescription ()Lnet/minecraft/class_2561;
+	METHOD method_14460 getCompatibility ()Lnet/minecraft/class_3281;
+	METHOD method_14458 createResourcePack ()Lnet/minecraft/class_3262;
+	METHOD method_14463 getName ()Ljava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f canBeSorted ()Z
-	METHOD g sortsTillEnd ()Z
-	METHOD h getSortingDirection ()Lwu$a;
+	METHOD method_14464 canBeSorted ()Z
+	METHOD method_14465 sortsTillEnd ()Z
+	METHOD method_14466 getSortingDirection ()Lnet/minecraft/class_3288$class_3289;

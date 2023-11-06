@@ -1,5 +1,5 @@
-CLASS jj net/minecraft/text/AbstractTextComponent
-	FIELD a children Ljava/util/List;
-	FIELD b style Lju;
+CLASS net/minecraft/class_2554 net/minecraft/text/AbstractTextComponent
+	FIELD field_11729 children Ljava/util/List;
+	FIELD field_11730 style Lnet/minecraft/class_2583;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

@@ -1,2 +1,2 @@
-CLASS dbb net/minecraft/client/gui/container/HopperScreen
-	FIELD k TEXTURE Lqr;
+CLASS net/minecraft/class_488 net/minecraft/client/gui/container/HopperScreen
+	FIELD field_2919 TEXTURE Lnet/minecraft/class_2960;

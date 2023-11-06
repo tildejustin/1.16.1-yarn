@@ -1,9 +1,9 @@
-CLASS czo net/minecraft/client/gui/menu/OpenToLanScreen
-	FIELD a parent Lczn;
-	FIELD b buttonAllowCommands Lcwc;
-	FIELD c buttonGameMode Lcwc;
-	FIELD d gameMode Ljava/lang/String;
-	FIELD e allowCommands Z
-	METHOD <init> (Lczn;)V
+CLASS net/minecraft/class_436 net/minecraft/client/gui/menu/OpenToLanScreen
+	FIELD field_2548 parent Lnet/minecraft/class_437;
+	FIELD field_2547 buttonAllowCommands Lnet/minecraft/class_4185;
+	FIELD field_2549 buttonGameMode Lnet/minecraft/class_4185;
+	FIELD field_2545 gameMode Ljava/lang/String;
+	FIELD field_2546 allowCommands Z
+	METHOD <init> (Lnet/minecraft/class_437;)V
 		ARG 1 parent
-	METHOD a updateButtonText ()V
+	METHOD method_2204 updateButtonText ()V

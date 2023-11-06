@@ -1,2 +1,2 @@
-CLASS bds net/minecraft/recipe/crafting/SpecialCraftingRecipe
-	FIELD a id Lqr;
+CLASS net/minecraft/class_1852 net/minecraft/recipe/crafting/SpecialCraftingRecipe
+	FIELD field_9009 id Lnet/minecraft/class_2960;

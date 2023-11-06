@@ -1,20 +1,20 @@
-CLASS cpf net/minecraft/world/loot/function/ExplorationMapLootFunction
-	CLASS cpf$a Builder
-		FIELD a destination Ljava/lang/String;
-		FIELD b decoration Lcng$a;
-		FIELD c zoom B
-		FIELD d searchRadius I
-		FIELD e skipExistingChunks Z
-		METHOD a zoom (B)Lcpf$a;
-		METHOD a decoration (Lcng$a;)Lcpf$a;
-		METHOD a destination (Ljava/lang/String;)Lcpf$a;
-		METHOD a skipExistingChunks (Z)Lcpf$a;
-	CLASS cpf$b Factory
-	FIELD a DEFAULT_DECORATION Lcng$a;
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d destination Ljava/lang/String;
-	FIELD e decoration Lcng$a;
-	FIELD f zoom B
-	FIELD g searchRadius I
-	FIELD h skipExistingChunks Z
-	METHOD b create ()Lcpf$a;
+CLASS net/minecraft/class_111 net/minecraft/world/loot/function/ExplorationMapLootFunction
+	CLASS net/minecraft/class_111$class_112 Builder
+		FIELD field_1039 destination Ljava/lang/String;
+		FIELD field_1042 decoration Lnet/minecraft/class_20$class_21;
+		FIELD field_1043 zoom B
+		FIELD field_1040 searchRadius I
+		FIELD field_1041 skipExistingChunks Z
+		METHOD method_500 zoom (B)Lnet/minecraft/class_111$class_112;
+		METHOD method_499 decoration (Lnet/minecraft/class_20$class_21;)Lnet/minecraft/class_111$class_112;
+		METHOD method_502 destination (Ljava/lang/String;)Lnet/minecraft/class_111$class_112;
+		METHOD method_503 skipExistingChunks (Z)Lnet/minecraft/class_111$class_112;
+	CLASS net/minecraft/class_111$class_113 Factory
+	FIELD field_1034 DEFAULT_DECORATION Lnet/minecraft/class_20$class_21;
+	FIELD field_1038 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_1035 destination Ljava/lang/String;
+	FIELD field_1036 decoration Lnet/minecraft/class_20$class_21;
+	FIELD field_1037 zoom B
+	FIELD field_1032 searchRadius I
+	FIELD field_1033 skipExistingChunks Z
+	METHOD method_492 create ()Lnet/minecraft/class_111$class_112;

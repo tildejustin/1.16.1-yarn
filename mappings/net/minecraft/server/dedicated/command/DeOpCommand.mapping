@@ -1,3 +1,3 @@
-CLASS rs net/minecraft/server/dedicated/command/DeOpCommand
-	FIELD a ALREADY_DEOPPED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3030 net/minecraft/server/dedicated/command/DeOpCommand
+	FIELD field_13507 ALREADY_DEOPPED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13143 register (Lcom/mojang/brigadier/CommandDispatcher;)V

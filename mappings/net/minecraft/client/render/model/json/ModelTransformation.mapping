@@ -1,6 +1,6 @@
-CLASS dlo net/minecraft/client/render/model/json/ModelTransformation
-	CLASS dlo$a Deserializer
-		METHOD a parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ldln;
+CLASS net/minecraft/class_809 net/minecraft/client/render/model/json/ModelTransformation
+	CLASS net/minecraft/class_809$class_810 Deserializer
+		METHOD method_3504 parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Lnet/minecraft/class_804;
 			ARG 1 ctx
 			ARG 2 json
 			ARG 3 key
@@ -8,27 +8,27 @@ CLASS dlo net/minecraft/client/render/model/json/ModelTransformation
 			ARG 1 element
 			ARG 2 type
 			ARG 3 context
-	CLASS dlo$b Type
-		FIELD i FIXED Ldlo$b;
-	FIELD a NONE Ldlo;
-	FIELD b globalTranslationX F
-	FIELD c globalTranslationY F
-	FIELD d globalTranslationZ F
-	FIELD e globalRotationX F
-	FIELD f globalRotationY F
-	FIELD g globalRotationZ F
-	FIELD h globalScaleOffsetX F
-	FIELD i globalScaleOffsetY F
-	FIELD j globalScaleOffsetZ F
-	FIELD k thirdPersonLeftHand Ldln;
-	FIELD l thirdPersonRightHand Ldln;
-	FIELD m firstPersonLeftHand Ldln;
-	FIELD n firstPersonRightHand Ldln;
-	FIELD o head Ldln;
-	FIELD p gui Ldln;
-	FIELD q ground Ldln;
-	FIELD r fixed Ldln;
-	METHOD <init> (Ldln;Ldln;Ldln;Ldln;Ldln;Ldln;Ldln;Ldln;)V
+	CLASS net/minecraft/class_809$class_811 Type
+		FIELD field_4319 FIXED Lnet/minecraft/class_809$class_811;
+	FIELD field_4301 NONE Lnet/minecraft/class_809;
+	FIELD field_4299 globalTranslationX F
+	FIELD field_4298 globalTranslationY F
+	FIELD field_4297 globalTranslationZ F
+	FIELD field_4296 globalRotationX F
+	FIELD field_4295 globalRotationY F
+	FIELD field_4312 globalRotationZ F
+	FIELD field_4310 globalScaleOffsetX F
+	FIELD field_4309 globalScaleOffsetY F
+	FIELD field_4308 globalScaleOffsetZ F
+	FIELD field_4305 thirdPersonLeftHand Lnet/minecraft/class_804;
+	FIELD field_4307 thirdPersonRightHand Lnet/minecraft/class_804;
+	FIELD field_4302 firstPersonLeftHand Lnet/minecraft/class_804;
+	FIELD field_4304 firstPersonRightHand Lnet/minecraft/class_804;
+	FIELD field_4311 head Lnet/minecraft/class_804;
+	FIELD field_4300 gui Lnet/minecraft/class_804;
+	FIELD field_4303 ground Lnet/minecraft/class_804;
+	FIELD field_4306 fixed Lnet/minecraft/class_804;
+	METHOD <init> (Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;Lnet/minecraft/class_804;)V
 		ARG 1 thirdPersonLeftHand
 		ARG 2 thirdPersonRightHand
 		ARG 3 firstPersonLeftHand
@@ -37,14 +37,14 @@ CLASS dlo net/minecraft/client/render/model/json/ModelTransformation
 		ARG 6 gui
 		ARG 7 ground
 		ARG 8 fixed
-	METHOD <init> (Ldlo;)V
+	METHOD <init> (Lnet/minecraft/class_809;)V
 		ARG 1 other
-	METHOD a applyGl (Ldln;Z)V
+	METHOD method_3502 applyGl (Lnet/minecraft/class_804;Z)V
 		ARG 0 transform
 		ARG 1 leftyFlip
-	METHOD a applyGl (Ldlo$b;)V
+	METHOD method_3500 applyGl (Lnet/minecraft/class_809$class_811;)V
 		ARG 1 type
-	METHOD b getTransformation (Ldlo$b;)Ldln;
+	METHOD method_3503 getTransformation (Lnet/minecraft/class_809$class_811;)Lnet/minecraft/class_804;
 		ARG 1 type
-	METHOD c isTransformationDefined (Ldlo$b;)Z
+	METHOD method_3501 isTransformationDefined (Lnet/minecraft/class_809$class_811;)Z
 		ARG 1 type

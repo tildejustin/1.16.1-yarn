@@ -1,1 +1,1 @@
-CLASS dms net/minecraft/client/render/block/entity/StructureBlockBlockEntityRenderer
+CLASS net/minecraft/class_838 net/minecraft/client/render/block/entity/StructureBlockBlockEntityRenderer

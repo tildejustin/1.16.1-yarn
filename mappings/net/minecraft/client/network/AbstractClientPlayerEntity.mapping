@@ -1,6 +1,6 @@
-CLASS djo net/minecraft/client/network/AbstractClientPlayerEntity
-	METHOD a loadSkin (Lqr;Ljava/lang/String;)Ldtv;
+CLASS net/minecraft/class_742 net/minecraft/client/network/AbstractClientPlayerEntity
+	METHOD method_3120 loadSkin (Lnet/minecraft/class_2960;Ljava/lang/String;)Lnet/minecraft/class_1046;
 		ARG 0 id
 		ARG 1 playerName
-	METHOD d getSkinId (Ljava/lang/String;)Lqr;
+	METHOD method_3124 getSkinId (Ljava/lang/String;)Lnet/minecraft/class_2960;
 		ARG 0 playerName

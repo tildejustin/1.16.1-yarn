@@ -1,2 +1,2 @@
-CLASS sn net/minecraft/server/command/MessageCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3082 net/minecraft/server/command/MessageCommand
+	METHOD method_13461 register (Lcom/mojang/brigadier/CommandDispatcher;)V

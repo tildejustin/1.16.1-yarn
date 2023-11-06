@@ -1,4 +1,4 @@
-CLASS baf net/minecraft/item/MapItem
-	METHOD a createMapPacket (Lbbp;Lbgx;Lavm;)Lka;
+CLASS net/minecraft/class_1762 net/minecraft/item/MapItem
+	METHOD method_7757 createMapPacket (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;)Lnet/minecraft/class_2596;
 		ARG 1 stack
 		ARG 2 world

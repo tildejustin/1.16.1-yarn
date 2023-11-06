@@ -1,2 +1,2 @@
-CLASS gs net/minecraft/data/report/BlockListProvider
-	FIELD c root Lgi;
+CLASS net/minecraft/class_2422 net/minecraft/data/report/BlockListProvider
+	FIELD field_11307 root Lnet/minecraft/class_2403;

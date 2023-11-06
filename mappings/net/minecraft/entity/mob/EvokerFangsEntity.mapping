@@ -1,11 +1,11 @@
-CLASS avu net/minecraft/entity/mob/EvokerFangsEntity
-	FIELD b warmup I
-	FIELD f owner Laii;
-	FIELD g ownerUuid Ljava/util/UUID;
-	METHOD <init> (Lbgx;DDDFILaii;)V
+CLASS net/minecraft/class_1669 net/minecraft/entity/mob/EvokerFangsEntity
+	FIELD field_7609 warmup I
+	FIELD field_7605 owner Lnet/minecraft/class_1309;
+	FIELD field_7606 ownerUuid Ljava/util/UUID;
+	METHOD <init> (Lnet/minecraft/class_1937;DDDFILnet/minecraft/class_1309;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a setOwner (Laii;)V
-	METHOD f getOwner ()Laii;
+	METHOD method_7473 setOwner (Lnet/minecraft/class_1309;)V
+	METHOD method_7470 getOwner ()Lnet/minecraft/class_1309;

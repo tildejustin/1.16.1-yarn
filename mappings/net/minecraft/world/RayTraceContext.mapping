@@ -1,17 +1,17 @@
-CLASS bgl net/minecraft/world/RayTraceContext
-	CLASS bgl$a ShapeType
-		FIELD c provider Lbgl$c;
-	CLASS bgl$b FluidHandling
-		FIELD a NONE Lbgl$b;
-		FIELD d predicate Ljava/util/function/Predicate;
-		METHOD a handled (Lckn;)Z
-	CLASS bgl$c ShapeProvider
-	FIELD a start Lcrk;
-	FIELD b end Lcrk;
-	FIELD c shapeType Lbgl$a;
-	FIELD d fluid Lbgl$b;
-	FIELD e entityPosition Lcrp;
-	METHOD a getEnd ()Lcrk;
-	METHOD a getBlockShape (Lbuy;Lbgi;Lev;)Lcse;
-	METHOD a getFluidShape (Lckn;Lbgi;Lev;)Lcse;
-	METHOD b getStart ()Lcrk;
+CLASS net/minecraft/class_3959 net/minecraft/world/RayTraceContext
+	CLASS net/minecraft/class_3959$class_3960 ShapeType
+		FIELD field_17560 provider Lnet/minecraft/class_3959$class_3961;
+	CLASS net/minecraft/class_3959$class_242 FluidHandling
+		FIELD field_1348 NONE Lnet/minecraft/class_3959$class_242;
+		FIELD field_1346 predicate Ljava/util/function/Predicate;
+		METHOD method_17751 handled (Lnet/minecraft/class_3610;)Z
+	CLASS net/minecraft/class_3959$class_3961 ShapeProvider
+	FIELD field_17553 start Lnet/minecraft/class_243;
+	FIELD field_17554 end Lnet/minecraft/class_243;
+	FIELD field_17555 shapeType Lnet/minecraft/class_3959$class_3960;
+	FIELD field_17556 fluid Lnet/minecraft/class_3959$class_242;
+	FIELD field_17557 entityPosition Lnet/minecraft/class_3726;
+	METHOD method_17747 getEnd ()Lnet/minecraft/class_243;
+	METHOD method_17748 getBlockShape (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_265;
+	METHOD method_17749 getFluidShape (Lnet/minecraft/class_3610;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_265;
+	METHOD method_17750 getStart ()Lnet/minecraft/class_243;

@@ -1,2 +1,2 @@
-CLASS dpg net/minecraft/client/render/entity/ExperienceOrbEntityRenderer
-	FIELD a TEX Lqr;
+CLASS net/minecraft/class_902 net/minecraft/client/render/entity/ExperienceOrbEntityRenderer
+	FIELD field_4701 TEX Lnet/minecraft/class_2960;

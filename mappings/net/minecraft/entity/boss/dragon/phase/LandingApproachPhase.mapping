@@ -1,3 +1,3 @@
-CLASS ase net/minecraft/entity/boss/dragon/phase/LandingApproachPhase
-	METHOD <init> (Larw;)V
+CLASS net/minecraft/class_1519 net/minecraft/entity/boss/dragon/phase/LandingApproachPhase
+	METHOD <init> (Lnet/minecraft/class_1510;)V
 		ARG 1 dragon

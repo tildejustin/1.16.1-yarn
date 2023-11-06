@@ -1,2 +1,2 @@
-CLASS drf net/minecraft/client/render/entity/StrayEntityRenderer
-	FIELD a SKIN Lqr;
+CLASS net/minecraft/class_950 net/minecraft/client/render/entity/StrayEntityRenderer
+	FIELD field_4790 SKIN Lnet/minecraft/class_2960;

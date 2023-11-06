@@ -1,6 +1,6 @@
-CLASS cin net/minecraft/sortme/rule/RandomBlockMatchRuleTest
-	FIELD a block Lbma;
-	FIELD b probability F
-	METHOD <init> (Lbma;F)V
+CLASS net/minecraft/class_3824 net/minecraft/sortme/rule/RandomBlockMatchRuleTest
+	FIELD field_16880 block Lnet/minecraft/class_2248;
+	FIELD field_16879 probability F
+	METHOD <init> (Lnet/minecraft/class_2248;F)V
 		ARG 1 block
 		ARG 2 probability

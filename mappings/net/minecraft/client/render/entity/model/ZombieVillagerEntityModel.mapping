@@ -1,2 +1,2 @@
-CLASS dgq net/minecraft/client/render/entity/model/ZombieVillagerEntityModel
-	FIELD a hat Ldgx;
+CLASS net/minecraft/class_619 net/minecraft/client/render/entity/model/ZombieVillagerEntityModel
+	FIELD field_17144 hat Lnet/minecraft/class_630;

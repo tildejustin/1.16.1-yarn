@@ -1,8 +1,8 @@
-CLASS ga net/minecraft/particle/BlockStateParticleParameters
-	FIELD a PARAMETERS_FACTORY Lgd$a;
-	FIELD b type Lge;
-	FIELD c blockState Lbuy;
-	METHOD <init> (Lge;Lbuy;)V
+CLASS net/minecraft/class_2388 net/minecraft/particle/BlockStateParticleParameters
+	FIELD field_11181 PARAMETERS_FACTORY Lnet/minecraft/class_2394$class_2395;
+	FIELD field_11183 type Lnet/minecraft/class_2396;
+	FIELD field_11182 blockState Lnet/minecraft/class_2680;
+	METHOD <init> (Lnet/minecraft/class_2396;Lnet/minecraft/class_2680;)V
 		ARG 1 type
 		ARG 2 blockState
-	METHOD c getBlockState ()Lbuy;
+	METHOD method_10278 getBlockState ()Lnet/minecraft/class_2680;

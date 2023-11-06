@@ -1,2 +1,2 @@
-CLASS dwk net/minecraft/client/audio/GuardianAttackSoundInstance
-	FIELD o guardian Latv;
+CLASS net/minecraft/class_1105 net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD field_5454 guardian Lnet/minecraft/class_1577;

@@ -1,5 +1,5 @@
-CLASS bcw net/minecraft/item/ToolItem
-	FIELD a material Lbcv;
-	METHOD <init> (Lbcv;Lbbk$a;)V
+CLASS net/minecraft/class_1831 net/minecraft/item/ToolItem
+	FIELD field_8921 material Lnet/minecraft/class_1832;
+	METHOD <init> (Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V
 		ARG 1 material
-	METHOD e getType ()Lbcv;
+	METHOD method_8022 getType ()Lnet/minecraft/class_1832;

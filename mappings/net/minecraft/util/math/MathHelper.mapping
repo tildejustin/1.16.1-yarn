@@ -1,130 +1,130 @@
-CLASS zq net/minecraft/util/math/MathHelper
-	FIELD a SQUARE_ROOT_OF_TWO F
-	FIELD b sinTable [F
-	FIELD c RANDOM Ljava/util/Random;
-	FIELD d MULTIPLY_DE_BRUJIN_BIT_POSITION [I
-	FIELD e SMALLEST_FRACTION_FREE_DOUBLE D
-	FIELD f asinTable [D
-	FIELD g cosTable [D
-	METHOD a randomUUID ()Ljava/util/UUID;
-	METHOD a sqrt (D)F
-	METHOD a absMax (DD)D
-	METHOD a clamp (DDD)D
+CLASS net/minecraft/class_3532 net/minecraft/util/math/MathHelper
+	FIELD field_15724 SQUARE_ROOT_OF_TWO F
+	FIELD field_15725 sinTable [F
+	FIELD field_15726 RANDOM Ljava/util/Random;
+	FIELD field_15723 MULTIPLY_DE_BRUJIN_BIT_POSITION [I
+	FIELD field_15728 SMALLEST_FRACTION_FREE_DOUBLE D
+	FIELD field_15727 asinTable [D
+	FIELD field_15722 cosTable [D
+	METHOD method_15394 randomUUID ()Ljava/util/UUID;
+	METHOD method_15368 sqrt (D)F
+	METHOD method_15391 absMax (DD)D
+	METHOD method_15350 clamp (DDD)D
 		ARG 0 value
 		ARG 2 min
-	METHOD a lerp2 (DDDDDD)D
+	METHOD method_16437 lerp2 (DDDDDD)D
 		ARG 0 partialX
 		ARG 2 partialY
-	METHOD a lerp3 (DDDDDDDDDDD)D
+	METHOD method_16438 lerp3 (DDDDDDDDDDD)D
 		ARG 0 partialX
 		ARG 2 partialY
 		ARG 4 partialZ
-	METHOD a sin (F)F
-	METHOD a equalsApproximate (FF)Z
-	METHOD a clamp (FFF)F
+	METHOD method_15374 sin (F)F
+	METHOD method_15347 equalsApproximate (FF)Z
+	METHOD method_15363 clamp (FFF)F
 		ARG 0 value
 		ARG 1 min
 		ARG 2 max
-	METHOD a abs (I)I
-	METHOD a floorDiv (II)I
-	METHOD a clamp (III)I
+	METHOD method_15382 abs (I)I
+	METHOD method_15346 floorDiv (II)I
+	METHOD method_15340 clamp (III)I
 		ARG 0 value
 		ARG 1 min
 		ARG 2 max
-	METHOD a binarySearch (IILjava/util/function/IntPredicate;)I
+	METHOD method_15360 binarySearch (IILjava/util/function/IntPredicate;)I
 		ARG 0 start
 		ARG 1 end
 		ARG 2 leftPredicate
-	METHOD a hashCode (Lfq;)J
+	METHOD method_15389 hashCode (Lnet/minecraft/class_2382;)J
 		ARG 0 vec
-	METHOD a parseDouble (Ljava/lang/String;D)D
+	METHOD method_15361 parseDouble (Ljava/lang/String;D)D
 		ARG 0 string
 		ARG 1 fallback
-	METHOD a parseDouble (Ljava/lang/String;DD)D
+	METHOD method_15358 parseDouble (Ljava/lang/String;DD)D
 		ARG 0 string
 		ARG 1 fallback
-	METHOD a parseInt (Ljava/lang/String;I)I
+	METHOD method_15343 parseInt (Ljava/lang/String;I)I
 		ARG 0 string
 		ARG 1 fallback
-	METHOD a parseInt (Ljava/lang/String;II)I
+	METHOD method_15364 parseInt (Ljava/lang/String;II)I
 		ARG 0 string
 		ARG 1 fallback
 		ARG 2 minimum
-	METHOD a randomUuid (Ljava/util/Random;)Ljava/util/UUID;
+	METHOD method_15378 randomUuid (Ljava/util/Random;)Ljava/util/UUID;
 		ARG 0 random
-	METHOD a nextDouble (Ljava/util/Random;DD)D
-		ARG 0 random
-		ARG 1 min
-	METHOD a nextFloat (Ljava/util/Random;FF)F
+	METHOD method_15366 nextDouble (Ljava/util/Random;DD)D
 		ARG 0 random
 		ARG 1 min
-		ARG 2 max
-	METHOD a nextInt (Ljava/util/Random;II)I
+	METHOD method_15344 nextFloat (Ljava/util/Random;FF)F
 		ARG 0 random
 		ARG 1 min
 		ARG 2 max
-	METHOD a average ([J)D
+	METHOD method_15395 nextInt (Ljava/util/Random;II)I
+		ARG 0 random
+		ARG 1 min
+		ARG 2 max
+	METHOD method_15373 average ([J)D
 		ARG 0 array
-	METHOD b fastFloor (D)I
-	METHOD b floorMod (DD)D
-	METHOD b lerpClamped (DDD)D
+	METHOD method_15365 fastFloor (D)I
+	METHOD method_15367 floorMod (DD)D
+	METHOD method_15390 lerpClamped (DDD)D
 		ARG 0 first
 		ARG 2 second
-	METHOD b cos (F)F
-	METHOD b floorMod (FF)F
-	METHOD b wrapDegrees (I)I
-	METHOD b floorMod (II)I
-	METHOD b packRgb (III)I
+	METHOD method_15362 cos (F)F
+	METHOD method_15341 floorMod (FF)F
+	METHOD method_15392 wrapDegrees (I)I
+	METHOD method_15387 floorMod (II)I
+	METHOD method_15383 packRgb (III)I
 		ARG 0 r
 		ARG 1 g
 		ARG 2 b
-	METHOD c floor (D)I
-	METHOD c atan2 (DD)D
-	METHOD c sqrt (F)F
-	METHOD c subtractAngles (FF)F
+	METHOD method_15357 floor (D)I
+	METHOD method_15349 atan2 (DD)D
+	METHOD method_15355 sqrt (F)F
+	METHOD method_15381 subtractAngles (FF)F
 		ARG 0 a
 		ARG 1 b
-	METHOD c smallestEncompassingPowerOfTwo (I)I
+	METHOD method_15339 smallestEncompassingPowerOfTwo (I)I
 		ARG 0 value
-	METHOD c roundUp (II)I
-	METHOD c hashCode (III)J
+	METHOD method_15359 roundUp (II)I
+	METHOD method_15371 hashCode (III)J
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD d lfloor (D)J
-	METHOD d lerp (DDD)D
+	METHOD method_15372 lfloor (D)J
+	METHOD method_16436 lerp (DDD)D
 		ARG 0 partial
 		ARG 2 first
 		ARG 4 second
-	METHOD d floor (F)I
-	METHOD d angleBetween (FF)F
-	METHOD d packRgb (FFF)I
+	METHOD method_15375 floor (F)I
+	METHOD method_15356 angleBetween (FF)F
+	METHOD method_15353 packRgb (FFF)I
 		ARG 0 r
 		ARG 1 g
 		ARG 2 b
-	METHOD d log2DeBrujin (I)I
-	METHOD d multiplyColors (II)I
+	METHOD method_15342 log2DeBrujin (I)I
+	METHOD method_15377 multiplyColors (II)I
 		ARG 0 first
 		ARG 1 second
-	METHOD e absFloor (D)I
-	METHOD e abs (F)F
-	METHOD e hsvToRgb (FFF)I
+	METHOD method_15380 absFloor (D)I
+	METHOD method_15379 abs (F)F
+	METHOD method_15369 hsvToRgb (FFF)I
 		ARG 0 hue
 		ARG 1 saturation
 		ARG 2 value
-	METHOD e log2 (I)I
-	METHOD f ceil (D)I
-	METHOD f ceil (F)I
-	METHOD f lerp (FFF)F
+	METHOD method_15351 log2 (I)I
+	METHOD method_15384 ceil (D)I
+	METHOD method_15386 ceil (F)I
+	METHOD method_16439 lerp (FFF)F
 		ARG 0 partial
 		ARG 1 first
 		ARG 2 second
-	METHOD g wrapDegrees (D)D
-	METHOD g wrapDegrees (F)F
-	METHOD g isPowerOfTwo (I)Z
-	METHOD h fractionalPart (D)D
+	METHOD method_15338 wrapDegrees (D)D
+	METHOD method_15393 wrapDegrees (F)F
+	METHOD method_15352 isPowerOfTwo (I)Z
+	METHOD method_15385 fractionalPart (D)D
 		ARG 0 value
-	METHOD i fastInverseSqrt (D)D
+	METHOD method_15345 fastInverseSqrt (D)D
 		ARG 0 value
-	METHOD j ease (D)D
-	METHOD k sgn (D)I
+	METHOD method_16435 ease (D)D
+	METHOD method_17822 sgn (D)I

@@ -1,2 +1,2 @@
-CLASS adt net/minecraft/datafixers/fixes/AddTrappedChestFix
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+CLASS net/minecraft/class_1215 net/minecraft/datafixers/fixes/AddTrappedChestFix
+	FIELD field_5740 LOGGER Lorg/apache/logging/log4j/Logger;

@@ -1,5 +1,5 @@
-CLASS bvr net/minecraft/block/enums/ChestType
-	FIELD d VALUES [Lbvr;
-	FIELD e name Ljava/lang/String;
-	FIELD f opposite I
-	METHOD a getOpposite ()Lbvr;
+CLASS net/minecraft/class_2745 net/minecraft/block/enums/ChestType
+	FIELD field_12570 VALUES LLbvr;
+	FIELD field_12572 name Ljava/lang/String;
+	FIELD field_12568 opposite I
+	METHOD method_11824 getOpposite ()Lnet/minecraft/class_2745;

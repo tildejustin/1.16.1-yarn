@@ -1,12 +1,12 @@
-CLASS yn net/minecraft/stat/ServerStatHandler
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c server Lnet/minecraft/server/MinecraftServer;
-	FIELD d file Ljava/io/File;
+CLASS net/minecraft/class_3442 net/minecraft/stat/ServerStatHandler
+	FIELD field_15309 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_15308 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_15305 file Ljava/io/File;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;)V
 		ARG 1 server
-	METHOD a save ()V
-	METHOD a jsonToCompound (Lcom/google/gson/JsonObject;)Lib;
-	METHOD a parse (Lcom/mojang/datafixers/DataFixer;Ljava/lang/String;)V
+	METHOD method_14912 save ()V
+	METHOD method_14908 jsonToCompound (Lcom/google/gson/JsonObject;)Lnet/minecraft/class_2487;
+	METHOD method_14906 parse (Lcom/mojang/datafixers/DataFixer;Ljava/lang/String;)V
 		ARG 1 dataFixer
 		ARG 2 json
-	METHOD b asString ()Ljava/lang/String;
+	METHOD method_14911 asString ()Ljava/lang/String;

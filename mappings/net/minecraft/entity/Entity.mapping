@@ -1,382 +1,382 @@
-CLASS ahz net/minecraft/entity/Entity
-	FIELD A velocityModified Z
-	FIELD B movementMultiplier Lcrk;
-	FIELD C removed Z
-	FIELD G fallDistance F
-	FIELD H prevRenderX D
-	FIELD I prevRenderY D
-	FIELD J prevRenderZ D
-	FIELD K stepHeight F
-	FIELD L noClip Z
-	FIELD M pushSpeedReduction F
-	FIELD N random Ljava/util/Random;
-	FIELD O age I
-	FIELD P insideWater Z
-	FIELD U dataTracker Lqj;
-	FIELD V ENTITY_FLAGS Lqg;
-	FIELD X chunkX I
-	FIELD Y chunkY I
-	FIELD Z chunkZ I
-	FIELD aA NO_GRAVITY Lqg;
-	FIELD aB POSE Lqg;
-	FIELD aC invulnerable Z
-	FIELD aD scoreboardTags Ljava/util/Set;
-	FIELD aF pistonMovementDelta [D
-	FIELD aG pistonMovementTick J
-	FIELD aH size Laia;
-	FIELD aI standingEyeHeight F
-	FIELD ad ignoreCameraFrustum Z
-	FIELD ae velocityDirty Z
-	FIELD af portalCooldown I
-	FIELD ag inPortal Z
-	FIELD ah portalTime I
-	FIELD ai dimension Lbxs;
-	FIELD aj lastPortalPosition Lev;
-	FIELD am uuid Ljava/util/UUID;
-	FIELD an uuidString Ljava/lang/String;
-	FIELD ao glowing Z
-	FIELD ap passengerList Ljava/util/List;
-	FIELD aq riddenEntity Lahz;
-	FIELD ar velocity Lcrk;
-	FIELD as boundingBox Lcrf;
-	FIELD av fireTime I
-	FIELD aw BREATH Lqg;
-	FIELD ax CUSTOM_NAME Lqg;
-	FIELD ay NAME_VISIBLE Lqg;
-	FIELD az SILENT Lqg;
-	FIELD b MAX_ENTITY_ID Ljava/util/concurrent/atomic/AtomicInteger;
-	FIELD c EMPTY_STACK_LIST Ljava/util/List;
-	FIELD d NULL_BOX Lcrf;
-	FIELD e renderDistanceMultiplier D
-	FIELD f type Laid;
-	FIELD g entityId I
-	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD j ridingCooldown I
-	FIELD k teleporting Z
-	FIELD l world Lbgx;
-	FIELD m prevX D
-	FIELD n prevY D
-	FIELD o prevZ D
-	FIELD p x D
-	FIELD q y D
-	FIELD r z D
-	FIELD s yaw F
-	FIELD t pitch F
-	FIELD u prevYaw F
-	FIELD v prevPitch F
-	FIELD w onGround Z
-	FIELD x horizontalCollision Z
-	FIELD y verticalCollision Z
-	FIELD z collided Z
-	METHOD <init> (Laid;Lbgx;)V
+CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
+	FIELD field_6037 velocityModified Z
+	FIELD field_17046 movementMultiplier Lnet/minecraft/class_243;
+	FIELD field_5988 removed Z
+	FIELD field_6017 fallDistance F
+	FIELD field_6038 prevRenderX D
+	FIELD field_5971 prevRenderY D
+	FIELD field_5989 prevRenderZ D
+	FIELD field_6013 stepHeight F
+	FIELD field_5960 noClip Z
+	FIELD field_5968 pushSpeedReduction F
+	FIELD field_5974 random Ljava/util/Random;
+	FIELD field_6012 age I
+	FIELD field_5957 insideWater Z
+	FIELD field_6011 dataTracker Lnet/minecraft/class_2945;
+	FIELD field_5990 ENTITY_FLAGS Lnet/minecraft/class_2940;
+	FIELD field_6024 chunkX I
+	FIELD field_5959 chunkY I
+	FIELD field_5980 chunkZ I
+	FIELD field_5995 NO_GRAVITY Lnet/minecraft/class_2940;
+	FIELD field_18064 POSE Lnet/minecraft/class_2940;
+	FIELD field_6009 invulnerable Z
+	FIELD field_6029 scoreboardTags Ljava/util/Set;
+	FIELD field_5993 pistonMovementDelta [D
+	FIELD field_5996 pistonMovementTick J
+	FIELD field_18065 size Lnet/minecraft/class_4048;
+	FIELD field_18066 standingEyeHeight F
+	FIELD field_5985 ignoreCameraFrustum Z
+	FIELD field_6007 velocityDirty Z
+	FIELD field_6018 portalCooldown I
+	FIELD field_5963 inPortal Z
+	FIELD field_5972 portalTime I
+	FIELD field_6026 dimension Lnet/minecraft/class_2874;
+	FIELD field_5991 lastPortalPosition Lnet/minecraft/class_2338;
+	FIELD field_6021 uuid Ljava/util/UUID;
+	FIELD field_5981 uuidString Ljava/lang/String;
+	FIELD field_5958 glowing Z
+	FIELD field_5979 passengerList Ljava/util/List;
+	FIELD field_6034 riddenEntity Lnet/minecraft/class_1297;
+	FIELD field_18276 velocity Lnet/minecraft/class_243;
+	FIELD field_6005 boundingBox Lnet/minecraft/class_238;
+	FIELD field_5956 fireTime I
+	FIELD field_6032 BREATH Lnet/minecraft/class_2940;
+	FIELD field_6027 CUSTOM_NAME Lnet/minecraft/class_2940;
+	FIELD field_5975 NAME_VISIBLE Lnet/minecraft/class_2940;
+	FIELD field_5962 SILENT Lnet/minecraft/class_2940;
+	FIELD field_5978 MAX_ENTITY_ID Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD field_6030 EMPTY_STACK_LIST Ljava/util/List;
+	FIELD field_6025 NULL_BOX Lnet/minecraft/class_238;
+	FIELD field_5999 renderDistanceMultiplier D
+	FIELD field_5961 type Lnet/minecraft/class_1299;
+	FIELD field_5986 entityId I
+	FIELD field_5955 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_5951 ridingCooldown I
+	FIELD field_5983 teleporting Z
+	FIELD field_6002 world Lnet/minecraft/class_1937;
+	FIELD field_6014 prevX D
+	FIELD field_6036 prevY D
+	FIELD field_5969 prevZ D
+	FIELD field_5987 x D
+	FIELD field_6010 y D
+	FIELD field_6035 z D
+	FIELD field_6031 yaw F
+	FIELD field_5965 pitch F
+	FIELD field_5982 prevYaw F
+	FIELD field_6004 prevPitch F
+	FIELD field_5952 onGround Z
+	FIELD field_5976 horizontalCollision Z
+	FIELD field_5992 verticalCollision Z
+	FIELD field_6015 collided Z
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD E updatePortalCooldown ()V
-	METHOD N createSpawnPacket ()Lka;
-	METHOD R detach ()V
-	METHOD S getType ()Laid;
-	METHOD T getEntityId ()I
-	METHOD U getScoreboardTags ()Ljava/util/Set;
-	METHOD V kill ()V
-	METHOD W getDataTracker ()Lqj;
-	METHOD Y remove ()V
-	METHOD Z getPose ()Lais;
-	METHOD a setStatus (B)V
-	METHOD a shouldRenderAtDistance (D)Z
+	METHOD method_5760 updatePortalCooldown ()V
+	METHOD method_18002 createSpawnPacket ()Lnet/minecraft/class_2596;
+	METHOD method_18375 detach ()V
+	METHOD method_5864 getType ()Lnet/minecraft/class_1299;
+	METHOD method_5628 getEntityId ()I
+	METHOD method_5752 getScoreboardTags ()Ljava/util/Set;
+	METHOD method_5768 kill ()V
+	METHOD method_5841 getDataTracker ()Lnet/minecraft/class_2945;
+	METHOD method_5650 remove ()V
+	METHOD method_18376 getPose ()Lnet/minecraft/class_4050;
+	METHOD method_5711 setStatus (B)V
+	METHOD method_5640 shouldRenderAtDistance (D)Z
 		ARG 1 distance
-	METHOD a requestTeleport (DDD)V
-	METHOD a setPositionAnglesAndUpdate (DDDFF)V
+	METHOD method_5859 requestTeleport (DDD)V
+	METHOD method_5641 setPositionAnglesAndUpdate (DDDFF)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a setPositionAndRotations (DDDFFIZ)V
+	METHOD method_5759 setPositionAndRotations (DDDFFIZ)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a rayTrace (DFZ)Lcri;
+	METHOD method_5745 rayTrace (DFZ)Lnet/minecraft/class_239;
 		ARG 1 maxDistance
 		ARG 3 tickDelta
-	METHOD a fall (DZLbuy;Lev;)V
+	METHOD method_5623 fall (DZLnet/minecraft/class_2680;Lnet/minecraft/class_2338;)V
 		ARG 1 heightDifference
 		ARG 3 onGround
 		ARG 4 blockState
 		ARG 5 blockPos
-	METHOD a setRotation (FF)V
+	METHOD method_5710 setRotation (FF)V
 		ARG 1 yaw
-	METHOD a updateVelocity (FLcrk;)V
+	METHOD method_5724 updateVelocity (FLnet/minecraft/class_243;)V
 		ARG 1 speed
 		ARG 2 movementInput
-	METHOD a damage (Lahi;F)Z
+	METHOD method_5643 damage (Lnet/minecraft/class_1282;F)Z
 		ARG 1 source
 		ARG 2 amount
-	METHOD a startRiding (Lahz;Z)Z
+	METHOD method_5873 startRiding (Lnet/minecraft/class_1297;Z)Z
 		ARG 1 entity
-	METHOD a setEquippedStack (Laie;Lbbp;)V
+	METHOD method_5673 setEquippedStack (Lnet/minecraft/class_1304;Lnet/minecraft/class_1799;)V
 		ARG 1 slot
-	METHOD a dealDamage (Laii;Lahz;)V
+	METHOD method_5723 dealDamage (Lnet/minecraft/class_1309;Lnet/minecraft/class_1297;)V
 		ARG 1 attacker
 		ARG 2 target
-	METHOD a move (Lain;Lcrk;)V
+	METHOD method_5784 move (Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V
 		ARG 1 type
 		ARG 2 offset
-	METHOD a getSize (Lais;)Laia;
-	METHOD a getEyeHeight (Lais;Laia;)F
-	METHOD a onStruckByLightning (Latb;)V
-	METHOD a interactAt (Lavm;Lcrk;Lagt;)Lagu;
+	METHOD method_18377 getSize (Lnet/minecraft/class_4050;)Lnet/minecraft/class_4048;
+	METHOD method_18378 getEyeHeight (Lnet/minecraft/class_4050;Lnet/minecraft/class_4048;)F
+	METHOD method_5800 onStruckByLightning (Lnet/minecraft/class_1538;)V
+	METHOD method_5664 interactAt (Lnet/minecraft/class_1657;Lnet/minecraft/class_243;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;
 		ARG 1 player
 		ARG 2 hitPos
-	METHOD a dropStack (Lbbp;)Late;
-	METHOD a dropStack (Lbbp;F)Late;
+	METHOD method_5775 dropStack (Lnet/minecraft/class_1799;)Lnet/minecraft/class_1542;
+	METHOD method_5699 dropStack (Lnet/minecraft/class_1799;F)Lnet/minecraft/class_1542;
 		ARG 1 stack
-	METHOD a canExplosionDestroyBlock (Lbgq;Lbgi;Lev;Lbuy;F)Z
+	METHOD method_5853 canExplosionDestroyBlock (Lnet/minecraft/class_1927;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)Z
 		ARG 1 explosion
 		ARG 2 world
 		ARG 3 pos
 		ARG 4 state
-	METHOD a getEffectiveExplosionResistance (Lbgq;Lbgi;Lev;Lbuy;Lckn;F)F
+	METHOD method_5774 getEffectiveExplosionResistance (Lnet/minecraft/class_1927;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;F)F
 		ARG 1 explosion
 		ARG 2 world
 		ARG 3 pos
 		ARG 5 state
-	METHOD a dropItem (Lbgw;)Late;
-	METHOD a dropItem (Lbgw;I)Late;
-	METHOD a setWorld (Lbgx;)V
-	METHOD a applyMirror (Lbpl;)F
-	METHOD a applyRotation (Lbql;)F
-	METHOD a onBlockCollision (Lbuy;)V
-	METHOD a slowMovement (Lbuy;Lcrk;)V
+	METHOD method_5706 dropItem (Lnet/minecraft/class_1935;)Lnet/minecraft/class_1542;
+	METHOD method_5870 dropItem (Lnet/minecraft/class_1935;I)Lnet/minecraft/class_1542;
+	METHOD method_5866 setWorld (Lnet/minecraft/class_1937;)V
+	METHOD method_5763 applyMirror (Lnet/minecraft/class_2415;)F
+	METHOD method_5832 applyRotation (Lnet/minecraft/class_2470;)F
+	METHOD method_5622 onBlockCollision (Lnet/minecraft/class_2680;)V
+	METHOD method_5844 slowMovement (Lnet/minecraft/class_2680;Lnet/minecraft/class_243;)V
 		ARG 1 state
 		ARG 2 multipliers
-	METHOD a changeDimension (Lbxs;)Lahz;
-	METHOD a lookAt (Lck$a;Lcrk;)V
+	METHOD method_5731 changeDimension (Lnet/minecraft/class_2874;)Lnet/minecraft/class_1297;
+	METHOD method_5702 lookAt (Lnet/minecraft/class_2183$class_2184;Lnet/minecraft/class_243;)V
 		ARG 1 anchor
 		ARG 2 target
-	METHOD a setBoundingBox (Lcrf;)V
-	METHOD a movementInputToVelocity (Lcrk;FF)Lcrk;
+	METHOD method_5857 setBoundingBox (Lnet/minecraft/class_238;)V
+	METHOD method_18795 movementInputToVelocity (Lnet/minecraft/class_243;FF)Lnet/minecraft/class_243;
 		ARG 0 movementInput
 		ARG 1 speed
 		ARG 2 yaw
-	METHOD a clipSneakingMovement (Lcrk;Lain;)Lcrk;
+	METHOD method_18796 clipSneakingMovement (Lnet/minecraft/class_243;Lnet/minecraft/class_1313;)Lnet/minecraft/class_243;
 		ARG 1 offset
 		ARG 2 type
-	METHOD a isTeamPlayer (Lcsm;)Z
-	METHOD a populateCrashReport (Le;)V
-	METHOD a setPositionAndAngles (Lev;FF)V
+	METHOD method_5645 isTeamPlayer (Lnet/minecraft/class_270;)Z
+	METHOD method_5819 populateCrashReport (Lnet/minecraft/class_129;)V
+	METHOD method_5725 setPositionAndAngles (Lnet/minecraft/class_2338;FF)V
 		ARG 1 pos
 		ARG 2 yaw
 		ARG 3 pitch
-	METHOD a playStepSound (Lev;Lbuy;)V
+	METHOD method_5712 playStepSound (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
 		ARG 1 pos
-	METHOD a readCustomDataFromTag (Lib;)V
+	METHOD method_5749 readCustomDataFromTag (Lnet/minecraft/class_2487;)V
 		ARG 1 tag
-	METHOD a addScoreboardTag (Ljava/lang/String;)Z
-	METHOD a setUuid (Ljava/util/UUID;)V
-	METHOD a onTrackedDataSet (Lqg;)V
-	METHOD a playSound (Lyh;FF)V
+	METHOD method_5780 addScoreboardTag (Ljava/lang/String;)Z
+	METHOD method_5826 setUuid (Ljava/util/UUID;)V
+	METHOD method_5674 onTrackedDataSet (Lnet/minecraft/class_2940;)V
+	METHOD method_5783 playSound (Lnet/minecraft/class_3414;FF)V
 		ARG 1 sound
 		ARG 2 volume
-	METHOD a isInFluid (Lyz;)Z
-	METHOD a isInFluid (Lyz;Z)Z
+	METHOD method_5777 isInFluid (Lnet/minecraft/class_3494;)Z
+	METHOD method_5744 isInFluid (Lnet/minecraft/class_3494;Z)Z
 		ARG 2 requireLoadedChunk
-	METHOD a toListTag ([D)Lii;
-	METHOD a toListTag ([F)Lii;
-	METHOD aA spawnSprintingParticles ()V
-	METHOD aB isTouchingLava ()Z
-	METHOD aC getLightmapCoordinates ()I
-	METHOD aD getBrightnessAtEyes ()F
-	METHOD aE scheduleVelocityUpdate ()V
-	METHOD aF doesCollide ()Z
-	METHOD aG isPushable ()Z
-	METHOD aH shouldSetPositionOnLoad ()Z
-	METHOD aI getSavedEntityId ()Ljava/lang/String;
-	METHOD aJ isAlive ()Z
-	METHOD aK isInsideWall ()Z
-	METHOD aL updateRiding ()V
-	METHOD aM getHeightOffset ()D
-	METHOD aN getMountedHeightOffset ()D
-	METHOD aP removeAllPassengers ()V
-	METHOD aQ getBoundingBoxMarginForTargeting ()F
-	METHOD aS getRotationClient ()Lcrj;
-	METHOD aT getRotationVecClient ()Lcrk;
-	METHOD aV getDefaultPortalCooldown ()I
-	METHOD aX getItemsHand ()Ljava/lang/Iterable;
-	METHOD aY getItemsArmor ()Ljava/lang/Iterable;
-	METHOD aZ getItemsEquipped ()Ljava/lang/Iterable;
-	METHOD aa baseTick ()V
-	METHOD ab getMaxPortalTime ()I
-	METHOD ac setOnFireFromLava ()V
-	METHOD ad extinguish ()V
-	METHOD ae destroy ()V
-	METHOD ag moveToBoundingBoxCenter ()V
-	METHOD ah getSwimSound ()Lyh;
-	METHOD ai getSplashSound ()Lyh;
-	METHOD aj getHighSpeedSplashSound ()Lyh;
-	METHOD ak checkBlockCollision ()V
-	METHOD am isSilent ()Z
-	METHOD an isUnaffectedByGravity ()Z
-	METHOD aq isFireImmune ()Z
-	METHOD ar isInsideWater ()Z
-	METHOD as isInsideWaterOrRain ()Z
-	METHOD at isTouchingWater ()Z
-	METHOD au isInsideWaterOrBubbleColumn ()Z
-	METHOD av isInWater ()Z
-	METHOD aw updateSwimming ()V
-	METHOD ay onSwimmingStart ()V
-	METHOD az attemptSprintingParticles ()V
-	METHOD b setRenderDistanceMultiplier (D)V
+	METHOD method_5846 toListTag ([D)Lnet/minecraft/class_2499;
+	METHOD method_5726 toListTag ([F)Lnet/minecraft/class_2499;
+	METHOD method_5839 spawnSprintingParticles ()V
+	METHOD method_5771 isTouchingLava ()Z
+	METHOD method_5635 getLightmapCoordinates ()I
+	METHOD method_5718 getBrightnessAtEyes ()F
+	METHOD method_5785 scheduleVelocityUpdate ()V
+	METHOD method_5863 doesCollide ()Z
+	METHOD method_5810 isPushable ()Z
+	METHOD method_5638 shouldSetPositionOnLoad ()Z
+	METHOD method_5653 getSavedEntityId ()Ljava/lang/String;
+	METHOD method_5805 isAlive ()Z
+	METHOD method_5757 isInsideWall ()Z
+	METHOD method_5842 updateRiding ()V
+	METHOD method_5678 getHeightOffset ()D
+	METHOD method_5621 getMountedHeightOffset ()D
+	METHOD method_5772 removeAllPassengers ()V
+	METHOD method_5871 getBoundingBoxMarginForTargeting ()F
+	METHOD method_5802 getRotationClient ()Lnet/minecraft/class_241;
+	METHOD method_5663 getRotationVecClient ()Lnet/minecraft/class_243;
+	METHOD method_5806 getDefaultPortalCooldown ()I
+	METHOD method_5877 getItemsHand ()Ljava/lang/Iterable;
+	METHOD method_5661 getItemsArmor ()Ljava/lang/Iterable;
+	METHOD method_5743 getItemsEquipped ()Ljava/lang/Iterable;
+	METHOD method_5670 baseTick ()V
+	METHOD method_5741 getMaxPortalTime ()I
+	METHOD method_5730 setOnFireFromLava ()V
+	METHOD method_5646 extinguish ()V
+	METHOD method_5825 destroy ()V
+	METHOD method_5792 moveToBoundingBoxCenter ()V
+	METHOD method_5737 getSwimSound ()Lnet/minecraft/class_3414;
+	METHOD method_5625 getSplashSound ()Lnet/minecraft/class_3414;
+	METHOD method_5672 getHighSpeedSplashSound ()Lnet/minecraft/class_3414;
+	METHOD method_5852 checkBlockCollision ()V
+	METHOD method_5701 isSilent ()Z
+	METHOD method_5740 isUnaffectedByGravity ()Z
+	METHOD method_5753 isFireImmune ()Z
+	METHOD method_5799 isInsideWater ()Z
+	METHOD method_5721 isInsideWaterOrRain ()Z
+	METHOD method_5637 isTouchingWater ()Z
+	METHOD method_5816 isInsideWaterOrBubbleColumn ()Z
+	METHOD method_5869 isInWater ()Z
+	METHOD method_5790 updateSwimming ()V
+	METHOD method_5746 onSwimmingStart ()V
+	METHOD method_5666 attemptSprintingParticles ()V
+	METHOD method_5840 setRenderDistanceMultiplier (D)V
 		ARG 0 value
-	METHOD b setPositionAndAngles (DDDFF)V
+	METHOD method_5808 setPositionAndAngles (DDDFF)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD b handleFallDamage (FF)V
+	METHOD method_5747 handleFallDamage (FF)V
 		ARG 1 fallDistance
 		ARG 2 damageMultiplier
-	METHOD b setEntityFlag (IZ)V
+	METHOD method_5729 setEntityFlag (IZ)V
 		ARG 1 index
-	METHOD b isInvulnerableTo (Lahi;)Z
-	METHOD b setPose (Lais;)V
-	METHOD b onPlayerCollision (Lavm;)V
-	METHOD b interact (Lavm;Lagt;)Z
+	METHOD method_5679 isInvulnerableTo (Lnet/minecraft/class_1282;)Z
+	METHOD method_18380 setPose (Lnet/minecraft/class_4050;)V
+	METHOD method_5694 onPlayerCollision (Lnet/minecraft/class_1657;)V
+	METHOD method_5688 interact (Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Z
 		ARG 1 player
-	METHOD b doesNotCollide (Lcrf;)Z
+	METHOD method_5629 doesNotCollide (Lnet/minecraft/class_238;)Z
 		ARG 1 box
-	METHOD b squaredHorizontalLength (Lcrk;)D
-	METHOD b writeCustomDataToTag (Lib;)V
+	METHOD method_17996 squaredHorizontalLength (Lnet/minecraft/class_243;)D
+	METHOD method_5652 writeCustomDataToTag (Lnet/minecraft/class_2487;)V
 		ARG 1 tag
-	METHOD b removeScoreboardTag (Ljava/lang/String;)Z
-	METHOD b setCustomName (Ljm;)V
-	METHOD b onStartedTrackingBy (Lvf;)V
-	METHOD b isInsideFluid (Lyz;)Z
-	METHOD bA getRenderDistanceMultiplier ()D
-	METHOD bB isCustomNameVisible ()Z
-	METHOD bC shouldRenderName ()Z
-	METHOD bD getHorizontalFacing ()Lfa;
-	METHOD bE getMovementDirection ()Lfa;
-	METHOD bF getComponentHoverEvent ()Ljp;
-	METHOD bG getBoundingBox ()Lcrf;
-	METHOD bI getStandingEyeHeight ()F
-	METHOD bJ getBlockPos ()Lev;
-	METHOD bK getPosVector ()Lcrk;
-	METHOD bL getEntityWorld ()Lbgx;
-	METHOD bM getServer ()Lnet/minecraft/server/MinecraftServer;
-	METHOD bN isImmuneToExplosion ()Z
-	METHOD bQ getPrimaryPassenger ()Lahz;
-	METHOD bR getPassengerList ()Ljava/util/List;
-	METHOD bS getPassengersDeep ()Ljava/util/Collection;
-	METHOD bU getTopmostRiddenEntity ()Lahz;
-	METHOD bW getRiddenEntity ()Lahz;
-	METHOD bX getSoundCategory ()Lyj;
-	METHOD bZ getCommandSource ()Lcd;
-	METHOD ba isOnFire ()Z
-	METHOD bb hasVehicle ()Z
-	METHOD bc hasPassengers ()Z
-	METHOD be isSneaking ()Z
-	METHOD bf isSprinting ()Z
-	METHOD bg isSwimming ()Z
-	METHOD bh isGlowing ()Z
-	METHOD bi isInvisible ()Z
-	METHOD bj getScoreboardTeam ()Lcsm;
-	METHOD bk getMaxBreath ()I
-	METHOD bl getBreath ()I
-	METHOD bm getHeadYaw ()F
-	METHOD bo isInvulnerable ()Z
-	METHOD bp canUsePortals ()Z
-	METHOD bq getSafeFallDistance ()I
-	METHOD bu canAvoidTraps ()Z
-	METHOD bv doesRenderOnFire ()Z
-	METHOD bw getUuid ()Ljava/util/UUID;
-	METHOD bx getUuidAsString ()Ljava/lang/String;
-	METHOD by getEntityName ()Ljava/lang/String;
-	METHOD bz canFly ()Z
-	METHOD c setPosition (DDD)V
+	METHOD method_5738 removeScoreboardTag (Ljava/lang/String;)Z
+	METHOD method_5665 setCustomName (Lnet/minecraft/class_2561;)V
+	METHOD method_5837 onStartedTrackingBy (Lnet/minecraft/class_3222;)V
+	METHOD method_5692 isInsideFluid (Lnet/minecraft/class_3494;)Z
+	METHOD method_5824 getRenderDistanceMultiplier ()D
+	METHOD method_5807 isCustomNameVisible ()Z
+	METHOD method_5733 shouldRenderName ()Z
+	METHOD method_5735 getHorizontalFacing ()Lnet/minecraft/class_2350;
+	METHOD method_5755 getMovementDirection ()Lnet/minecraft/class_2350;
+	METHOD method_5769 getComponentHoverEvent ()Lnet/minecraft/class_2568;
+	METHOD method_5829 getBoundingBox ()Lnet/minecraft/class_238;
+	METHOD method_5751 getStandingEyeHeight ()F
+	METHOD method_5704 getBlockPos ()Lnet/minecraft/class_2338;
+	METHOD method_5812 getPosVector ()Lnet/minecraft/class_243;
+	METHOD method_5770 getEntityWorld ()Lnet/minecraft/class_1937;
+	METHOD method_5682 getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD method_5659 isImmuneToExplosion ()Z
+	METHOD method_5642 getPrimaryPassenger ()Lnet/minecraft/class_1297;
+	METHOD method_5685 getPassengerList ()Ljava/util/List;
+	METHOD method_5736 getPassengersDeep ()Ljava/util/Collection;
+	METHOD method_5668 getTopmostRiddenEntity ()Lnet/minecraft/class_1297;
+	METHOD method_5854 getRiddenEntity ()Lnet/minecraft/class_1297;
+	METHOD method_5634 getSoundCategory ()Lnet/minecraft/class_3419;
+	METHOD method_5671 getCommandSource ()Lnet/minecraft/class_2168;
+	METHOD method_5809 isOnFire ()Z
+	METHOD method_5765 hasVehicle ()Z
+	METHOD method_5782 hasPassengers ()Z
+	METHOD method_5715 isSneaking ()Z
+	METHOD method_5624 isSprinting ()Z
+	METHOD method_5681 isSwimming ()Z
+	METHOD method_5851 isGlowing ()Z
+	METHOD method_5767 isInvisible ()Z
+	METHOD method_5781 getScoreboardTeam ()Lnet/minecraft/class_270;
+	METHOD method_5748 getMaxBreath ()I
+	METHOD method_5669 getBreath ()I
+	METHOD method_5791 getHeadYaw ()F
+	METHOD method_5655 isInvulnerable ()Z
+	METHOD method_5822 canUsePortals ()Z
+	METHOD method_5850 getSafeFallDistance ()I
+	METHOD method_5696 canAvoidTraps ()Z
+	METHOD method_5862 doesRenderOnFire ()Z
+	METHOD method_5667 getUuid ()Ljava/util/UUID;
+	METHOD method_5845 getUuidAsString ()Ljava/lang/String;
+	METHOD method_5820 getEntityName ()Ljava/lang/String;
+	METHOD method_5675 canFly ()Z
+	METHOD method_5814 setPosition (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD c getVectorFromRotation (FF)Lcrk;
+	METHOD method_5631 getVectorFromRotation (FF)Lnet/minecraft/class_243;
 		ARG 1 pitch
-	METHOD c getEyeHeight (Lais;)F
-	METHOD c canSeePlayer (Lavm;)Z
-	METHOD c squaredDistanceTo (Lcrk;)D
-	METHOD c setInPortal (Lev;)V
-	METHOD c saveSelfToTag (Lib;)Z
-	METHOD c onStoppedTrackingBy (Lvf;)V
-	METHOD c setSilent (Z)V
-	METHOD cb getWidth ()F
-	METHOD cc getHeight ()F
-	METHOD cd getPos ()Lcrk;
-	METHOD ce getVelocity ()Lcrk;
-	METHOD d doesNotCollide (DDD)Z
+	METHOD method_18381 getEyeHeight (Lnet/minecraft/class_4050;)F
+	METHOD method_5756 canSeePlayer (Lnet/minecraft/class_1657;)Z
+	METHOD method_5707 squaredDistanceTo (Lnet/minecraft/class_243;)D
+	METHOD method_5717 setInPortal (Lnet/minecraft/class_2338;)V
+	METHOD method_5786 saveSelfToTag (Lnet/minecraft/class_2487;)Z
+	METHOD method_5742 onStoppedTrackingBy (Lnet/minecraft/class_3222;)V
+	METHOD method_5803 setSilent (Z)V
+	METHOD method_17681 getWidth ()F
+	METHOD method_17682 getHeight ()F
+	METHOD method_19538 getPos ()Lnet/minecraft/class_243;
+	METHOD method_18798 getVelocity ()Lnet/minecraft/class_243;
+	METHOD method_5654 doesNotCollide (DDD)Z
 		ARG 1 offsetX
 		ARG 3 offsetY
 		ARG 5 offsetZ
-	METHOD d setVelocity (Lcrk;)V
-	METHOD d saveToTag (Lib;)Z
-	METHOD d setUnaffectedByGravity (Z)V
-	METHOD e squaredDistanceTo (DDD)D
+	METHOD method_18799 setVelocity (Lnet/minecraft/class_243;)V
+	METHOD method_5662 saveToTag (Lnet/minecraft/class_2487;)Z
+	METHOD method_5875 setUnaffectedByGravity (Z)V
+	METHOD method_5649 squaredDistanceTo (DDD)D
 		ARG 1 x
-	METHOD e setEntityId (I)V
-	METHOD e toTag (Lib;)Lib;
-	METHOD e setSneaking (Z)V
+	METHOD method_5838 setEntityId (I)V
+	METHOD method_5647 toTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
+	METHOD method_5660 setSneaking (Z)V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD f addVelocity (DDD)V
+	METHOD method_5762 addVelocity (DDD)V
 		ARG 1 deltaX
 		ARG 3 deltaY
 		ARG 5 deltaZ
-	METHOD f getRotationVec (F)Lcrk;
-	METHOD f setOnFireFor (I)V
-	METHOD f fromTag (Lib;)V
-	METHOD f setSprinting (Z)V
-	METHOD g shouldRenderFrom (DDD)Z
+	METHOD method_5828 getRotationVec (F)Lnet/minecraft/class_243;
+	METHOD method_5639 setOnFireFor (I)V
+	METHOD method_5651 fromTag (Lnet/minecraft/class_2487;)V
+	METHOD method_5728 setSprinting (Z)V
+	METHOD method_5727 shouldRenderFrom (DDD)Z
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD g getPitch (F)F
-	METHOD g burn (I)V
-	METHOD g distanceTo (Lahz;)F
-	METHOD g setSwimming (Z)V
+	METHOD method_5695 getPitch (F)F
+	METHOD method_5714 burn (I)V
+	METHOD method_5739 distanceTo (Lnet/minecraft/class_1297;)F
+	METHOD method_5796 setSwimming (Z)V
 		ARG 1 swimming
-	METHOD h tick ()V
-	METHOD h setVelocityClient (DDD)V
+	METHOD method_5773 tick ()V
+	METHOD method_5750 setVelocityClient (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD h getYaw (F)F
-	METHOD h getEntityFlag (I)Z
-	METHOD h squaredDistanceTo (Lahz;)D
-	METHOD h setGlowing (Z)V
-	METHOD i setBreath (I)V
-	METHOD i pushAwayFrom (Lahz;)V
-	METHOD i setInvisible (Z)V
-	METHOD j stopRiding ()V
-	METHOD j setVelocity (DDD)V
-	METHOD j getCameraPosVec (F)Lcrk;
+	METHOD method_5705 getYaw (F)F
+	METHOD method_5795 getEntityFlag (I)Z
+	METHOD method_5858 squaredDistanceTo (Lnet/minecraft/class_1297;)D
+	METHOD method_5834 setGlowing (Z)V
+	METHOD method_5855 setBreath (I)V
+	METHOD method_5697 pushAwayFrom (Lnet/minecraft/class_1297;)V
+	METHOD method_5648 setInvisible (Z)V
+	METHOD method_5848 stopRiding ()V
+	METHOD method_18800 setVelocity (DDD)V
+	METHOD method_5836 getCameraPosVec (F)Lnet/minecraft/class_243;
 		ARG 1 tickDelta
-	METHOD j allowsPermissionLevel (I)Z
-	METHOD k isBeingRainedOn ()Z
-	METHOD k setHeadYaw (F)V
+	METHOD method_5687 allowsPermissionLevel (I)Z
+	METHOD method_5778 isBeingRainedOn ()Z
+	METHOD method_5847 setHeadYaw (F)V
 		ARG 1 headYaw
-	METHOD l isInsideBubbleColumn ()Z
-	METHOD l setYaw (F)V
-	METHOD l setInvulnerable (Z)V
-	METHOD m startRiding (Lahz;)Z
-	METHOD m setCustomNameVisible (Z)V
-	METHOD n canStartRiding (Lahz;)Z
-	METHOD o addPassenger (Lahz;)V
-	METHOD p removePassenger (Lahz;)V
-	METHOD q canAddPassenger (Lahz;)Z
-	METHOD r isTeammate (Lahz;)Z
-	METHOD s isPartOf (Lahz;)Z
-	METHOD t isSpectator ()Z
-	METHOD u setPositionAndAngles (Lahz;)V
-	METHOD u_ initDataTracker ()V
-	METHOD w hasPassenger (Lahz;)Z
-	METHOD x isConnectedThroughVehicle (Lahz;)Z
+	METHOD method_5798 isInsideBubbleColumn ()Z
+	METHOD method_5636 setYaw (F)V
+	METHOD method_5684 setInvulnerable (Z)V
+	METHOD method_5804 startRiding (Lnet/minecraft/class_1297;)Z
+	METHOD method_5880 setCustomNameVisible (Z)V
+	METHOD method_5860 canStartRiding (Lnet/minecraft/class_1297;)Z
+	METHOD method_5627 addPassenger (Lnet/minecraft/class_1297;)V
+	METHOD method_5793 removePassenger (Lnet/minecraft/class_1297;)V
+	METHOD method_5818 canAddPassenger (Lnet/minecraft/class_1297;)Z
+	METHOD method_5722 isTeammate (Lnet/minecraft/class_1297;)Z
+	METHOD method_5779 isPartOf (Lnet/minecraft/class_1297;)Z
+	METHOD method_7325 isSpectator ()Z
+	METHOD method_5719 setPositionAndAngles (Lnet/minecraft/class_1297;)V
+	METHOD method_5693 initDataTracker ()V
+	METHOD method_5626 hasPassenger (Lnet/minecraft/class_1297;)Z
+	METHOD method_5794 isConnectedThroughVehicle (Lnet/minecraft/class_1297;)Z
 		ARG 1 entity
-	METHOD x_ refreshSize ()V
-	METHOD y getPermissionLevel ()I
-	METHOD y_ getPistonBehavior ()Lckt;
+	METHOD method_18382 refreshSize ()V
+	METHOD method_5691 getPermissionLevel ()I
+	METHOD method_5657 getPistonBehavior ()Lnet/minecraft/class_3619;

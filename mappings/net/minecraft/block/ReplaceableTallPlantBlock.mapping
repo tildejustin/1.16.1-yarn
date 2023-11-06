@@ -1,2 +1,2 @@
-CLASS bqr net/minecraft/block/ReplaceableTallPlantBlock
-	FIELD b HALF Lbvw;
+CLASS net/minecraft/class_2475 net/minecraft/block/ReplaceableTallPlantBlock
+	FIELD field_11484 HALF Lnet/minecraft/class_2754;

@@ -1,8 +1,8 @@
-CLASS byd net/minecraft/world/gen/chunk/FlatChunkGenerator
-	CLASS byd$a FlatChunkGeneratorBiome
-	FIELD e biome Lbhu;
-	FIELD f phantomSpawner Lbym;
-	METHOD <init> (Lbgy;Lbhw;Lcfa;)V
+CLASS net/minecraft/class_2897 net/minecraft/world/gen/chunk/FlatChunkGenerator
+	CLASS net/minecraft/class_2897$class_2898 FlatChunkGeneratorBiome
+	FIELD field_13183 biome Lnet/minecraft/class_1959;
+	FIELD field_13184 phantomSpawner Lnet/minecraft/class_2910;
+	METHOD <init> (Lnet/minecraft/class_1936;Lnet/minecraft/class_1966;Lnet/minecraft/class_3232;)V
 		ARG 1 world
 		ARG 3 config
-	METHOD g getBiome ()Lbhu;
+	METHOD method_12589 getBiome ()Lnet/minecraft/class_1959;

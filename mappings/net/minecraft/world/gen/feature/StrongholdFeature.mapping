@@ -1,14 +1,14 @@
-CLASS cdw net/minecraft/world/gen/feature/StrongholdFeature
-	CLASS cdw$a Start
-		METHOD <init> (Lcdx;IILbhu;Lchf;IJ)V
+CLASS net/minecraft/class_3188 net/minecraft/world/gen/feature/StrongholdFeature
+	CLASS net/minecraft/class_3188$class_3189 Start
+		METHOD <init> (Lnet/minecraft/class_3195;IILnet/minecraft/class_1959;Lnet/minecraft/class_3341;IJ)V
 			ARG 2 chunkX
 			ARG 3 chunkZ
-	FIELD aS startPositions [Lbgk;
-	FIELD aT starts Ljava/util/List;
-	FIELD aU lastSeed J
-	FIELD a stateStillValid Z
+	FIELD field_13852 startPositions LLbgk;
+	FIELD field_13853 starts Ljava/util/List;
+	FIELD field_13854 lastSeed J
+	FIELD field_13851 stateStillValid Z
 	METHOD <init> (Ljava/util/function/Function;)V
 		ARG 1 configFactory
-	METHOD a initialize (Lbwn;)V
+	METHOD method_13985 initialize (Lnet/minecraft/class_2794;)V
 		ARG 1 chunkGenerator
-	METHOD d invalidateState ()V
+	METHOD method_13986 invalidateState ()V

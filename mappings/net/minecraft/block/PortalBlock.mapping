@@ -1,6 +1,6 @@
-CLASS bpo net/minecraft/block/PortalBlock
-	FIELD a AXIS Lbvw;
-	FIELD b X_SHAPE Lcse;
-	FIELD c Z_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2423 net/minecraft/block/PortalBlock
+	FIELD field_11310 AXIS Lnet/minecraft/class_2754;
+	FIELD field_11309 X_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11308 Z_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

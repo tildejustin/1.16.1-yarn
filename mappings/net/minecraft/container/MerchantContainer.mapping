@@ -1,16 +1,16 @@
-CLASS ayt net/minecraft/container/MerchantContainer
-	FIELD c villager Lbga;
-	FIELD d villagerInventory Lays;
-	FIELD f canLevel Z
-	METHOD <init> (ILavl;)V
+CLASS net/minecraft/class_1728 net/minecraft/container/MerchantContainer
+	FIELD field_7863 villager Lnet/minecraft/class_1915;
+	FIELD field_7861 villagerInventory Lnet/minecraft/class_1725;
+	FIELD field_18670 canLevel Z
+	METHOD <init> (ILnet/minecraft/class_1661;)V
 		ARG 1 syncId
-	METHOD <init> (ILavl;Lbga;)V
+	METHOD <init> (ILnet/minecraft/class_1661;Lnet/minecraft/class_1915;)V
 		ARG 1 syncId
-	METHOD a setRecipes (Lbgc;)V
-	METHOD a setCanLevel (Z)V
+	METHOD method_17437 setRecipes (Lnet/minecraft/class_1916;)V
+	METHOD method_19253 setCanLevel (Z)V
 		ARG 1 canLevel
-	METHOD d setRecipeIndex (I)V
-	METHOD e getExperience ()I
-	METHOD e setExperienceFromServer (I)V
-	METHOD h getRecipes ()Lbgc;
-	METHOD i canLevel ()Z
+	METHOD method_7650 setRecipeIndex (I)V
+	METHOD method_19254 getExperience ()I
+	METHOD method_19255 setExperienceFromServer (I)V
+	METHOD method_17438 getRecipes ()Lnet/minecraft/class_1916;
+	METHOD method_19259 canLevel ()Z

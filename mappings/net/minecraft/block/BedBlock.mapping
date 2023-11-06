@@ -1,17 +1,17 @@
-CLASS blv net/minecraft/block/BedBlock
-	FIELD a PART Lbvw;
-	FIELD b OCCUPIED Lbvq;
-	FIELD c TOP_SHAPE Lcse;
-	FIELD d LEG_1_SHAPE Lcse;
-	FIELD e LEG_2_SHAPE Lcse;
-	FIELD f LEG_3_SHAPE Lcse;
-	FIELD g LEG_4_SHAPE Lcse;
-	FIELD h NORTH_SHAPE Lcse;
-	FIELD i SOUTH_SHAPE Lcse;
-	FIELD j WEST_SHAPE Lcse;
-	FIELD k EAST_SHAPE Lcse;
-	FIELD w color Lbam;
+CLASS net/minecraft/class_2244 net/minecraft/block/BedBlock
+	FIELD field_9967 PART Lnet/minecraft/class_2754;
+	FIELD field_9968 OCCUPIED Lnet/minecraft/class_2746;
+	FIELD field_16788 TOP_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16782 LEG_1_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16784 LEG_2_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16786 LEG_3_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16789 LEG_4_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16787 NORTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16785 SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16783 WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16790 EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9966 color Lnet/minecraft/class_1767;
 	METHOD a (Lbvn;Lfa;)Lfa;
 		ARG 0 part
 		ARG 1 direction
-	METHOD d getColor ()Lbam;
+	METHOD method_9487 getColor ()Lnet/minecraft/class_1767;

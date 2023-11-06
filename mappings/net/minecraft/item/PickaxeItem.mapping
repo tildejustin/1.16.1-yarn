@@ -1,2 +1,2 @@
-CLASS bbz net/minecraft/item/PickaxeItem
-	FIELD a EFFECTIVE_BLOCKS Ljava/util/Set;
+CLASS net/minecraft/class_1810 net/minecraft/item/PickaxeItem
+	FIELD field_8899 EFFECTIVE_BLOCKS Ljava/util/Set;

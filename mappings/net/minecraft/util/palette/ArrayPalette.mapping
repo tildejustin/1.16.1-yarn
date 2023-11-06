@@ -1,10 +1,10 @@
-CLASS bxb net/minecraft/util/palette/ArrayPalette
-	FIELD a idList Lfe;
-	FIELD c resizeListener Lbxe;
-	FIELD d valueDeserializer Ljava/util/function/Function;
-	FIELD e indexBits I
-	FIELD f size I
-	METHOD <init> (Lfe;ILbxe;Ljava/util/function/Function;)V
+CLASS net/minecraft/class_2834 net/minecraft/util/palette/ArrayPalette
+	FIELD field_12900 idList Lnet/minecraft/class_2361;
+	FIELD field_12905 resizeListener Lnet/minecraft/class_2835;
+	FIELD field_12902 valueDeserializer Ljava/util/function/Function;
+	FIELD field_12903 indexBits I
+	FIELD field_12901 size I
+	METHOD <init> (Lnet/minecraft/class_2361;ILnet/minecraft/class_2835;Ljava/util/function/Function;)V
 		ARG 2 integer
 		ARG 3 resizeListener
 		ARG 4 valueDeserializer

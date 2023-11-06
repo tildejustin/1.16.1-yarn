@@ -1,3 +1,3 @@
-CLASS tm net/minecraft/server/command/SummonCommand
-	FIELD a FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3138 net/minecraft/server/command/SummonCommand
+	FIELD field_13741 FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD method_13690 register (Lcom/mojang/brigadier/CommandDispatcher;)V

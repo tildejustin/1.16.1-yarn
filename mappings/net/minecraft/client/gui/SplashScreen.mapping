@@ -1,8 +1,8 @@
-CLASS czc net/minecraft/client/gui/SplashScreen
-	FIELD a LOGO Lqr;
-	FIELD b client Lcux;
-	FIELD c reloadMonitor Lwz;
-	METHOD a renderProgressBar (IIIIFF)V
+CLASS net/minecraft/class_425 net/minecraft/client/gui/SplashScreen
+	FIELD field_2483 LOGO Lnet/minecraft/class_2960;
+	FIELD field_18217 client Lnet/minecraft/class_310;
+	FIELD field_17767 reloadMonitor Lnet/minecraft/class_4011;
+	METHOD method_18103 renderProgressBar (IIIIFF)V
 		ARG 1 minX
 		ARG 2 minY
 		ARG 3 maxX

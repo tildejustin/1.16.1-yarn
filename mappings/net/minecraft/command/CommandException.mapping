@@ -1,3 +1,3 @@
-CLASS cb net/minecraft/command/CommandException
-	FIELD a message Ljm;
-	METHOD a getMessageComponent ()Ljm;
+CLASS net/minecraft/class_2164 net/minecraft/command/CommandException
+	FIELD field_9813 message Lnet/minecraft/class_2561;
+	METHOD method_9199 getMessageComponent ()Lnet/minecraft/class_2561;

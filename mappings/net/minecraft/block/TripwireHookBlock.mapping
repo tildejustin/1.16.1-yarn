@@ -1,6 +1,6 @@
-CLASS bsb net/minecraft/block/TripwireHookBlock
-	FIELD a FACING Lbvt;
-	FIELD b POWERED Lbvq;
-	FIELD c ATTACHED Lbvq;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2537 net/minecraft/block/TripwireHookBlock
+	FIELD field_11666 FACING Lnet/minecraft/class_2753;
+	FIELD field_11671 POWERED Lnet/minecraft/class_2746;
+	FIELD field_11669 ATTACHED Lnet/minecraft/class_2746;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

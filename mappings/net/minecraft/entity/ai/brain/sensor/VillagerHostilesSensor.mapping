@@ -1,2 +1,2 @@
-CLASS apn net/minecraft/entity/ai/brain/sensor/VillagerHostilesSensor
-	FIELD b SQUARED_DISTANCES_FOR_DANGER Lcom/google/common/collect/ImmutableMap;
+CLASS net/minecraft/class_4150 net/minecraft/entity/ai/brain/sensor/VillagerHostilesSensor
+	FIELD field_18473 SQUARED_DISTANCES_FOR_DANGER Lcom/google/common/collect/ImmutableMap;

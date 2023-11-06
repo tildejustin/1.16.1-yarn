@@ -1,9 +1,9 @@
-CLASS aiv net/minecraft/sortme/SpawnRestriction
-	CLASS aiv$a Entry
-		FIELD a heightMapType Lbyf$a;
-		FIELD b location Laiv$b;
-	CLASS aiv$b Location
-	FIELD a mapping Ljava/util/Map;
-	METHOD a getLocation (Laid;)Laiv$b;
-	METHOD a register (Laid;Laiv$b;Lbyf$a;)V
-	METHOD b getHeightMapType (Laid;)Lbyf$a;
+CLASS net/minecraft/class_1317 net/minecraft/sortme/SpawnRestriction
+	CLASS net/minecraft/class_1317$class_1318 Entry
+		FIELD field_6314 heightMapType Lnet/minecraft/class_2902$class_2903;
+		FIELD field_6315 location Lnet/minecraft/class_1317$class_1319;
+	CLASS net/minecraft/class_1317$class_1319 Location
+	FIELD field_6313 mapping Ljava/util/Map;
+	METHOD method_6159 getLocation (Lnet/minecraft/class_1299;)Lnet/minecraft/class_1317$class_1319;
+	METHOD method_6161 register (Lnet/minecraft/class_1299;Lnet/minecraft/class_1317$class_1319;Lnet/minecraft/class_2902$class_2903;)V
+	METHOD method_6160 getHeightMapType (Lnet/minecraft/class_1299;)Lnet/minecraft/class_2902$class_2903;

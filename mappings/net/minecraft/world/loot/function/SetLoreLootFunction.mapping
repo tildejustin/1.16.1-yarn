@@ -1,5 +1,5 @@
-CLASS cps net/minecraft/world/loot/function/SetLoreLootFunction
-	CLASS cps$b Factory
-	FIELD a replace Z
-	FIELD c lore Ljava/util/List;
-	FIELD d entity Lcnz$c;
+CLASS net/minecraft/class_3671 net/minecraft/world/loot/function/SetLoreLootFunction
+	CLASS net/minecraft/class_3671$class_3672 Factory
+	FIELD field_16232 replace Z
+	FIELD field_16231 lore Ljava/util/List;
+	FIELD field_16233 entity Lnet/minecraft/class_47$class_50;

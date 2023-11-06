@@ -1,14 +1,14 @@
-CLASS bfm net/minecraft/enchantment/ProtectionEnchantment
-	CLASS bfm$a Type
-		FIELD a ALL Lbfm$a;
-		FIELD b FIRE Lbfm$a;
-		FIELD c FALL Lbfm$a;
-		FIELD d EXPLOSION Lbfm$a;
-		FIELD e PROJECTILE Lbfm$a;
+CLASS net/minecraft/class_1900 net/minecraft/enchantment/ProtectionEnchantment
+	CLASS net/minecraft/class_1900$class_1901 Type
+		FIELD field_9138 ALL Lnet/minecraft/class_1900$class_1901;
+		FIELD field_9139 FIRE Lnet/minecraft/class_1900$class_1901;
+		FIELD field_9140 FALL Lnet/minecraft/class_1900$class_1901;
+		FIELD field_9141 EXPLOSION Lnet/minecraft/class_1900$class_1901;
+		FIELD field_9142 PROJECTILE Lnet/minecraft/class_1900$class_1901;
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;II)V
 			ARG 3 name
-	FIELD a type Lbfm$a;
-	METHOD <init> (Lbez$a;Lbfm$a;[Laie;)V
+	FIELD field_9133 type Lnet/minecraft/class_1900$class_1901;
+	METHOD <init> (Lnet/minecraft/class_1887$class_1888;Lnet/minecraft/class_1900$class_1901;[Lnet/minecraft/class_1304;)V
 		ARG 1 weight
 		ARG 2 type
 		ARG 3 slotTypes

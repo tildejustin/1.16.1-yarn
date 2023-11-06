@@ -1,2 +1,2 @@
-CLASS ahe net/minecraft/block/InventoryProvider
-	METHOD a getInventory (Lbuy;Lbgy;Lev;)Lahd;
+CLASS net/minecraft/class_3954 net/minecraft/block/InventoryProvider
+	METHOD method_17680 getInventory (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)Lnet/minecraft/class_1278;

@@ -1,13 +1,13 @@
-CLASS dyd net/minecraft/client/tutorial/TutorialStep
-	FIELD a MOVEMENT Ldyd;
-	FIELD b FIND_TREE Ldyd;
-	FIELD c PUNCH_TREE Ldyd;
-	FIELD d OPEN_INVENTORY Ldyd;
-	FIELD e CRAFT_PLANKS Ldyd;
-	FIELD f NONE Ldyd;
-	FIELD g name Ljava/lang/String;
-	FIELD h handlerFactory Ljava/util/function/Function;
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a createHandler (Ldyb;)Ldyc;
-	METHOD a byName (Ljava/lang/String;)Ldyd;
+CLASS net/minecraft/class_1157 net/minecraft/client/tutorial/TutorialStep
+	FIELD field_5650 MOVEMENT Lnet/minecraft/class_1157;
+	FIELD field_5648 FIND_TREE Lnet/minecraft/class_1157;
+	FIELD field_5649 PUNCH_TREE Lnet/minecraft/class_1157;
+	FIELD field_5652 OPEN_INVENTORY Lnet/minecraft/class_1157;
+	FIELD field_5655 CRAFT_PLANKS Lnet/minecraft/class_1157;
+	FIELD field_5653 NONE Lnet/minecraft/class_1157;
+	FIELD field_5651 name Ljava/lang/String;
+	FIELD field_5647 handlerFactory Ljava/util/function/Function;
+	METHOD method_4920 getName ()Ljava/lang/String;
+	METHOD method_4918 createHandler (Lnet/minecraft/class_1156;)Lnet/minecraft/class_1155;
+	METHOD method_4919 byName (Ljava/lang/String;)Lnet/minecraft/class_1157;
 		ARG 0 name

@@ -1,18 +1,18 @@
-CLASS btv net/minecraft/block/entity/LootableContainerBlockEntity
-	FIELD g lootTableId Lqr;
-	FIELD h lootTableSeed J
-	METHOD a setLootTable (Lbgi;Ljava/util/Random;Lev;Lqr;)V
+CLASS net/minecraft/class_2621 net/minecraft/block/entity/LootableContainerBlockEntity
+	FIELD field_12037 lootTableId Lnet/minecraft/class_2960;
+	FIELD field_12036 lootTableSeed J
+	METHOD method_11287 setLootTable (Lnet/minecraft/class_1922;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_2960;)V
 		ARG 0 world
 		ARG 1 random
 		ARG 2 pos
 		ARG 3 id
-	METHOD a setInvStackList (Lfj;)V
+	METHOD method_11281 setInvStackList (Lnet/minecraft/class_2371;)V
 		ARG 1 list
-	METHOD a setLootTable (Lqr;J)V
+	METHOD method_11285 setLootTable (Lnet/minecraft/class_2960;J)V
 		ARG 1 id
 	METHOD createMenu (ILavl;Lavm;)Laxq;
 		ARG 1 syncId
-	METHOD d checkLootInteraction (Lavm;)V
-	METHOD d deserializeLootTable (Lib;)Z
-	METHOD e serializeLootTable (Lib;)Z
-	METHOD f getInvStackList ()Lfj;
+	METHOD method_11289 checkLootInteraction (Lnet/minecraft/class_1657;)V
+	METHOD method_11283 deserializeLootTable (Lnet/minecraft/class_2487;)Z
+	METHOD method_11286 serializeLootTable (Lnet/minecraft/class_2487;)Z
+	METHOD method_11282 getInvStackList ()Lnet/minecraft/class_2371;

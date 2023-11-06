@@ -1,12 +1,12 @@
-CLASS dbd net/minecraft/client/gui/ingame/PlayerInventoryScreen
-	FIELD l RECIPE_BUTTON_TEX Lqr;
-	FIELD m mouseX F
-	FIELD n mouseY F
-	FIELD o recipeBook Ldca;
-	FIELD p isOpen Z
-	FIELD q isNarrow Z
-	FIELD r isMouseDown Z
-	METHOD <init> (Lavm;)V
+CLASS net/minecraft/class_490 net/minecraft/client/gui/ingame/PlayerInventoryScreen
+	FIELD field_2933 RECIPE_BUTTON_TEX Lnet/minecraft/class_2960;
+	FIELD field_2935 mouseX F
+	FIELD field_2934 mouseY F
+	FIELD field_2929 recipeBook Lnet/minecraft/class_507;
+	FIELD field_2932 isOpen Z
+	FIELD field_2931 isNarrow Z
+	FIELD field_2930 isMouseDown Z
+	METHOD <init> (Lnet/minecraft/class_1657;)V
 		ARG 1 player
-	METHOD a drawEntity (IIIFFLaii;)V
+	METHOD method_2486 drawEntity (IIIFFLnet/minecraft/class_1309;)V
 		ARG 5 entity

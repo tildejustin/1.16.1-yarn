@@ -1,2 +1,2 @@
-CLASS aax net/minecraft/datafixers/fixes/ChunkStatusFix2
-	FIELD a statusMap Ljava/util/Map;
+CLASS net/minecraft/class_3788 net/minecraft/datafixers/fixes/ChunkStatusFix2
+	FIELD field_16691 statusMap Ljava/util/Map;

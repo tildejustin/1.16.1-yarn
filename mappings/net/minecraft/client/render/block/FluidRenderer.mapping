@@ -1,6 +1,6 @@
-CLASS dkz net/minecraft/client/render/block/FluidRenderer
-	FIELD a lavaSprites [Ldue;
-	FIELD b waterSprites [Ldue;
-	FIELD c waterOverlaySprite Ldue;
-	METHOD a onResourceReload ()V
-	METHOD a tesselate (Lbgg;Lev;Lctz;Lckn;)Z
+CLASS net/minecraft/class_775 net/minecraft/client/render/block/FluidRenderer
+	FIELD field_4165 lavaSprites LLdue;
+	FIELD field_4166 waterSprites LLdue;
+	FIELD field_4164 waterOverlaySprite Lnet/minecraft/class_1058;
+	METHOD method_3345 onResourceReload ()V
+	METHOD method_3347 tesselate (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;Lnet/minecraft/class_3610;)Z

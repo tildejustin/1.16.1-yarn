@@ -1,7 +1,7 @@
-CLASS bsc net/minecraft/block/TurtleEggBlock
-	FIELD a HATCH Lbvy;
-	FIELD b EGGS Lbvy;
-	FIELD c SMALL_SHAPE Lcse;
-	FIELD d LARGE_SHAPE Lcse;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2542 net/minecraft/block/TurtleEggBlock
+	FIELD field_11711 HATCH Lnet/minecraft/class_2758;
+	FIELD field_11710 EGGS Lnet/minecraft/class_2758;
+	FIELD field_11712 SMALL_SHAPE Lnet/minecraft/class_265;
+	FIELD field_11709 LARGE_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

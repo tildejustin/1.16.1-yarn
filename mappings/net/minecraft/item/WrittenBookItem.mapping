@@ -1,11 +1,11 @@
-CLASS bdf net/minecraft/item/WrittenBookItem
-	METHOD <init> (Lbbk$a;)V
+CLASS net/minecraft/class_1843 net/minecraft/item/WrittenBookItem
+	METHOD <init> (Lnet/minecraft/class_1792$class_1793;)V
 		ARG 1 settings
-	METHOD a resolve (Lbbp;Lcd;Lavm;)Z
+	METHOD method_8054 resolve (Lnet/minecraft/class_1799;Lnet/minecraft/class_2168;Lnet/minecraft/class_1657;)Z
 		ARG 0 book
 		ARG 1 commandSource
 		ARG 2 player
-	METHOD b isValidBook (Lib;)Z
-	METHOD e getBookGeneration (Lbbp;)I
+	METHOD method_8053 isValidBook (Lnet/minecraft/class_2487;)Z
+	METHOD method_8052 getBookGeneration (Lnet/minecraft/class_1799;)I
 		ARG 0 stack
-	METHOD j getPageCount (Lbbp;)I
+	METHOD method_17443 getPageCount (Lnet/minecraft/class_1799;)I

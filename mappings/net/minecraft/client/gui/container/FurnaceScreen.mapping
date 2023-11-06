@@ -1,2 +1,2 @@
-CLASS daz net/minecraft/client/gui/container/FurnaceScreen
-	FIELD l BG_TEX Lqr;
+CLASS net/minecraft/class_3873 net/minecraft/client/gui/container/FurnaceScreen
+	FIELD field_17127 BG_TEX Lnet/minecraft/class_2960;

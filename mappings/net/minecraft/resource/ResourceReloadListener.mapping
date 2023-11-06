@@ -1,6 +1,6 @@
-CLASS wx net/minecraft/resource/ResourceReloadListener
-	CLASS wx$a Helper
-		METHOD a waitForAll (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+CLASS net/minecraft/class_3302 net/minecraft/resource/ResourceReloadListener
+	CLASS net/minecraft/class_3302$class_4045 Helper
+		METHOD method_18352 waitForAll (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
 			ARG 1 passedObject
 	METHOD reload (Lwx$a;Lxc;Lafy;Lafy;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 helper

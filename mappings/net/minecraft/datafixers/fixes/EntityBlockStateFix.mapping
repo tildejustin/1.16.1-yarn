@@ -1,4 +1,4 @@
-CLASS abd net/minecraft/datafixers/fixes/EntityBlockStateFix
-	FIELD a BLOCK_NAME_TO_ID Ljava/util/Map;
-	METHOD a getNumericalBlockId (Ljava/lang/String;)I
+CLASS net/minecraft/class_3595 net/minecraft/datafixers/fixes/EntityBlockStateFix
+	FIELD field_15891 BLOCK_NAME_TO_ID Ljava/util/Map;
+	METHOD method_15686 getNumericalBlockId (Ljava/lang/String;)I
 		ARG 0 blockId

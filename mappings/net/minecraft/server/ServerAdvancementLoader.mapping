@@ -1,10 +1,10 @@
-CLASS rc net/minecraft/server/ServerAdvancementLoader
-	FIELD a PATH_PREFIX_LENGTH I
-	FIELD b FILE_EXTENSION_LENGTH I
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d GSON Lcom/google/gson/Gson;
-	FIELD e MANAGER Lr;
-	FIELD f errored Z
-	METHOD a get (Lqr;)Lq;
-	METHOD b getAdvancements ()Ljava/util/Collection;
-	METHOD b scanAdvancements (Lxc;)Ljava/util/Map;
+CLASS net/minecraft/class_2989 net/minecraft/server/ServerAdvancementLoader
+	FIELD field_13403 PATH_PREFIX_LENGTH I
+	FIELD field_13402 FILE_EXTENSION_LENGTH I
+	FIELD field_13406 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_13405 GSON Lcom/google/gson/Gson;
+	FIELD field_13404 MANAGER Lnet/minecraft/class_163;
+	FIELD field_13401 errored Z
+	METHOD method_12896 get (Lnet/minecraft/class_2960;)Lnet/minecraft/class_161;
+	METHOD method_12893 getAdvancements ()Ljava/util/Collection;
+	METHOD method_12894 scanAdvancements (Lnet/minecraft/class_3300;)Ljava/util/Map;

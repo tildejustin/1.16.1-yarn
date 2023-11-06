@@ -1,20 +1,20 @@
-CLASS mx net/minecraft/client/network/packet/TeamS2CPacket
-	FIELD a teamName Ljava/lang/String;
-	FIELD e nameTagVisibilityRule Ljava/lang/String;
-	FIELD f collisionRule Ljava/lang/String;
-	FIELD h playerList Ljava/util/Collection;
-	FIELD i mode I
-	FIELD j flags I
-	METHOD <init> (Lcsi;I)V
+CLASS net/minecraft/class_2755 net/minecraft/client/network/packet/TeamS2CPacket
+	FIELD field_12600 teamName Ljava/lang/String;
+	FIELD field_12604 nameTagVisibilityRule Ljava/lang/String;
+	FIELD field_12605 collisionRule Ljava/lang/String;
+	FIELD field_12602 playerList Ljava/util/Collection;
+	FIELD field_12599 mode I
+	FIELD field_12606 flags I
+	METHOD <init> (Lnet/minecraft/class_268;I)V
 		ARG 1 team
-	METHOD <init> (Lcsi;Ljava/util/Collection;I)V
+	METHOD <init> (Lnet/minecraft/class_268;Ljava/util/Collection;I)V
 		ARG 1 team
 		ARG 2 playerList
-	METHOD b getTeamName ()Ljava/lang/String;
-	METHOD c getDisplayName ()Ljm;
-	METHOD d getPlayerList ()Ljava/util/Collection;
-	METHOD e getMode ()I
-	METHOD f getFlags ()I
-	METHOD g getPlayerPrefix ()Lc;
-	METHOD h getNameTagVisibilityRule ()Ljava/lang/String;
-	METHOD i getCollisionRule ()Ljava/lang/String;
+	METHOD method_11855 getTeamName ()Ljava/lang/String;
+	METHOD method_11859 getDisplayName ()Lnet/minecraft/class_2561;
+	METHOD method_11857 getPlayerList ()Ljava/util/Collection;
+	METHOD method_11853 getMode ()I
+	METHOD method_11852 getFlags ()I
+	METHOD method_11858 getPlayerPrefix ()Lnet/minecraft/class_124;
+	METHOD method_11851 getNameTagVisibilityRule ()Ljava/lang/String;
+	METHOD method_11861 getCollisionRule ()Ljava/lang/String;

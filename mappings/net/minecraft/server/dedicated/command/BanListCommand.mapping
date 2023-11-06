@@ -1,2 +1,2 @@
-CLASS rm net/minecraft/server/dedicated/command/BanListCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3014 net/minecraft/server/dedicated/command/BanListCommand
+	METHOD method_13014 register (Lcom/mojang/brigadier/CommandDispatcher;)V

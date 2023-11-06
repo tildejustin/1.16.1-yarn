@@ -1,6 +1,6 @@
-CLASS arp net/minecraft/entity/passive/TraderLlamaEntity
-	CLASS arp$a DefendTraderGoal
-		FIELD c offender Laii;
-		FIELD d traderLastAttackedTime I
-	FIELD bJ despawnDelay I
-	METHOD v setDespawnDelay (I)V
+CLASS net/minecraft/class_3986 net/minecraft/entity/passive/TraderLlamaEntity
+	CLASS net/minecraft/class_3986$class_3987 DefendTraderGoal
+		FIELD field_17719 offender Lnet/minecraft/class_1309;
+		FIELD field_17720 traderLastAttackedTime I
+	FIELD field_17716 despawnDelay I
+	METHOD method_18005 setDespawnDelay (I)V

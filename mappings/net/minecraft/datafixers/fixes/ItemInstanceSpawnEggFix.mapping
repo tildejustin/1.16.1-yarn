@@ -1,2 +1,2 @@
-CLASS acq net/minecraft/datafixers/fixes/ItemInstanceSpawnEggFix
-	FIELD a ENTITY_SPAWN_EGGS Ljava/util/Map;
+CLASS net/minecraft/class_1189 net/minecraft/datafixers/fixes/ItemInstanceSpawnEggFix
+	FIELD field_5685 ENTITY_SPAWN_EGGS Ljava/util/Map;

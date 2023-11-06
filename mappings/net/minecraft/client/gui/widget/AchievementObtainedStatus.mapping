@@ -1,3 +1,3 @@
-CLASS daa net/minecraft/client/gui/widget/AchievementObtainedStatus
-	FIELD c spriteIndex I
-	METHOD a getSpriteIndex ()I
+CLASS net/minecraft/class_455 net/minecraft/client/gui/widget/AchievementObtainedStatus
+	FIELD field_2700 spriteIndex I
+	METHOD method_2320 getSpriteIndex ()I

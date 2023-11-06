@@ -1,7 +1,7 @@
-CLASS bce net/minecraft/item/MusicDiscItem
-	FIELD a SOUND_ITEM_MAP Ljava/util/Map;
-	FIELD c sound Lyh;
-	METHOD a bySound (Lyh;)Lbce;
+CLASS net/minecraft/class_1813 net/minecraft/item/MusicDiscItem
+	FIELD field_8901 SOUND_ITEM_MAP Ljava/util/Map;
+	FIELD field_8900 sound Lnet/minecraft/class_3414;
+	METHOD method_8012 bySound (Lnet/minecraft/class_3414;)Lnet/minecraft/class_1813;
 		ARG 0 sound
-	METHOD e getDescription ()Ljm;
-	METHOD t getSound ()Lyh;
+	METHOD method_8011 getDescription ()Lnet/minecraft/class_2561;
+	METHOD method_8009 getSound ()Lnet/minecraft/class_3414;

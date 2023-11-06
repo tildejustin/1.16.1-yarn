@@ -1,9 +1,9 @@
-CLASS blg net/minecraft/block/AnvilBlock
-	FIELD a FACING Lbvt;
-	FIELD i X_AXIS_SHAPE Lcse;
-	FIELD j Z_AXIS_SHAPE Lcse;
-	FIELD k CONTAINER_NAME Ljw;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2199 net/minecraft/block/AnvilBlock
+	FIELD field_9883 FACING Lnet/minecraft/class_2753;
+	FIELD field_9887 X_AXIS_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9892 Z_AXIS_SHAPE Lnet/minecraft/class_265;
+	FIELD field_17349 CONTAINER_NAME Lnet/minecraft/class_2588;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a_ getLandingState (Lbuy;)Lbuy;
+	METHOD method_9346 getLandingState (Lnet/minecraft/class_2680;)Lnet/minecraft/class_2680;
 		ARG 0 fallingState

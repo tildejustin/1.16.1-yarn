@@ -1,43 +1,43 @@
-CLASS aqs net/minecraft/entity/passive/PandaEntity
-	CLASS aqs$a Gene
-		FIELD h VALUES [Laqs$a;
-		FIELD i id I
-		FIELD j name Ljava/lang/String;
-		FIELD k recessive Z
+CLASS net/minecraft/class_1440 net/minecraft/entity/passive/PandaEntity
+	CLASS net/minecraft/class_1440$class_1443 Gene
+		FIELD field_6786 VALUES LLaqs$a;
+		FIELD field_6785 id I
+		FIELD field_6797 name Ljava/lang/String;
+		FIELD field_6790 recessive Z
 		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Z)V
 			ARG 3 id
 			ARG 4 name
 			ARG 5 recessive
-		METHOD a getId ()I
-		METHOD a byId (I)Laqs$a;
-		METHOD a byName (Ljava/lang/String;)Laqs$a;
-		METHOD a createRandom (Ljava/util/Random;)Laqs$a;
-		METHOD b getName ()Ljava/lang/String;
-		METHOD b getProductGene (Laqs$a;Laqs$a;)Laqs$a;
+		METHOD method_6564 getId ()I
+		METHOD method_6566 byId (I)Lnet/minecraft/class_1440$class_1443;
+		METHOD method_6567 byName (Ljava/lang/String;)Lnet/minecraft/class_1440$class_1443;
+		METHOD method_17688 createRandom (Ljava/util/Random;)Lnet/minecraft/class_1440$class_1443;
+		METHOD method_6565 getName ()Ljava/lang/String;
+		METHOD method_6569 getProductGene (Lnet/minecraft/class_1440$class_1443;Lnet/minecraft/class_1440$class_1443;)Lnet/minecraft/class_1440$class_1443;
 			ARG 0 mainGene
 			ARG 1 hiddenGene
-		METHOD c isRecessive ()Z
-	CLASS aqs$c PandaFleeGoal
-	CLASS aqs$d PandaMateGoal
-	CLASS aqs$e SpawnData
-	CLASS aqs$i PandaMoveControl
-		FIELD i panda Laqs;
-	CLASS aqs$j ExtinguishFireGoal
-	FIELD bE MAIN_GENE Lqg;
-	FIELD bF HIDDEN_GENE Lqg;
-	FIELD bG FLAGS Lqg;
-	METHOD a setMainGene (Laqs$a;)V
-	METHOD a initGenes (Laqs;Laqs;)V
-	METHOD b setHiddenGene (Laqs$a;)V
-	METHOD d setFlag (IZ)V
-	METHOD dZ getMainGene ()Laqs$a;
-	METHOD ea getHiddenGene ()Laqs$a;
-	METHOD ec getProductGene ()Laqs$a;
-	METHOD ed isLazy ()Z
-	METHOD ee isWorried ()Z
-	METHOD ef isPlayful ()Z
-	METHOD eh isWeak ()Z
-	METHOD ej resetAttributes ()V
-	METHOD et sneeze ()V
-	METHOD eu getRandomGene ()Laqs$a;
-	METHOD u hasFlag (I)Z
+		METHOD method_6568 isRecessive ()Z
+	CLASS net/minecraft/class_1440$class_1441 PandaFleeGoal
+	CLASS net/minecraft/class_1440$class_1442 PandaMateGoal
+	CLASS net/minecraft/class_1440$class_4055 SpawnData
+	CLASS net/minecraft/class_1440$class_1446 PandaMoveControl
+		FIELD field_6801 panda Lnet/minecraft/class_1440;
+	CLASS net/minecraft/class_1440$class_1447 ExtinguishFireGoal
+	FIELD field_6766 MAIN_GENE Lnet/minecraft/class_2940;
+	FIELD field_6781 HIDDEN_GENE Lnet/minecraft/class_2940;
+	FIELD field_6768 FLAGS Lnet/minecraft/class_2940;
+	METHOD method_6529 setMainGene (Lnet/minecraft/class_1440$class_1443;)V
+	METHOD method_6515 initGenes (Lnet/minecraft/class_1440;Lnet/minecraft/class_1440;)V
+	METHOD method_6547 setHiddenGene (Lnet/minecraft/class_1440$class_1443;)V
+	METHOD method_6557 setFlag (IZ)V
+	METHOD method_6525 getMainGene ()Lnet/minecraft/class_1440$class_1443;
+	METHOD method_6508 getHiddenGene ()Lnet/minecraft/class_1440$class_1443;
+	METHOD method_6554 getProductGene ()Lnet/minecraft/class_1440$class_1443;
+	METHOD method_6549 isLazy ()Z
+	METHOD method_6509 isWorried ()Z
+	METHOD method_6522 isPlayful ()Z
+	METHOD method_6550 isWeak ()Z
+	METHOD method_6538 resetAttributes ()V
+	METHOD method_6548 sneeze ()V
+	METHOD method_6519 getRandomGene ()Lnet/minecraft/class_1440$class_1443;
+	METHOD method_6533 hasFlag (I)Z

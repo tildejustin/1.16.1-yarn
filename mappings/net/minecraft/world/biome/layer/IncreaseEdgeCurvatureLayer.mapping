@@ -1,2 +1,2 @@
-CLASS clg net/minecraft/world/biome/layer/IncreaseEdgeCurvatureLayer
-	FIELD a INSTANCE Lclg;
+CLASS net/minecraft/class_3638 net/minecraft/world/biome/layer/IncreaseEdgeCurvatureLayer
+	FIELD field_16058 INSTANCE Lnet/minecraft/class_3638;

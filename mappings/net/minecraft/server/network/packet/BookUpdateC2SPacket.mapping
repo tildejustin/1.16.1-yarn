@@ -1,5 +1,5 @@
-CLASS od net/minecraft/server/network/packet/BookUpdateC2SPacket
-	FIELD a stack Lbbp;
-	FIELD c hand Lagt;
-	METHOD b stack ()Lbbp;
-	METHOD d hand ()Lagt;
+CLASS net/minecraft/class_2820 net/minecraft/server/network/packet/BookUpdateC2SPacket
+	FIELD field_12863 stack Lnet/minecraft/class_1799;
+	FIELD field_12865 hand Lnet/minecraft/class_1268;
+	METHOD method_12237 stack ()Lnet/minecraft/class_1799;
+	METHOD method_12235 hand ()Lnet/minecraft/class_1268;

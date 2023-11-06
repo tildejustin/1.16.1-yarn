@@ -1,6 +1,6 @@
-CLASS dus net/minecraft/client/resource/RedirectedResourcePack
-	FIELD a NEW_TO_OLD_MAP Ljava/util/Map;
-	FIELD b parent Lwf;
-	FIELD c idMap Ljava/util/Map;
-	METHOD a getMetadataLocation (Lqr;)Lqr;
-	METHOD b getRedirectedId (Lqr;)Lqr;
+CLASS net/minecraft/class_1073 net/minecraft/client/resource/RedirectedResourcePack
+	FIELD field_5317 NEW_TO_OLD_MAP Ljava/util/Map;
+	FIELD field_5316 parent Lnet/minecraft/class_3262;
+	FIELD field_5318 idMap Ljava/util/Map;
+	METHOD method_4660 getMetadataLocation (Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;
+	METHOD method_4658 getRedirectedId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;

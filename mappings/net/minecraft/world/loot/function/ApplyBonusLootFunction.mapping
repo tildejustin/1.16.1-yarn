@@ -1,23 +1,23 @@
-CLASS coy net/minecraft/world/loot/function/ApplyBonusLootFunction
-	CLASS coy$a BinomialWithBonusCount
-		FIELD a ID Lqr;
-		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcoy$b;
-	CLASS coy$b Formula
-		METHOD a getId ()Lqr;
-		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a getValue (Ljava/util/Random;II)I
-	CLASS coy$c FormulaFactory
-	CLASS coy$d OreDrops
-		FIELD a ID Lqr;
-		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcoy$b;
-	CLASS coy$e Factory
-	CLASS coy$f UniformBonusCount
-		FIELD a ID Lqr;
-		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcoy$b;
-	FIELD a FACTORIES Ljava/util/Map;
-	FIELD c enchantment Lbez;
-	FIELD d formula Lcoy$b;
-	METHOD a oreDrops (Lbez;)Lcpj$a;
-	METHOD a binomialWithBonusCount (Lbez;FI)Lcpj$a;
-	METHOD a builder (Lbez;I)Lcpj$a;
-	METHOD b one (Lbez;)Lcpj$a;
+CLASS net/minecraft/class_94 net/minecraft/world/loot/function/ApplyBonusLootFunction
+	CLASS net/minecraft/class_94$class_95 BinomialWithBonusCount
+		FIELD field_1013 ID Lnet/minecraft/class_2960;
+		METHOD method_464 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/class_94$class_96;
+	CLASS net/minecraft/class_94$class_96 Formula
+		METHOD method_466 getId ()Lnet/minecraft/class_2960;
+		METHOD method_465 toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD method_467 getValue (Ljava/util/Random;II)I
+	CLASS net/minecraft/class_94$class_97 FormulaFactory
+	CLASS net/minecraft/class_94$class_98 OreDrops
+		FIELD field_1015 ID Lnet/minecraft/class_2960;
+		METHOD method_468 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/class_94$class_96;
+	CLASS net/minecraft/class_94$class_99 Factory
+	CLASS net/minecraft/class_94$class_100 UniformBonusCount
+		FIELD field_1016 ID Lnet/minecraft/class_2960;
+		METHOD method_471 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/class_94$class_96;
+	FIELD field_1010 FACTORIES Ljava/util/Map;
+	FIELD field_1011 enchantment Lnet/minecraft/class_1887;
+	FIELD field_1009 formula Lnet/minecraft/class_94$class_96;
+	METHOD method_455 oreDrops (Lnet/minecraft/class_1887;)Lnet/minecraft/class_120$class_121;
+	METHOD method_463 binomialWithBonusCount (Lnet/minecraft/class_1887;FI)Lnet/minecraft/class_120$class_121;
+	METHOD method_461 builder (Lnet/minecraft/class_1887;I)Lnet/minecraft/class_120$class_121;
+	METHOD method_456 one (Lnet/minecraft/class_1887;)Lnet/minecraft/class_120$class_121;

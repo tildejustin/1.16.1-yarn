@@ -1,2 +1,2 @@
-CLASS sw net/minecraft/server/command/ReloadCommand
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+CLASS net/minecraft/class_3097 net/minecraft/server/command/ReloadCommand
+	METHOD method_13529 register (Lcom/mojang/brigadier/CommandDispatcher;)V

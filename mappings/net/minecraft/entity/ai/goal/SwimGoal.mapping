@@ -1,2 +1,2 @@
-CLASS amf net/minecraft/entity/ai/goal/SwimGoal
-	FIELD a entityMob Laij;
+CLASS net/minecraft/class_1347 net/minecraft/entity/ai/goal/SwimGoal
+	FIELD field_6429 entityMob Lnet/minecraft/class_1308;

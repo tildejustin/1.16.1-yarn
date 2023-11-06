@@ -1,8 +1,8 @@
-CLASS we net/minecraft/resource/DirectoryResourcePack
-	FIELD c IS_WINDOWS Z
-	FIELD d BACKSLASH_MATCHER Lcom/google/common/base/CharMatcher;
-	METHOD a findFiles (Ljava/io/File;ILjava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/function/Predicate;)V
-	METHOD a isValidPath (Ljava/io/File;Ljava/lang/String;)Z
+CLASS net/minecraft/class_3259 net/minecraft/resource/DirectoryResourcePack
+	FIELD field_14186 IS_WINDOWS Z
+	FIELD field_14185 BACKSLASH_MATCHER Lcom/google/common/base/CharMatcher;
+	METHOD method_14400 findFiles (Ljava/io/File;ILjava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/function/Predicate;)V
+	METHOD method_14402 isValidPath (Ljava/io/File;Ljava/lang/String;)Z
 		ARG 0 file
 		ARG 1 filename
-	METHOD e getFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD method_14401 getFile (Ljava/lang/String;)Ljava/io/File;

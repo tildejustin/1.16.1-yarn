@@ -1,9 +1,9 @@
-CLASS cvk net/minecraft/client/render/block/BlockColorMap
-	FIELD a mappers Lfe;
-	METHOD a create ()Lcvk;
-	METHOD a getRenderColor (Lbuy;Lbgg;Lev;I)I
+CLASS net/minecraft/class_324 net/minecraft/client/render/block/BlockColorMap
+	FIELD field_1995 mappers Lnet/minecraft/class_2361;
+	METHOD method_1689 create ()Lnet/minecraft/class_324;
+	METHOD method_1697 getRenderColor (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;I)I
 		ARG 1 state
 		ARG 2 view
 		ARG 3 pos
-	METHOD a register (Lcvj;[Lbma;)V
+	METHOD method_1690 register (Lnet/minecraft/class_322;[Lnet/minecraft/class_2248;)V
 		ARG 1 mapper

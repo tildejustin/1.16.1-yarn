@@ -1,8 +1,8 @@
-CLASS chg net/minecraft/structure/generator/BuriedTreasureGenerator
-	CLASS chg$a Piece
-		METHOD <init> (Lcis;Lib;)V
+CLASS net/minecraft/class_3789 net/minecraft/structure/generator/BuriedTreasureGenerator
+	CLASS net/minecraft/class_3789$class_3339 Piece
+		METHOD <init> (Lnet/minecraft/class_3485;Lnet/minecraft/class_2487;)V
 			ARG 2 tag
-		METHOD <init> (Lev;)V
+		METHOD <init> (Lnet/minecraft/class_2338;)V
 			ARG 1 pos
-		METHOD a isLiquid (Lbuy;)Z
+		METHOD method_14655 isLiquid (Lnet/minecraft/class_2680;)Z
 			ARG 1 state

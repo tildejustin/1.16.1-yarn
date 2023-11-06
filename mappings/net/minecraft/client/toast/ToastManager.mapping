@@ -1,14 +1,14 @@
-CLASS cxg net/minecraft/client/toast/ToastManager
-	CLASS cxg$a Entry
-		FIELD b instance Lcxf;
-		METHOD <init> (Lcxg;Lcxf;)V
+CLASS net/minecraft/class_374 net/minecraft/client/toast/ToastManager
+	CLASS net/minecraft/class_374$class_375 Entry
+		FIELD field_2241 instance Lnet/minecraft/class_368;
+		METHOD <init> (Lnet/minecraft/class_374;Lnet/minecraft/class_368;)V
 			ARG 1 instance
-		METHOD a getInstance ()Lcxf;
-		METHOD a draw (II)Z
-	FIELD a client Lcux;
-	FIELD b visibleEntries [Lcxg$a;
-	FIELD c toastQueue Ljava/util/Deque;
-	METHOD a draw ()V
-	METHOD a add (Lcxf;)V
-	METHOD b clear ()V
-	METHOD c getGame ()Lcux;
+		METHOD method_2001 getInstance ()Lnet/minecraft/class_368;
+		METHOD method_2002 draw (II)Z
+	FIELD field_2238 client Lnet/minecraft/class_310;
+	FIELD field_2239 visibleEntries LLcxg$a;
+	FIELD field_2240 toastQueue Ljava/util/Deque;
+	METHOD method_1996 draw ()V
+	METHOD method_1999 add (Lnet/minecraft/class_368;)V
+	METHOD method_2000 clear ()V
+	METHOD method_1995 getGame ()Lnet/minecraft/class_310;

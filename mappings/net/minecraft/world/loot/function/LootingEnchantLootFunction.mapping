@@ -1,4 +1,4 @@
-CLASS cpm net/minecraft/world/loot/function/LootingEnchantLootFunction
-	CLASS cpm$b Factory
-	FIELD a range Lcoh;
-	FIELD c amount I
+CLASS net/minecraft/class_125 net/minecraft/world/loot/function/LootingEnchantLootFunction
+	CLASS net/minecraft/class_125$class_127 Factory
+	FIELD field_1082 range Lnet/minecraft/class_61;
+	FIELD field_1083 amount I

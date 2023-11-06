@@ -1,12 +1,12 @@
-CLASS djg net/minecraft/client/particle/BlockCrackParticle
-	CLASS djg$a Factory
-	FIELD C block Lbuy;
-	FIELD F blockPos Lev;
-	METHOD <init> (Lbgx;DDDDDDLbuy;)V
+CLASS net/minecraft/class_727 net/minecraft/client/particle/BlockCrackParticle
+	CLASS net/minecraft/class_727$class_728 Factory
+	FIELD field_3892 block Lnet/minecraft/class_2680;
+	FIELD field_3891 blockPos Lnet/minecraft/class_2338;
+	METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_2680;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a setBlockPos (Lev;)Ldjg;
-	METHOD b updateColor (Lev;)V
-	METHOD g setBlockPosFromPosition ()Ldjg;
+	METHOD method_3108 setBlockPos (Lnet/minecraft/class_2338;)Lnet/minecraft/class_727;
+	METHOD method_3107 updateColor (Lnet/minecraft/class_2338;)V
+	METHOD method_3106 setBlockPosFromPosition ()Lnet/minecraft/class_727;

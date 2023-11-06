@@ -1,4 +1,4 @@
-CLASS dii net/minecraft/client/particle/ExplosionEmitterParticle
-	CLASS dii$a Factory
-	FIELD C age_ I
-	FIELD D maxAge_ I
+CLASS net/minecraft/class_689 net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS net/minecraft/class_689$class_690 Factory
+	FIELD field_3814 age_ I
+	FIELD field_3813 maxAge_ I

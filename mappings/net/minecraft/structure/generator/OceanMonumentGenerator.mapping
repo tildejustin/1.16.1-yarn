@@ -1,5 +1,5 @@
-CLASS cho net/minecraft/structure/generator/OceanMonumentGenerator
-	CLASS cho$p Entry
-	CLASS cho$q Penthouse
-	CLASS cho$s SimpleRoom
-	CLASS cho$t SimpleRoomTop
+CLASS net/minecraft/class_3366 net/minecraft/structure/generator/OceanMonumentGenerator
+	CLASS net/minecraft/class_3366$class_3382 Entry
+	CLASS net/minecraft/class_3366$class_3383 Penthouse
+	CLASS net/minecraft/class_3366$class_3385 SimpleRoom
+	CLASS net/minecraft/class_3366$class_3386 SimpleRoomTop

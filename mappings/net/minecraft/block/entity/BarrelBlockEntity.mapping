@@ -1,5 +1,5 @@
-CLASS bsv net/minecraft/block/entity/BarrelBlockEntity
-	FIELD a inventory Lfj;
-	FIELD b viewerCount I
-	FIELD c ticksOpen I
-	METHOD a playSound (Lbuy;Lyh;)V
+CLASS net/minecraft/class_3719 net/minecraft/block/entity/BarrelBlockEntity
+	FIELD field_16410 inventory Lnet/minecraft/class_2371;
+	FIELD field_17583 viewerCount I
+	FIELD field_17585 ticksOpen I
+	METHOD method_17764 playSound (Lnet/minecraft/class_2680;Lnet/minecraft/class_3414;)V

@@ -1,4 +1,4 @@
-CLASS bqh net/minecraft/block/RedstoneTorchWallBlock
-	FIELD b FACING Lbvt;
-	METHOD <init> (Lbma$c;)V
+CLASS net/minecraft/class_2458 net/minecraft/block/RedstoneTorchWallBlock
+	FIELD field_11443 FACING Lnet/minecraft/class_2753;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

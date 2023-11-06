@@ -1,5 +1,5 @@
-CLASS ban net/minecraft/item/DyeItem
-	FIELD a dyes Ljava/util/Map;
-	FIELD b color Lbam;
-	METHOD a fromColor (Lbam;)Lban;
-	METHOD d getColor ()Lbam;
+CLASS net/minecraft/class_1769 net/minecraft/item/DyeItem
+	FIELD field_7968 dyes Ljava/util/Map;
+	FIELD field_7969 color Lnet/minecraft/class_1767;
+	METHOD method_7803 fromColor (Lnet/minecraft/class_1767;)Lnet/minecraft/class_1769;
+	METHOD method_7802 getColor ()Lnet/minecraft/class_1767;

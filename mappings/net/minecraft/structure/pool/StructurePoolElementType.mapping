@@ -1,6 +1,6 @@
-CLASS cev net/minecraft/structure/pool/StructurePoolElementType
-	FIELD b SINGLE_POOL_ELEMENT Lcev;
-	FIELD c LIST_POOL_ELEMENT Lcev;
-	FIELD d FEATURE_POOL_ELEMENT Lcev;
-	FIELD e EMPTY_POOL_ELEMENT Lcev;
-	METHOD a register (Ljava/lang/String;Lcev;)Lcev;
+CLASS net/minecraft/class_3816 net/minecraft/structure/pool/StructurePoolElementType
+	FIELD field_16973 SINGLE_POOL_ELEMENT Lnet/minecraft/class_3816;
+	FIELD field_16974 LIST_POOL_ELEMENT Lnet/minecraft/class_3816;
+	FIELD field_16971 FEATURE_POOL_ELEMENT Lnet/minecraft/class_3816;
+	FIELD field_16972 EMPTY_POOL_ELEMENT Lnet/minecraft/class_3816;
+	METHOD method_16814 register (Ljava/lang/String;Lnet/minecraft/class_3816;)Lnet/minecraft/class_3816;

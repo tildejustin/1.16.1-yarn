@@ -1,7 +1,7 @@
-CLASS ano net/minecraft/entity/ai/goal/StepAndDestroyBlockGoal
-	FIELD g targetBlock Lbma;
-	FIELD h owner Laij;
-	FIELD i counter I
-	METHOD a onDestroyBlock (Lbgx;Lev;)V
-	METHOD a tickStepping (Lbgy;Lev;)V
-	METHOD a tweakToProperPos (Lev;Lbgi;)Lev;
+CLASS net/minecraft/class_1382 net/minecraft/entity/ai/goal/StepAndDestroyBlockGoal
+	FIELD field_6587 targetBlock Lnet/minecraft/class_2248;
+	FIELD field_6589 owner Lnet/minecraft/class_1308;
+	FIELD field_6588 counter I
+	METHOD method_6309 onDestroyBlock (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
+	METHOD method_6307 tickStepping (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V
+	METHOD method_6308 tweakToProperPos (Lnet/minecraft/class_2338;Lnet/minecraft/class_1922;)Lnet/minecraft/class_2338;

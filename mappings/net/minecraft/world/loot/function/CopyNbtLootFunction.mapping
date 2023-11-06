@@ -1,17 +1,17 @@
-CLASS cpc net/minecraft/world/loot/function/CopyNbtLootFunction
-	CLASS cpc$c Source
-		FIELD e name Ljava/lang/String;
-		FIELD f parameter Lcpz;
-		FIELD g getter Ljava/util/function/Function;
-		METHOD a get (Ljava/lang/String;)Lcpc$c;
-	CLASS cpc$d MergeStrategy
-		FIELD a REPLACE Lcpc$d;
-		FIELD b APPEND Lcpc$d;
-		FIELD c MERGE Lcpc$d;
-		FIELD d name Ljava/lang/String;
-		METHOD a merge (Lis;Lcr$h;Ljava/util/List;)V
-		METHOD a get (Ljava/lang/String;)Lcpc$d;
-	CLASS cpc$e Factory
-	FIELD a source Lcpc$c;
-	FIELD d ENTITY_TAG_GETTER Ljava/util/function/Function;
-	FIELD e BLOCK_ENTITY_TAG_GETTER Ljava/util/function/Function;
+CLASS net/minecraft/class_3837 net/minecraft/world/loot/function/CopyNbtLootFunction
+	CLASS net/minecraft/class_3837$class_3840 Source
+		FIELD field_17028 name Ljava/lang/String;
+		FIELD field_17029 parameter Lnet/minecraft/class_169;
+		FIELD field_17030 getter Ljava/util/function/Function;
+		METHOD method_16862 get (Ljava/lang/String;)Lnet/minecraft/class_3837$class_3840;
+	CLASS net/minecraft/class_3837$class_3841 MergeStrategy
+		FIELD field_17032 REPLACE Lnet/minecraft/class_3837$class_3841;
+		FIELD field_17033 APPEND Lnet/minecraft/class_3837$class_3841;
+		FIELD field_17034 MERGE Lnet/minecraft/class_3837$class_3841;
+		FIELD field_17035 name Ljava/lang/String;
+		METHOD method_16864 merge (Lnet/minecraft/class_2520;Lnet/minecraft/class_2203$class_2209;Ljava/util/List;)V
+		METHOD method_16865 get (Ljava/lang/String;)Lnet/minecraft/class_3837$class_3841;
+	CLASS net/minecraft/class_3837$class_3842 Factory
+	FIELD field_17013 source Lnet/minecraft/class_3837$class_3840;
+	FIELD field_17015 ENTITY_TAG_GETTER Ljava/util/function/Function;
+	FIELD field_17016 BLOCK_ENTITY_TAG_GETTER Ljava/util/function/Function;

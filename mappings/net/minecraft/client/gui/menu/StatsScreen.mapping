@@ -1,13 +1,13 @@
-CLASS czu net/minecraft/client/gui/menu/StatsScreen
-	CLASS czu$a CustomStatsListWidget
-		CLASS czu$a$a CustomStatItem
-	CLASS czu$b ItemStatsListWidget
-		CLASS czu$b$b ItemStatItem
-	CLASS czu$c EntityStatsListWidget
-		CLASS czu$c$a EntityStatItem
-	FIELD a parent Lczn;
-	FIELD f statHandler Lys;
-	FIELD g listWidget Lcwl;
-	METHOD <init> (Lczn;Lys;)V
+CLASS net/minecraft/class_447 net/minecraft/client/gui/menu/StatsScreen
+	CLASS net/minecraft/class_447$class_4198 CustomStatsListWidget
+		CLASS net/minecraft/class_447$class_4198$class_4197 CustomStatItem
+	CLASS net/minecraft/class_447$class_4200 ItemStatsListWidget
+		CLASS net/minecraft/class_447$class_4200$class_4199 ItemStatItem
+	CLASS net/minecraft/class_447$class_4202 EntityStatsListWidget
+		CLASS net/minecraft/class_447$class_4202$class_4201 EntityStatItem
+	FIELD field_2648 parent Lnet/minecraft/class_437;
+	FIELD field_2647 statHandler Lnet/minecraft/class_3469;
+	FIELD field_2643 listWidget Lnet/minecraft/class_350;
+	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_3469;)V
 		ARG 1 parent
 		ARG 2 statHandler

@@ -1,13 +1,13 @@
-CLASS dmz net/minecraft/client/render/chunk/ChunkRenderData
-	FIELD a EMPTY Ldmz;
-	FIELD c initialized [Z
-	FIELD d empty Z
-	FIELD e blockEntities Ljava/util/List;
-	FIELD g bufferState Lctz$a;
-	METHOD a isEmpty ()Z
-	METHOD a addBlockEntity (Lbtb;)V
-	METHOD a setBufferState (Lctz$a;)V
-	METHOD b getBlockEntities ()Ljava/util/List;
-	METHOD c getBufferState ()Lctz$a;
-	METHOD c markBufferInitialized (Lbgj;)V
-	METHOD d isBufferInitialized (Lbgj;)Z
+CLASS net/minecraft/class_849 net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD field_4451 EMPTY Lnet/minecraft/class_849;
+	FIELD field_4452 initialized [Z
+	FIELD field_4454 empty Z
+	FIELD field_4456 blockEntities Ljava/util/List;
+	FIELD field_4453 bufferState Lnet/minecraft/class_287$class_288;
+	METHOD method_3645 isEmpty ()Z
+	METHOD method_3646 addBlockEntity (Lnet/minecraft/class_2586;)V
+	METHOD method_3648 setBufferState (Lnet/minecraft/class_287$class_288;)V
+	METHOD method_3642 getBlockEntities ()Ljava/util/List;
+	METHOD method_3644 getBufferState ()Lnet/minecraft/class_287$class_288;
+	METHOD method_3647 markBufferInitialized (Lnet/minecraft/class_1921;)V
+	METHOD method_3649 isBufferInitialized (Lnet/minecraft/class_1921;)Z

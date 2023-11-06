@@ -1,9 +1,9 @@
-CLASS ajk net/minecraft/entity/ai/brain/task/LookTargetUtil
-	METHOD a lookAtAndWalkTowardsEachOther (Laii;Laii;)V
-	METHOD a walkTowards (Laii;Laii;I)V
-	METHOD a give (Laii;Lbbp;Laii;)V
-	METHOD a canSee (Laix;Laii;)Z
-	METHOD a canSee (Laix;Laor;Laid;)Z
-	METHOD b lookAtEachOther (Laii;Laii;)V
-	METHOD c lookAt (Laii;Laii;)V
-	METHOD d walkTowardsEachOther (Laii;Laii;)V
+CLASS net/minecraft/class_4215 net/minecraft/entity/ai/brain/task/LookTargetUtil
+	METHOD method_19548 lookAtAndWalkTowardsEachOther (Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V
+	METHOD method_19556 walkTowards (Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;I)V
+	METHOD method_19949 give (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;)V
+	METHOD method_19550 canSee (Lnet/minecraft/class_4095;Lnet/minecraft/class_1309;)Z
+	METHOD method_19551 canSee (Lnet/minecraft/class_4095;Lnet/minecraft/class_4140;Lnet/minecraft/class_1299;)Z
+	METHOD method_19552 lookAtEachOther (Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V
+	METHOD method_19554 lookAt (Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V
+	METHOD method_19555 walkTowardsEachOther (Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V

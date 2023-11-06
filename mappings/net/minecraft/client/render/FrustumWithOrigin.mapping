@@ -1,11 +1,11 @@
-CLASS dnj net/minecraft/client/render/FrustumWithOrigin
-	FIELD a frustum Ldnk;
-	FIELD b originX D
-	FIELD c originY D
-	FIELD d originZ D
-	METHOD <init> (Ldnk;)V
+CLASS net/minecraft/class_858 net/minecraft/client/render/FrustumWithOrigin
+	FIELD field_4504 frustum Lnet/minecraft/class_857;
+	FIELD field_4503 originX D
+	FIELD field_4502 originY D
+	FIELD field_4501 originZ D
+	METHOD <init> (Lnet/minecraft/class_857;)V
 		ARG 1 frustum
-	METHOD a intersects (DDDDDD)Z
+	METHOD method_3703 intersects (DDDDDD)Z
 		ARG 1 minX
 		ARG 3 minY
 		ARG 5 minZ

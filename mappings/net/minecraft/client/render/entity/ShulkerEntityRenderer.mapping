@@ -1,2 +1,2 @@
-CLASS dqx net/minecraft/client/render/entity/ShulkerEntityRenderer
-	FIELD j SKIN [Lqr;
+CLASS net/minecraft/class_943 net/minecraft/client/render/entity/ShulkerEntityRenderer
+	FIELD field_4780 SKIN LLqr;

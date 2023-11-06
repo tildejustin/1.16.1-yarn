@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_2665 net/minecraft/block/PistonBlock
-	FIELD field_12191 EXTENDED Lnet/minecraft/class_2746;
 	FIELD field_12187 isSticky Z
+	FIELD field_12191 EXTENDED Lnet/minecraft/class_2746;
 	METHOD method_11481 move (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;Z)Z
 		ARG 1 world
 		ARG 2 pos
@@ -11,5 +11,3 @@ CLASS net/minecraft/class_2665 net/minecraft/block/PistonBlock
 		ARG 2 pos
 		ARG 3 facing
 		ARG 4 canBreak
-	METHOD n (Lbuy;)Z
-		ARG 1 state

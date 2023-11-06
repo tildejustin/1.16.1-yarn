@@ -1,13 +1,10 @@
 CLASS net/minecraft/class_2429 net/minecraft/block/ConnectedPlantBlock
+	FIELD field_11327 UP Lnet/minecraft/class_2746;
+	FIELD field_11328 WEST Lnet/minecraft/class_2746;
+	FIELD field_11329 FACING_PROPERTIES Ljava/util/Map;
+	FIELD field_11330 DOWN Lnet/minecraft/class_2746;
+	FIELD field_11331 SOUTH Lnet/minecraft/class_2746;
 	FIELD field_11332 NORTH Lnet/minecraft/class_2746;
 	FIELD field_11335 EAST Lnet/minecraft/class_2746;
-	FIELD field_11331 SOUTH Lnet/minecraft/class_2746;
-	FIELD field_11328 WEST Lnet/minecraft/class_2746;
-	FIELD field_11327 UP Lnet/minecraft/class_2746;
-	FIELD field_11330 DOWN Lnet/minecraft/class_2746;
-	FIELD field_11329 FACING_PROPERTIES Ljava/util/Map;
-	FIELD field_11333 CONNECTIONS_TO_SHAPE LLcse;
-	FIELD field_11334 FACINGS LLfa;
-	METHOD method_10370 generateFacingsToShapeMap (F)LLcse;
 	METHOD method_10368 getConnectionMask (Lnet/minecraft/class_2680;)I
 		ARG 1 state

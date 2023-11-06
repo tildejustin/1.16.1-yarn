@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_4060 net/minecraft/client/options/AoOption
-	FIELD field_18147 OPTIONS LLcuk;
 	FIELD field_18148 value I
 	FIELD field_18149 translationKey Ljava/lang/String;
 	METHOD method_18483 getValue ()I

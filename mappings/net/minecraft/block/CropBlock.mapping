@@ -1,13 +1,12 @@
 CLASS net/minecraft/class_2302 net/minecraft/block/CropBlock
-	FIELD field_10836 AGE_TO_SHAPE LLcse;
 	FIELD field_10835 AGE Lnet/minecraft/class_2758;
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD method_9831 getGrowthAmount (Lnet/minecraft/class_1937;)I
-	METHOD method_9826 applyGrowth (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
-	METHOD method_9828 withCropAge (I)Lnet/minecraft/class_2680;
 	METHOD method_9824 getAgeProperty ()Lnet/minecraft/class_2758;
-	METHOD method_9827 getCropAgeMaximum ()I
-	METHOD method_9832 getCropItem ()Lnet/minecraft/class_1935;
-	METHOD method_9829 getCropAge (Lnet/minecraft/class_2680;)I
 	METHOD method_9825 isValidState (Lnet/minecraft/class_2680;)Z
+	METHOD method_9826 applyGrowth (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+	METHOD method_9827 getCropAgeMaximum ()I
+	METHOD method_9828 withCropAge (I)Lnet/minecraft/class_2680;
+	METHOD method_9829 getCropAge (Lnet/minecraft/class_2680;)I
+	METHOD method_9831 getGrowthAmount (Lnet/minecraft/class_1937;)I
+	METHOD method_9832 getCropItem ()Lnet/minecraft/class_1935;

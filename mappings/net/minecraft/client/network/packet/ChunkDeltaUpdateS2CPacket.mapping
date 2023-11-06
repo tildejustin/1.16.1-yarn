@@ -1,10 +1,8 @@
 CLASS net/minecraft/class_2637 net/minecraft/client/network/packet/ChunkDeltaUpdateS2CPacket
-	CLASS net/minecraft/class_2637$class_2638 ChunkDeltaRecord
+	FIELD field_12116 chunkPos Lnet/minecraft/class_1923;
+	CLASS class_2638 ChunkDeltaRecord
 		FIELD field_12118 pos S
 		FIELD field_12119 state Lnet/minecraft/class_2680;
 		METHOD method_11394 getBlockPos ()Lnet/minecraft/class_2338;
-		METHOD method_11396 getPosShort ()S
 		METHOD method_11395 getState ()Lnet/minecraft/class_2680;
-	FIELD field_12116 chunkPos Lnet/minecraft/class_1923;
-	FIELD field_12117 records LLkt$a;
-	METHOD method_11391 getRecords ()LLkt$a;
+		METHOD method_11396 getPosShort ()S

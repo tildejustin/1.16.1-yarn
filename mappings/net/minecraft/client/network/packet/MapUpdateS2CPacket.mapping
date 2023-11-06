@@ -1,13 +1,12 @@
 CLASS net/minecraft/class_2683 net/minecraft/client/network/packet/MapUpdateS2CPacket
-	FIELD field_12303 id I
 	FIELD field_12296 scale B
-	FIELD field_12302 showIcons Z
-	FIELD field_12304 icons LLcng;
-	FIELD field_12301 updateLeft I
-	FIELD field_12300 updateTop I
-	FIELD field_12299 updateHeight I
 	FIELD field_12297 updateWidth I
 	FIELD field_12298 updateData [B
+	FIELD field_12299 updateHeight I
+	FIELD field_12300 updateTop I
+	FIELD field_12301 updateLeft I
+	FIELD field_12302 showIcons Z
+	FIELD field_12303 id I
 	METHOD <init> (IBZZLjava/util/Collection;[BIIII)V
 		ARG 1 id
 		ARG 2 scale

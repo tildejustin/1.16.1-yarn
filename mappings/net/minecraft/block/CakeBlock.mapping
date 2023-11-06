@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_2272 net/minecraft/block/CakeBlock
 	FIELD field_10739 BITES Lnet/minecraft/class_2758;
-	FIELD field_10738 BITES_TO_SHAPE LLcse;
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

@@ -1,30 +1,29 @@
 CLASS net/minecraft/class_1527 net/minecraft/entity/boss/dragon/phase/PhaseType
-	FIELD field_7069 HOLDING_PATTERN Lnet/minecraft/class_1527;
-	FIELD field_7076 STRAFE_PLAYER Lnet/minecraft/class_1527;
-	FIELD field_7071 LANDING_APPROACH Lnet/minecraft/class_1527;
 	FIELD field_7067 LANDING Lnet/minecraft/class_1527;
-	FIELD field_7077 TAKEOFF Lnet/minecraft/class_1527;
-	FIELD field_7072 SITTING_FLAMING Lnet/minecraft/class_1527;
-	FIELD field_7081 SITTING_SCANNING Lnet/minecraft/class_1527;
-	FIELD field_7073 SITTING_ATTACKING Lnet/minecraft/class_1527;
-	FIELD field_7078 CHARGING_PLAYER Lnet/minecraft/class_1527;
 	FIELD field_7068 DYING Lnet/minecraft/class_1527;
-	FIELD field_7075 HOVER Lnet/minecraft/class_1527;
-	FIELD field_7080 types LLasm;
-	FIELD field_7074 phaseClass Ljava/lang/Class;
-	FIELD field_7079 id I
+	FIELD field_7069 HOLDING_PATTERN Lnet/minecraft/class_1527;
 	FIELD field_7070 name Ljava/lang/String;
+	FIELD field_7071 LANDING_APPROACH Lnet/minecraft/class_1527;
+	FIELD field_7072 SITTING_FLAMING Lnet/minecraft/class_1527;
+	FIELD field_7073 SITTING_ATTACKING Lnet/minecraft/class_1527;
+	FIELD field_7074 phaseClass Ljava/lang/Class;
+	FIELD field_7075 HOVER Lnet/minecraft/class_1527;
+	FIELD field_7076 STRAFE_PLAYER Lnet/minecraft/class_1527;
+	FIELD field_7077 TAKEOFF Lnet/minecraft/class_1527;
+	FIELD field_7078 CHARGING_PLAYER Lnet/minecraft/class_1527;
+	FIELD field_7079 id I
+	FIELD field_7081 SITTING_SCANNING Lnet/minecraft/class_1527;
 	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
 		ARG 1 id
 		ARG 2 phaseClass
 		ARG 3 name
+	METHOD method_6866 create (Lnet/minecraft/class_1510;)Lnet/minecraft/class_1521;
+		ARG 1 dragon
 	METHOD method_6867 getConstructor ()Ljava/lang/reflect/Constructor;
 	METHOD method_6868 getFromId (I)Lnet/minecraft/class_1527;
 		ARG 0 id
-	METHOD method_6866 create (Lnet/minecraft/class_1510;)Lnet/minecraft/class_1521;
-		ARG 1 dragon
+	METHOD method_6869 count ()I
 	METHOD method_6870 register (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/class_1527;
 		ARG 0 phaseClass
 		ARG 1 name
 	METHOD method_6871 getTypeId ()I
-	METHOD method_6869 count ()I

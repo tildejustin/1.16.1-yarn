@@ -1,20 +1,18 @@
 CLASS net/minecraft/class_85 net/minecraft/world/loot/entry/LeafEntry
-	CLASS net/minecraft/class_85$class_86 Builder
-		FIELD field_1001 weight I
-		FIELD field_1000 quality I
-		FIELD field_999 functions Ljava/util/List;
-		METHOD method_439 getFunctions ()LLcpk;
-		METHOD method_437 setWeight (I)Lnet/minecraft/class_85$class_86;
-		METHOD method_436 setQuality (I)Lnet/minecraft/class_85$class_86;
-	CLASS net/minecraft/class_85$class_87 BasicBuilder
-		FIELD field_1003 factory Lnet/minecraft/class_85$class_89;
-	CLASS net/minecraft/class_85$class_88 Choice
-	CLASS net/minecraft/class_85$class_89 Factory
-	CLASS net/minecraft/class_85$class_90 Serializer
-	FIELD field_997 compiledFunctions Ljava/util/function/BiFunction;
-	FIELD field_995 weight I
 	FIELD field_994 quality I
-	FIELD field_996 functions LLcpk;
+	FIELD field_995 weight I
+	FIELD field_997 compiledFunctions Ljava/util/function/BiFunction;
 	FIELD field_998 choice Lnet/minecraft/class_82;
-	METHOD method_434 create (Lnet/minecraft/class_85$class_89;)Lnet/minecraft/class_85$class_86;
 	METHOD method_433 drop (Ljava/util/function/Consumer;Lnet/minecraft/class_47;)V
+	METHOD method_434 create (Lnet/minecraft/class_85$class_89;)Lnet/minecraft/class_85$class_86;
+	CLASS class_86 Builder
+		FIELD field_1000 quality I
+		FIELD field_1001 weight I
+		FIELD field_999 functions Ljava/util/List;
+		METHOD method_436 setQuality (I)Lnet/minecraft/class_85$class_86;
+		METHOD method_437 setWeight (I)Lnet/minecraft/class_85$class_86;
+	CLASS class_87 BasicBuilder
+		FIELD field_1003 factory Lnet/minecraft/class_85$class_89;
+	CLASS class_88 Choice
+	CLASS class_89 Factory
+	CLASS class_90 Serializer

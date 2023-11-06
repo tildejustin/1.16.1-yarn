@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_1399 net/minecraft/entity/ai/goal/AvoidGoal
-	FIELD field_6640 avoidedEntities LLjava/lang/Class;
 	METHOD method_6318 setAvoidedEntities ([Ljava/lang/Class;)Lnet/minecraft/class_1399;

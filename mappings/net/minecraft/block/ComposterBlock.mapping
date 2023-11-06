@@ -1,27 +1,7 @@
 CLASS net/minecraft/class_3962 net/minecraft/block/ComposterBlock
-	CLASS net/minecraft/class_3962$class_3963 ComposterInventory
-		FIELD field_17569 state Lnet/minecraft/class_2680;
-		FIELD field_17570 world Lnet/minecraft/class_1936;
-		FIELD field_17571 pos Lnet/minecraft/class_2338;
-		FIELD field_17572 dirty Z
-		METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V
-			ARG 1 state
-			ARG 2 world
-			ARG 3 pos
-	CLASS net/minecraft/class_3962$class_3964 FullComposterInventory
-		FIELD field_17573 state Lnet/minecraft/class_2680;
-		FIELD field_17574 world Lnet/minecraft/class_1936;
-		FIELD field_17575 pos Lnet/minecraft/class_2338;
-		FIELD field_17576 dirty Z
-		METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)V
-			ARG 1 state
-			ARG 2 world
-			ARG 3 pos
-			ARG 4 outputItem
 	FIELD field_17565 LEVEL Lnet/minecraft/class_2758;
 	FIELD field_17566 ITEM_TO_LEVEL_INCREASE_CHANCE Lit/unimi/dsi/fastutil/objects/Object2FloatMap;
 	FIELD field_17567 RAY_TRACE_SHAPE Lnet/minecraft/class_265;
-	FIELD field_17568 LEVEL_TO_COLLISION_SHAPE LLcse;
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
 	METHOD method_17753 registerCompostableItem (FLnet/minecraft/class_1935;)V
@@ -37,3 +17,22 @@ CLASS net/minecraft/class_3962 net/minecraft/block/ComposterBlock
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
+	CLASS class_3963 ComposterInventory
+		FIELD field_17569 state Lnet/minecraft/class_2680;
+		FIELD field_17570 world Lnet/minecraft/class_1936;
+		FIELD field_17571 pos Lnet/minecraft/class_2338;
+		FIELD field_17572 dirty Z
+		METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V
+			ARG 1 state
+			ARG 2 world
+			ARG 3 pos
+	CLASS class_3964 FullComposterInventory
+		FIELD field_17573 state Lnet/minecraft/class_2680;
+		FIELD field_17574 world Lnet/minecraft/class_1936;
+		FIELD field_17575 pos Lnet/minecraft/class_2338;
+		FIELD field_17576 dirty Z
+		METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)V
+			ARG 1 state
+			ARG 2 world
+			ARG 3 pos
+			ARG 4 outputItem

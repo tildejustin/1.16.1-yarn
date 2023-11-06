@@ -1,2 +1,1 @@
 CLASS net/minecraft/class_1184 net/minecraft/datafixers/fixes/ItemSpawnEggFix
-	FIELD field_5679 DAMAGE_TO_ENTITY_IDS LLjava/lang/String;

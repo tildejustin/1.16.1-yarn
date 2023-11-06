@@ -1,7 +1,6 @@
 CLASS net/minecraft/class_2668 net/minecraft/client/network/packet/GameStateChangeS2CPacket
-	FIELD field_12200 REASON_MESSAGES LLjava/lang/String;
-	FIELD field_12199 reason I
 	FIELD field_12198 value F
+	FIELD field_12199 reason I
 	METHOD <init> (IF)V
 		ARG 1 reason
 	METHOD method_11491 getReason ()I

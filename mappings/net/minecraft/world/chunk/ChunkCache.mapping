@@ -1,8 +1,7 @@
 CLASS net/minecraft/class_1950 net/minecraft/world/chunk/ChunkCache
-	FIELD field_9304 minX I
-	FIELD field_9303 minZ I
-	FIELD field_9305 chunks L[Lbwm;
 	FIELD field_9302 empty Z
+	FIELD field_9303 minZ I
+	FIELD field_9304 minX I
 	FIELD field_9306 world Lnet/minecraft/class_1937;
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)V
 		ARG 1 world

@@ -10,5 +10,3 @@ CLASS net/minecraft/class_2344 net/minecraft/block/FarmlandBlock
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
-	METHOD n (Lbuy;)Z
-		ARG 1 state

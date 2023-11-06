@@ -10,6 +10,5 @@ CLASS net/minecraft/class_1750 net/minecraft/item/ItemPlacementContext
 	METHOD method_16355 create (Lnet/minecraft/class_1750;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Lnet/minecraft/class_1750;
 		ARG 0 placementCtx
 		ARG 2 facing
-	METHOD method_7716 canPlace ()Z
 	METHOD method_7715 getPlayerFacing ()Lnet/minecraft/class_2350;
-	METHOD method_7718 getPlacementFacings ()LLfa;
+	METHOD method_7716 canPlace ()Z

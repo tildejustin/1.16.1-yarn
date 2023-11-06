@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_2412 net/minecraft/data/server/AdventureTabAdvancementGenerator
-	FIELD field_11293 BIOMES LLbhu;
-	FIELD field_11294 MONSTERS LLaid;

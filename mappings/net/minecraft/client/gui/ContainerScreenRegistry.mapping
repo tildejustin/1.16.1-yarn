@@ -1,14 +1,4 @@
 CLASS net/minecraft/class_3929 net/minecraft/client/gui/ContainerScreenRegistry
-	CLASS net/minecraft/class_3929$class_3930 GuiFactory
-		METHOD method_17543 openScreen (Lnet/minecraft/class_2561;Lnet/minecraft/class_3917;Lnet/minecraft/class_310;I)V
-			ARG 1 name
-			ARG 2 containerType
-			ARG 3 client
-			ARG 4 syncId
-		METHOD create (Laxq;Lavl;Ljm;)Lczn;
-			ARG 1 container
-			ARG 2 playerInventory
-			ARG 3 name
 	FIELD field_17408 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_17409 GUI_FACTORIES Ljava/util/Map;
 	METHOD method_17539 checkData ()Z
@@ -19,3 +9,9 @@ CLASS net/minecraft/class_3929 net/minecraft/client/gui/ContainerScreenRegistry
 		ARG 2 syncId
 		ARG 3 name
 	METHOD method_17542 registerGui (Lnet/minecraft/class_3917;Lnet/minecraft/class_3929$class_3930;)V
+	CLASS class_3930 GuiFactory
+		METHOD method_17543 openScreen (Lnet/minecraft/class_2561;Lnet/minecraft/class_3917;Lnet/minecraft/class_310;I)V
+			ARG 1 name
+			ARG 2 containerType
+			ARG 3 client
+			ARG 4 syncId

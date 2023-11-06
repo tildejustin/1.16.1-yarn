@@ -9,6 +9,8 @@ CLASS net/minecraft/class_3227 net/minecraft/server/world/ServerLightingProvider
 		ARG 2 chunkStorage
 		ARG 4 processor
 		ARG 5 actor
+	METHOD method_14277 runTasks ()V
+	METHOD method_17303 tick ()V
 	METHOD method_17304 setTaskBatchSize (I)V
 		ARG 1 taskBatchSize
 	METHOD method_17307 enqueue (IILjava/util/function/IntSupplier;Lnet/minecraft/class_3227$class_3901;Ljava/lang/Runnable;)V
@@ -23,7 +25,3 @@ CLASS net/minecraft/class_3227 net/minecraft/server/world/ServerLightingProvider
 		ARG 3 stage
 		ARG 4 task
 	METHOD method_17310 light (Lnet/minecraft/class_2791;Z)Ljava/util/concurrent/CompletableFuture;
-	METHOD a (Lev;I)V
-		ARG 1 pos
-	METHOD method_14277 runTasks ()V
-	METHOD method_17303 tick ()V

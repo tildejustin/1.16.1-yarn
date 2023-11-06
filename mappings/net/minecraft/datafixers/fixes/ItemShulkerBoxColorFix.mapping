@@ -1,2 +1,1 @@
 CLASS net/minecraft/class_1185 net/minecraft/datafixers/fixes/ItemShulkerBoxColorFix
-	FIELD field_5680 COLORED_SHULKER_BOX_IDS LLjava/lang/String;

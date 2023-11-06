@@ -56,18 +56,10 @@ public abstract class JavadocLintTask extends DefaultTask {
 
 	@TaskAction
 	public void run(InputChanges changes) {
-		List<FileChange> fileChanges = new ArrayList<>();
-		changes.getFileChanges(mappingDirectory).forEach(fileChanges::add);
-
-		if (fileChanges.isEmpty()) {
-			// Nothing changed, nothing to do!
-			return;
-		}
-
 		WorkQueue workQueue = getWorkerExecutor().noIsolation();
 
 		workQueue.submit(LintAction.class, parameters -> {
-			for (FileChange change : fileChanges) {
+			for (FileChange change : changes.getFileChanges(mappingDirectory)) {
 				if (change.getChangeType() != ChangeType.REMOVED && change.getFileType() == FileType.FILE) {
 					parameters.getMappingFiles().from(change.getFile());
 				}

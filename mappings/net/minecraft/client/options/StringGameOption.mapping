@@ -5,7 +5,5 @@ CLASS net/minecraft/class_4064 net/minecraft/client/options/StringGameOption
 		ARG 1 key
 		ARG 2 getter
 		ARG 3 setter
-	METHOD a (Lcvb;I)V
-		ARG 1 options
 	METHOD method_18501 get (Lnet/minecraft/class_315;)Ljava/lang/String;
 		ARG 1 options

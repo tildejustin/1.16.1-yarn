@@ -1,29 +1,26 @@
 CLASS net/minecraft/class_3773 net/minecraft/structure/StructurePieceType
-	FIELD field_16914 STRONGHOLD_START Lnet/minecraft/class_3773;
-	FIELD field_16953 JUNGLE_TEMPLE Lnet/minecraft/class_3773;
-	FIELD field_16932 OCEAN_TEMPLE Lnet/minecraft/class_3773;
-	FIELD field_16909 IGLOO Lnet/minecraft/class_3773;
-	FIELD field_16918 SWAMP_HUT Lnet/minecraft/class_3773;
-	FIELD field_16933 DESERT_TEMPLE Lnet/minecraft/class_3773;
 	FIELD field_16905 OCEAN_MONUMENT_ENTRY Lnet/minecraft/class_3773;
-	FIELD field_16966 OCEAN_MONUMENT_PENTHOUSE Lnet/minecraft/class_3773;
-	FIELD field_16928 OCEAN_MONUMENT_SIMPLE_ROOM Lnet/minecraft/class_3773;
-	FIELD field_16944 OCEAN_MONUMENT_SIMPLE_ROOM_TOP Lnet/minecraft/class_3773;
-	FIELD field_16936 END_CITY Lnet/minecraft/class_3773;
-	FIELD field_16969 MINESHAFT_CORRIDOR Lnet/minecraft/class_3773;
 	FIELD field_16907 WOODLAND_MANSION Lnet/minecraft/class_3773;
-	FIELD field_16960 BURIED_TREASURE Lnet/minecraft/class_3773;
-	FIELD field_16935 SHIPWRECK Lnet/minecraft/class_3773;
-	FIELD field_16919 MINESHAFT_CROSSING Lnet/minecraft/class_3773;
+	FIELD field_16909 IGLOO Lnet/minecraft/class_3773;
+	FIELD field_16914 STRONGHOLD_START Lnet/minecraft/class_3773;
 	FIELD field_16915 MINESHAFT_ROOM Lnet/minecraft/class_3773;
-	FIELD field_16968 MINESHAFT_STAIRS Lnet/minecraft/class_3773;
-	FIELD field_16950 PILLAGER_OUTPOST Lnet/minecraft/class_3773;
-	FIELD field_16954 VILLAGE Lnet/minecraft/class_3773;
+	FIELD field_16918 SWAMP_HUT Lnet/minecraft/class_3773;
+	FIELD field_16919 MINESHAFT_CROSSING Lnet/minecraft/class_3773;
 	FIELD field_16924 NETHER_FORTRESS_START Lnet/minecraft/class_3773;
+	FIELD field_16928 OCEAN_MONUMENT_SIMPLE_ROOM Lnet/minecraft/class_3773;
+	FIELD field_16932 OCEAN_TEMPLE Lnet/minecraft/class_3773;
+	FIELD field_16933 DESERT_TEMPLE Lnet/minecraft/class_3773;
+	FIELD field_16935 SHIPWRECK Lnet/minecraft/class_3773;
+	FIELD field_16936 END_CITY Lnet/minecraft/class_3773;
 	FIELD field_16937 STRONGHOLD_FIVE_WAY_CROSSING Lnet/minecraft/class_3773;
+	FIELD field_16944 OCEAN_MONUMENT_SIMPLE_ROOM_TOP Lnet/minecraft/class_3773;
+	FIELD field_16950 PILLAGER_OUTPOST Lnet/minecraft/class_3773;
+	FIELD field_16953 JUNGLE_TEMPLE Lnet/minecraft/class_3773;
+	FIELD field_16954 VILLAGE Lnet/minecraft/class_3773;
+	FIELD field_16960 BURIED_TREASURE Lnet/minecraft/class_3773;
+	FIELD field_16966 OCEAN_MONUMENT_PENTHOUSE Lnet/minecraft/class_3773;
+	FIELD field_16968 MINESHAFT_STAIRS Lnet/minecraft/class_3773;
+	FIELD field_16969 MINESHAFT_CORRIDOR Lnet/minecraft/class_3773;
 	METHOD method_16813 register (Lnet/minecraft/class_3773;Ljava/lang/String;)Lnet/minecraft/class_3773;
 		ARG 0 pieceType
 		ARG 1 id
-	METHOD load (Lcis;Lib;)Lchy;
-		ARG 1 structureManager
-		ARG 2 tag

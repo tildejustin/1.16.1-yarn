@@ -1,3 +1,1 @@
 CLASS net/minecraft/class_1270 net/minecraft/container/ContainerProvider
-	METHOD createMenu (ILavl;Lavm;)Laxq;
-		ARG 1 syncId

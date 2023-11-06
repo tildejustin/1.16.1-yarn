@@ -1,6 +1,2 @@
 CLASS net/minecraft/class_1759 net/minecraft/item/CompassItem
-	CLASS bae$1
-		METHOD call (Lbbp;Lbgx;Laii;)F
-			ARG 1 stack
-			ARG 2 world
-			ARG 3 user
+	CLASS 1

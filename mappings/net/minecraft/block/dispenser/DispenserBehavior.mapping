@@ -1,15 +1,6 @@
 CLASS net/minecraft/class_2357 net/minecraft/block/dispenser/DispenserBehavior
-	CLASS fv$18
-		METHOD dispense (Lew;Lbbp;)Lbbp;
-			ARG 1 location
-			ARG 2 stack
-	CLASS fv$19
-		METHOD dispense (Lew;Lbbp;)Lbbp;
-			ARG 1 location
-			ARG 2 stack
 	FIELD field_16902 NOOP Lnet/minecraft/class_2357;
 	METHOD method_16812 doDispense (Lnet/minecraft/class_2342;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;
 	METHOD method_18346 registerDefaults ()V
-	METHOD dispense (Lew;Lbbp;)Lbbp;
-		ARG 1 location
-		ARG 2 stack
+	CLASS 18
+	CLASS 19

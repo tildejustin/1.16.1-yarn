@@ -1,12 +1,9 @@
 CLASS net/minecraft/class_2310 net/minecraft/block/HorizontalConnectedBlock
-	FIELD field_10905 NORTH Lnet/minecraft/class_2746;
-	FIELD field_10907 EAST Lnet/minecraft/class_2746;
-	FIELD field_10904 SOUTH Lnet/minecraft/class_2746;
-	FIELD field_10903 WEST Lnet/minecraft/class_2746;
 	FIELD field_10900 WATERLOGGED Lnet/minecraft/class_2746;
 	FIELD field_10902 FACING_PROPERTIES Ljava/util/Map;
-	FIELD field_10901 collisionShapes LLcse;
-	FIELD field_10906 boundingShapes LLcse;
-	METHOD method_9984 createShapes (FFFFF)LLcse;
+	FIELD field_10903 WEST Lnet/minecraft/class_2746;
+	FIELD field_10904 SOUTH Lnet/minecraft/class_2746;
+	FIELD field_10905 NORTH Lnet/minecraft/class_2746;
+	FIELD field_10907 EAST Lnet/minecraft/class_2746;
 	METHOD method_9985 getDirectionMask (Lnet/minecraft/class_2350;)I
 	METHOD method_9987 getShapeIndex (Lnet/minecraft/class_2680;)I

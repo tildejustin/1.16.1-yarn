@@ -1,5 +1,1 @@
 CLASS net/minecraft/class_2801 net/minecraft/world/gen/chunk/ChunkGeneratorFactory
-	METHOD create (Lbgx;Lbhw;Lbya;)Lbwn;
-		ARG 1 world
-		ARG 2 biomeSource
-		ARG 3 config

@@ -1,10 +1,10 @@
 CLASS net/minecraft/class_3715 net/minecraft/block/LecternBlock
+	FIELD field_16403 BASE_SHAPE Lnet/minecraft/class_265;
 	FIELD field_16404 FACING Lnet/minecraft/class_2753;
+	FIELD field_16405 MIDDLE_SHAPE Lnet/minecraft/class_265;
+	FIELD field_16406 BOTTOM_SHAPE Lnet/minecraft/class_265;
 	FIELD field_17365 POWERED Lnet/minecraft/class_2746;
 	FIELD field_17366 HAS_BOOK Lnet/minecraft/class_2746;
-	FIELD field_16406 BOTTOM_SHAPE Lnet/minecraft/class_265;
-	FIELD field_16405 MIDDLE_SHAPE Lnet/minecraft/class_265;
-	FIELD field_16403 BASE_SHAPE Lnet/minecraft/class_265;
 	FIELD field_17367 COLLISION_SHAPE_TOP Lnet/minecraft/class_265;
 	FIELD field_17368 COLLISION_SHAPE Lnet/minecraft/class_265;
 	FIELD field_17369 WEST_SHAPE Lnet/minecraft/class_265;
@@ -43,7 +43,3 @@ CLASS net/minecraft/class_3715 net/minecraft/block/LecternBlock
 	METHOD method_17476 setPowered (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)V
 		ARG 2 state
 		ARG 3 powered
-	METHOD h (Lbuy;Lbgi;Lev;)Lcse;
-		ARG 1 state
-		ARG 2 view
-		ARG 3 pos

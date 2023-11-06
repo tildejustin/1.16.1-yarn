@@ -1,4 +1,2 @@
 CLASS net/minecraft/class_747 net/minecraft/client/network/ClientDummyContainerProvider
 	FIELD field_3947 name Lnet/minecraft/class_2561;
-	METHOD createMenu (ILavl;Lavm;)Laxq;
-		ARG 1 syncId

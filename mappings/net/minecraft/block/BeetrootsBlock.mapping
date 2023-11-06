@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_2242 net/minecraft/block/BeetrootsBlock
 	FIELD field_9962 AGE Lnet/minecraft/class_2758;
-	FIELD field_9961 AGE_TO_SHAPE LLcse;
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

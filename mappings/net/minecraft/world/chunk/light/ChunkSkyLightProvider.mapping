@@ -1,5 +1,3 @@
 CLASS net/minecraft/class_3572 net/minecraft/world/chunk/light/ChunkSkyLightProvider
-	FIELD field_15826 DIRECTIONS_SKYLIGHT LLfa;
-	FIELD field_15825 HORIZONTAL_DIRECTIONS LLfa;
 	METHOD <init> (Lnet/minecraft/class_2823;)V
 		ARG 1 chunkProvider

@@ -1,8 +1,8 @@
 CLASS net/minecraft/class_3418 net/minecraft/structure/StructurePieceWithDimensions
-	FIELD field_15244 width I
-	FIELD field_15243 height I
-	FIELD field_15242 depth I
 	FIELD field_15241 hPos I
+	FIELD field_15242 depth I
+	FIELD field_15243 height I
+	FIELD field_15244 width I
 	METHOD <init> (Lnet/minecraft/class_3773;Ljava/util/Random;IIIIII)V
 		ARG 3 x
 		ARG 4 y
@@ -10,6 +10,3 @@ CLASS net/minecraft/class_3418 net/minecraft/structure/StructurePieceWithDimensi
 		ARG 6 width
 		ARG 7 height
 		ARG 8 depth
-	METHOD a (Lbgy;Lchf;I)Z
-		ARG 1 world
-		ARG 2 boundingBox

@@ -1,64 +1,14 @@
 CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRenderer
-	CLASS net/minecraft/class_778$class_779 NeighborData
-		FIELD field_4181 DOWN Lnet/minecraft/class_778$class_779;
-		FIELD field_4182 UP Lnet/minecraft/class_778$class_779;
-		FIELD field_4183 NORTH Lnet/minecraft/class_778$class_779;
-		FIELD field_4184 SOUTH Lnet/minecraft/class_778$class_779;
-		FIELD field_4187 WEST Lnet/minecraft/class_778$class_779;
-		FIELD field_4186 EAST Lnet/minecraft/class_778$class_779;
-		FIELD field_4191 faces LLfa;
-		FIELD field_4189 nonCubicWeight Z
-		METHOD method_3378 getData (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_779;
-	CLASS net/minecraft/class_778$class_780 AmbientOcclusionCalculator
-		FIELD field_4196 colorMultiplier [F
-		FIELD field_4194 brightness [I
-		METHOD method_3386 getAmbientOcclusionBrightness (IIII)I
-		METHOD method_3389 getBrightness (IIIIFFFF)I
-		METHOD method_3388 apply (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;[FLjava/util/BitSet;)V
-	CLASS net/minecraft/class_778$class_781 Translation
-		FIELD field_4199 DOWN Lnet/minecraft/class_778$class_781;
-		FIELD field_4200 UP Lnet/minecraft/class_778$class_781;
-		FIELD field_4204 NORTH Lnet/minecraft/class_778$class_781;
-		FIELD field_4205 SOUTH Lnet/minecraft/class_778$class_781;
-		FIELD field_4206 WEST Lnet/minecraft/class_778$class_781;
-		FIELD field_4207 EAST Lnet/minecraft/class_778$class_781;
-		FIELD field_4203 firstCorner I
-		FIELD field_4201 secondCorner I
-		FIELD field_4198 thirdCorner I
-		FIELD field_4209 fourthCorner I
-		FIELD field_4202 VALUES LLdla$c;
-		METHOD method_3394 getTranslations (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_781;
-	CLASS net/minecraft/class_778$class_782 NeighborOrientation
-		FIELD field_4210 DOWN Lnet/minecraft/class_778$class_782;
-		FIELD field_4212 UP Lnet/minecraft/class_778$class_782;
-		FIELD field_4211 NORTH Lnet/minecraft/class_778$class_782;
-		FIELD field_4213 SOUTH Lnet/minecraft/class_778$class_782;
-		FIELD field_4215 WEST Lnet/minecraft/class_778$class_782;
-		FIELD field_4219 EAST Lnet/minecraft/class_778$class_782;
-		FIELD field_4220 FLIP_DOWN Lnet/minecraft/class_778$class_782;
-		FIELD field_4217 FLIP_UP Lnet/minecraft/class_778$class_782;
-		FIELD field_4218 FLIP_NORTH Lnet/minecraft/class_778$class_782;
-		FIELD field_4221 FLIP_SOUTH Lnet/minecraft/class_778$class_782;
-		FIELD field_4216 FLIP_WEST Lnet/minecraft/class_778$class_782;
-		FIELD field_4214 FLIP_EAST Lnet/minecraft/class_778$class_782;
-		FIELD field_4222 shape I
-	FIELD field_4178 colorMap Lnet/minecraft/class_324;
 	FIELD field_4177 brightnessCache Ljava/lang/ThreadLocal;
+	FIELD field_4178 colorMap Lnet/minecraft/class_324;
 	FIELD field_4179 brightnessCacheEnabled Ljava/lang/ThreadLocal;
-	METHOD method_3375 enableBrightnessCache ()V
-	METHOD method_3365 renderQuad (FFFFLjava/util/List;)V
-		ARG 1 colorMultiplier
-		ARG 2 red
-		ARG 3 green
-		ARG 4 blue
-	METHOD method_3370 tesselateQuadsFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;IZLnet/minecraft/class_287;Ljava/util/List;Ljava/util/BitSet;)V
+	METHOD method_3361 tesselateSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;ZLjava/util/Random;J)Z
 		ARG 1 view
-		ARG 2 state
-		ARG 3 pos
-		ARG 4 brightness
-		ARG 5 checkBrightness
-		ARG 6 buffer
-		ARG 7 quads
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
 	METHOD method_3363 tesselateQuadsSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;Ljava/util/List;[FLjava/util/BitSet;Lnet/minecraft/class_778$class_780;)V
 		ARG 1 view
 		ARG 2 state
@@ -72,13 +22,15 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 4 vertexData
 		ARG 5 facing
 		ARG 6 faceShape
-	METHOD method_3374 tesselate (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;ZLjava/util/Random;J)Z
-		ARG 1 view
-		ARG 2 model
-		ARG 3 state
-		ARG 4 pos
-		ARG 5 buffer
-		ARG 6 testSides
+	METHOD method_3365 renderQuad (FFFFLjava/util/List;)V
+		ARG 1 colorMultiplier
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+	METHOD method_3366 render (Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;FZ)V
+		ARG 1 model
+		ARG 2 state
+		ARG 3 colorMultiplier
 	METHOD method_3367 render (Lnet/minecraft/class_2680;Lnet/minecraft/class_1087;FFFF)V
 		ARG 1 state
 		ARG 2 model
@@ -90,18 +42,14 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 2 colorMultiplier
 		ARG 3 red
 		ARG 4 green
-	METHOD method_3366 render (Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;FZ)V
-		ARG 1 model
-		ARG 2 state
-		ARG 3 colorMultiplier
-	METHOD method_3376 disableBrightnessCache ()V
-	METHOD method_3361 tesselateSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;ZLjava/util/Random;J)Z
+	METHOD method_3370 tesselateQuadsFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;IZLnet/minecraft/class_287;Ljava/util/List;Ljava/util/BitSet;)V
 		ARG 1 view
-		ARG 2 model
-		ARG 3 state
-		ARG 4 pos
-		ARG 5 buffer
-		ARG 6 testSides
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 brightness
+		ARG 5 checkBrightness
+		ARG 6 buffer
+		ARG 7 quads
 	METHOD method_3373 tesselateFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;ZLjava/util/Random;J)Z
 		ARG 1 view
 		ARG 2 model
@@ -110,3 +58,53 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 5 buffer
 		ARG 6 testSides
 		ARG 8 seed
+	METHOD method_3374 tesselate (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_287;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+	METHOD method_3375 enableBrightnessCache ()V
+	METHOD method_3376 disableBrightnessCache ()V
+	CLASS class_779 NeighborData
+		FIELD field_4181 DOWN Lnet/minecraft/class_778$class_779;
+		FIELD field_4182 UP Lnet/minecraft/class_778$class_779;
+		FIELD field_4183 NORTH Lnet/minecraft/class_778$class_779;
+		FIELD field_4184 SOUTH Lnet/minecraft/class_778$class_779;
+		FIELD field_4186 EAST Lnet/minecraft/class_778$class_779;
+		FIELD field_4187 WEST Lnet/minecraft/class_778$class_779;
+		FIELD field_4189 nonCubicWeight Z
+		METHOD method_3378 getData (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_779;
+	CLASS class_780 AmbientOcclusionCalculator
+		FIELD field_4194 brightness [I
+		FIELD field_4196 colorMultiplier [F
+		METHOD method_3386 getAmbientOcclusionBrightness (IIII)I
+		METHOD method_3388 apply (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;[FLjava/util/BitSet;)V
+		METHOD method_3389 getBrightness (IIIIFFFF)I
+	CLASS class_781 Translation
+		FIELD field_4198 thirdCorner I
+		FIELD field_4199 DOWN Lnet/minecraft/class_778$class_781;
+		FIELD field_4200 UP Lnet/minecraft/class_778$class_781;
+		FIELD field_4201 secondCorner I
+		FIELD field_4203 firstCorner I
+		FIELD field_4204 NORTH Lnet/minecraft/class_778$class_781;
+		FIELD field_4205 SOUTH Lnet/minecraft/class_778$class_781;
+		FIELD field_4206 WEST Lnet/minecraft/class_778$class_781;
+		FIELD field_4207 EAST Lnet/minecraft/class_778$class_781;
+		FIELD field_4209 fourthCorner I
+		METHOD method_3394 getTranslations (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_781;
+	CLASS class_782 NeighborOrientation
+		FIELD field_4210 DOWN Lnet/minecraft/class_778$class_782;
+		FIELD field_4211 NORTH Lnet/minecraft/class_778$class_782;
+		FIELD field_4212 UP Lnet/minecraft/class_778$class_782;
+		FIELD field_4213 SOUTH Lnet/minecraft/class_778$class_782;
+		FIELD field_4214 FLIP_EAST Lnet/minecraft/class_778$class_782;
+		FIELD field_4215 WEST Lnet/minecraft/class_778$class_782;
+		FIELD field_4216 FLIP_WEST Lnet/minecraft/class_778$class_782;
+		FIELD field_4217 FLIP_UP Lnet/minecraft/class_778$class_782;
+		FIELD field_4218 FLIP_NORTH Lnet/minecraft/class_778$class_782;
+		FIELD field_4219 EAST Lnet/minecraft/class_778$class_782;
+		FIELD field_4220 FLIP_DOWN Lnet/minecraft/class_778$class_782;
+		FIELD field_4221 FLIP_SOUTH Lnet/minecraft/class_778$class_782;
+		FIELD field_4222 shape I

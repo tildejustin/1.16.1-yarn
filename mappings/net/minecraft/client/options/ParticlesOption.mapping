@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_4066 net/minecraft/client/options/ParticlesOption
-	FIELD field_18200 VALUES LLcvc;
 	FIELD field_18201 id I
 	FIELD field_18202 translationKey Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V

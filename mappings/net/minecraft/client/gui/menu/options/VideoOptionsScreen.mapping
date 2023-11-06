@@ -2,7 +2,6 @@ CLASS net/minecraft/class_446 net/minecraft/client/gui/menu/options/VideoOptions
 	FIELD field_2637 parent Lnet/minecraft/class_437;
 	FIELD field_2638 options Lnet/minecraft/class_315;
 	FIELD field_2639 list Lnet/minecraft/class_353;
-	FIELD field_2640 OPTIONS LLcva;
 	METHOD <init> (Lnet/minecraft/class_437;Lnet/minecraft/class_315;)V
 		ARG 1 parent
 		ARG 2 options

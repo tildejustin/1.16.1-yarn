@@ -9,10 +9,6 @@ CLASS net/minecraft/class_4184 net/minecraft/client/render/Camera
 	FIELD field_18719 thirdPerson Z
 	FIELD field_18720 inverseView Z
 	METHOD method_19317 updateEyeHeight ()V
-	METHOD a (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
 	METHOD method_19320 addRotation (FF)V
 		ARG 1 yaw
 		ARG 2 pitch

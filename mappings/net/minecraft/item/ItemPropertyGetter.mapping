@@ -1,5 +1,1 @@
 CLASS net/minecraft/class_1800 net/minecraft/item/ItemPropertyGetter
-	METHOD call (Lbbp;Lbgx;Laii;)F
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 user

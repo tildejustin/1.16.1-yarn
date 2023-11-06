@@ -1,7 +1,6 @@
 CLASS net/minecraft/class_69 net/minecraft/world/loot/entry/CombinedEntry
-	CLASS net/minecraft/class_69$class_70 Factory
-	CLASS net/minecraft/class_69$class_71 Serializer
-	FIELD field_982 children LLcos;
 	FIELD field_983 predicate Lnet/minecraft/class_64;
-	METHOD method_395 createSerializer (Lnet/minecraft/class_2960;Ljava/lang/Class;Lnet/minecraft/class_69$class_70;)Lnet/minecraft/class_69$class_71;
 	METHOD method_394 combine ([Lnet/minecraft/class_64;)Lnet/minecraft/class_64;
+	METHOD method_395 createSerializer (Lnet/minecraft/class_2960;Ljava/lang/Class;Lnet/minecraft/class_69$class_70;)Lnet/minecraft/class_69$class_71;
+	CLASS class_70 Factory
+	CLASS class_71 Serializer

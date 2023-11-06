@@ -6,4 +6,3 @@ CLASS net/minecraft/realms/RealmsButtonProxy net/minecraft/client/gui/widget/Rea
 		ARG 4 text
 		ARG 5 width
 		ARG 6 height
-	METHOD method_2066 getHeight ()I

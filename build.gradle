@@ -122,25 +122,25 @@ import java.util.zip.GZIPOutputStream
 task downloadIntermediary(type: DownloadTask) {
 	group = buildMappingGroup
 	url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version_url}.tiny"
-	output = new File(cacheFilesMinecraft, "${minecraft_version_url}-intermediary.tiny")
+	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
 task downloadIntermediaryV2(type: DownloadTask) {
 	group = buildMappingGroup
 	url = "https://maven.fabricmc.net/net/fabricmc/intermediary/${minecraft_version_url}/intermediary-${minecraft_version_url}-v2.jar"
-	output = new File(cacheFilesMinecraft, "${minecraft_version_url}-intermediary-v2.jar")
+	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 }
 
 task extractIntermediaryV2(type: ExtractZipEntryTask) {
 	input = downloadIntermediaryV2.output
-	output = new File(cacheFilesMinecraft, "${minecraft_version_url}-intermediary-v2.tiny")
+	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.tiny")
 	entry = "mappings/mappings.tiny"
 }
 
 task invertIntermediary(dependsOn: downloadIntermediary, type: FileInputOutput) {
 	group = buildMappingGroup
 	input = downloadIntermediary.output
-	output = new File(cacheFilesMinecraft, "${minecraft_version_url}-intermediary-inverted.tiny")
+	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-inverted.tiny")
 
 	doLast {
 		String[] v1Args = [
@@ -155,7 +155,7 @@ task invertIntermediary(dependsOn: downloadIntermediary, type: FileInputOutput) 
 
 task invertIntermediaryv2(dependsOn: [downloadIntermediaryV2, extractIntermediaryV2], type: FileInputOutput) {
 	group = buildMappingGroup
-	output = new File(cacheFilesMinecraft, "${minecraft_version_url}-intermediary-inverted-v2.tiny")
+	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-inverted-v2.tiny")
 	input = extractIntermediaryV2.output
 
 	doLast {
@@ -171,7 +171,7 @@ task invertIntermediaryv2(dependsOn: [downloadIntermediaryV2, extractIntermediar
 
 task mapIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, mergeMinecraftJars]) {
 	group = mapJarGroup
-	output = file("${minecraft_version_url}-intermediary.jar")
+	output = file("${minecraft_version}-intermediary.jar")
 	input = mergeMinecraftJars.output
 	mappings = downloadIntermediary.output
 	classpath.from minecraftLibraries
@@ -181,7 +181,7 @@ task mapIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, merg
 
 task mapServerIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, downloadMinecraftServerJar]) {
 	group = mapJarGroup
-	output = file("${minecraft_version_url}-server-intermediary.jar")
+	output = file("${minecraft_version}-server-intermediary.jar")
 	input = downloadMinecraftServerJar.output
 	mappings = downloadIntermediary.output
 	classpath.from minecraftLibraries
@@ -398,7 +398,7 @@ remapUnpickDefinitionsIntermediary {
 task unpickIntermediaryJar(type: UnpickJarTask) {
 	group = 'unpick'
 	input = mapIntermediaryJar.output
-	output = file("${minecraft_version_url}-intermediary-unpicked.jar")
+	output = file("${minecraft_version}-intermediary-unpicked.jar")
 	unpickDefinition = remapUnpickDefinitionsIntermediary.output
 	constantsJarFile = constantsJar.archiveFile
 	classpath.from minecraftLibraries
@@ -489,7 +489,7 @@ task v2MergedYarnJar(dependsOn: ["mergeV2"], type: Jar) {
 
 task mapNamedJar(type: MapJarTask, dependsOn: ["mergeV2", "unpickIntermediaryJar"]) {
 	group = mapJarGroup
-	output = file("${minecraft_version_url}-named.jar")
+	output = file("${minecraft_version}-named.jar")
 	input = unpickIntermediaryJar.output
 	mappings = mergeV2.output
 	classpath.from minecraftLibraries

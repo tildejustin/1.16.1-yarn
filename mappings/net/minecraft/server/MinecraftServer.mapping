@@ -4,6 +4,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_16258 profiler Lnet/minecraft/class_3689;
 	FIELD field_17200 workerExecutor Ljava/util/concurrent/Executor;
 	FIELD field_17439 worldGenerationProgressListenerFactory Lnet/minecraft/class_3950;
+	FIELD field_19259 hardcore Z
 	FIELD field_4543 onlineMode Z
 	FIELD field_4544 running Z
 	FIELD field_4545 forceGameMode Z
@@ -51,6 +52,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_4594 authService Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;
 	FIELD field_4595 resourcePackContainerManager Lnet/minecraft/class_3283;
 	FIELD field_4596 playerIdleTimeout I
+	FIELD field_4599 proxy Ljava/net/Proxy;
 	FIELD field_4602 random Ljava/util/Random;
 	FIELD field_4603 sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	FIELD field_4604 pvpEnabled Z
@@ -58,12 +60,19 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_4606 levelStorage Lnet/minecraft/class_32;
 	FIELD field_4607 resourcePackUrl Ljava/lang/String;
 	FIELD field_4608 gameProfileRepo Lcom/mojang/authlib/GameProfileRepository;
+	METHOD <init> (Ljava/io/File;Ljava/net/Proxy;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/class_2170;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lnet/minecraft/class_3312;Lnet/minecraft/class_3950;Ljava/lang/String;)V
+		ARG 10 levelName
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_15876 getMetricsData ()Lnet/minecraft/class_3517;
 	METHOD method_16043 isServerThreadAlive ()Z
 	METHOD method_16044 getProfiler ()Lnet/minecraft/class_3689;
 	METHOD method_17191 getWorkerExecutor ()Ljava/util/concurrent/Executor;
+	METHOD method_19465 sendDifficultyPacket (Lnet/minecraft/class_3222;)V
+	METHOD method_19467 setDifficultyLocked (Z)V
+		ARG 1 locked
+	METHOD method_20288 setHardcore (Z)V
+		ARG 1 hardcore
 	METHOD method_3716 getKeyPair ()Ljava/security/KeyPair;
 	METHOD method_3717 start ()V
 	METHOD method_3718 isFlightEnabled ()Z
@@ -112,8 +121,10 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3774 prepareStartRegion (Lnet/minecraft/class_3949;)V
 	METHOD method_3775 shouldPreventProxyConnections ()Z
 	METHOD method_3776 setDifficulty (Lnet/minecraft/class_1267;Z)V
+		ARG 1 difficulty
 	METHOD method_3778 setBonusChest (Z)V
 	METHOD method_3779 setServerPort (I)V
+		ARG 1 serverPort
 	METHOD method_3780 getTicks ()I
 	METHOD method_3781 getLevelStorage ()Lnet/minecraft/class_32;
 	METHOD method_3782 shutdown ()V
@@ -146,6 +157,7 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3815 setPvpEnabled (Z)V
 	METHOD method_3816 isDedicated ()Z
 	METHOD method_3817 setUserName (Ljava/lang/String;)V
+		ARG 1 userName
 	METHOD method_3818 getServerMotd ()Ljava/lang/String;
 	METHOD method_3819 getServerIp ()Ljava/lang/String;
 	METHOD method_3821 exit ()V
@@ -173,6 +185,7 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3847 getWorld (Lnet/minecraft/class_2874;)Lnet/minecraft/class_3218;
 	METHOD method_3848 reload ()V
 	METHOD method_3849 setServerName (Ljava/lang/String;)V
+		ARG 1 displayName
 	METHOD method_3850 setWorldHeight (I)V
 	METHOD method_3851 getAdvancementManager ()Lnet/minecraft/class_2989;
 	METHOD method_3852 isPvpEnabled ()Z

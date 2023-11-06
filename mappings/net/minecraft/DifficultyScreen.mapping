@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_4283 net/minecraft/DifficultyScreen
+	FIELD field_19196 SEED Lnet/minecraft/class_1940;
+	FIELD field_19197 hardcoreButton Lnet/minecraft/class_4283$class_4284;
+	FIELD field_19198 bloodEffectHeight I
+	CLASS class_4284 DifficultyButton
+		FIELD field_19200 difficulty Lnet/minecraft/class_1267;
+		FIELD field_19201 hardcore Z
+		METHOD <init> (Lnet/minecraft/class_4283;IILjava/lang/String;Lnet/minecraft/class_1267;)V
+			ARG 2 x
+			ARG 3 y
+			ARG 4 text
+			ARG 5 difficulty
+		METHOD <init> (Lnet/minecraft/class_4283;IILjava/lang/String;Lnet/minecraft/class_1267;Z)V
+			ARG 2 x
+			ARG 3 y
+			ARG 4 text
+			ARG 5 difficulty
+			ARG 6 hardcore

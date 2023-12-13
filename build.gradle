@@ -26,9 +26,7 @@ filament {
     minecraftVersion = minecraft_version
 }
 
-def build_number = "1"
-
-def yarnVersion = "${minecraft_version}+build.$build_number"
+def yarnVersion = System.getenv("JITPACK") ? "yarn" : "${minecraft_version}+build.1"
 version = yarnVersion
 
 repositories {

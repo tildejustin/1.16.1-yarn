@@ -18,6 +18,8 @@ plugins {
     id "net.fabricmc.filament"
 }
 
+group = maven_group
+
 def minecraft_version = "3D Shareware v1.34"
 def minecraft_version_url = new PercentEscaper("", false).escape(minecraft_version)
 
@@ -490,57 +492,68 @@ generatePackageInfoMappings {
     outputDir = file("mappings/net/minecraft/unused/packageinfo")
 }
 
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId "net.fabricmc"
+//            artifactId "yarn"
+//            version yarnVersion
+//
+//            artifact(compressTiny.output) {
+//                classifier "tiny"
+//                builtBy compressTiny
+//            }
+//            artifact(tinyJar)
+//            artifact(v2UnmergedYarnJar) {
+//                classifier "v2"
+//            }
+//            artifact(v2MergedYarnJar) {
+//                classifier "mergedv2"
+//            }
+//            artifact(constantsJar) {
+//                classifier "constants"
+//            }
+//            artifact sourcesJar
+//        }
+//
+//    }
+//    repositories {
+//        if (ENV.MAVEN_URL) {
+//            maven {
+//                url ENV.MAVEN_URL
+//                credentials {
+//                    username ENV.MAVEN_USERNAME
+//                    password ENV.MAVEN_PASSWORD
+//                }
+//            }
+//        }
+//    }
+//}
+
 publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId "net.fabricmc"
-            artifactId "yarn"
-            version yarnVersion
-
-            artifact(compressTiny.output) {
-                classifier "tiny"
-                builtBy compressTiny
-            }
-            artifact(tinyJar)
-            artifact(v2UnmergedYarnJar) {
-                classifier "v2"
-            }
-            artifact(v2MergedYarnJar) {
-                classifier "mergedv2"
-            }
-            artifact(constantsJar) {
-                classifier "constants"
-            }
-            artifact sourcesJar
+    publications.create("mavenJava", MavenPublication) {
+        from components.java
+        artifact(compressTiny.output) {
+            classifier "tiny"
+            builtBy compressTiny
         }
-
-    }
-    repositories {
-        if (ENV.MAVEN_URL) {
-            maven {
-                url ENV.MAVEN_URL
-                credentials {
-                    username ENV.MAVEN_USERNAME
-                    password ENV.MAVEN_PASSWORD
-                }
-            }
+        artifact(tinyJar) {
         }
+        artifact(v2UnmergedYarnJar) {
+            classifier "v2"
+        }
+        artifact(v2MergedYarnJar) {
+            classifier "mergedv2"
+        }
+        artifact(constantsJar) {
+            classifier "constants"
+        }
+        artifact sourcesJar
     }
+    repositories {}
 }
 
-// A task to ensure that the version being released has not already been released.
-task checkVersion {
-    doFirst {
-        def xml = new URL("https://maven.fabricmc.net/net/fabricmc/yarn/maven-metadata.xml").text
-        def metadata = new XmlSlurper().parseText(xml)
-        def versions = metadata.versioning.versions.version*.text();
-        if (versions.contains(version)) {
-            throw new RuntimeException("${version} has already been released!")
-        }
-    }
-}
-
-publish.mustRunAfter checkVersion
+generateMetadataFileForMavenJavaPublication.dependsOn tinyJar
 
 abstract class FileOutput extends DefaultTask {
     @OutputFile

@@ -515,7 +515,9 @@ publishing {
         }
         artifact sourcesJar
     }
-    repositories {}
+    repositories {
+        mavenLocal()
+    }
 }
 
 generateMetadataFileForMavenJavaPublication.dependsOn tinyJar

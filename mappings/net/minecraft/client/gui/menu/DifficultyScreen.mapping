@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_4283 net/minecraft/DifficultyScreen
+CLASS net/minecraft/class_4283 net/minecraft/client/gui/menu/DifficultyScreen
 	FIELD field_19196 SEED Lnet/minecraft/class_1940;
 	FIELD field_19197 hardcoreButton Lnet/minecraft/class_4283$class_4284;
 	FIELD field_19198 bloodEffectHeight I

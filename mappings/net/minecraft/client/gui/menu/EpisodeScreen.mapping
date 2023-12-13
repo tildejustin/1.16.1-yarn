@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_4285 net/minecraft/client/gui/menu/EpisodeScreen
+	CLASS class_4286 InactiveButton

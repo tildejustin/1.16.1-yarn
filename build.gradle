@@ -4,10 +4,11 @@ buildscript {
         mavenCentral()
         mavenLocal()
     }
+
     dependencies {
-        classpath "cuchaz:enigma-cli:${project.enigma_version}"
-        classpath "net.fabricmc:stitch:${project.stitch_version}"
-        classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
+        classpath "cuchaz:enigma-cli:$enigma_version"
+        classpath "net.fabricmc:stitch:$stitch_version"
+        classpath "net.fabricmc:name-proposal:$name_proposal_version"
     }
 }
 
@@ -18,8 +19,6 @@ plugins {
     id "net.fabricmc.filament"
 }
 
-group = maven_group
-
 def minecraft_version = "3D Shareware v1.34"
 def minecraft_version_url = new PercentEscaper("", false).escape(minecraft_version)
 
@@ -27,24 +26,15 @@ filament {
     minecraftVersion = minecraft_version
 }
 
-def ENV = System.getenv()
-// Fetch build number from Github Actions
-def build_number = ENV.BUILD_NUMBER ?: "local"
+def build_number = "1"
 
 def yarnVersion = "${minecraft_version}+build.$build_number"
 version = yarnVersion
 
-if (ENV.BRANCH_NAME) {
-    def branch = ENV.BRANCH_NAME.substring(ENV.BRANCH_NAME.lastIndexOf("/") + 1)
-    if (minecraft_version != branch) {
-        throw new IllegalStateException("Branch name (${branch}) does not match the mc version (${minecraft_version})")
-    }
-}
-
 repositories {
     mavenCentral()
     maven { url "https://maven.fabricmc.net" }
-    maven { url "https://libraries.minecraft.net/" }
+    maven { url "https://libraries.minecraft.net" }
     mavenLocal()
 }
 
@@ -67,14 +57,14 @@ configurations {
 def unpickMetaFile = file("unpick-definitions/unpick.json")
 
 dependencies {
-    enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
-    enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
-    decompileClasspath "net.fabricmc:cfr:${project.cfr_version}"
-    mappingPoetJar "net.fabricmc:mappingpoet:${project.mappingpoet_version}"
-    asm "org.ow2.asm:asm:${project.asm_version}"
-    asm "org.ow2.asm:asm-tree:${project.asm_version}"
-    asm "org.ow2.asm:asm-commons:${project.asm_version}"
-    asm "org.ow2.asm:asm-util:${project.asm_version}"
+    enigmaRuntime "cuchaz:enigma-swing:$enigma_version"
+    enigmaRuntime "net.fabricmc:name-proposal:$name_proposal_version"
+    decompileClasspath "net.fabricmc:cfr:$cfr_version"
+    mappingPoetJar "net.fabricmc:mappingpoet:$mappingpoet_version"
+    asm "org.ow2.asm:asm:$asm_version"
+    asm "org.ow2.asm:asm-tree:$asm_version"
+    asm "org.ow2.asm:asm-commons:$asm_version"
+    asm "org.ow2.asm:asm-util:$asm_version"
 }
 
 def yarnGroup = "yarn"
@@ -101,25 +91,26 @@ import org.gradle.work.DisableCachingByDefault
 
 import java.util.zip.GZIPOutputStream
 
-task downloadIntermediary(type: DownloadTask) {
+tasks.register("downloadIntermediary", DownloadTask) {
     group = buildMappingGroup
     url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version_url}.tiny"
     output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
-task downloadIntermediaryV2(type: DownloadTask) {
+tasks.register("downloadIntermediaryV2", DownloadTask) {
     group = buildMappingGroup
     url = "https://maven.fabricmc.net/net/fabricmc/intermediary/${minecraft_version_url}/intermediary-${minecraft_version_url}-v2.jar"
     output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 }
 
-task extractIntermediaryV2(type: ExtractZipEntryTask) {
+tasks.register("extractIntermediaryV2", ExtractZipEntryTask) {
     input = downloadIntermediaryV2.output
     output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.tiny")
     entry = "mappings/mappings.tiny"
 }
 
-task invertIntermediary(dependsOn: downloadIntermediary, type: FileInputOutput) {
+tasks.register("invertIntermediary", FileInputOutput) {
+    dependsOn downloadIntermediary
     group = buildMappingGroup
     input = downloadIntermediary.output
     output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-inverted.tiny")
@@ -133,7 +124,8 @@ task invertIntermediary(dependsOn: downloadIntermediary, type: FileInputOutput) 
     }
 }
 
-task invertIntermediaryv2(dependsOn: [downloadIntermediaryV2, extractIntermediaryV2], type: FileInputOutput) {
+tasks.register("invertIntermediaryv2", FileInputOutput) {
+    dependsOn downloadIntermediaryV2, extractIntermediaryV2
     group = buildMappingGroup
     output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-inverted-v2.tiny")
     input = extractIntermediaryV2.output
@@ -147,7 +139,8 @@ task invertIntermediaryv2(dependsOn: [downloadIntermediaryV2, extractIntermediar
     }
 }
 
-task mapIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, mergeMinecraftJars]) {
+tasks.register("mapIntermediaryJar", MapJarTask) {
+    dependsOn downloadIntermediary, mergeMinecraftJars
     group = mapJarGroup
     output = file("${minecraft_version}-intermediary.jar")
     input = mergeMinecraftJars.output
@@ -157,7 +150,8 @@ task mapIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, merg
     to = "intermediary"
 }
 
-task mapServerIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary, downloadMinecraftServerJar]) {
+tasks.register("mapServerIntermediaryJar", MapJarTask) {
+    dependsOn downloadIntermediary, downloadMinecraftServerJar
     group = mapJarGroup
     output = file("${minecraft_version}-server-intermediary.jar")
     input = downloadMinecraftServerJar.output
@@ -167,13 +161,14 @@ task mapServerIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary
     to = "intermediary"
 }
 
-task yarn(dependsOn: mapIntermediaryJar, type: EnigmaTask) {
+tasks.register("yarn", EnigmaTask) {
+    dependsOn mapIntermediaryJar
     group = yarnGroup
     jar = mapIntermediaryJar.output
     mappings = mappingsDir
 }
 
-task yarnCommon(type: EnigmaTask) {
+tasks.register("yarnCommon", EnigmaTask) {
     group = yarnGroup
     jar = mapServerIntermediaryJar.output
     mappings = mappingsDir
@@ -198,7 +193,7 @@ task checkMappings() {
     }
 }
 
-task mapSpecializedMethods(type: MapSpecializedMethodsTask) {
+tasks.register("mapSpecializedMethods", MapSpecializedMethodsTask) {
     intermediaryJarFile = mapIntermediaryJar.output
     mappings = mappingsDir
     output = new File(tempDir, "yarn-mappings-v2.tiny")
@@ -207,7 +202,7 @@ task mapSpecializedMethods(type: MapSpecializedMethodsTask) {
     outputMappingsFormat = "tinyv2:intermediary:named"
 }
 
-task convertToV1(type: ConvertMappingsTask) {
+tasks.register("convertToV1", ConvertMappingsTask) {
     input = mapSpecializedMethods.output
     output = new File(tempDir, "yarn-mappings.tiny")
 
@@ -215,7 +210,8 @@ task convertToV1(type: ConvertMappingsTask) {
     outputMappingsFormat = "tiny:intermediary:named"
 }
 
-task mergeTiny(dependsOn: ["convertToV1", "invertIntermediary"], type: FileOutput) {
+tasks.register('mergeTiny', FileOutput) {
+    dependsOn "convertToV1", "invertIntermediary"
     group = buildMappingGroup
 
     def unorderedResultMappings = new File(tempDir, "mappings-unordered.tiny")
@@ -252,7 +248,8 @@ jar {
     enabled = false
 }
 
-task tinyJar(type: Jar, dependsOn: mergeTiny) {
+tasks.register("tinyJar", Jar) {
+    dependsOn mergeTiny
     group = buildMappingGroup
     archiveFileName = "yarn-${yarnVersion}.jar"
     destinationDirectory.set(file("build/libs"))
@@ -266,7 +263,8 @@ task tinyJar(type: Jar, dependsOn: mergeTiny) {
     }
 }
 
-task compressTiny(dependsOn: [tinyJar, mergeTiny], type: FileInputOutput) {
+tasks.register("compressTiny", FileInputOutput) {
+    dependsOn tinyJar, mergeTiny
     group = buildMappingGroup
 
     input = mergeTiny.output
@@ -298,12 +296,12 @@ sourceSets {
     packageDocs // package info files
 }
 
-task constantsJar(type: Jar) {
+tasks.register("constantsJar", Jar) {
     from sourceSets.constants.output
     archiveClassifier = "constants"
 }
 
-tasks.build.dependsOn "compressTiny", "tinyJar", "v2UnmergedYarnJar", "v2MergedYarnJar"
+tasks.build.dependsOn compressTiny, tinyJar, "v2UnmergedYarnJar", "v2MergedYarnJar"
 
 combineUnpickDefinitions {
     group = "unpick"
@@ -331,7 +329,8 @@ spotless {
     }
 }
 
-task sourcesJar(type: Jar, dependsOn: classes) {
+tasks.register('sourcesJar', Jar) {
+    dependsOn classes
     archiveClassifier = "sources"
     from sourceSets.constants.allSource
 }
@@ -492,46 +491,12 @@ generatePackageInfoMappings {
     outputDir = file("mappings/net/minecraft/unused/packageinfo")
 }
 
-//publishing {
-//    publications {
-//        maven(MavenPublication) {
-//            groupId "net.fabricmc"
-//            artifactId "yarn"
-//            version yarnVersion
-//
-//            artifact(compressTiny.output) {
-//                classifier "tiny"
-//                builtBy compressTiny
-//            }
-//            artifact(tinyJar)
-//            artifact(v2UnmergedYarnJar) {
-//                classifier "v2"
-//            }
-//            artifact(v2MergedYarnJar) {
-//                classifier "mergedv2"
-//            }
-//            artifact(constantsJar) {
-//                classifier "constants"
-//            }
-//            artifact sourcesJar
-//        }
-//
-//    }
-//    repositories {
-//        if (ENV.MAVEN_URL) {
-//            maven {
-//                url ENV.MAVEN_URL
-//                credentials {
-//                    username ENV.MAVEN_USERNAME
-//                    password ENV.MAVEN_PASSWORD
-//                }
-//            }
-//        }
-//    }
-//}
-
 publishing {
     publications.create("mavenJava", MavenPublication) {
+        groupId "net.fabricmc"
+        artifactId "yarn"
+        version yarnVersion
+
         from components.java
         artifact(compressTiny.output) {
             classifier "tiny"

@@ -495,7 +495,7 @@ publishing {
     publications.create("mavenJava", MavenPublication) {
         groupId "net.fabricmc"
         artifactId "yarn"
-        version yarnVersion
+        version yarnVersion.replace(" ", "_")
 
         from components.java
         artifact(compressTiny.output) {

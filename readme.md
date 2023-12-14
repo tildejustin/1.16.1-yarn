@@ -1,3 +1,21 @@
+# Shareware Mappings
+
+to use, simply add jitpack to your local repositories
+```diff
+repositories {
++    maven { url "https://jitpack.io" }
+}
+```
+and the mappings to your dependencies section (look at github tags for latest release)
+```diff
+dependencies {
+    ...
+-    mappings "net.fabricmc:yarn:3D Shareware v1.34+build.1"
++    mappings "dev.tildejustin:yarn:3d-shareware-v<tag number>:v2"
+    ...
+}
+```
+
 # Yarn
 
 Yarn is a set of open, unencumbered Minecraft mappings, free for everyone to use under the Creative Commons Zero license. The intention is to let 

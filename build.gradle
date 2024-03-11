@@ -122,7 +122,7 @@ def libs = new File("build/libs/")
 
 def minecraftLibraries = configurations.minecraftLibraries
 
-import cuchaz.enigma.command.CheckMappingsCommand
+import org.quiltmc.enigma.command.CheckMappingsCommand
 import net.fabricmc.filament.task.MapJarTask
 import net.fabricmc.filament.task.DownloadTask
 import net.fabricmc.filament.task.ExtractZipEntryTask
@@ -736,7 +736,7 @@ abstract class EnigmaTask extends JavaExec {
 
 	EnigmaTask() {
 		classpath = project.configurations.enigmaRuntime
-		mainClass.set('cuchaz.enigma.gui.Main')
+		mainClass.set('org.quiltmc.enigma.gui.Main')
 	}
 
 	@TaskAction
@@ -747,7 +747,7 @@ abstract class EnigmaTask extends JavaExec {
 		args mappings.get().absolutePath
 		args '-profile'
 		args 'enigma_profile.json'
-//		jvmArgs "-Xmx2048m"
+		// jvmArgs "-Xmx2048m"
 		super.exec()
 	}
 }

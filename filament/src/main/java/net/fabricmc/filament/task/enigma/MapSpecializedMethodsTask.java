@@ -4,8 +4,8 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import cuchaz.enigma.command.Command;
-import cuchaz.enigma.command.MapSpecializedMethodsCommand;
+import org.quiltmc.enigma.command.Command;
+import org.quiltmc.enigma.command.MapSpecializedMethodsCommand;
 import org.gradle.api.file.DirectoryProperty;
 import org.gradle.api.file.RegularFileProperty;
 import org.gradle.api.provider.Property;

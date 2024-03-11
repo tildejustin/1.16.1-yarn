@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import cuchaz.enigma.command.Command;
+import org.quiltmc.enigma.command.Command;
 import org.gradle.api.provider.ListProperty;
 import org.gradle.api.provider.Property;
 import org.gradle.api.tasks.Internal;

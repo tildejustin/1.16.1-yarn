@@ -2,8 +2,8 @@ package net.fabricmc.filament.task.enigma;
 
 import java.util.List;
 
-import cuchaz.enigma.command.Command;
-import cuchaz.enigma.command.ConvertMappingsCommand;
+import org.quiltmc.enigma.command.Command;
+import org.quiltmc.enigma.command.ConvertMappingsCommand;
 import org.gradle.api.provider.Property;
 import org.gradle.api.tasks.Input;
 

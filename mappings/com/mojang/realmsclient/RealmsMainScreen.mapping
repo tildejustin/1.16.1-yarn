@@ -127,6 +127,8 @@ CLASS net/minecraft/class_4325 com/mojang/realmsclient/RealmsMainScreen
 	METHOD method_20943 saveListScrollPosition ()V
 	METHOD method_23765 (Lnet/minecraft/class_3300;)V
 		ARG 0 manager
+	METHOD method_24985 openPendingInvitesScreen (Lnet/minecraft/class_4185;)V
+	METHOD method_24991 leaveServer (Z)V
 	METHOD method_25001 isOwnedNotExpired (Lnet/minecraft/class_4877;)Z
 	METHOD method_27452 setTooltips ([Lnet/minecraft/class_2561;)V
 	CLASS class_4326 CloseButton
@@ -156,3 +158,4 @@ CLASS net/minecraft/class_4325 com/mojang/realmsclient/RealmsMainScreen
 	CLASS class_4332 ShowPopupButton
 	CLASS class_4866 Entry
 	CLASS class_5220 HoverState
+		FIELD field_24199 NONE Lnet/minecraft/class_4325$class_5220;

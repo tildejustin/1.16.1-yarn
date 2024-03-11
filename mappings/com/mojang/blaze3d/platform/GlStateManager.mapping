@@ -459,10 +459,31 @@ CLASS net/minecraft/class_4493 com/mojang/blaze3d/platform/GlStateManager
 	METHOD method_24222 setupGui3dDiffuseLighting (Lnet/minecraft/class_1160;Lnet/minecraft/class_1160;)V
 	METHOD method_29330 supportsGl30 ()Z
 	METHOD method_29331 copyTexSubImage2d (IIIIIIII)V
+		ARG 0 target
+		ARG 1 level
+		ARG 2 xoffset
+		ARG 3 yoffset
+		ARG 4 x
+		ARG 5 y
+		ARG 6 width
+		ARG 7 height
 	METHOD method_29332 blitFramebuffer (IIIIIIIIII)V
+		ARG 0 srcX0
+		ARG 1 srcY0
+		ARG 2 srcX1
+		ARG 3 srcY1
+		ARG 4 dstX0
+		ARG 5 dstY0
+		ARG 6 dstX1
+		ARG 7 dstY1
+		ARG 8 mask
+		ARG 9 filter
 	METHOD method_29333 getFramebufferDepthAttachment ()I
 	METHOD method_29334 getActiveBoundTexture ()I
 	CLASS class_1010 FBOMode
+		FIELD field_4981 BASE Lnet/minecraft/class_4493$class_1010;
+		FIELD field_4983 ARB Lnet/minecraft/class_4493$class_1010;
+		FIELD field_4984 EXT Lnet/minecraft/class_4493$class_1010;
 	CLASS class_1016 AlphaTestState
 		FIELD field_5042 capState Lnet/minecraft/class_4493$class_1018;
 		FIELD field_5043 ref F
@@ -513,6 +534,11 @@ CLASS net/minecraft/class_4493 com/mojang/blaze3d/platform/GlStateManager
 		FIELD field_5076 mask Z
 	CLASS class_1028 FogMode
 		FIELD field_5093 value I
+		FIELD field_5095 LINEAR Lnet/minecraft/class_4493$class_1028;
+		FIELD field_5096 EXP Lnet/minecraft/class_4493$class_1028;
+		FIELD field_5097 EXP2 Lnet/minecraft/class_4493$class_1028;
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 3 value
 	CLASS class_1029 FogState
 		FIELD field_5098 end F
 		FIELD field_5099 start F
@@ -520,7 +546,25 @@ CLASS net/minecraft/class_4493 com/mojang/blaze3d/platform/GlStateManager
 		FIELD field_5101 density F
 		FIELD field_5102 mode I
 	CLASS class_1030 LogicOp
+		FIELD field_5103 CLEAR Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5104 NOR Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5105 OR Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5107 SET Lnet/minecraft/class_4493$class_1030;
 		FIELD field_5108 value I
+		FIELD field_5109 INVERT Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5110 OR_REVERSE Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5111 XOR Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5112 AND_INVERTED Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5113 COPY_INVERTED Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5114 NAND Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5115 NOOP Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5116 OR_INVERTED Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5117 AND_REVERSE Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5118 COPY Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5119 EQUIV Lnet/minecraft/class_4493$class_1030;
+		FIELD field_5120 AND Lnet/minecraft/class_4493$class_1030;
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 3 value
 	CLASS class_1031 PolygonOffsetState
 		FIELD field_5121 capLine Lnet/minecraft/class_4493$class_1018;
 		FIELD field_5122 units F
@@ -537,6 +581,10 @@ CLASS net/minecraft/class_4493 com/mojang/blaze3d/platform/GlStateManager
 		FIELD field_5152 sfail I
 		FIELD field_5153 mask I
 	CLASS class_1036 TexCoord
+		FIELD field_5154 S Lnet/minecraft/class_4493$class_1036;
+		FIELD field_5155 T Lnet/minecraft/class_4493$class_1036;
+		FIELD field_5156 R Lnet/minecraft/class_4493$class_1036;
+		FIELD field_5157 Q Lnet/minecraft/class_4493$class_1036;
 	CLASS class_1037 TexGenCoordState
 		FIELD field_5159 capState Lnet/minecraft/class_4493$class_1018;
 		FIELD field_5160 mode I
@@ -554,12 +602,48 @@ CLASS net/minecraft/class_4493 com/mojang/blaze3d/platform/GlStateManager
 		FIELD field_5167 boundTexture I
 	CLASS class_1040 Viewport
 		FIELD field_5168 height I
+		FIELD field_5169 INSTANCE Lnet/minecraft/class_4493$class_1040;
 		FIELD field_5170 width I
 		FIELD field_5171 y I
 		FIELD field_5172 x I
 	CLASS class_4534 DstFactor
+		FIELD field_22514 CONSTANT_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22515 CONSTANT_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22516 DST_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22517 DST_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22518 ONE Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22519 ONE_MINUS_CONSTANT_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22520 ONE_MINUS_CONSTANT_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22521 ONE_MINUS_DST_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22522 cONE_MINUS_DST_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22523 ONE_MINUS_SRC_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22524 ONE_MINUS_SRC_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22525 SRC_ALPHA Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22526 SRC_COLOR Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22527 ZERO Lnet/minecraft/class_4493$class_4534;
+		FIELD field_22528 value I
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 3 value
 	CLASS class_4535 SrcFactor
+		FIELD field_22530 CONSTANT_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22531 CONSTANT_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22532 DST_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22533 DST_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22534 ONE Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22535 ONE_MINUS_CONSTANT_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22536 ONE_MINUS_CONSTANT_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22537 ONE_MINUS_DST_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22538 ONE_MINUS_DST_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22539 ONE_MINUS_SRC_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22540 ONE_MINUS_SRC_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22541 SRC_ALPHA Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22542 SRC_ALPHA_SATURATE Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22543 SRC_COLOR Lnet/minecraft/class_4493$class_4535;
+		FIELD field_22544 ZERO Lnet/minecraft/class_4493$class_4535;
 		FIELD field_22545 value I
 		METHOD <init> (Ljava/lang/String;II)V
 			ARG 3 value
 	CLASS class_5343 FBOBlitMode
+		FIELD field_25253 BASE Lnet/minecraft/class_4493$class_5343;
+		FIELD field_25254 EXT Lnet/minecraft/class_4493$class_5343;
+		FIELD field_25255 NONE Lnet/minecraft/class_4493$class_5343;

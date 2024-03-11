@@ -170,6 +170,9 @@ CLASS com/mojang/blaze3d/systems/RenderSystem
 	METHOD pixelStore (II)V
 		ARG 0 pname
 		ARG 1 param
+	METHOD pixelTransfer (IF)V
+		ARG 0 pname
+		ARG 1 param
 	METHOD polygonOffset (FF)V
 		ARG 0 factor
 		ARG 1 units

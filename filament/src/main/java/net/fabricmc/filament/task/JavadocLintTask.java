@@ -8,14 +8,14 @@ import java.util.regex.Pattern;
 
 import javax.inject.Inject;
 
-import org.quiltmc.enigma.api.ProgressListener;
-import org.quiltmc.enigma.api.translation.mapping.EntryMapping;
-import org.quiltmc.enigma.api.translation.mapping.serde.MappingParseException;
-import org.quiltmc.enigma.api.translation.mapping.serde.enigma.EnigmaMappingsReader;
-import org.quiltmc.enigma.api.translation.mapping.tree.EntryTree;
-import org.quiltmc.enigma.api.translation.representation.entry.Entry;
-import org.quiltmc.enigma.api.translation.representation.entry.LocalVariableEntry;
-import org.quiltmc.enigma.api.translation.representation.entry.MethodEntry;
+import cuchaz.enigma.ProgressListener;
+import cuchaz.enigma.translation.mapping.EntryMapping;
+import cuchaz.enigma.translation.mapping.serde.MappingParseException;
+import cuchaz.enigma.translation.mapping.serde.enigma.EnigmaMappingsReader;
+import cuchaz.enigma.translation.mapping.tree.EntryTree;
+import cuchaz.enigma.translation.representation.entry.Entry;
+import cuchaz.enigma.translation.representation.entry.LocalVariableEntry;
+import cuchaz.enigma.translation.representation.entry.MethodEntry;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.GradleException;
 import org.gradle.api.file.ConfigurableFileCollection;

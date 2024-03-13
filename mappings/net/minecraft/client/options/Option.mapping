@@ -32,7 +32,7 @@ CLASS net/minecraft/class_316 net/minecraft/client/options/Option
 	FIELD field_1935 FRAMERATE_LIMIT Lnet/minecraft/class_4067;
 	FIELD field_1937 CLOUDS Lnet/minecraft/class_4064;
 	FIELD field_1938 GRAPHICS Lnet/minecraft/class_4064;
-	FIELD field_1939 SATURATION Lnet/minecraft/class_4067;
+	FIELD field_1939 CHAT_HEIGHT_UNFOCUSED Lnet/minecraft/class_4067;
 	FIELD field_1940 CHAT_HEIGHT_FOCUSED Lnet/minecraft/class_4067;
 	FIELD field_1941 CHAT_WIDTH Lnet/minecraft/class_4067;
 	FIELD field_1944 SENSITIVITY Lnet/minecraft/class_4067;

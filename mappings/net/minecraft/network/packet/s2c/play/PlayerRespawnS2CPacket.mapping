@@ -11,3 +11,5 @@ CLASS net/minecraft/class_2724 net/minecraft/network/packet/s2c/play/PlayerRespa
 	METHOD method_27904 shouldKeepPlayerAttributes ()Z
 	METHOD method_28120 isDebugWorld ()Z
 	METHOD method_28121 isFlatWorld ()Z
+	METHOD method_29445 getDimensionType ()Lnet/minecraft/class_5321;
+	METHOD method_30117 getPreviousGameMode ()Lnet/minecraft/class_1934;

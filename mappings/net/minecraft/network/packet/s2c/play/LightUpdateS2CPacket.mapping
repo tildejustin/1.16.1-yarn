@@ -20,3 +20,4 @@ CLASS net/minecraft/class_2676 net/minecraft/network/packet/s2c/play/LightUpdate
 	METHOD method_11559 getBlockLightMask ()I
 	METHOD method_16124 getFilledSkyLightMask ()I
 	METHOD method_16125 getFilledBlockLightMask ()I
+	METHOD method_30006 isNotEdge ()Z

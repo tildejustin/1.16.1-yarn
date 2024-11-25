@@ -13,15 +13,15 @@ buildscript {
 			name "Fabric Repository"
 			url 'https://maven.fabricmc.net'
 		}
-		maven {
-			// Vineflower snapshots
-			url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-		}
+		// maven {
+		// 	// Vineflower snapshots
+		// 	url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+		// }
 		mavenCentral()
 		mavenLocal()
 	}
 	dependencies {
-		classpath "org.quiltmc:enigma-cli:${project.enigma_version}"
+		classpath "cuchaz:enigma-cli:${project.enigma_version}"
 		classpath "net.fabricmc:stitch:${project.stitch_version}"
 		classpath "net.fabricmc:name-proposal:${project.name_proposal_version}"
 	}
@@ -72,10 +72,10 @@ repositories {
 		name "Quilt Snapshot Repository"
 		url "https://maven.quiltmc.org/repository/snapshot"
 	}
-	maven {
-		// Vineflower snapshots
-		url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-	}
+	// maven {
+	// 	// Vineflower snapshots
+	// 	url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+	// }
 	mavenLocal()
 }
 
@@ -99,7 +99,7 @@ configurations {
 def unpickMetaFile = file("unpick-definitions/unpick.json")
 
 dependencies {
-	enigmaRuntime "org.quiltmc:enigma-swing:${project.enigma_version}"
+	enigmaRuntime "cuchaz:enigma-swing:${project.enigma_version}"
 	enigmaRuntime "net.fabricmc:name-proposal:${project.name_proposal_version}"
 	javadocClasspath "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
 	javadocClasspath "org.jetbrains:annotations:${project.jetbrains_annotations_version}"

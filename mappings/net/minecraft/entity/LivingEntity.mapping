@@ -197,6 +197,14 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_29505 setAttacking (Lnet/minecraft/class_1657;)V
 		ARG 1 attacking
 	METHOD method_29920 shouldSwimInFluids ()Z
+	METHOD method_30121 checkHandStackSwap (Ljava/util/Map;)V
+	METHOD method_30122 setSyncedArmorStack (Lnet/minecraft/class_1304;Lnet/minecraft/class_1799;)V
+	METHOD method_30123 sendEquipmentChanges (Ljava/util/Map;)V
+	METHOD method_30124 setSyncedHandStack (Lnet/minecraft/class_1304;Lnet/minecraft/class_1799;)V
+	METHOD method_30125 getSyncedArmorStack (Lnet/minecraft/class_1304;)Lnet/minecraft/class_1799;
+	METHOD method_30126 getSyncedHandStack (Lnet/minecraft/class_1304;)Lnet/minecraft/class_1799;
+	METHOD method_30128 sendEquipmentChanges ()V
+	METHOD method_30129 getEquipmentChanges ()Ljava/util/Map;
 	METHOD method_5973 canTarget (Lnet/minecraft/class_1299;)Z
 		ARG 1 type
 	METHOD method_5989 getLootTable ()Lnet/minecraft/class_2960;
@@ -239,6 +247,7 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 		ARG 1 type
 	METHOD method_6017 getSoundPitch ()F
 	METHOD method_6018 setRiptideTicks (I)V
+		ARG 1 riptideTicks
 	METHOD method_6019 setCurrentHand (Lnet/minecraft/class_1268;)V
 		ARG 1 hand
 	METHOD method_6020 onStatusEffectApplied (Lnet/minecraft/class_1293;)V

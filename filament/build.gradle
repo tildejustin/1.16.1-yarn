@@ -39,10 +39,10 @@ repositories {
 		name "Quilt Snapshot Repository"
 		url "https://maven.quiltmc.org/repository/snapshot"
 	}
-	maven {
-		// Vineflower snapshots
-		url = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-	}
+	// maven {
+	// 	// Vineflower snapshots
+	// 	url = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+	// }
 	mavenCentral()
 	mavenLocal()
 }
@@ -50,8 +50,8 @@ repositories {
 dependencies {
 	implementation "org.ow2.asm:asm:${properties.asm_version}"
 	implementation "org.ow2.asm:asm-tree:${properties.asm_version}"
-	implementation "org.quiltmc:enigma:$properties.enigma_version"
-	implementation "org.quiltmc:enigma-cli:$properties.enigma_version"
+	implementation "cuchaz:enigma:$properties.enigma_version"
+	implementation "cuchaz:enigma-cli:$properties.enigma_version"
 	implementation "net.fabricmc.unpick:unpick:$properties.unpick_version"
 	implementation "net.fabricmc.unpick:unpick-format-utils:$properties.unpick_version"
 	implementation "net.fabricmc.unpick:unpick-cli:$properties.unpick_version"
